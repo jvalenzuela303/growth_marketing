@@ -1,0 +1,15 @@
+[    1956ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1957ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1957ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1958ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    3613ms] [WARNING] [TikTok Pixel] - Duplicate Pixel ID
+Issue: The pixel ID is duplicate. This could impact the pixel data accuracy.
+Suggestion: Please double check and delete any unnecessary pixel code. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0

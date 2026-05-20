@@ -1,0 +1,62 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Mapa del sitio XML" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Este mapa de sitio XML lo genera WordPress para hacer que tu contenido sea más visible para los motores de búsqueda.
+    - paragraph [ref=e6]:
+      - link "Aprende más sobre de los mapas del sitio XML." [ref=e7] [cursor=pointer]:
+        - /url: https://www.sitemaps.org/
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: "Número de URLs en este mapa del sitio XML: 12."
+    - table [ref=e10]:
+      - rowgroup [ref=e11]:
+        - row "URL" [ref=e12]:
+          - columnheader "URL" [ref=e13]
+      - rowgroup [ref=e14]:
+        - row "https://truehifi.cl/wp-sitemap-posts-post-1.xml" [ref=e15]:
+          - cell "https://truehifi.cl/wp-sitemap-posts-post-1.xml" [ref=e16]:
+            - link "https://truehifi.cl/wp-sitemap-posts-post-1.xml" [ref=e17] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-posts-post-1.xml
+        - row "https://truehifi.cl/wp-sitemap-posts-page-1.xml" [ref=e18]:
+          - cell "https://truehifi.cl/wp-sitemap-posts-page-1.xml" [ref=e19]:
+            - link "https://truehifi.cl/wp-sitemap-posts-page-1.xml" [ref=e20] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-posts-page-1.xml
+        - row "https://truehifi.cl/wp-sitemap-posts-blocks-1.xml" [ref=e21]:
+          - cell "https://truehifi.cl/wp-sitemap-posts-blocks-1.xml" [ref=e22]:
+            - link "https://truehifi.cl/wp-sitemap-posts-blocks-1.xml" [ref=e23] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-posts-blocks-1.xml
+        - row "https://truehifi.cl/wp-sitemap-posts-product-1.xml" [ref=e24]:
+          - cell "https://truehifi.cl/wp-sitemap-posts-product-1.xml" [ref=e25]:
+            - link "https://truehifi.cl/wp-sitemap-posts-product-1.xml" [ref=e26] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-posts-product-1.xml
+        - row "https://truehifi.cl/wp-sitemap-posts-featured_item-1.xml" [ref=e27]:
+          - cell "https://truehifi.cl/wp-sitemap-posts-featured_item-1.xml" [ref=e28]:
+            - link "https://truehifi.cl/wp-sitemap-posts-featured_item-1.xml" [ref=e29] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-posts-featured_item-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-category-1.xml" [ref=e30]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-category-1.xml" [ref=e31]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-category-1.xml" [ref=e32] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-category-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-post_tag-1.xml" [ref=e33]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-post_tag-1.xml" [ref=e34]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-post_tag-1.xml" [ref=e35] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-post_tag-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-post_format-1.xml" [ref=e36]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-post_format-1.xml" [ref=e37]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-post_format-1.xml" [ref=e38] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-post_format-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-product_cat-1.xml" [ref=e39]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-product_cat-1.xml" [ref=e40]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-product_cat-1.xml" [ref=e41] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-product_cat-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-product_tag-1.xml" [ref=e42]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-product_tag-1.xml" [ref=e43]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-product_tag-1.xml" [ref=e44] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-product_tag-1.xml
+        - row "https://truehifi.cl/wp-sitemap-taxonomies-featured_item_category-1.xml" [ref=e45]:
+          - cell "https://truehifi.cl/wp-sitemap-taxonomies-featured_item_category-1.xml" [ref=e46]:
+            - link "https://truehifi.cl/wp-sitemap-taxonomies-featured_item_category-1.xml" [ref=e47] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-taxonomies-featured_item_category-1.xml
+        - row "https://truehifi.cl/wp-sitemap-users-1.xml" [ref=e48]:
+          - cell "https://truehifi.cl/wp-sitemap-users-1.xml" [ref=e49]:
+            - link "https://truehifi.cl/wp-sitemap-users-1.xml" [ref=e50] [cursor=pointer]:
+              - /url: https://truehifi.cl/wp-sitemap-users-1.xml

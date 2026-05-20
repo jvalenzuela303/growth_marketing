@@ -1,0 +1,601 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner "Panel de navegación superior" [ref=e6]:
+      - status
+      - generic [ref=e7]:
+        - button [expanded] [ref=e8] [cursor=pointer]:
+          - img [ref=e11]: menu
+        - heading "Google Ads – Ir a la página de inicio" [level=1] [ref=e13]:
+          - button "Google Ads – Ir a la página de inicio" [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+              - img [ref=e23]
+              - generic [ref=e25]: Ads
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - generic [ref=e36]:
+            - img [ref=e39]: search
+            - generic [ref=e40]:
+              - generic:
+                - generic: Buscar una página o una campaña
+              - combobox "Buscar una página o una campaña" [ref=e41]
+          - text: Buscar
+        - generic [ref=e42]:
+          - button "Diseño" [ref=e45] [cursor=pointer]:
+            - generic [ref=e47]:
+              - img [ref=e48]: responsive_layout
+              - text: Diseño
+          - button "Actualizar" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img [ref=e55]: refresh
+              - text: Actualizar
+          - button "Abrir el panel de ayuda rápida" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]:
+              - text: Ayuda
+              - generic [ref=e60]:
+                - img [ref=e61]: help_outline
+                - text: Ayuda
+          - generic [ref=e65]:
+            - button "Notificaciones" [ref=e68] [cursor=pointer]:
+              - generic [ref=e70]:
+                - img [ref=e73]: notifications
+                - generic [ref=e75]: Notificaciones
+            - dialog "Notificaciones" [ref=e77]:
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - img "Icono de notificación de advertencia" [ref=e84]: error_outline
+                  - button "Se requiere un nuevo método de pago Solucionar" [ref=e85] [cursor=pointer]:
+                    - text: Se requiere un nuevo método de pago
+                    - generic [ref=e86]: Solucionar
+                - generic [ref=e87]:
+                  - img "Icono de notificación informativa" [ref=e89]: info_outline
+                  - button "Ofrece a los clientes potenciales más formas de conectar contigo Inicio" [ref=e90] [cursor=pointer]:
+                    - text: Ofrece a los clientes potenciales más formas de conectar contigo
+                    - generic [ref=e91]: Inicio
+                - button "Cerrar notificaciones" [ref=e92] [cursor=pointer]:
+                  - img [ref=e95]: clear
+      - generic [ref=e98]:
+        - generic "917-047-0641" [ref=e99]
+        - generic [ref=e100]: jvalenzuela303@gmail.com
+      - button "Cuenta de Google" [ref=e105] [cursor=pointer]:
+        - img "Cuenta de Google (jvalenzuela303@gmail.com)" [ref=e106]
+    - generic [ref=e109]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - button "Crear" [ref=e115] [cursor=pointer]:
+              - img [ref=e118]
+            - generic [ref=e120]: Crear
+          - menu [ref=e121]:
+            - menu [ref=e122]:
+              - menuitem "Campañas" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - img [ref=e128]: campaign
+                  - generic [ref=e129]: Campañas
+              - menuitem "Objetivos" [ref=e132] [cursor=pointer]:
+                - generic [ref=e133]:
+                  - img [ref=e135]: rewarded_ads
+                  - generic [ref=e136]: Objetivos
+              - menuitem "Herramientas" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]:
+                  - img [ref=e142]: construction
+                  - generic [ref=e143]: Herramientas
+              - menuitem "Facturación" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - img [ref=e149]: credit_card
+                  - generic [ref=e150]: Facturación
+              - menuitem "Administrador" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - img [ref=e156]: settings
+                  - generic [ref=e157]: Administrador
+        - navigation [ref=e158]:
+          - menu [ref=e159]:
+            - generic [ref=e160]:
+              - menuitem "Vista general" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: Vista general
+              - menuitem "Recomendaciones" [ref=e169] [cursor=pointer]:
+                - generic [ref=e171]: Recomendaciones
+              - menuitem "Estadísticas e informes" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Estadísticas e informes
+                  - img [ref=e181]: expand_more
+              - menuitem "Campañas" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: Campañas
+                  - img [ref=e189]: expand_more
+              - menuitem "Recursos" [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Recursos
+                  - img [ref=e197]: expand_more
+              - menuitem "Productos" [ref=e200] [cursor=pointer]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]: Productos
+                  - img [ref=e205]: expand_more
+              - menuitem "Audiencias, palabras clave y contenido" [expanded] [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Audiencias, palabras clave y contenido
+                  - img [ref=e213]: expand_more
+              - generic [ref=e214]:
+                - menuitem "Palabras clave" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e219]: Palabras clave
+                - menuitem "Audiencias" [ref=e223] [cursor=pointer]:
+                  - generic [ref=e225]: Audiencias
+                - menuitem "Ubicaciones" [ref=e229] [cursor=pointer]:
+                  - generic [ref=e231]: Ubicaciones
+                - menuitem "Contenido" [ref=e235] [cursor=pointer]:
+                  - generic [ref=e237]: Contenido
+                - menuitem "Programación de anuncios" [ref=e241] [cursor=pointer]:
+                  - generic [ref=e243]: Programación de anuncios
+                - menuitem "Objetivos de anuncios dinámicos" [ref=e247] [cursor=pointer]:
+                  - generic [ref=e249]: Objetivos de anuncios dinámicos
+                - menuitem "Ajustes de puja avanzados" [ref=e253] [cursor=pointer]:
+                  - generic [ref=e255]: Ajustes de puja avanzados
+              - menuitem "Historial de cambios" [ref=e259] [cursor=pointer]:
+                - generic [ref=e261]: Historial de cambios
+          - group [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic "Descarga la aplicación Google Ads" [ref=e268]:
+                  - img [ref=e270]: app_promo
+                  - generic [ref=e271]: Descarga la aplicación Google Ads
+                - button "Cerrar la aplicación Google Ads" [ref=e272] [cursor=pointer]:
+                  - img [ref=e275]: close
+              - generic [ref=e277]:
+                - img "QR Code for Ads Mobile" [ref=e278]
+                - generic "Escanea para descargar la aplicación móvil y recibir actualizaciones de tus campañas estés donde estés" [ref=e279]
+      - generic [ref=e280]:
+        - generic [ref=e283]:
+          - button "Vista (2 filtros) Todas las campañas" [ref=e288] [cursor=pointer]:
+            - generic [ref=e289]:
+              - generic [ref=e290]: Vista (2 filtros)
+              - generic [ref=e291]:
+                - img [ref=e294]: home
+                - button "Todas las campañas" [ref=e295]
+            - img [ref=e297]: arrow_drop_down
+          - button "Campañas (5) Seleccionar una campaña" [ref=e302] [cursor=pointer]:
+            - generic [ref=e303]:
+              - generic [ref=e304]: Campañas (5)
+              - generic [ref=e305]: Seleccionar una campaña
+            - img [ref=e307]: arrow_drop_down
+        - group [ref=e311]:
+          - generic [ref=e312]:
+            - generic [ref=e313] [cursor=pointer]:
+              - generic: Filtros
+            - generic: "Filtros aplicados:"
+            - grid "Filtros aplicados:" [ref=e314]:
+              - 'row "Estado de la campaña: Habilitado, pausado" [ref=e316] [cursor=pointer]':
+                - 'gridcell "Estado de la campaña: Habilitado, pausado" [ref=e317]':
+                  - 'button "Estado de la campaña: Habilitado, pausado" [ref=e318]': "Estado de la campaña: Habilitado, pausado"
+              - 'row "Estado del grupo de anuncios: Habilitado, pausado" [ref=e320] [cursor=pointer]':
+                - 'gridcell "Estado del grupo de anuncios: Habilitado, pausado" [ref=e321]':
+                  - 'button "Estado del grupo de anuncios: Habilitado, pausado" [ref=e322]': "Estado del grupo de anuncios: Habilitado, pausado"
+              - row [ref=e323]:
+                - gridcell [ref=e324]:
+                  - combobox "Añadir filtro" [ref=e325]
+                  - status [ref=e326]
+            - button "Guardar" [ref=e329] [cursor=pointer]:
+              - generic [ref=e330]:
+                - img [ref=e332]: save
+                - generic [ref=e333]: Guardar
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e338]:
+              - heading "Palabras clave" [level=2] [ref=e341]
+              - generic [ref=e344]:
+                - generic [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347]: Últimos 30 días
+                  - generic [ref=e349]:
+                    - button "16 abr – 15 may de 2026 No aplicable" [ref=e351]:
+                      - generic [ref=e352]: 16 abr – 15 may de 2026
+                      - img [ref=e354]: arrow_drop_down
+                    - generic [ref=e355]:
+                      - button "Anterior" [ref=e356]:
+                        - img [ref=e359]: chevron_left
+                      - button "Siguiente" [ref=e361]:
+                        - img [ref=e364]: chevron_right
+                - button "Mostrar últimos 30 días" [ref=e366] [cursor=pointer]:
+                  - generic [ref=e367]: Mostrar últimos 30 días
+            - tablist [ref=e372]:
+              - tab "Palabras clave" [selected] [ref=e373] [cursor=pointer]:
+                - generic [ref=e374]: Palabras clave
+              - tab "Palabras clave negativas" [ref=e376] [cursor=pointer]:
+                - generic [ref=e377]: Palabras clave negativas
+              - tab "Inclusiones de URLs" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]: Inclusiones de URLs
+              - tab "Exclusiones de URL" [ref=e382] [cursor=pointer]:
+                - generic [ref=e383]: Exclusiones de URL
+          - main [ref=e390]:
+            - generic [ref=e392]:
+              - generic [ref=e396]:
+                - generic [ref=e402]:
+                  - generic [ref=e404]:
+                    - generic [ref=e408]:
+                      - button "Gráfico, línea uno menú desplegable Clics" [ref=e409]:
+                        - generic [ref=e411] [cursor=pointer]:
+                          - generic [ref=e412]: Clics
+                          - img [ref=e414]: arrow_drop_down
+                      - status [ref=e415]
+                    - generic [ref=e418]:
+                      - button "Gráfico, línea dos menú desplegable Nada" [ref=e419]:
+                        - generic [ref=e421] [cursor=pointer]:
+                          - generic [ref=e422]: Nada
+                          - img [ref=e424]: arrow_drop_down
+                      - status [ref=e425]
+                    - button "Tipo de gráfico" [ref=e427] [cursor=pointer]:
+                      - generic [ref=e430]:
+                        - img [ref=e431]: show_chart
+                        - text: Tipo de gráfico
+                    - button "Mostrar gráfico" [ref=e433] [cursor=pointer]:
+                      - generic [ref=e435]:
+                        - img [ref=e436]: fullscreen
+                        - text: Ampliar
+                    - button "Ajustar" [ref=e439] [cursor=pointer]:
+                      - generic [ref=e441]:
+                        - img [ref=e442]: tune
+                        - text: Ajustar
+                  - application [ref=e447]:
+                    - generic [ref=e449]: Gráfico de líneas con Clics correspondientes al periodo jue, 16 abr 2026 a vie, 15 may 2026. Usa las teclas de flecha para desplazarte.
+                - region "Menú de herramientas principal de Palabras clave de búsqueda" [ref=e454]:
+                  - generic [ref=e455]:
+                    - button "Crear palabras clave" [ref=e459] [cursor=pointer]:
+                      - img [ref=e462]: add
+                    - generic [ref=e466] [cursor=pointer]:
+                      - group [ref=e467]:
+                        - generic [ref=e468]:
+                          - button "Mostrar 5 filtros activos" [ref=e471]:
+                            - generic [ref=e473]:
+                              - img [ref=e475]: filter_alt
+                              - generic [ref=e476]: "5"
+                          - generic: "Filtros aplicados:"
+                          - grid "Filtros aplicados:"
+                      - generic [ref=e478]:
+                        - generic [ref=e479]: y 5 más
+                        - button "Añadir filtro" [ref=e480]:
+                          - generic [ref=e481]: Añadir filtro
+                  - generic [ref=e483]:
+                    - search [ref=e486] [cursor=pointer]:
+                      - button "Buscar" [ref=e489]:
+                        - generic [ref=e490]:
+                          - img [ref=e492]: search
+                          - generic [ref=e493]: Buscar
+                    - button "Segmento. Segmentación desactivada" [ref=e499] [cursor=pointer]:
+                      - generic [ref=e500]:
+                        - img [ref=e502]: segment
+                        - generic [ref=e503]: Segmento
+                    - button "Columnas" [ref=e509] [cursor=pointer]:
+                      - generic [ref=e510]:
+                        - img [ref=e512]: view_column
+                        - generic [ref=e513]: Columnas
+                    - button "Informes" [ref=e519] [cursor=pointer]:
+                      - generic [ref=e520]:
+                        - img [ref=e522]: assessment
+                        - generic [ref=e523]: Informes
+                    - button "Descargar" [ref=e529] [cursor=pointer]:
+                      - generic [ref=e530]:
+                        - img [ref=e532]: file_download
+                        - generic [ref=e533]: Descargar
+                    - button "Ampliar" [ref=e539] [cursor=pointer]:
+                      - generic [ref=e540]:
+                        - img [ref=e542]: fullscreen
+                        - generic [ref=e543]: Ampliar
+                    - button "Más opciones" [ref=e549] [cursor=pointer]:
+                      - generic [ref=e550]:
+                        - img [ref=e552]: more_vert
+                        - generic [ref=e553]: Más
+                    - button "Ocultar gráfico" [ref=e562] [cursor=pointer]:
+                      - img [ref=e565]: keyboard_arrow_up
+                - grid "Palabras clave de búsqueda" [ref=e570]:
+                  - row "Seleccionar todas las filas Estado de las palabras clave Palabra clave Tipo de concordancia Campaña Grupo de anuncios Estado URL final Clics Impresiones CTR CPC medio Coste Tasa de conversión Valor de conv. Valor conv./coste Conversiones Coste/conv. Valor de conv. original" [ref=e571]:
+                    - gridcell "Seleccionar todas las filas" [ref=e572]:
+                      - checkbox "Seleccionar todas las filas" [disabled] [ref=e574]:
+                        - img [ref=e576]
+                    - columnheader "Estado de las palabras clave" [ref=e577] [cursor=pointer]:
+                      - img "Estado de las palabras clave" [ref=e578]
+                      - img [ref=e580]: help_outline
+                    - columnheader "Palabra clave" [ref=e581] [cursor=pointer]
+                    - columnheader "Tipo de concordancia" [ref=e582] [cursor=pointer]:
+                      - text: Tipo de concordancia
+                      - img [ref=e584]: help_outline
+                    - columnheader "Campaña" [ref=e585] [cursor=pointer]
+                    - columnheader "Grupo de anuncios" [ref=e586] [cursor=pointer]
+                    - columnheader "Estado" [ref=e587] [cursor=pointer]:
+                      - text: Estado
+                      - img [ref=e589]: help_outline
+                    - columnheader "URL final" [ref=e590]:
+                      - text: URL final
+                      - img [ref=e592]: help_outline
+                    - columnheader "Clics" [ref=e593] [cursor=pointer]:
+                      - text: Clics
+                      - img [ref=e595]: help_outline
+                    - columnheader "Impresiones" [ref=e596] [cursor=pointer]:
+                      - text: Impresiones
+                      - img [ref=e598]: help_outline
+                    - columnheader "CTR" [ref=e599] [cursor=pointer]:
+                      - text: CTR
+                      - img [ref=e601]: help_outline
+                    - columnheader "CPC medio" [ref=e602] [cursor=pointer]:
+                      - text: CPC medio
+                      - img [ref=e604]: help_outline
+                    - columnheader "Coste" [ref=e605] [cursor=pointer]:
+                      - text: Coste
+                      - img [ref=e607]: help_outline
+                    - columnheader "Tasa de conversión" [ref=e608] [cursor=pointer]:
+                      - text: Tasa de conversión
+                      - img [ref=e610]: help_outline
+                    - columnheader "Valor de conv." [ref=e611] [cursor=pointer]:
+                      - text: Valor de conv.
+                      - img [ref=e613]: help_outline
+                    - columnheader "Valor conv./coste" [ref=e614] [cursor=pointer]:
+                      - text: Valor conv./coste
+                      - img [ref=e616]: help_outline
+                    - columnheader "Conversiones" [ref=e617] [cursor=pointer]:
+                      - text: Conversiones
+                      - img [ref=e619]: help_outline
+                    - columnheader "Coste/conv." [ref=e620] [cursor=pointer]:
+                      - text: Coste/conv.
+                      - img [ref=e622]: help_outline
+                    - columnheader "Valor de conv. original" [ref=e623] [cursor=pointer]:
+                      - text: Valor de conv. original
+                      - img [ref=e625]: help_outline
+                  - row "No hay palabras clave que coincidan con tus filtros Borrar filtros" [ref=e626]:
+                    - cell "No hay palabras clave que coincidan con tus filtros Borrar filtros" [ref=e627]:
+                      - generic [ref=e629]:
+                        - generic [ref=e631]: No hay palabras clave que coincidan con tus filtros
+                        - button "Borrar filtros" [ref=e633] [cursor=pointer]:
+                          - generic [ref=e634]: Borrar filtros
+                  - 'row "Ocultar fila Total: palabras clave de tu cuenta Más información 4.995 173.709 2,88 % 344 CLP 1.716.881 CLP 87,83 % 3.919.854,77 2,28 4.386,97 391 CLP 3.919.854,77" [ref=e636]':
+                    - gridcell [ref=e637]
+                    - gridcell "Ocultar fila" [ref=e638]:
+                      - button "Ocultar fila" [expanded] [ref=e640] [cursor=pointer]:
+                        - img "Ocultar fila" [ref=e641]: expand_more
+                    - 'gridcell "Total: palabras clave de tu cuenta Más información"':
+                      - generic [ref=e642]:
+                        - generic [ref=e643]: "Total: palabras clave de tu cuenta"
+                        - button "Más información" [ref=e645] [cursor=pointer]:
+                          - img [ref=e647]: help_outline
+                    - gridcell [ref=e648]
+                    - gridcell [ref=e649]
+                    - gridcell [ref=e650]
+                    - gridcell [ref=e651]
+                    - gridcell [ref=e652]
+                    - gridcell [ref=e653]
+                    - gridcell "4.995" [ref=e654]:
+                      - generic [ref=e656]: "4.995"
+                    - gridcell "173.709" [ref=e657]:
+                      - generic [ref=e659]: "173.709"
+                    - gridcell "2,88 %" [ref=e660]:
+                      - generic [ref=e662]: 2,88 %
+                    - gridcell "344 CLP" [ref=e663]:
+                      - generic [ref=e665]: 344 CLP
+                    - gridcell "1.716.881 CLP" [ref=e666]:
+                      - generic [ref=e668]: 1.716.881 CLP
+                    - gridcell "87,83 %" [ref=e669]:
+                      - generic [ref=e671]: 87,83 %
+                    - gridcell "3.919.854,77" [ref=e672]:
+                      - generic [ref=e674]: 3.919.854,77
+                    - gridcell "2,28" [ref=e675]:
+                      - generic [ref=e677]: 2,28
+                    - gridcell "4.386,97" [ref=e678]:
+                      - generic [ref=e680]: 4.386,97
+                    - gridcell "391 CLP" [ref=e681]:
+                      - generic [ref=e683]: 391 CLP
+                    - gridcell "3.919.854,77" [ref=e684]:
+                      - generic [ref=e686]: 3.919.854,77
+                  - 'row "Total: tus palabras clave Más información 2.255 27.040 8,34 % 450 CLP 1.014.237 CLP 111,71 % 2.251.229,88 2,22 2.519,16 403 CLP —" [ref=e687]':
+                    - gridcell [ref=e688]
+                    - gridcell [ref=e689]:
+                      - button [ref=e691] [cursor=pointer]:
+                        - img [ref=e692]: expand_more
+                    - 'gridcell "Total: tus palabras clave Más información"':
+                      - generic [ref=e693]:
+                        - generic [ref=e694]: "Total: tus palabras clave"
+                        - button "Más información" [ref=e696] [cursor=pointer]:
+                          - img [ref=e698]: help_outline
+                    - gridcell [ref=e699]
+                    - gridcell [ref=e700]
+                    - gridcell [ref=e701]
+                    - gridcell [ref=e702]
+                    - gridcell [ref=e703]
+                    - gridcell [ref=e704]
+                    - gridcell "2.255" [ref=e705]:
+                      - generic [ref=e707]: "2.255"
+                    - gridcell "27.040" [ref=e708]:
+                      - generic [ref=e710]: "27.040"
+                    - gridcell "8,34 %" [ref=e711]:
+                      - generic [ref=e713]: 8,34 %
+                    - gridcell "450 CLP" [ref=e714]:
+                      - generic [ref=e716]: 450 CLP
+                    - gridcell "1.014.237 CLP" [ref=e717]:
+                      - generic [ref=e719]: 1.014.237 CLP
+                    - gridcell "111,71 %" [ref=e720]:
+                      - generic [ref=e722]: 111,71 %
+                    - gridcell "2.251.229,88" [ref=e723]:
+                      - generic [ref=e725]: 2.251.229,88
+                    - gridcell "2,22" [ref=e726]:
+                      - generic [ref=e728]: 2,22
+                    - gridcell "2.519,16" [ref=e729]:
+                      - generic [ref=e731]: 2.519,16
+                    - gridcell "403 CLP" [ref=e732]:
+                      - generic [ref=e734]: 403 CLP
+                    - gridcell "—" [ref=e735]:
+                      - generic [ref=e737]: —
+                  - 'row "Total: concordancia ampliada de IA Max Más información 0 0 — — 0 CLP 0,00 % 0,00 0,00 0,00 0 CLP —" [ref=e738]':
+                    - gridcell [ref=e739]
+                    - gridcell [ref=e740]:
+                      - button [ref=e742] [cursor=pointer]:
+                        - img [ref=e743]: expand_more
+                    - 'gridcell "Total: concordancia ampliada de IA Max Más información"':
+                      - generic [ref=e744]:
+                        - generic [ref=e745]: "Total: concordancia ampliada de IA Max"
+                        - button "Más información" [ref=e747] [cursor=pointer]:
+                          - img [ref=e749]: help_outline
+                    - gridcell [ref=e750]
+                    - gridcell [ref=e751]
+                    - gridcell [ref=e752]
+                    - gridcell [ref=e753]
+                    - gridcell [ref=e754]
+                    - gridcell [ref=e755]
+                    - gridcell "0" [ref=e756]:
+                      - generic [ref=e758]: "0"
+                    - gridcell "0" [ref=e759]:
+                      - generic [ref=e761]: "0"
+                    - gridcell "—" [ref=e762]:
+                      - generic [ref=e764]: —
+                    - gridcell "—" [ref=e765]:
+                      - generic [ref=e767]: —
+                    - gridcell "0 CLP" [ref=e768]:
+                      - generic [ref=e770]: 0 CLP
+                    - gridcell "0,00 %" [ref=e771]:
+                      - generic [ref=e773]: 0,00 %
+                    - gridcell "0,00" [ref=e774]:
+                      - generic [ref=e776]: 0,00
+                    - gridcell "0,00" [ref=e777]:
+                      - generic [ref=e779]: 0,00
+                    - gridcell "0,00" [ref=e780]:
+                      - generic [ref=e782]: 0,00
+                    - gridcell "0 CLP" [ref=e783]:
+                      - generic [ref=e785]: 0 CLP
+                    - gridcell "—" [ref=e786]:
+                      - generic [ref=e788]: —
+                  - 'row "Total: coincidencias de página de destino de IA Max Más información 345 2.011 17,16 % 403 CLP 138.932 CLP 50,19 % 154.430,75 1,11 173,16 802 CLP 154.430,75" [ref=e789]':
+                    - gridcell [ref=e790]
+                    - gridcell [ref=e791]:
+                      - button [ref=e793] [cursor=pointer]:
+                        - img [ref=e794]: expand_more
+                    - 'gridcell "Total: coincidencias de página de destino de IA Max Más información"':
+                      - generic [ref=e795]:
+                        - generic [ref=e796]: "Total: coincidencias de página de destino de IA Max"
+                        - button "Más información" [ref=e798] [cursor=pointer]:
+                          - img [ref=e800]: help_outline
+                    - gridcell [ref=e801]
+                    - gridcell [ref=e802]
+                    - gridcell [ref=e803]
+                    - gridcell [ref=e804]
+                    - gridcell [ref=e805]
+                    - gridcell [ref=e806]
+                    - gridcell "345" [ref=e807]:
+                      - generic [ref=e809]: "345"
+                    - gridcell "2.011" [ref=e810]:
+                      - generic [ref=e812]: "2.011"
+                    - gridcell "17,16 %" [ref=e813]:
+                      - generic [ref=e815]: 17,16 %
+                    - gridcell "403 CLP" [ref=e816]:
+                      - generic [ref=e818]: 403 CLP
+                    - gridcell "138.932 CLP" [ref=e819]:
+                      - generic [ref=e821]: 138.932 CLP
+                    - gridcell "50,19 %" [ref=e822]:
+                      - generic [ref=e824]: 50,19 %
+                    - gridcell "154.430,75" [ref=e825]:
+                      - generic [ref=e827]: 154.430,75
+                    - gridcell "1,11" [ref=e828]:
+                      - generic [ref=e830]: 1,11
+                    - gridcell "173,16" [ref=e831]:
+                      - generic [ref=e833]: 173,16
+                    - gridcell "802 CLP" [ref=e834]:
+                      - generic [ref=e836]: 802 CLP
+                    - gridcell "154.430,75" [ref=e837]:
+                      - generic [ref=e839]: 154.430,75
+                  - 'row "Total: inclusiones de URLs de tu cuenta Más información 5 60 8,33 % 457 CLP 2.286 CLP 209,69 % 9.382,19 4,10 10,48 218 CLP 9.382,19" [ref=e840]':
+                    - gridcell [ref=e841]
+                    - gridcell [ref=e842]:
+                      - button [ref=e844] [cursor=pointer]:
+                        - img [ref=e845]: expand_more
+                    - 'gridcell "Total: inclusiones de URLs de tu cuenta Más información"':
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: "Total: inclusiones de URLs de tu cuenta"
+                        - button "Más información" [ref=e849] [cursor=pointer]:
+                          - img [ref=e851]: help_outline
+                    - gridcell [ref=e852]
+                    - gridcell [ref=e853]
+                    - gridcell [ref=e854]
+                    - gridcell [ref=e855]
+                    - gridcell [ref=e856]
+                    - gridcell [ref=e857]
+                    - gridcell "5" [ref=e858]:
+                      - generic [ref=e860]: "5"
+                    - gridcell "60" [ref=e861]:
+                      - generic [ref=e863]: "60"
+                    - gridcell "8,33 %" [ref=e864]:
+                      - generic [ref=e866]: 8,33 %
+                    - gridcell "457 CLP" [ref=e867]:
+                      - generic [ref=e869]: 457 CLP
+                    - gridcell "2.286 CLP" [ref=e870]:
+                      - generic [ref=e872]: 2.286 CLP
+                    - gridcell "209,69 %" [ref=e873]:
+                      - generic [ref=e875]: 209,69 %
+                    - gridcell "9.382,19" [ref=e876]:
+                      - generic [ref=e878]: 9.382,19
+                    - gridcell "4,10" [ref=e879]:
+                      - generic [ref=e881]: 4,10
+                    - gridcell "10,48" [ref=e882]:
+                      - generic [ref=e884]: 10,48
+                    - gridcell "218 CLP" [ref=e885]:
+                      - generic [ref=e887]: 218 CLP
+                    - gridcell "9.382,19" [ref=e888]:
+                      - generic [ref=e890]: 9.382,19
+                  - 'row "Mostrar fila Total: cuenta Más información 5.856 198.804 2,95 % 343 CLP 2.008.967 CLP 85,85 % 4.491.506,64 2,24 5.027,61 400 CLP 4.491.506,64" [ref=e891]':
+                    - gridcell [ref=e892]
+                    - gridcell "Mostrar fila" [ref=e893]:
+                      - button "Mostrar fila" [ref=e895] [cursor=pointer]:
+                        - img "Mostrar fila" [ref=e896]: expand_more
+                    - 'gridcell "Total: cuenta Más información"':
+                      - generic [ref=e897]:
+                        - generic [ref=e898]: "Total: cuenta"
+                        - button "Más información" [ref=e900] [cursor=pointer]:
+                          - img [ref=e902]: help_outline
+                    - gridcell [ref=e903]
+                    - gridcell [ref=e904]
+                    - gridcell [ref=e905]
+                    - gridcell [ref=e906]
+                    - gridcell [ref=e907]
+                    - gridcell [ref=e908]
+                    - gridcell "5.856" [ref=e909]:
+                      - generic [ref=e911]: "5.856"
+                    - gridcell "198.804" [ref=e912]:
+                      - generic [ref=e914]: "198.804"
+                    - gridcell "2,95 %" [ref=e915]:
+                      - generic [ref=e917]: 2,95 %
+                    - gridcell "343 CLP" [ref=e918]:
+                      - generic [ref=e920]: 343 CLP
+                    - gridcell "2.008.967 CLP" [ref=e921]:
+                      - generic [ref=e923]: 2.008.967 CLP
+                    - gridcell "85,85 %" [ref=e924]:
+                      - generic [ref=e926]: 85,85 %
+                    - gridcell "4.491.506,64" [ref=e927]:
+                      - generic [ref=e929]: 4.491.506,64
+                    - gridcell "2,24" [ref=e930]:
+                      - generic [ref=e932]: 2,24
+                    - gridcell "5.027,61" [ref=e933]:
+                      - generic [ref=e935]: 5.027,61
+                    - gridcell "400 CLP" [ref=e936]:
+                      - generic [ref=e938]: 400 CLP
+                    - gridcell "4.491.506,64" [ref=e939]:
+                      - generic [ref=e941]: 4.491.506,64
+              - generic [ref=e944]:
+                - generic [ref=e945]:
+                  - link "Los informes no se generan en tiempo real." [ref=e947] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_2544985&hl=es
+                  - text: "Zona horaria aplicable a todas las fechas y horas: (GMT-04:00) hora de Chile."
+                  - link "Más información sobre cómo cambiar la configuración de tu cuenta de Google Ads" [ref=e949] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_9842104&hl=es
+                    - text: Más información
+                  - generic [ref=e950]: Es posible que una parte del inventario se proporcione a través de intermediarios externos.
+                  - generic [ref=e951]: La acreditación del Media Rating Council (MRC) se muestra al colocar el cursor sobre el encabezado de la columna de la métrica acreditada.
+                - generic [ref=e952]: © Google, 2026.
+  - generic:
+    - dialog:
+      - generic:
+        - generic:
+          - heading [level=1]: Turn off ad blockers
+          - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"

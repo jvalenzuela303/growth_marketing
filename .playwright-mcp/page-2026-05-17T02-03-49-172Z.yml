@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e34]:
+              - generic:
+                - link "PQ1" [ref=e36] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2025/03/descarga.png
+                  - img "PQ1" [ref=e37]
+                - link "descarga (1)" [ref=e39] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2025/03/descarga-1.png
+                  - img "descarga (1)" [ref=e40]
+            - list [ref=e41]:
+              - listitem [ref=e42]:
+                - img [ref=e43] [cursor=pointer]
+              - listitem [ref=e44]:
+                - img [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - heading "ECA – PQ1" [level=1] [ref=e47]
+            - paragraph
+            - paragraph [ref=e49]: El analizador de calidad de energía ECA-PQ1 es un instrumento robusto y confiable, de reducido tamaño y peso, fácil y seguro de operar. Características apreciadas en las campañas sostenidas de medición intensiva en campo.
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - text: "Categoría:"
+                - link "ANALIZADOR DE CALIDAD DE ENERGÍA ECAMEC" [ref=e52] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/
+              - generic [ref=e53]:
+                - text: "Etiquetas:"
+                - link "Analizadores" [ref=e54] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/analizadores/
+                - text: ","
+                - link "Ecamec" [ref=e55] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/ecamec/
+                - text: ","
+                - link "Energía" [ref=e56] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/energia/
+                - text: ","
+                - link "Monofásico" [ref=e57] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/monofasico/
+          - generic [ref=e58]:
+            - tablist [ref=e59]:
+              - tab "Descripción" [selected] [ref=e60]:
+                - link "Descripción" [ref=e61] [cursor=pointer]:
+                  - /url: "#tab-description"
+            - tabpanel "Descripción" [ref=e62]:
+              - heading "Descripción" [level=2] [ref=e63]
+              - paragraph [ref=e64]: Registrador analizador de redes monofásico.
+              - paragraph [ref=e65]: Mide y Reporta
+              - paragraph [ref=e66]: Tensión de línea, Desviación de Tensión, Distorsión Armónica de tensión (THD%) hasta la componente 50°, armonicos de tensión hasta la componente 50º, Flicker (PST, PLT y ΔV/V%) e Interrupciones.
+              - paragraph [ref=e67]: Capacidad de memoria para registrar más de 80 días continuos en intervalos de 10 minutos.
+              - paragraph [ref=e68]: Uso directo en intemperie
+              - paragraph [ref=e69]: Grado de protección IP65. Totalmente aislado, facilita la instalación segura en espacios estrechos y expuestos a tensión.
+              - paragraph [ref=e70]: Personalización de los Reportes
+              - paragraph [ref=e71]: Software de lectura y aplicación amigable y de alto grado de personalización. Admite la configurar los formatos de registros, reportes y gráficas, según los requerimientos de uso o normativas de control local. Genera automáticamente Reportes de Calidad. Puerto de comunicación óptico USB. El tiempo típico de lectura es 1 minuto.
+              - paragraph [ref=e72]: Compatibilidad de Procesamiento
+              - paragraph [ref=e73]: El software incluye la opción de Conversión para generar un archivo tipo texto según un formato solicitado. Esta opción permite migrar al ECA-PQ1 y mantener la compatibilidad con el software de gestión en uso por la distribuidora eléctrica.
+          - generic [ref=e74]:
+            - heading "Productos relacionados" [level=2] [ref=e75]
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link "Analizador de Calidad ECAMEC ECAPLUS" [ref=e78] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/analizador-de-calidad-energia-norma-electrica-chilena/
+                  - heading "Analizador de Calidad ECAMEC ECAPLUS" [level=2] [ref=e79]
+              - listitem [ref=e80]:
+                - link "Cámara termográfica SONEL KT-128" [ref=e81] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/camara-termografica-sonel/
+                  - heading "Cámara termográfica SONEL KT-128" [level=2] [ref=e82]
+              - listitem [ref=e83]:
+                - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e84] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+                  - heading "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [level=2] [ref=e85]
+              - listitem [ref=e86]:
+                - link "Medidor de corriente en media tensión U-AMP 1000 ECAMEC" [ref=e87] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/medidor-de-corriente-en-media-tension-u-amp-1000-ecamec/
+                  - heading "Medidor de corriente en media tensión U-AMP 1000 ECAMEC" [level=2] [ref=e88]
+      - complementary [ref=e89]:
+        - generic [ref=e90]:
+          - heading "Buscar Productos" [level=2] [ref=e91]
+          - search [ref=e92]:
+            - generic [ref=e93]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e94]
+            - button "Buscar" [ref=e95] [cursor=pointer]
+        - generic [ref=e96]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e97]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Multimetro Digital HABOTEST" [ref=e100] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/multimetro-digital/
+            - listitem [ref=e101]:
+              - link "Medidor de corriente y razón transformación en Media Tensión ETCR" [ref=e102] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-corriente-y-razon-transformacion-en-media-tension/
+            - listitem [ref=e103]:
+              - link "Cámara termográfica KT-400 / KT-200 SONEL." [ref=e104] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/camara-termo-grafica-kt-400-kt-200/
+            - listitem [ref=e105]:
+              - link "Medidor de tierra (Telurímetro) ETCR 3200 C NEW" [ref=e106] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-de-tierra-telurimetro/
+            - listitem [ref=e107]:
+              - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e108] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+            - listitem [ref=e109]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e110] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e111]:
+      - generic [ref=e114]:
+        - complementary [ref=e115]:
+          - complementary [ref=e116]:
+            - heading "Menú" [level=3] [ref=e117]
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - link "Inicio" [ref=e121] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e122]:
+                - link "Nosotros" [ref=e123] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e124]:
+                - link "Productos" [ref=e125] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e126]:
+                - link "Contacto" [ref=e127] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e128]:
+                  - listitem [ref=e129]:
+                    - link "Politica de Privacidad" [ref=e130] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e131]:
+          - complementary [ref=e132]:
+            - heading "Horarios de Atención" [level=3] [ref=e133]
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e136]:
+                - listitem [ref=e137]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e138]: 9am a 5pm
+                - listitem [ref=e139]:
+                  - text: "Sábado:"
+                  - generic [ref=e140]: cerrado
+                - listitem [ref=e141]:
+                  - text: "Domingo:"
+                  - generic [ref=e142]: Cerrado
+        - complementary [ref=e143]:
+          - complementary [ref=e144]:
+            - heading "Contacto" [level=3] [ref=e145]
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e149]: 
+                - generic [ref=e150]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e151]:
+                - generic [ref=e153]: 
+                - link "+56 950942148" [ref=e155] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e157] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e158]:
+                - generic [ref=e160]: 
+                - link "contacto@mosanelectric.cl" [ref=e162] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e163]:
+          - complementary [ref=e164]:
+            - heading "Ubicación" [level=3] [ref=e165]
+            - iframe [ref=e167]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f15e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f15e6]
+      - generic [ref=e169]:
+        - generic [ref=e170]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e171]:
+          - link "Screenr parallax theme" [ref=e172] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e175] [cursor=pointer]:
+    - img
+  - status [ref=e176]

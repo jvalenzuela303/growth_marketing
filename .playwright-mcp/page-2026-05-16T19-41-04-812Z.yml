@@ -1,0 +1,778 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner "Panel de navegación superior" [ref=e6]:
+      - status
+      - generic [ref=e7]:
+        - button [expanded] [ref=e8] [cursor=pointer]:
+          - img [ref=e11]: menu
+        - heading "Google Ads – Ir a la página de inicio" [level=1] [ref=e13]:
+          - button "Google Ads – Ir a la página de inicio" [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+              - img [ref=e23]
+              - generic [ref=e25]: Ads
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - generic [ref=e36]:
+            - img [ref=e39]: search
+            - generic [ref=e40]:
+              - generic:
+                - generic: Buscar una página o una campaña
+              - combobox "Buscar una página o una campaña" [ref=e41]
+          - text: Buscar
+        - generic [ref=e42]:
+          - button "Diseño" [ref=e45] [cursor=pointer]:
+            - generic [ref=e47]:
+              - img [ref=e48]: responsive_layout
+              - text: Diseño
+          - button "Actualizar" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img [ref=e55]: refresh
+              - text: Actualizar
+          - button "Abrir el panel de ayuda rápida" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]:
+              - text: Ayuda
+              - generic [ref=e60]:
+                - img [ref=e61]: help_outline
+                - text: Ayuda
+          - generic [ref=e65]:
+            - button "Notificaciones" [ref=e68] [cursor=pointer]:
+              - generic [ref=e70]:
+                - img [ref=e73]: notifications
+                - generic [ref=e75]: Notificaciones
+            - dialog "Notificaciones" [ref=e77]:
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - img "Icono de notificación de advertencia" [ref=e84]: error_outline
+                  - button "Se requiere un nuevo método de pago Solucionar" [ref=e85] [cursor=pointer]:
+                    - text: Se requiere un nuevo método de pago
+                    - generic [ref=e86]: Solucionar
+                - generic [ref=e87]:
+                  - img "Icono de notificación informativa" [ref=e89]: info_outline
+                  - button "Ofrece a los clientes potenciales más formas de conectar contigo Inicio" [ref=e90] [cursor=pointer]:
+                    - text: Ofrece a los clientes potenciales más formas de conectar contigo
+                    - generic [ref=e91]: Inicio
+                - button "Cerrar notificaciones" [ref=e92] [cursor=pointer]:
+                  - img [ref=e95]: clear
+      - generic [ref=e98]:
+        - generic "917-047-0641" [ref=e99]
+        - generic [ref=e100]: jvalenzuela303@gmail.com
+      - button "Cuenta de Google" [ref=e105] [cursor=pointer]:
+        - img "Cuenta de Google (jvalenzuela303@gmail.com)" [ref=e106]
+    - generic [ref=e109]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - button "Crear" [ref=e115] [cursor=pointer]:
+              - img [ref=e118]
+            - generic [ref=e120]: Crear
+          - menu [ref=e121]:
+            - menu [ref=e122]:
+              - menuitem "Campañas" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - img [ref=e128]: campaign
+                  - generic [ref=e129]: Campañas
+              - menuitem "Objetivos" [ref=e132] [cursor=pointer]:
+                - generic [ref=e133]:
+                  - img [ref=e135]: rewarded_ads
+                  - generic [ref=e136]: Objetivos
+              - menuitem "Herramientas" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]:
+                  - img [ref=e142]: construction
+                  - generic [ref=e143]: Herramientas
+              - menuitem "Facturación" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - img [ref=e149]: credit_card
+                  - generic [ref=e150]: Facturación
+              - menuitem "Administrador" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - img [ref=e156]: settings
+                  - generic [ref=e157]: Administrador
+        - navigation [ref=e158]:
+          - menu [ref=e159]:
+            - generic [ref=e160]:
+              - menuitem "Vista general" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: Vista general
+              - menuitem "Recomendaciones" [ref=e169] [cursor=pointer]:
+                - generic [ref=e171]: Recomendaciones
+              - menuitem "Estadísticas e informes" [expanded] [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Estadísticas e informes
+                  - img [ref=e181]: expand_more
+              - generic [ref=e182]:
+                - menuitem "Estadísticas" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e187]: Estadísticas
+                - menuitem "Informe de marca" [ref=e191] [cursor=pointer]:
+                  - generic [ref=e193]: Informe de marca
+                - menuitem "Comparativa de subastas" [ref=e197] [cursor=pointer]:
+                  - generic [ref=e199]: Comparativa de subastas
+                - menuitem "Términos de búsqueda" [ref=e203] [cursor=pointer]:
+                  - generic [ref=e205]: Términos de búsqueda
+                - menuitem "Cuándo y dónde se han mostrado los anuncios" [ref=e209] [cursor=pointer]:
+                  - generic [ref=e211]: Cuándo y dónde se han mostrado los anuncios
+                - menuitem "Rendimiento del canal" [ref=e215] [cursor=pointer]:
+                  - generic [ref=e217]: Rendimiento del canal
+                - menuitem "Páginas de destino" [ref=e221] [cursor=pointer]:
+                  - generic [ref=e223]: Páginas de destino
+                - menuitem "Tiendas" [ref=e227] [cursor=pointer]:
+                  - generic [ref=e229]: Tiendas
+                - menuitem "Editor de informes" [ref=e233] [cursor=pointer]:
+                  - generic [ref=e235]: Editor de informes
+                - menuitem "Paneles" [ref=e239] [cursor=pointer]:
+                  - generic [ref=e241]: Paneles
+              - menuitem "Campañas" [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Campañas
+                  - img [ref=e250]: expand_more
+              - menuitem "Recursos" [ref=e253] [cursor=pointer]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Recursos
+                  - img [ref=e258]: expand_more
+              - menuitem "Productos" [ref=e261] [cursor=pointer]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Productos
+                  - img [ref=e266]: expand_more
+              - menuitem "Audiencias, palabras clave y contenido" [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]:
+                  - generic [ref=e271]: Audiencias, palabras clave y contenido
+                  - img [ref=e274]: expand_more
+              - menuitem "Historial de cambios" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: Historial de cambios
+          - group [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - generic "Descarga la aplicación Google Ads" [ref=e286]:
+                  - img [ref=e288]: app_promo
+                  - generic [ref=e289]: Descarga la aplicación Google Ads
+                - button "Cerrar la aplicación Google Ads" [ref=e290] [cursor=pointer]:
+                  - img [ref=e293]: close
+              - generic [ref=e295]:
+                - img "QR Code for Ads Mobile" [ref=e296]
+                - generic "Escanea para descargar la aplicación móvil y recibir actualizaciones de tus campañas estés donde estés" [ref=e297]
+      - generic [ref=e298]:
+        - generic [ref=e301]:
+          - button "Vista (2 filtros) Todas las campañas" [ref=e306] [cursor=pointer]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: Vista (2 filtros)
+              - generic [ref=e309]:
+                - img [ref=e312]: home
+                - button "Todas las campañas" [ref=e313]
+            - img [ref=e315]: arrow_drop_down
+          - button "Campañas (5) Seleccionar una campaña" [ref=e320] [cursor=pointer]:
+            - generic [ref=e321]:
+              - generic [ref=e322]: Campañas (5)
+              - generic [ref=e323]: Seleccionar una campaña
+            - img [ref=e325]: arrow_drop_down
+        - group [ref=e329]:
+          - generic [ref=e330]:
+            - generic [ref=e331] [cursor=pointer]:
+              - generic: Filtros
+            - generic: "Filtros aplicados:"
+            - grid "Filtros aplicados:" [ref=e332]:
+              - 'row "Estado de la campaña: Habilitado, pausado" [ref=e334] [cursor=pointer]':
+                - 'gridcell "Estado de la campaña: Habilitado, pausado" [ref=e335]':
+                  - 'button "Estado de la campaña: Habilitado, pausado" [ref=e336]': "Estado de la campaña: Habilitado, pausado"
+              - 'row "Estado del grupo de anuncios: Habilitado, pausado" [ref=e338] [cursor=pointer]':
+                - 'gridcell "Estado del grupo de anuncios: Habilitado, pausado" [ref=e339]':
+                  - 'button "Estado del grupo de anuncios: Habilitado, pausado" [ref=e340]': "Estado del grupo de anuncios: Habilitado, pausado"
+              - row [ref=e341]:
+                - gridcell [ref=e342]:
+                  - combobox "Añadir filtro" [ref=e343]
+                  - status [ref=e344]
+            - button "Guardar" [ref=e347] [cursor=pointer]:
+              - generic [ref=e348]:
+                - img [ref=e350]: save
+                - generic [ref=e351]: Guardar
+        - generic [ref=e354]:
+          - generic [ref=e356]:
+            - heading "Términos de búsqueda Más información" [level=2] [ref=e359]:
+              - text: Términos de búsqueda
+              - button "Términos de búsqueda Más información" [ref=e360] [cursor=pointer]:
+                - img [ref=e362]: help_outline
+            - generic [ref=e365]:
+              - generic [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]: Últimos 30 días
+                - generic [ref=e370]:
+                  - button "16 abr – 15 may de 2026 No aplicable" [ref=e372]:
+                    - generic [ref=e373]: 16 abr – 15 may de 2026
+                    - img [ref=e375]: arrow_drop_down
+                  - generic [ref=e376]:
+                    - button "Anterior" [ref=e377]:
+                      - img [ref=e380]: chevron_left
+                    - button "Siguiente" [ref=e382]:
+                      - img [ref=e385]: chevron_right
+              - button "Mostrar últimos 30 días" [ref=e387] [cursor=pointer]:
+                - generic [ref=e388]: Mostrar últimos 30 días
+          - main [ref=e394]:
+            - generic [ref=e396]:
+              - generic [ref=e399]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - img "Información" [ref=e405]: school
+                    - paragraph [ref=e406]: Usa el informe de términos de búsqueda para ver qué buscaban los usuarios cuando se mostraron tus anuncios. Para entender temas más generales y descubrir nuevas oportunidades, usa las estadísticas de términos de búsqueda. Este informe agrupa los términos relacionados en categorías y muestra datos sobre el rendimiento y el volumen de búsquedas.
+                  - generic [ref=e409]:
+                    - button "Ocultar por ahora" [ref=e410]:
+                      - generic [ref=e413]: Ocultar por ahora
+                    - button "Ver estadísticas de términos de búsqueda" [ref=e414]:
+                      - generic [ref=e417]: Ver estadísticas de términos de búsqueda
+                - generic [ref=e419]:
+                  - generic [ref=e427]:
+                    - generic [ref=e431]:
+                      - button "Gráfico, línea uno menú desplegable Clics" [ref=e432]:
+                        - generic [ref=e434] [cursor=pointer]:
+                          - generic [ref=e435]: Clics
+                          - img [ref=e437]: arrow_drop_down
+                      - status [ref=e438]
+                    - generic [ref=e441]:
+                      - button "Gráfico, línea dos menú desplegable Nada" [ref=e442]:
+                        - generic [ref=e444] [cursor=pointer]:
+                          - generic [ref=e445]: Nada
+                          - img [ref=e447]: arrow_drop_down
+                      - status [ref=e448]
+                    - button "Tipo de gráfico" [ref=e450] [cursor=pointer]:
+                      - generic [ref=e453]:
+                        - img [ref=e454]: show_chart
+                        - text: Tipo de gráfico
+                    - button "Mostrar gráfico" [ref=e456] [cursor=pointer]:
+                      - generic [ref=e458]:
+                        - img [ref=e459]: fullscreen
+                        - text: Ampliar
+                    - button "Ajustar" [ref=e462] [cursor=pointer]:
+                      - generic [ref=e464]:
+                        - img [ref=e465]: tune
+                        - text: Ajustar
+                  - region "Menú de herramientas principal de Términos de búsqueda" [ref=e473]:
+                    - generic [ref=e477] [cursor=pointer]:
+                      - group [ref=e478]:
+                        - generic [ref=e479]:
+                          - generic [ref=e480]:
+                            - generic:
+                              - img: filter_alt
+                          - grid [ref=e481]
+                      - button "Añadir filtro" [ref=e483]:
+                        - generic [ref=e484]: Añadir filtro
+                    - generic [ref=e486]:
+                      - button "Términos de búsqueda" [ref=e491] [cursor=pointer]:
+                        - generic [ref=e493]:
+                          - text: Términos de búsqueda
+                          - img [ref=e495]: arrow_drop_down
+                      - button "Segmento. Segmentación desactivada" [ref=e505] [cursor=pointer]:
+                        - generic [ref=e506]:
+                          - img [ref=e508]: segment
+                          - generic [ref=e509]: Segmento
+                      - button "Columnas" [ref=e515] [cursor=pointer]:
+                        - generic [ref=e516]:
+                          - img [ref=e518]: view_column
+                          - generic [ref=e519]: Columnas
+                      - button "Descargar" [ref=e525] [cursor=pointer]:
+                        - generic [ref=e526]:
+                          - img [ref=e528]: file_download
+                          - generic [ref=e529]: Descargar
+                      - button "Ampliar" [ref=e535] [cursor=pointer]:
+                        - generic [ref=e536]:
+                          - img [ref=e538]: fullscreen
+                          - generic [ref=e539]: Ampliar
+                      - button "Ocultar gráfico" [ref=e548] [cursor=pointer]:
+                        - img [ref=e551]: keyboard_arrow_up
+                  - generic [ref=e553]:
+                    - grid "Términos de búsqueda" [ref=e556]:
+                      - row "Seleccionar todas las filas Término de búsqueda Tipo de concordancia Añadido/excluido Campaña Grupo de anuncios Clics Impresiones CTR CPC medio Coste Tipo de campaña Tasa de conversión Conversiones Coste/conv." [ref=e557]:
+                        - gridcell "Seleccionar todas las filas" [ref=e558]:
+                          - checkbox "Seleccionar todas las filas" [ref=e560] [cursor=pointer]:
+                            - img [ref=e562]
+                        - columnheader "Término de búsqueda" [ref=e563] [cursor=pointer]:
+                          - text: Término de búsqueda
+                          - img [ref=e565]: help_outline
+                        - columnheader "Tipo de concordancia" [ref=e566] [cursor=pointer]:
+                          - text: Tipo de concordancia
+                          - img [ref=e568]: help_outline
+                        - columnheader "Añadido/excluido" [ref=e569] [cursor=pointer]:
+                          - text: Añadido/excluido
+                          - img [ref=e571]: help_outline
+                        - columnheader "Campaña" [ref=e572] [cursor=pointer]
+                        - columnheader "Grupo de anuncios" [ref=e573] [cursor=pointer]
+                        - columnheader "Clics" [ref=e574] [cursor=pointer]:
+                          - text: Clics
+                          - img [ref=e576]: help_outline
+                        - columnheader "Impresiones" [ref=e577] [cursor=pointer]:
+                          - text: Impresiones
+                          - img [ref=e579]: help_outline
+                        - columnheader "CTR" [ref=e580] [cursor=pointer]:
+                          - text: CTR
+                          - img [ref=e582]: help_outline
+                        - columnheader "CPC medio" [ref=e583] [cursor=pointer]:
+                          - text: CPC medio
+                          - img [ref=e585]: help_outline
+                        - columnheader "Coste" [ref=e586] [cursor=pointer]:
+                          - text: Coste
+                          - img [ref=e588]: help_outline
+                        - columnheader "Tipo de campaña" [ref=e589] [cursor=pointer]:
+                          - text: Tipo de campaña
+                          - img [ref=e591]: help_outline
+                        - columnheader "Tasa de conversión" [ref=e592] [cursor=pointer]:
+                          - text: Tasa de conversión
+                          - img [ref=e594]: help_outline
+                        - columnheader "Conversiones" [ref=e595] [cursor=pointer]:
+                          - text: Conversiones
+                          - img [ref=e597]: help_outline
+                        - columnheader "Coste/conv." [ref=e598] [cursor=pointer]:
+                          - text: Coste/conv.
+                          - img [ref=e600]: help_outline
+                      - 'row "Total: términos de búsqueda Más información 1.552 15.083 10,29 % 416 CLP 646.068 CLP 95,18 % 1.477,15 437 CLP" [ref=e601]':
+                        - generic [ref=e602]:
+                          - generic [ref=e603]: "Total: términos de búsqueda"
+                          - button "Más información" [ref=e605] [cursor=pointer]:
+                            - img [ref=e607]: help_outline
+                        - gridcell [ref=e608]
+                        - gridcell [ref=e609]
+                        - gridcell [ref=e610]
+                        - gridcell [ref=e611]
+                        - gridcell [ref=e612]
+                        - gridcell [ref=e613]
+                        - gridcell "1.552" [ref=e614]:
+                          - generic [ref=e616]: "1.552"
+                        - gridcell "15.083" [ref=e617]:
+                          - generic [ref=e619]: "15.083"
+                        - gridcell "10,29 %" [ref=e620]:
+                          - generic [ref=e622]: 10,29 %
+                        - gridcell "416 CLP" [ref=e623]:
+                          - generic [ref=e625]: 416 CLP
+                        - gridcell "646.068 CLP" [ref=e626]:
+                          - generic [ref=e628]: 646.068 CLP
+                        - gridcell [ref=e629]
+                        - gridcell "95,18 %" [ref=e630]:
+                          - generic [ref=e632]: 95,18 %
+                        - gridcell "1.477,15" [ref=e633]:
+                          - generic [ref=e635]: 1.477,15
+                        - gridcell "437 CLP" [ref=e636]:
+                          - generic [ref=e638]: 437 CLP
+                      - row "Seleccionar fila productos de telecomunicaciones Concordancia amplia Nada Venta Instrumentos Instrumentos 221 424 52,12 % 370 CLP 81.822 CLP Búsqueda 110,41 % 244,00 335 CLP" [ref=e639]:
+                        - gridcell "Seleccionar fila" [ref=e640]:
+                          - checkbox "Seleccionar fila" [ref=e642] [cursor=pointer]:
+                            - img [ref=e644]
+                        - gridcell "productos de telecomunicaciones" [ref=e645]:
+                          - generic [ref=e646]: productos de telecomunicaciones
+                        - gridcell "Concordancia amplia" [ref=e647]:
+                          - generic [ref=e648]: Concordancia amplia
+                        - gridcell "Nada" [ref=e649]:
+                          - generic [ref=e652]: Nada
+                        - gridcell "Venta Instrumentos" [ref=e653]:
+                          - generic [ref=e656] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e657]:
+                          - generic [ref=e661] [cursor=pointer]: Instrumentos
+                        - gridcell "221" [ref=e662]:
+                          - generic [ref=e664]: "221"
+                        - gridcell "424" [ref=e665]:
+                          - generic [ref=e667]: "424"
+                        - gridcell "52,12 %" [ref=e668]:
+                          - generic [ref=e670]: 52,12 %
+                        - gridcell "370 CLP" [ref=e671]:
+                          - generic [ref=e673]: 370 CLP
+                        - gridcell "81.822 CLP" [ref=e674]:
+                          - generic [ref=e676]: 81.822 CLP
+                        - gridcell "Búsqueda" [ref=e677]:
+                          - generic [ref=e678]: Búsqueda
+                        - gridcell "110,41 %" [ref=e679]:
+                          - generic [ref=e681]: 110,41 %
+                        - gridcell "244,00" [ref=e682]:
+                          - generic [ref=e684]: 244,00
+                        - gridcell "335 CLP" [ref=e685]:
+                          - generic [ref=e687]: 335 CLP
+                      - row "Seleccionar fila venta de equipo de telecomunicaciones Concordancia amplia Nada Venta Instrumentos Instrumentos 118 225 52,44 % 334 CLP 39.365 CLP Búsqueda 88,14 % 104,00 379 CLP" [ref=e688]:
+                        - gridcell "Seleccionar fila" [ref=e689]:
+                          - checkbox "Seleccionar fila" [ref=e691] [cursor=pointer]:
+                            - img [ref=e693]
+                        - gridcell "venta de equipo de telecomunicaciones" [ref=e694]:
+                          - generic [ref=e695]: venta de equipo de telecomunicaciones
+                        - gridcell "Concordancia amplia" [ref=e696]:
+                          - generic [ref=e697]: Concordancia amplia
+                        - gridcell "Nada" [ref=e698]:
+                          - generic [ref=e701]: Nada
+                        - gridcell "Venta Instrumentos" [ref=e702]:
+                          - generic [ref=e705] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e706]:
+                          - generic [ref=e710] [cursor=pointer]: Instrumentos
+                        - gridcell "118" [ref=e711]:
+                          - generic [ref=e713]: "118"
+                        - gridcell "225" [ref=e714]:
+                          - generic [ref=e716]: "225"
+                        - gridcell "52,44 %" [ref=e717]:
+                          - generic [ref=e719]: 52,44 %
+                        - gridcell "334 CLP" [ref=e720]:
+                          - generic [ref=e722]: 334 CLP
+                        - gridcell "39.365 CLP" [ref=e723]:
+                          - generic [ref=e725]: 39.365 CLP
+                        - gridcell "Búsqueda" [ref=e726]:
+                          - generic [ref=e727]: Búsqueda
+                        - gridcell "88,14 %" [ref=e728]:
+                          - generic [ref=e730]: 88,14 %
+                        - gridcell "104,00" [ref=e731]:
+                          - generic [ref=e733]: 104,00
+                        - gridcell "379 CLP" [ref=e734]:
+                          - generic [ref=e736]: 379 CLP
+                      - row "Seleccionar fila servicios tecnologicos para empresas IA Max Nada Sincronismo Sincronismo 82 534 15,36 % 251 CLP 20.589 CLP Búsqueda 25,61 % 21,00 980 CLP" [ref=e737]:
+                        - gridcell "Seleccionar fila" [ref=e738]:
+                          - checkbox "Seleccionar fila" [ref=e740] [cursor=pointer]:
+                            - img [ref=e742]
+                        - gridcell "servicios tecnologicos para empresas" [ref=e743]:
+                          - generic [ref=e744]: servicios tecnologicos para empresas
+                        - gridcell "IA Max" [ref=e745]:
+                          - generic [ref=e746]: IA Max
+                        - gridcell "Nada" [ref=e747]:
+                          - generic [ref=e750]: Nada
+                        - gridcell "Sincronismo" [ref=e751]:
+                          - generic [ref=e754] [cursor=pointer]: Sincronismo
+                        - gridcell "Sincronismo" [ref=e755]:
+                          - generic [ref=e759] [cursor=pointer]: Sincronismo
+                        - gridcell "82" [ref=e760]:
+                          - generic [ref=e762]: "82"
+                        - gridcell "534" [ref=e763]:
+                          - generic [ref=e765]: "534"
+                        - gridcell "15,36 %" [ref=e766]:
+                          - generic [ref=e768]: 15,36 %
+                        - gridcell "251 CLP" [ref=e769]:
+                          - generic [ref=e771]: 251 CLP
+                        - gridcell "20.589 CLP" [ref=e772]:
+                          - generic [ref=e774]: 20.589 CLP
+                        - gridcell "Búsqueda" [ref=e775]:
+                          - generic [ref=e776]: Búsqueda
+                        - gridcell "25,61 %" [ref=e777]:
+                          - generic [ref=e779]: 25,61 %
+                        - gridcell "21,00" [ref=e780]:
+                          - generic [ref=e782]: 21,00
+                        - gridcell "980 CLP" [ref=e783]:
+                          - generic [ref=e785]: 980 CLP
+                      - row "Seleccionar fila test and measurement equipment Concordancia amplia Nada Venta Instrumentos Instrumentos 40 89 44,94 % 387 CLP 15.464 CLP Búsqueda 87,50 % 35,00 442 CLP" [ref=e786]:
+                        - gridcell "Seleccionar fila" [ref=e787]:
+                          - checkbox "Seleccionar fila" [ref=e789] [cursor=pointer]:
+                            - img [ref=e791]
+                        - gridcell "test and measurement equipment" [ref=e792]:
+                          - generic [ref=e793]: test and measurement equipment
+                        - gridcell "Concordancia amplia" [ref=e794]:
+                          - generic [ref=e795]: Concordancia amplia
+                        - gridcell "Nada" [ref=e796]:
+                          - generic [ref=e799]: Nada
+                        - gridcell "Venta Instrumentos" [ref=e800]:
+                          - generic [ref=e803] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e804]:
+                          - generic [ref=e808] [cursor=pointer]: Instrumentos
+                        - gridcell "40" [ref=e809]:
+                          - generic [ref=e811]: "40"
+                        - gridcell "89" [ref=e812]:
+                          - generic [ref=e814]: "89"
+                        - gridcell "44,94 %" [ref=e815]:
+                          - generic [ref=e817]: 44,94 %
+                        - gridcell "387 CLP" [ref=e818]:
+                          - generic [ref=e820]: 387 CLP
+                        - gridcell "15.464 CLP" [ref=e821]:
+                          - generic [ref=e823]: 15.464 CLP
+                        - gridcell "Búsqueda" [ref=e824]:
+                          - generic [ref=e825]: Búsqueda
+                        - gridcell "87,50 %" [ref=e826]:
+                          - generic [ref=e828]: 87,50 %
+                        - gridcell "35,00" [ref=e829]:
+                          - generic [ref=e831]: 35,00
+                        - gridcell "442 CLP" [ref=e832]:
+                          - generic [ref=e834]: 442 CLP
+                      - row "Seleccionar fila certificadora de puntos de red Concordancia exacta Añadido Venta Instrumentos Instrumentos 30 111 27,03 % 430 CLP 12.905 CLP Búsqueda 117,76 % 35,33 365 CLP" [ref=e835]:
+                        - gridcell "Seleccionar fila" [ref=e836]:
+                          - checkbox "Seleccionar fila" [ref=e838] [cursor=pointer]:
+                            - img [ref=e840]
+                        - gridcell "certificadora de puntos de red" [ref=e841]:
+                          - generic [ref=e842]: certificadora de puntos de red
+                        - gridcell "Concordancia exacta" [ref=e843]:
+                          - generic [ref=e844]: Concordancia exacta
+                        - gridcell "Añadido" [ref=e845]:
+                          - generic [ref=e849]: Añadido
+                        - gridcell "Venta Instrumentos" [ref=e850]:
+                          - generic [ref=e853] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e854]:
+                          - generic [ref=e858] [cursor=pointer]: Instrumentos
+                        - gridcell "30" [ref=e859]:
+                          - generic [ref=e861]: "30"
+                        - gridcell "111" [ref=e862]:
+                          - generic [ref=e864]: "111"
+                        - gridcell "27,03 %" [ref=e865]:
+                          - generic [ref=e867]: 27,03 %
+                        - gridcell "430 CLP" [ref=e868]:
+                          - generic [ref=e870]: 430 CLP
+                        - gridcell "12.905 CLP" [ref=e871]:
+                          - generic [ref=e873]: 12.905 CLP
+                        - gridcell "Búsqueda" [ref=e874]:
+                          - generic [ref=e875]: Búsqueda
+                        - gridcell "117,76 %" [ref=e876]:
+                          - generic [ref=e878]: 117,76 %
+                        - gridcell "35,33" [ref=e879]:
+                          - generic [ref=e881]: 35,33
+                        - gridcell "365 CLP" [ref=e882]:
+                          - generic [ref=e884]: 365 CLP
+                      - row "Seleccionar fila fusionadora de fibra optica Concordancia exacta Añadido Venta Instrumentos Instrumentos 30 248 12,10 % 443 CLP 13.285 CLP Búsqueda 159,44 % 47,83 278 CLP" [ref=e885]:
+                        - gridcell "Seleccionar fila" [ref=e886]:
+                          - checkbox "Seleccionar fila" [ref=e888] [cursor=pointer]:
+                            - img [ref=e890]
+                        - gridcell "fusionadora de fibra optica" [ref=e891]:
+                          - generic [ref=e892]: fusionadora de fibra optica
+                        - gridcell "Concordancia exacta" [ref=e893]:
+                          - generic [ref=e894]: Concordancia exacta
+                        - gridcell "Añadido" [ref=e895]:
+                          - generic [ref=e899]: Añadido
+                        - gridcell "Venta Instrumentos" [ref=e900]:
+                          - generic [ref=e903] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e904]:
+                          - generic [ref=e908] [cursor=pointer]: Instrumentos
+                        - gridcell "30" [ref=e909]:
+                          - generic [ref=e911]: "30"
+                        - gridcell "248" [ref=e912]:
+                          - generic [ref=e914]: "248"
+                        - gridcell "12,10 %" [ref=e915]:
+                          - generic [ref=e917]: 12,10 %
+                        - gridcell "443 CLP" [ref=e918]:
+                          - generic [ref=e920]: 443 CLP
+                        - gridcell "13.285 CLP" [ref=e921]:
+                          - generic [ref=e923]: 13.285 CLP
+                        - gridcell "Búsqueda" [ref=e924]:
+                          - generic [ref=e925]: Búsqueda
+                        - gridcell "159,44 %" [ref=e926]:
+                          - generic [ref=e928]: 159,44 %
+                        - gridcell "47,83" [ref=e929]:
+                          - generic [ref=e931]: 47,83
+                        - gridcell "278 CLP" [ref=e932]:
+                          - generic [ref=e934]: 278 CLP
+                      - row "Seleccionar fila venta de equipo de telecomunicaciones IA Max Nada Venta Instrumentos Instrumentos 29 45 64,44 % 320 CLP 9.276 CLP Búsqueda 86,21 % 25,00 371 CLP" [ref=e935]:
+                        - gridcell "Seleccionar fila" [ref=e936]:
+                          - checkbox "Seleccionar fila" [ref=e938] [cursor=pointer]:
+                            - img [ref=e940]
+                        - gridcell "venta de equipo de telecomunicaciones" [ref=e941]:
+                          - generic [ref=e942]: venta de equipo de telecomunicaciones
+                        - gridcell "IA Max" [ref=e943]:
+                          - generic [ref=e944]: IA Max
+                        - gridcell "Nada" [ref=e945]:
+                          - generic [ref=e948]: Nada
+                        - gridcell "Venta Instrumentos" [ref=e949]:
+                          - generic [ref=e952] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e953]:
+                          - generic [ref=e957] [cursor=pointer]: Instrumentos
+                        - gridcell "29" [ref=e958]:
+                          - generic [ref=e960]: "29"
+                        - gridcell "45" [ref=e961]:
+                          - generic [ref=e963]: "45"
+                        - gridcell "64,44 %" [ref=e964]:
+                          - generic [ref=e966]: 64,44 %
+                        - gridcell "320 CLP" [ref=e967]:
+                          - generic [ref=e969]: 320 CLP
+                        - gridcell "9.276 CLP" [ref=e970]:
+                          - generic [ref=e972]: 9.276 CLP
+                        - gridcell "Búsqueda" [ref=e973]:
+                          - generic [ref=e974]: Búsqueda
+                        - gridcell "86,21 %" [ref=e975]:
+                          - generic [ref=e977]: 86,21 %
+                        - gridcell "25,00" [ref=e978]:
+                          - generic [ref=e980]: 25,00
+                        - gridcell "371 CLP" [ref=e981]:
+                          - generic [ref=e983]: 371 CLP
+                      - row "Seleccionar fila venta de equipo de telecomunicaciones IA Max Nada Ley de ductos (Trafico Web) Grupo de anuncios 1 21 40 52,50 % 466 CLP 9.792 CLP Búsqueda 19,05 % 4,00 2.448 CLP" [ref=e984]:
+                        - gridcell "Seleccionar fila" [ref=e985]:
+                          - checkbox "Seleccionar fila" [ref=e987] [cursor=pointer]:
+                            - img [ref=e989]
+                        - gridcell "venta de equipo de telecomunicaciones" [ref=e990]:
+                          - generic [ref=e991]: venta de equipo de telecomunicaciones
+                        - gridcell "IA Max" [ref=e992]:
+                          - generic [ref=e993]: IA Max
+                        - gridcell "Nada" [ref=e994]:
+                          - generic [ref=e997]: Nada
+                        - gridcell "Ley de ductos (Trafico Web)" [ref=e998]:
+                          - generic [ref=e1001] [cursor=pointer]: Ley de ductos (Trafico Web)
+                        - gridcell "Grupo de anuncios 1" [ref=e1002]:
+                          - generic [ref=e1006] [cursor=pointer]: Grupo de anuncios 1
+                        - gridcell "21" [ref=e1007]:
+                          - generic [ref=e1009]: "21"
+                        - gridcell "40" [ref=e1010]:
+                          - generic [ref=e1012]: "40"
+                        - gridcell "52,50 %" [ref=e1013]:
+                          - generic [ref=e1015]: 52,50 %
+                        - gridcell "466 CLP" [ref=e1016]:
+                          - generic [ref=e1018]: 466 CLP
+                        - gridcell "9.792 CLP" [ref=e1019]:
+                          - generic [ref=e1021]: 9.792 CLP
+                        - gridcell "Búsqueda" [ref=e1022]:
+                          - generic [ref=e1023]: Búsqueda
+                        - gridcell "19,05 %" [ref=e1024]:
+                          - generic [ref=e1026]: 19,05 %
+                        - gridcell "4,00" [ref=e1027]:
+                          - generic [ref=e1029]: 4,00
+                        - gridcell "2.448 CLP" [ref=e1030]:
+                          - generic [ref=e1032]: 2.448 CLP
+                      - row "Seleccionar fila automatizacion IA Max Nada Sincronismo Sincronismo 18 28 64,29 % 367 CLP 6.609 CLP Búsqueda 0,00 % 0,00 0 CLP" [ref=e1033]:
+                        - gridcell "Seleccionar fila" [ref=e1034]:
+                          - checkbox "Seleccionar fila" [ref=e1036] [cursor=pointer]:
+                            - img [ref=e1038]
+                        - gridcell "automatizacion" [ref=e1039]:
+                          - generic [ref=e1040]: automatizacion
+                        - gridcell "IA Max" [ref=e1041]:
+                          - generic [ref=e1042]: IA Max
+                        - gridcell "Nada" [ref=e1043]:
+                          - generic [ref=e1046]: Nada
+                        - gridcell "Sincronismo" [ref=e1047]:
+                          - generic [ref=e1050] [cursor=pointer]: Sincronismo
+                        - gridcell "Sincronismo" [ref=e1051]:
+                          - generic [ref=e1055] [cursor=pointer]: Sincronismo
+                        - gridcell "18" [ref=e1056]:
+                          - generic [ref=e1058]: "18"
+                        - gridcell "28" [ref=e1059]:
+                          - generic [ref=e1061]: "28"
+                        - gridcell "64,29 %" [ref=e1062]:
+                          - generic [ref=e1064]: 64,29 %
+                        - gridcell "367 CLP" [ref=e1065]:
+                          - generic [ref=e1067]: 367 CLP
+                        - gridcell "6.609 CLP" [ref=e1068]:
+                          - generic [ref=e1070]: 6.609 CLP
+                        - gridcell "Búsqueda" [ref=e1071]:
+                          - generic [ref=e1072]: Búsqueda
+                        - gridcell "0,00 %" [ref=e1073]:
+                          - generic [ref=e1075]: 0,00 %
+                        - gridcell "0,00" [ref=e1076]:
+                          - generic [ref=e1078]: 0,00
+                        - gridcell "0 CLP" [ref=e1079]:
+                          - generic [ref=e1081]: 0 CLP
+                      - row "Seleccionar fila osciloscopio Concordancia exacta Añadido Venta Instrumentos Instrumentos 14 328 4,27 % 425 CLP 5.951 CLP Búsqueda 114,29 % 16,00 372 CLP" [ref=e1082]:
+                        - gridcell "Seleccionar fila" [ref=e1083]:
+                          - checkbox "Seleccionar fila" [ref=e1085] [cursor=pointer]:
+                            - img [ref=e1087]
+                        - gridcell "osciloscopio" [ref=e1088]:
+                          - generic [ref=e1089]: osciloscopio
+                        - gridcell "Concordancia exacta" [ref=e1090]:
+                          - generic [ref=e1091]: Concordancia exacta
+                        - gridcell "Añadido" [ref=e1092]:
+                          - generic [ref=e1096]: Añadido
+                        - gridcell "Venta Instrumentos" [ref=e1097]:
+                          - generic [ref=e1100] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e1101]:
+                          - generic [ref=e1105] [cursor=pointer]: Instrumentos
+                        - gridcell "14" [ref=e1106]:
+                          - generic [ref=e1108]: "14"
+                        - gridcell "328" [ref=e1109]:
+                          - generic [ref=e1111]: "328"
+                        - gridcell "4,27 %" [ref=e1112]:
+                          - generic [ref=e1114]: 4,27 %
+                        - gridcell "425 CLP" [ref=e1115]:
+                          - generic [ref=e1117]: 425 CLP
+                        - gridcell "5.951 CLP" [ref=e1118]:
+                          - generic [ref=e1120]: 5.951 CLP
+                        - gridcell "Búsqueda" [ref=e1121]:
+                          - generic [ref=e1122]: Búsqueda
+                        - gridcell "114,29 %" [ref=e1123]:
+                          - generic [ref=e1125]: 114,29 %
+                        - gridcell "16,00" [ref=e1126]:
+                          - generic [ref=e1128]: 16,00
+                        - gridcell "372 CLP" [ref=e1129]:
+                          - generic [ref=e1131]: 372 CLP
+                      - row "Seleccionar fila empresas de soluciones tecnologicas IA Max Nada Sincronismo Sincronismo 14 108 12,96 % 201 CLP 2.815 CLP Búsqueda 21,43 % 3,00 938 CLP" [ref=e1132]:
+                        - gridcell "Seleccionar fila" [ref=e1133]:
+                          - checkbox "Seleccionar fila" [ref=e1135] [cursor=pointer]:
+                            - img [ref=e1137]
+                        - gridcell "empresas de soluciones tecnologicas" [ref=e1138]:
+                          - generic [ref=e1139]: empresas de soluciones tecnologicas
+                        - gridcell "IA Max" [ref=e1140]:
+                          - generic [ref=e1141]: IA Max
+                        - gridcell "Nada" [ref=e1142]:
+                          - generic [ref=e1145]: Nada
+                        - gridcell "Sincronismo" [ref=e1146]:
+                          - generic [ref=e1149] [cursor=pointer]: Sincronismo
+                        - gridcell "Sincronismo" [ref=e1150]:
+                          - generic [ref=e1154] [cursor=pointer]: Sincronismo
+                        - gridcell "14" [ref=e1155]:
+                          - generic [ref=e1157]: "14"
+                        - gridcell "108" [ref=e1158]:
+                          - generic [ref=e1160]: "108"
+                        - gridcell "12,96 %" [ref=e1161]:
+                          - generic [ref=e1163]: 12,96 %
+                        - gridcell "201 CLP" [ref=e1164]:
+                          - generic [ref=e1166]: 201 CLP
+                        - gridcell "2.815 CLP" [ref=e1167]:
+                          - generic [ref=e1169]: 2.815 CLP
+                        - gridcell "Búsqueda" [ref=e1170]:
+                          - generic [ref=e1171]: Búsqueda
+                        - gridcell "21,43 %" [ref=e1172]:
+                          - generic [ref=e1174]: 21,43 %
+                        - gridcell "3,00" [ref=e1175]:
+                          - generic [ref=e1177]: 3,00
+                        - gridcell "938 CLP" [ref=e1178]:
+                          - generic [ref=e1180]: 938 CLP
+                      - row "Seleccionar fila otdr Concordancia exacta Añadido Venta Instrumentos Instrumentos 12 213 5,63 % 339 CLP 4.071 CLP Búsqueda 125,00 % 15,00 271 CLP" [ref=e1181]:
+                        - gridcell "Seleccionar fila" [ref=e1182]:
+                          - checkbox "Seleccionar fila" [ref=e1184] [cursor=pointer]:
+                            - img [ref=e1186]
+                        - gridcell "otdr" [ref=e1187]:
+                          - generic [ref=e1188]: otdr
+                        - gridcell "Concordancia exacta" [ref=e1189]:
+                          - generic [ref=e1190]: Concordancia exacta
+                        - gridcell "Añadido" [ref=e1191]:
+                          - generic [ref=e1195]: Añadido
+                        - gridcell "Venta Instrumentos" [ref=e1196]:
+                          - generic [ref=e1199] [cursor=pointer]: Venta Instrumentos
+                        - gridcell "Instrumentos" [ref=e1200]:
+                          - generic [ref=e1204] [cursor=pointer]: Instrumentos
+                        - gridcell "12" [ref=e1205]:
+                          - generic [ref=e1207]: "12"
+                        - gridcell "213" [ref=e1208]:
+                          - generic [ref=e1210]: "213"
+                        - gridcell "5,63 %" [ref=e1211]:
+                          - generic [ref=e1213]: 5,63 %
+                        - gridcell "339 CLP" [ref=e1214]:
+                          - generic [ref=e1216]: 339 CLP
+                        - gridcell "4.071 CLP" [ref=e1217]:
+                          - generic [ref=e1219]: 4.071 CLP
+                        - gridcell "Búsqueda" [ref=e1220]:
+                          - generic [ref=e1221]: Búsqueda
+                        - gridcell "125,00 %" [ref=e1222]:
+                          - generic [ref=e1224]: 125,00 %
+                        - gridcell "15,00" [ref=e1225]:
+                          - generic [ref=e1227]: 15,00
+                        - gridcell "271 CLP" [ref=e1228]:
+                          - generic [ref=e1230]: 271 CLP
+                    - generic [ref=e1238]:
+                      - generic [ref=e1239]:
+                        - generic [ref=e1240]: "Mostrar filas:"
+                        - 'button "Mostrar filas: 50 seleccionadas." [ref=e1243] [cursor=pointer]':
+                          - generic [ref=e1244]: "50"
+                          - img [ref=e1246]: arrow_drop_down
+                      - generic [ref=e1247]:
+                        - generic [ref=e1249]: 1 - 50 de 3.818
+                        - generic [ref=e1250]:
+                          - button "Ir a la primera página" [disabled] [ref=e1251]:
+                            - generic:
+                              - generic:
+                                - img: first_page
+                          - button "Ir a la página anterior" [disabled] [ref=e1252]:
+                            - generic:
+                              - generic:
+                                - img: chevron_left
+                          - button "Ir a la página siguiente" [ref=e1253] [cursor=pointer]:
+                            - img [ref=e1256]: chevron_right
+                          - button "Ir a la última página" [ref=e1258] [cursor=pointer]:
+                            - img [ref=e1261]: last_page
+              - generic [ref=e1263]:
+                - generic [ref=e1264]:
+                  - link "Los informes no se generan en tiempo real." [ref=e1266] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_2544985&hl=es
+                  - text: "Zona horaria aplicable a todas las fechas y horas: (GMT-04:00) hora de Chile."
+                  - link "Más información sobre cómo cambiar la configuración de tu cuenta de Google Ads" [ref=e1268] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_9842104&hl=es
+                    - text: Más información
+                  - generic [ref=e1269]: Es posible que una parte del inventario se proporcione a través de intermediarios externos.
+                  - generic [ref=e1270]: La acreditación del Media Rating Council (MRC) se muestra al colocar el cursor sobre el encabezado de la columna de la métrica acreditada.
+                - generic [ref=e1271]: © Google, 2026.
+  - generic:
+    - dialog:
+      - generic:
+        - generic:
+          - heading [level=1]: Turn off ad blockers
+          - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"

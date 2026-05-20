@@ -1,0 +1,288 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e34]:
+              - generic:
+                - link "HT118 A-C-D" [ref=e36] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2021/06/HT118-A-C-D.bmp
+                  - img "HT118 A-C-D" [ref=e37]
+                - link "D_NQ_NP_622240-MLB41486243657_042020-O" [ref=e39] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2021/06/D_NQ_NP_622240-MLB41486243657_042020-O.jpg
+                  - img "D_NQ_NP_622240-MLB41486243657_042020-O" [ref=e40]
+                - link "D_NQ_NP_827026-CBT47510863210_092021-O" [ref=e42] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2021/06/D_NQ_NP_827026-CBT47510863210_092021-O.jpg
+                  - img "D_NQ_NP_827026-CBT47510863210_092021-O" [ref=e43]
+            - list [ref=e44]:
+              - listitem [ref=e45]:
+                - img [ref=e46] [cursor=pointer]
+              - listitem [ref=e47]:
+                - img [ref=e48] [cursor=pointer]
+              - listitem [ref=e49]:
+                - img [ref=e50] [cursor=pointer]
+          - generic [ref=e51]:
+            - heading "Multimetro Digital HABOTEST" [level=1] [ref=e52]
+            - paragraph
+            - paragraph [ref=e54]:
+              - text: El
+              - strong [ref=e55]: Multímetro Digital Habotest
+              - text: es una herramienta esencial para técnicos e ingenieros eléctricos que necesitan realizar mediciones precisas en una variedad de circuitos eléctricos y electrónicos. Con una pantalla digital clara y múltiples funciones, este multímetro ofrece mediciones de voltaje, corriente, resistencia y continuidad con alta precisión. Su diseño robusto y portátil lo hace ideal para trabajar tanto en el taller como en el campo. Además, su facilidad de uso y seguridad mejorada lo convierten en un dispositivo imprescindible para profesionales de la electricidad y electrónica.
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - text: "Categorías:"
+                - link "HABOTEST" [ref=e58] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/habotest/
+                - text: ","
+                - link "MARCAS" [ref=e59] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/
+                - text: ","
+                - link "Multimetros Amperimetros" [ref=e60] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/
+              - generic [ref=e61]:
+                - text: "Etiquetas:"
+                - link "Corriente" [ref=e62] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/corriente/
+                - text: ","
+                - link "Digital" [ref=e63] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/digital/
+                - text: ","
+                - link "Electricidad" [ref=e64] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/electricidad/
+                - text: ","
+                - link "Electronica" [ref=e65] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/electronica/
+                - text: ","
+                - link "HABOTEAST" [ref=e66] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/haboteast/
+                - text: ","
+                - link "Medidores" [ref=e67] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/medidores/
+                - text: ","
+                - link "Multímetro" [ref=e68] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/multimetro/
+                - text: ","
+                - link "Voltaje" [ref=e69] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/voltaje/
+          - generic [ref=e70]:
+            - tablist [ref=e71]:
+              - tab "Descripción" [selected] [ref=e72]:
+                - link "Descripción" [ref=e73] [cursor=pointer]:
+                  - /url: "#tab-description"
+              - tab "Valoraciones (0)" [ref=e74]:
+                - link "Valoraciones (0)" [ref=e75] [cursor=pointer]:
+                  - /url: "#tab-reviews"
+            - tabpanel "Descripción" [ref=e76]:
+              - heading "Descripción" [level=2] [ref=e77]
+              - blockquote [ref=e78]:
+                - paragraph [ref=e79]:
+                  - strong [ref=e80]: "Características:"
+                - list [ref=e81]:
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Pantalla LCD digital
+                    - text: ": Con retroiluminación para facilitar la lectura en condiciones de poca luz."
+                  - listitem [ref=e84]:
+                    - strong [ref=e85]: Mediciones múltiples
+                    - text: ": Permite medir voltaje (AC/DC), corriente (AC/DC), resistencia, frecuencia, y pruebas de continuidad."
+                  - listitem [ref=e86]:
+                    - strong [ref=e87]: Función de retención de datos
+                    - text: ": Guarda las lecturas para análisis posterior."
+                  - listitem [ref=e88]:
+                    - strong [ref=e89]: Bajo consumo energético
+                    - text: ": Ahorro de batería y prolongada vida útil."
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Seguridad mejorada
+                    - text: ": Cumple con los estándares de seguridad internacionales."
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Diseño portátil y duradero
+                    - text: ": Ideal para trabajos en el campo y en el taller."
+                - paragraph [ref=e94]:
+                  - strong [ref=e95]: "Especificaciones:"
+                - list [ref=e96]:
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: Rango de medición de voltaje
+                    - text: ":"
+                    - list [ref=e99]:
+                      - listitem [ref=e100]: "DC: 0-600V"
+                      - listitem [ref=e101]: "AC: 0-600V"
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Rango de medición de corriente
+                    - text: ":"
+                    - list [ref=e104]:
+                      - listitem [ref=e105]: "DC: 0-10A"
+                      - listitem [ref=e106]: "AC: 0-10A"
+                  - listitem [ref=e107]:
+                    - strong [ref=e108]: Rango de medición de resistencia
+                    - text: ": 0-40MΩ"
+                  - listitem [ref=e109]:
+                    - strong [ref=e110]: Frecuencia
+                    - text: ": 0-10MHz"
+                  - listitem [ref=e111]:
+                    - strong [ref=e112]: Prueba de continuidad
+                    - text: ": Con sonido audible para indicar circuitos cerrados."
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]: Batería
+                    - text: ": 9V"
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]: Pantalla
+                    - text: ": LCD de 3 1/2 dígitos, 6000 cuentas"
+                  - listitem [ref=e117]:
+                    - strong [ref=e118]: Protección de sobrecarga
+                    - text: ": En todas las funciones."
+                  - listitem [ref=e119]:
+                    - strong [ref=e120]: Nivel de protección
+                    - text: ": CAT III 600V"
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]: Temperatura de operación
+                    - text: ": 0°C a 40°C"
+                  - listitem [ref=e123]:
+                    - strong [ref=e124]: Tamaño
+                    - text: ": Aproximadamente 130mm x 70mm x 30mm"
+                  - listitem [ref=e125]:
+                    - strong [ref=e126]: Peso
+                    - text: ": 200g."
+            - text:     
+          - generic [ref=e127]:
+            - heading "Productos relacionados" [level=2] [ref=e128]
+            - list [ref=e129]:
+              - listitem [ref=e130]:
+                - link "AMPERIMETRO DE TENAZA AC/DC 6450" [ref=e131] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/amperimetro-de-tenaza-ac-dc/
+                  - heading "AMPERIMETRO DE TENAZA AC/DC 6450" [level=2] [ref=e132]
+              - listitem [ref=e133]:
+                - link "Medidor de resistencia a tierra y resistividad de suelo MRU-120HD" [ref=e134] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/medidor-de-resistencia-a-tierra-y-resistividad-de-suelo/
+                  - heading "Medidor de resistencia a tierra y resistividad de suelo MRU-120HD" [level=2] [ref=e135]
+              - listitem [ref=e136]:
+                - link "AMPERÍMETROS DE MEDIA Y ALTA TENSIÓN MODELO GF2018" [ref=e137] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/amperimetros-de-media-y-alta-tension-modelo-gf2018/
+                  - heading "AMPERÍMETROS DE MEDIA Y ALTA TENSIÓN MODELO GF2018" [level=2] [ref=e138]
+              - listitem [ref=e139]:
+                - link "VERIFICADORES DE MEDIDORES DE ENERGÍA TRIFÁSICOS MODELO MULTI 4000 (INALÁMBRICO)" [ref=e140] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-trifasicos-modelo-multi-4000-inalambrico/
+                  - heading "VERIFICADORES DE MEDIDORES DE ENERGÍA TRIFÁSICOS MODELO MULTI 4000 (INALÁMBRICO)" [level=2] [ref=e141]
+      - complementary [ref=e142]:
+        - generic [ref=e143]:
+          - heading "Buscar Productos" [level=2] [ref=e144]
+          - search [ref=e145]:
+            - generic [ref=e146]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e147]
+            - button "Buscar" [ref=e148] [cursor=pointer]
+        - generic [ref=e149]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Medidor de corriente y razón transformación en Media Tensión ETCR" [ref=e153] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-corriente-y-razon-transformacion-en-media-tension/
+            - listitem [ref=e154]:
+              - link "Cámara termográfica KT-400 / KT-200 SONEL." [ref=e155] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/camara-termo-grafica-kt-400-kt-200/
+            - listitem [ref=e156]:
+              - link "Medidor de tierra (Telurímetro) ETCR 3200 C NEW" [ref=e157] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-de-tierra-telurimetro/
+            - listitem [ref=e158]:
+              - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e159] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+            - listitem [ref=e160]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e161] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e162]:
+      - generic [ref=e165]:
+        - complementary [ref=e166]:
+          - complementary [ref=e167]:
+            - heading "Menú" [level=3] [ref=e168]
+            - list [ref=e170]:
+              - listitem [ref=e171]:
+                - link "Inicio" [ref=e172] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e173]:
+                - link "Nosotros" [ref=e174] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e175]:
+                - link "Productos" [ref=e176] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e177]:
+                - link "Contacto" [ref=e178] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e179]:
+                  - listitem [ref=e180]:
+                    - link "Politica de Privacidad" [ref=e181] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e182]:
+          - complementary [ref=e183]:
+            - heading "Horarios de Atención" [level=3] [ref=e184]
+            - generic [ref=e185]:
+              - paragraph [ref=e186]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e189]: 9am a 5pm
+                - listitem [ref=e190]:
+                  - text: "Sábado:"
+                  - generic [ref=e191]: cerrado
+                - listitem [ref=e192]:
+                  - text: "Domingo:"
+                  - generic [ref=e193]: Cerrado
+        - complementary [ref=e194]:
+          - complementary [ref=e195]:
+            - heading "Contacto" [level=3] [ref=e196]
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e200]: 
+                - generic [ref=e201]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e202]:
+                - generic [ref=e204]: 
+                - link "+56 950942148" [ref=e206] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e208] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e209]:
+                - generic [ref=e211]: 
+                - link "contacto@mosanelectric.cl" [ref=e213] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e214]:
+          - complementary [ref=e215]:
+            - heading "Ubicación" [level=3] [ref=e216]
+            - iframe [ref=e218]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f14e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f14e6]
+      - generic [ref=e220]:
+        - generic [ref=e221]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e222]:
+          - link "Screenr parallax theme" [ref=e223] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e226] [cursor=pointer]:
+    - img
+  - status [ref=e227]

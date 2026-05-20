@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Buscar" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e62]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "Inicio" [ref=e66] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e67]:
+              - link "Seguimiento" [ref=e68] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e69]:
+              - link "Tienda" [ref=e70] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e71]:
+              - link "Contacto " [ref=e72] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e73]: 
+          - text: 
+    - main [ref=e77]:
+      - main [ref=e78]
+    - contentinfo [ref=e81]:
+      - generic [ref=e83]:
+        - img "bg_image" [ref=e86]
+        - generic [ref=e87]:
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link "Inicio" [ref=e91] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e92]:
+              - link "Seguimiento" [ref=e93] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e94]:
+              - link "Tienda" [ref=e95] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e96]:
+              - link "Contacto" [ref=e97] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e98]:
+            - text: Copyright 2025 ©
+            - strong [ref=e99]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e102] [cursor=pointer]:
+    - img
+  - status [ref=e103]

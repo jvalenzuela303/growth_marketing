@@ -1,0 +1,4 @@
+- [Settings Module — credential masking pattern](project_settings_module.md) — Tenant credential fields, masking rules, and pending schema fields
+- [Quiz public result polling endpoint](project_quiz_public_result.md) — GET /api/v1/quiz/result/:leadId pattern and frontend polling contract
+- [Schema iteration history — migrations 005-007](project_schema_iterations.md) — models added per iteration, design decisions, FK/RLS patterns
+- [Shared types evolution](project_shared_types.md) — BranchingRule, LandingSection, SegmentResultConfig and Funnel interface additions

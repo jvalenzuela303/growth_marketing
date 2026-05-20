@@ -1,0 +1,61 @@
+
+> @growth-engine/frontend@0.1.0 dev /home/jvalenzuela/Desarollo/growth_marketing/apps/frontend
+> next dev -p 4000
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:4000
+  - Environments: .env
+
+ ✓ Starting...
+> [PWA] PWA support is disabled
+> [PWA] PWA support is disabled
+ ✓ Ready in 2.3s
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 788ms (263 modules)
+ GET /api/auth/session 200 in 1060ms
+ ○ Compiling /ads ...
+ ✓ Compiled /ads in 2.1s (1095 modules)
+ ✓ Compiled in 214ms (429 modules)
+ GET /api/auth/csrf 200 in 45ms
+ POST /api/auth/signout 200 in 8ms
+ ✓ Compiled /login in 427ms (1091 modules)
+ GET /login 200 in 513ms
+ GET /api/auth/session 200 in 33ms
+ GET /api/auth/session 200 in 5ms
+ GET /api/auth/providers 200 in 16ms
+ GET /api/auth/csrf 200 in 7ms
+ POST /api/auth/callback/credentials 200 in 193ms
+ GET /api/auth/session 200 in 17ms
+ ○ Compiling /overview ...
+ ✓ Compiled /overview in 1545ms (2227 modules)
+ GET /overview?_rsc=1xxfh 200 in 83ms
+ GET /api/auth/session 200 in 32ms
+ GET /api/auth/session 200 in 25ms
+ ✓ Compiled in 705ms (2237 modules)
+ GET /ads?_rsc=11j27 200 in 78ms
+ ✓ Compiled /api/auth/[...nextauth] in 288ms (1248 modules)
+ GET /api/auth/session 200 in 388ms
+ ✓ Compiled in 469ms (2241 modules)
+ GET /ads?_rsc=11j27 200 in 59ms
+ ○ Compiling /deals ...
+ ✓ Compiled /deals in 864ms (2235 modules)
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 584ms (2259 modules)
+ ✓ Compiled /billing in 235ms (2269 modules)
+ ✓ Compiled /automations in 380ms (2285 modules)
+ GET /automations?_rsc=teo9b 200 in 38ms
+ ✓ Compiled /appointments in 262ms (2303 modules)
+ ✓ Compiled /attribution in 447ms (2313 modules)
+ ○ Compiling /sequences ...
+ ✓ Compiled /sequences in 617ms (2325 modules)
+ ✓ Compiled /chat in 375ms (2333 modules)
+ ✓ Compiled /conversations in 303ms (1796 modules)
+ ○ Compiling /leads ...
+ ✓ Compiled /leads in 596ms (1919 modules)
+ ○ Compiling /funnels ...
+ ✓ Compiled /funnels in 606ms (1935 modules)
+ GET /funnels?_rsc=1cff3 200 in 47ms
+ ○ Compiling /funnels/[funnelId]/analytics ...
+ ✓ Compiled /funnels/[funnelId]/analytics in 728ms (2474 modules)
+ ✓ Compiled /overview in 289ms (1432 modules)
+[?25h

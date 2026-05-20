@@ -1,0 +1,1 @@
+{"version":3,"file":"messaging.types.js","sourceRoot":"","sources":["messaging.types.ts"],"names":[],"mappings":";;;AA8BA,qCAAqC;AACxB,QAAA,kBAAkB,GAAG;IAChC,OAAO,EAAE,iBAAiB;IAC1B,UAAU,EAAE,uBAAuB;IACnC,UAAU,EAAE,uBAAuB;IACnC,UAAU,EAAE,uBAAuB;IACnC,UAAU,EAAE,uBAAuB;IACnC,UAAU,EAAE,uBAAuB;IACnC,cAAc,EAAE,mBAAmB;IACnC,cAAc,EAAE,mBAAmB;IACnC,YAAY,EAAE,iBAAiB;CACvB,CAAC"}

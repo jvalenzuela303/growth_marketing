@@ -1,0 +1,194 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Mapa del sitio XML" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Este mapa de sitio XML lo genera WordPress para hacer que tu contenido sea más visible para los motores de búsqueda.
+    - paragraph [ref=e6]:
+      - link "Aprende más sobre de los mapas del sitio XML." [ref=e7] [cursor=pointer]:
+        - /url: https://www.sitemaps.org/
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: "Número de URLs en este mapa del sitio XML: 45."
+    - table [ref=e10]:
+      - rowgroup [ref=e11]:
+        - row "URL" [ref=e12]:
+          - columnheader "URL" [ref=e13]
+      - rowgroup [ref=e14]:
+        - row "https://truehifi.cl/categoria-producto/amplificadores/" [ref=e15]:
+          - cell "https://truehifi.cl/categoria-producto/amplificadores/" [ref=e16]:
+            - link "https://truehifi.cl/categoria-producto/amplificadores/" [ref=e17] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificadores/
+        - row "https://truehifi.cl/categoria-producto/dac/" [ref=e18]:
+          - cell "https://truehifi.cl/categoria-producto/dac/" [ref=e19]:
+            - link "https://truehifi.cl/categoria-producto/dac/" [ref=e20] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/dac/
+        - row "https://truehifi.cl/categoria-producto/personal-audio/" [ref=e21]:
+          - cell "https://truehifi.cl/categoria-producto/personal-audio/" [ref=e22]:
+            - link "https://truehifi.cl/categoria-producto/personal-audio/" [ref=e23] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/
+        - row "https://truehifi.cl/categoria-producto/personal-audio/dap/" [ref=e24]:
+          - cell "https://truehifi.cl/categoria-producto/personal-audio/dap/" [ref=e25]:
+            - link "https://truehifi.cl/categoria-producto/personal-audio/dap/" [ref=e26] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/dap/
+        - row "https://truehifi.cl/categoria-producto/dap-2/" [ref=e27]:
+          - cell "https://truehifi.cl/categoria-producto/dap-2/" [ref=e28]:
+            - link "https://truehifi.cl/categoria-producto/dap-2/" [ref=e29] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/dap-2/
+        - row "https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/" [ref=e30]:
+          - cell "https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/" [ref=e31]:
+            - link "https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/" [ref=e32] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/
+        - row "https://truehifi.cl/categoria-producto/cd-player/" [ref=e33]:
+          - cell "https://truehifi.cl/categoria-producto/cd-player/" [ref=e34]:
+            - link "https://truehifi.cl/categoria-producto/cd-player/" [ref=e35] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cd-player/
+        - row "https://truehifi.cl/categoria-producto/amplificador-de-audifonos/" [ref=e36]:
+          - cell "https://truehifi.cl/categoria-producto/amplificador-de-audifonos/" [ref=e37]:
+            - link "https://truehifi.cl/categoria-producto/amplificador-de-audifonos/" [ref=e38] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+        - row "https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/" [ref=e39]:
+          - cell "https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/" [ref=e40]:
+            - link "https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/" [ref=e41] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/
+        - row "https://truehifi.cl/categoria-producto/preamplificadores/" [ref=e42]:
+          - cell "https://truehifi.cl/categoria-producto/preamplificadores/" [ref=e43]:
+            - link "https://truehifi.cl/categoria-producto/preamplificadores/" [ref=e44] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+        - row "https://truehifi.cl/categoria-producto/cables/" [ref=e45]:
+          - cell "https://truehifi.cl/categoria-producto/cables/" [ref=e46]:
+            - link "https://truehifi.cl/categoria-producto/cables/" [ref=e47] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/
+        - row "https://truehifi.cl/categoria-producto/cables/interconectores/" [ref=e48]:
+          - cell "https://truehifi.cl/categoria-producto/cables/interconectores/" [ref=e49]:
+            - link "https://truehifi.cl/categoria-producto/cables/interconectores/" [ref=e50] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/interconectores/
+        - row "https://truehifi.cl/categoria-producto/cables/interconectores/parsec/" [ref=e51]:
+          - cell "https://truehifi.cl/categoria-producto/cables/interconectores/parsec/" [ref=e52]:
+            - link "https://truehifi.cl/categoria-producto/cables/interconectores/parsec/" [ref=e53] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/interconectores/parsec/
+        - row "https://truehifi.cl/categoria-producto/cables/interconectores/clear-sky/" [ref=e54]:
+          - cell "https://truehifi.cl/categoria-producto/cables/interconectores/clear-sky/" [ref=e55]:
+            - link "https://truehifi.cl/categoria-producto/cables/interconectores/clear-sky/" [ref=e56] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/interconectores/clear-sky/
+        - row "https://truehifi.cl/categoria-producto/cables/interconectores/iridium/" [ref=e57]:
+          - cell "https://truehifi.cl/categoria-producto/cables/interconectores/iridium/" [ref=e58]:
+            - link "https://truehifi.cl/categoria-producto/cables/interconectores/iridium/" [ref=e59] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/interconectores/iridium/
+        - row "https://truehifi.cl/categoria-producto/cables/speaker/" [ref=e60]:
+          - cell "https://truehifi.cl/categoria-producto/cables/speaker/" [ref=e61]:
+            - link "https://truehifi.cl/categoria-producto/cables/speaker/" [ref=e62] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/speaker/
+        - row "https://truehifi.cl/categoria-producto/cables/speaker/parsec-speaker/" [ref=e63]:
+          - cell "https://truehifi.cl/categoria-producto/cables/speaker/parsec-speaker/" [ref=e64]:
+            - link "https://truehifi.cl/categoria-producto/cables/speaker/parsec-speaker/" [ref=e65] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/speaker/parsec-speaker/
+        - row "https://truehifi.cl/categoria-producto/cables/speaker/iridium-speaker/" [ref=e66]:
+          - cell "https://truehifi.cl/categoria-producto/cables/speaker/iridium-speaker/" [ref=e67]:
+            - link "https://truehifi.cl/categoria-producto/cables/speaker/iridium-speaker/" [ref=e68] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/speaker/iridium-speaker/
+        - row "https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/" [ref=e69]:
+          - cell "https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/" [ref=e70]:
+            - link "https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/" [ref=e71] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+        - row "https://truehifi.cl/categoria-producto/cables/speaker/101/" [ref=e72]:
+          - cell "https://truehifi.cl/categoria-producto/cables/speaker/101/" [ref=e73]:
+            - link "https://truehifi.cl/categoria-producto/cables/speaker/101/" [ref=e74] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/speaker/101/
+        - row "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/" [ref=e75]:
+          - cell "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/" [ref=e76]:
+            - link "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/" [ref=e77] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/
+        - row "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/iridium-cable-de-alimentacion-cables/" [ref=e78]:
+          - cell "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/iridium-cable-de-alimentacion-cables/" [ref=e79]:
+            - link "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/iridium-cable-de-alimentacion-cables/" [ref=e80] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/iridium-cable-de-alimentacion-cables/
+        - row "https://truehifi.cl/categoria-producto/cables/digital-cables/usb-digital-cables/" [ref=e81]:
+          - cell "https://truehifi.cl/categoria-producto/cables/digital-cables/usb-digital-cables/" [ref=e82]:
+            - link "https://truehifi.cl/categoria-producto/cables/digital-cables/usb-digital-cables/" [ref=e83] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/digital-cables/usb-digital-cables/
+        - row "https://truehifi.cl/categoria-producto/cables/digital-cables/coaxial/" [ref=e84]:
+          - cell "https://truehifi.cl/categoria-producto/cables/digital-cables/coaxial/" [ref=e85]:
+            - link "https://truehifi.cl/categoria-producto/cables/digital-cables/coaxial/" [ref=e86] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/digital-cables/coaxial/
+        - row "https://truehifi.cl/categoria-producto/accesorios/" [ref=e87]:
+          - cell "https://truehifi.cl/categoria-producto/accesorios/" [ref=e88]:
+            - link "https://truehifi.cl/categoria-producto/accesorios/" [ref=e89] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/accesorios/
+        - row "https://truehifi.cl/categoria-producto/preamplificador-de-phono/" [ref=e90]:
+          - cell "https://truehifi.cl/categoria-producto/preamplificador-de-phono/" [ref=e91]:
+            - link "https://truehifi.cl/categoria-producto/preamplificador-de-phono/" [ref=e92] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+        - row "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/parsec-cable-de-alimentacion-cables/" [ref=e93]:
+          - cell "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/parsec-cable-de-alimentacion-cables/" [ref=e94]:
+            - link "https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/parsec-cable-de-alimentacion-cables/" [ref=e95] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/cable-de-alimentacion-cables/parsec-cable-de-alimentacion-cables/
+        - row "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/" [ref=e96]:
+          - cell "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/" [ref=e97]:
+            - link "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/" [ref=e98] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/
+        - row "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/iridium-phono-cable-fonografico-cables/" [ref=e99]:
+          - cell "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/iridium-phono-cable-fonografico-cables/" [ref=e100]:
+            - link "https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/iridium-phono-cable-fonografico-cables/" [ref=e101] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/cable-fonografico-cables/iridium-phono-cable-fonografico-cables/
+        - row "https://truehifi.cl/categoria-producto/tubo-de-vacio/" [ref=e102]:
+          - cell "https://truehifi.cl/categoria-producto/tubo-de-vacio/" [ref=e103]:
+            - link "https://truehifi.cl/categoria-producto/tubo-de-vacio/" [ref=e104] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+        - row "https://truehifi.cl/categoria-producto/amplificador-integrado-ss/" [ref=e105]:
+          - cell "https://truehifi.cl/categoria-producto/amplificador-integrado-ss/" [ref=e106]:
+            - link "https://truehifi.cl/categoria-producto/amplificador-integrado-ss/" [ref=e107] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+        - row "https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/" [ref=e108]:
+          - cell "https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/" [ref=e109]:
+            - link "https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/" [ref=e110] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+        - row "https://truehifi.cl/categoria-producto/parlantes/" [ref=e111]:
+          - cell "https://truehifi.cl/categoria-producto/parlantes/" [ref=e112]:
+            - link "https://truehifi.cl/categoria-producto/parlantes/" [ref=e113] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/parlantes/
+        - row "https://truehifi.cl/categoria-producto/parlantes/bookshelf/" [ref=e114]:
+          - cell "https://truehifi.cl/categoria-producto/parlantes/bookshelf/" [ref=e115]:
+            - link "https://truehifi.cl/categoria-producto/parlantes/bookshelf/" [ref=e116] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/parlantes/bookshelf/
+        - row "https://truehifi.cl/categoria-producto/parlantes/columnas/" [ref=e117]:
+          - cell "https://truehifi.cl/categoria-producto/parlantes/columnas/" [ref=e118]:
+            - link "https://truehifi.cl/categoria-producto/parlantes/columnas/" [ref=e119] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/parlantes/columnas/
+        - row "https://truehifi.cl/categoria-producto/parlantes/central/" [ref=e120]:
+          - cell "https://truehifi.cl/categoria-producto/parlantes/central/" [ref=e121]:
+            - link "https://truehifi.cl/categoria-producto/parlantes/central/" [ref=e122] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/parlantes/central/
+        - row "https://truehifi.cl/categoria-producto/subwoofer/" [ref=e123]:
+          - cell "https://truehifi.cl/categoria-producto/subwoofer/" [ref=e124]:
+            - link "https://truehifi.cl/categoria-producto/subwoofer/" [ref=e125] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/subwoofer/
+        - row "https://truehifi.cl/categoria-producto/tornamesas/" [ref=e126]:
+          - cell "https://truehifi.cl/categoria-producto/tornamesas/" [ref=e127]:
+            - link "https://truehifi.cl/categoria-producto/tornamesas/" [ref=e128] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/tornamesas/
+        - row "https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/" [ref=e129]:
+          - cell "https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/" [ref=e130]:
+            - link "https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/" [ref=e131] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+        - row "https://truehifi.cl/categoria-producto/usados/" [ref=e132]:
+          - cell "https://truehifi.cl/categoria-producto/usados/" [ref=e133]:
+            - link "https://truehifi.cl/categoria-producto/usados/" [ref=e134] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/usados/
+        - row "https://truehifi.cl/categoria-producto/personal-audio/headphones/" [ref=e135]:
+          - cell "https://truehifi.cl/categoria-producto/personal-audio/headphones/" [ref=e136]:
+            - link "https://truehifi.cl/categoria-producto/personal-audio/headphones/" [ref=e137] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/headphones/
+        - row "https://truehifi.cl/categoria-producto/radio-hifi/" [ref=e138]:
+          - cell "https://truehifi.cl/categoria-producto/radio-hifi/" [ref=e139]:
+            - link "https://truehifi.cl/categoria-producto/radio-hifi/" [ref=e140] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+        - row "https://truehifi.cl/categoria-producto/amplificador-de-poder/" [ref=e141]:
+          - cell "https://truehifi.cl/categoria-producto/amplificador-de-poder/" [ref=e142]:
+            - link "https://truehifi.cl/categoria-producto/amplificador-de-poder/" [ref=e143] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+        - row "https://truehifi.cl/categoria-producto/cables/interconectores/cs-30rca/" [ref=e144]:
+          - cell "https://truehifi.cl/categoria-producto/cables/interconectores/cs-30rca/" [ref=e145]:
+            - link "https://truehifi.cl/categoria-producto/cables/interconectores/cs-30rca/" [ref=e146] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/interconectores/cs-30rca/
+        - row "https://truehifi.cl/categoria-producto/cables/speaker/cayin-cs-30sp/" [ref=e147]:
+          - cell "https://truehifi.cl/categoria-producto/cables/speaker/cayin-cs-30sp/" [ref=e148]:
+            - link "https://truehifi.cl/categoria-producto/cables/speaker/cayin-cs-30sp/" [ref=e149] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/speaker/cayin-cs-30sp/

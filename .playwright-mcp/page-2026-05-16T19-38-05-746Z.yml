@@ -1,0 +1,1607 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner "Panel de navegación superior" [ref=e6]:
+      - status
+      - generic [ref=e7]:
+        - button [expanded] [ref=e8] [cursor=pointer]:
+          - img [ref=e11]: menu
+        - heading "Google Ads – Ir a la página de inicio" [level=1] [ref=e13]:
+          - button "Google Ads – Ir a la página de inicio" [ref=e14]:
+            - img [ref=e16] [cursor=pointer]
+      - generic [ref=e25]:
+        - button "Buscar" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]:
+            - img [ref=e31]: search
+            - text: Buscar
+        - generic [ref=e33]:
+          - button "Diseño" [ref=e36] [cursor=pointer]:
+            - generic [ref=e38]:
+              - img [ref=e39]: responsive_layout
+              - text: Diseño
+          - button "Actualizar" [ref=e43] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img [ref=e46]: refresh
+              - text: Actualizar
+          - button "Abrir el panel de ayuda rápida" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]:
+              - text: Ayuda
+              - generic [ref=e51]:
+                - img [ref=e52]: help_outline
+                - text: Ayuda
+          - generic [ref=e56]:
+            - button "Notificaciones" [ref=e59] [cursor=pointer]:
+              - generic [ref=e61]:
+                - img [ref=e64]: notifications
+                - generic [ref=e66]: Notificaciones
+            - dialog "Notificaciones" [ref=e68]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - img "Icono de notificación de advertencia" [ref=e75]: error_outline
+                  - button "Se requiere un nuevo método de pago Solucionar" [ref=e76] [cursor=pointer]:
+                    - text: Se requiere un nuevo método de pago
+                    - generic [ref=e77]: Solucionar
+                - generic [ref=e78]:
+                  - img "Icono de notificación informativa" [ref=e80]: info_outline
+                  - button "Ofrece a los clientes potenciales más formas de conectar contigo Inicio" [ref=e81] [cursor=pointer]:
+                    - text: Ofrece a los clientes potenciales más formas de conectar contigo
+                    - generic [ref=e82]: Inicio
+                - button "Cerrar notificaciones" [ref=e83] [cursor=pointer]:
+                  - img [ref=e86]: clear
+      - button "Cuenta de Google" [ref=e93] [cursor=pointer]:
+        - img "Cuenta de Google (jvalenzuela303@gmail.com)" [ref=e94]
+    - generic [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - button "Crear" [ref=e103] [cursor=pointer]:
+              - img [ref=e106]
+            - generic [ref=e108]: Crear
+          - menu [ref=e109]:
+            - menu [ref=e110]:
+              - menuitem "Campañas" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]:
+                  - img [ref=e116]: campaign
+                  - generic [ref=e117]: Campañas
+              - menuitem "Objetivos" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - img [ref=e123]: rewarded_ads
+                  - generic [ref=e124]: Objetivos
+              - menuitem "Herramientas" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e130]: construction
+                  - generic [ref=e131]: Herramientas
+              - menuitem "Facturación" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - img [ref=e137]: credit_card
+                  - generic [ref=e138]: Facturación
+              - menuitem "Administrador" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]:
+                  - img [ref=e144]: settings
+                  - generic [ref=e145]: Administrador
+        - navigation [ref=e146]:
+          - menu [ref=e147]:
+            - generic [ref=e148]:
+              - menuitem "Vista general" [ref=e151] [cursor=pointer]:
+                - generic [ref=e153]: Vista general
+              - menuitem "Recomendaciones" [ref=e157] [cursor=pointer]:
+                - generic [ref=e159]: Recomendaciones
+              - menuitem "Estadísticas e informes" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Estadísticas e informes
+                  - img [ref=e169]: expand_more
+              - menuitem "Campañas" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: Campañas
+                  - img [ref=e177]: expand_more
+              - menuitem "Recursos" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]: Recursos
+                  - img [ref=e185]: expand_more
+              - menuitem "Productos" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]:
+                  - generic [ref=e190]: Productos
+                  - img [ref=e193]: expand_more
+              - menuitem "Audiencias, palabras clave y contenido" [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: Audiencias, palabras clave y contenido
+                  - img [ref=e201]: expand_more
+              - menuitem "Historial de cambios" [ref=e204] [cursor=pointer]:
+                - generic [ref=e206]: Historial de cambios
+          - group [ref=e210]:
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic "Descarga la aplicación Google Ads" [ref=e213]:
+                  - img [ref=e215]: app_promo
+                  - generic [ref=e216]: Descarga la aplicación Google Ads
+                - button "Cerrar la aplicación Google Ads" [ref=e217] [cursor=pointer]:
+                  - img [ref=e220]: close
+              - generic [ref=e222]:
+                - img "QR Code for Ads Mobile" [ref=e223]
+                - generic "Escanea para descargar la aplicación móvil y recibir actualizaciones de tus campañas estés donde estés" [ref=e224]
+      - generic [ref=e225]:
+        - generic [ref=e228]:
+          - button "Vista (2 filtros) Todas las campañas" [ref=e233] [cursor=pointer]:
+            - generic [ref=e234]:
+              - generic [ref=e235]: Vista (2 filtros)
+              - generic [ref=e236]:
+                - img [ref=e239]: home
+                - button "Todas las campañas" [ref=e240]
+            - img [ref=e242]: arrow_drop_down
+          - button "Campañas (5) Seleccionar una campaña" [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]:
+              - generic [ref=e249]: Campañas (5)
+              - generic [ref=e250]: Seleccionar una campaña
+            - img [ref=e252]: arrow_drop_down
+        - group [ref=e256]:
+          - generic [ref=e257]:
+            - generic [ref=e258] [cursor=pointer]:
+              - generic: Filtros
+            - generic: "Filtros aplicados:"
+            - grid "Filtros aplicados:" [ref=e259]:
+              - 'row "Estado de la campaña: Habilitado, pausado" [ref=e261] [cursor=pointer]':
+                - 'gridcell "Estado de la campaña: Habilitado, pausado" [ref=e262]':
+                  - 'button "Estado de la campaña: Habilitado, pausado" [ref=e263]': "Estado de la campaña: Habilitado, pausado"
+              - 'row "Estado del grupo de anuncios: Habilitado, pausado" [ref=e265] [cursor=pointer]':
+                - 'gridcell "Estado del grupo de anuncios: Habilitado, pausado" [ref=e266]':
+                  - 'button "Estado del grupo de anuncios: Habilitado, pausado" [ref=e267]': "Estado del grupo de anuncios: Habilitado, pausado"
+              - row [ref=e268]:
+                - gridcell [ref=e269]:
+                  - combobox "Añadir filtro" [ref=e270]
+                  - status [ref=e271]
+            - button "Guardar" [ref=e274] [cursor=pointer]:
+              - generic [ref=e275]:
+                - img [ref=e277]: save
+                - generic [ref=e278]: Guardar
+        - generic [ref=e281]:
+          - generic [ref=e283]:
+            - heading "Vista general" [level=2] [ref=e286]
+            - generic [ref=e289]:
+              - generic [ref=e291] [cursor=pointer]:
+                - generic [ref=e292]: Últimos 30 días
+                - generic [ref=e294]:
+                  - button "16 abr – 15 may de 2026 No aplicable" [ref=e296]:
+                    - generic [ref=e297]: 16 abr – 15 may de 2026
+                    - img [ref=e299]: arrow_drop_down
+                  - generic [ref=e300]:
+                    - button "Anterior" [ref=e301]:
+                      - img [ref=e304]: chevron_left
+                    - button "Siguiente" [ref=e306]:
+                      - img [ref=e309]: chevron_right
+              - button "Mostrar últimos 30 días" [ref=e311] [cursor=pointer]:
+                - generic [ref=e312]: Mostrar últimos 30 días
+          - main [ref=e318]:
+            - generic [ref=e320]:
+              - application [ref=e323]:
+                - application [ref=e325]:
+                  - generic [ref=e326]:
+                    - tablist [ref=e330]:
+                      - tab "Página principal" [selected] [ref=e331] [cursor=pointer]:
+                        - generic [ref=e332]: Página principal
+                    - button "Añadir vista personalizada" [ref=e335] [cursor=pointer]:
+                      - generic [ref=e336]:
+                        - img [ref=e338]: add
+                        - text: Añadir vista personalizada
+                    - img [ref=e341] [cursor=pointer]: help_outline
+                  - generic [ref=e342]:
+                    - button "Nueva campaña" [ref=e346] [cursor=pointer]:
+                      - img [ref=e348]: add
+                      - generic [ref=e349]: Nueva campaña
+                    - generic [ref=e350]:
+                      - button "Botón para descargar el contenido de las tarjetas de la página Vista general en el formato que selecciones." [ref=e353] [cursor=pointer]:
+                        - generic [ref=e355]:
+                          - img [ref=e356]: file_download
+                          - text: Descargar
+                      - button "Botón para enviar comentarios sobre la página Vista general." [ref=e360] [cursor=pointer]:
+                        - generic [ref=e362]:
+                          - img [ref=e363]: feedback
+                          - text: Comentarios
+                  - list [ref=e365]:
+                    - generic [ref=e366]:
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e367]:
+                        - generic [ref=e369]:
+                          - heading "Serie temporal" [level=1]
+                          - generic [ref=e372]:
+                            - generic [ref=e373]:
+                              - generic [ref=e378]:
+                                - generic [ref=e380]:
+                                  - 'button "Elige la métrica 1 de 4 para Gráfico de serie temporal. Métrica actual: Clics" [ref=e385] [cursor=pointer]':
+                                    - generic [ref=e386]:
+                                      - img [ref=e388]: arrow_drop_down
+                                      - generic [ref=e389]: Clics
+                                  - generic [ref=e391]: 5,86 mil
+                                  - 'button ": 5,86 mil en este periodo. Ocultar esta métrica en el gráfico. Cuando un usuario hace clic en uno de tus anuncios, se contabiliza en esta columna. Esta métrica está acreditada por el Media Rating Council (MRC) en ordenadores y móviles para la Red de Búsqueda y la Red de Display.. . ." [ref=e392] [cursor=pointer]'
+                                - generic [ref=e394]:
+                                  - 'button "Elige la métrica 2 de 4 para Gráfico de serie temporal. Métrica actual: Conversiones" [ref=e399] [cursor=pointer]':
+                                    - generic [ref=e400]:
+                                      - img [ref=e402]: arrow_drop_down
+                                      - generic [ref=e403]: Conversiones
+                                  - generic [ref=e405]: 5,03 mil
+                                  - 'button ": 5,03 mil en este periodo. Ocultar esta métrica en el gráfico. En la columna Conversiones se muestra el número de conversiones que has obtenido después de que se produjeran interacciones con los anuncios (por ejemplo, clics en anuncios de texto o visualizaciones de anuncios de vídeo). La cifra que se muestra la determinan las opciones de conversión Incluir en Conversiones, Recuento e Incluir conversiones multidispositivo.. . ." [ref=e406] [cursor=pointer]'
+                                - generic [ref=e408]:
+                                  - 'button "Elige la métrica 3 de 4 para Gráfico de serie temporal. Métrica actual: Coste/conv." [ref=e413] [cursor=pointer]':
+                                    - generic [ref=e414]:
+                                      - img [ref=e416]: arrow_drop_down
+                                      - generic [ref=e417]: Coste/conv.
+                                  - generic [ref=e419]: 400 $
+                                  - 'button ": 400 $. Mostrar esta métrica en el gráfico. En la columna Coste por conversión (Coste/conv.) se indica el coste medio de una conversión. Es el coste dividido entre las conversiones. Si haces un seguimiento de varias acciones de conversión, el coste total por conversión puede ser inferior al coste de cada acción de conversión. El coste que se indica en esta métrica solo incluye las interacciones con anuncios que han podido generar conversiones.. . ." [ref=e420] [cursor=pointer]'
+                                - generic [ref=e422]:
+                                  - 'button "Elige la métrica 4 de 4 para Gráfico de serie temporal. Métrica actual: Coste" [ref=e427] [cursor=pointer]':
+                                    - generic [ref=e428]:
+                                      - img [ref=e430]: arrow_drop_down
+                                      - generic [ref=e431]: Coste
+                                  - generic [ref=e433]: 2,01 M $
+                                  - 'button ": 2,01 M $. Mostrar esta métrica en el gráfico. El coste corresponde a la suma de los gastos durante este periodo. . ." [ref=e434] [cursor=pointer]'
+                              - generic [ref=e436]:
+                                - button "Indicadores" [ref=e437] [cursor=pointer]:
+                                  - generic [ref=e439]:
+                                    - img [ref=e441]: add_chart
+                                    - generic [ref=e442]: Indicadores
+                                - button "Ajustar" [ref=e446] [cursor=pointer]:
+                                  - generic [ref=e448]:
+                                    - img [ref=e450]: tune
+                                    - generic [ref=e451]: Ajustar
+                                - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e454] [cursor=pointer]:
+                                  - img [ref=e457]: more_vert
+                            - application [ref=e461]:
+                              - generic [ref=e463]: Gráfico de serie temporal en el que se muestran Clics y Conversiones correspondientes a jue, 16 abr 2026 a vie, 15 may 2026. Usa las teclas de flecha para desplazarte.
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e464]:
+                        - generic [ref=e466]:
+                          - generic [ref=e467]:
+                            - generic [ref=e468]:
+                              - img [ref=e470]: troubleshoot
+                              - heading "Diagnóstico de la cuenta" [level=1] [ref=e471]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e475] [cursor=pointer]:
+                              - img [ref=e478]: more_vert
+                          - generic [ref=e485]:
+                            - button "Algunas campañas recientes requieren tu atención" [expanded] [ref=e487] [cursor=pointer]:
+                              - generic [ref=e488]:
+                                - generic [ref=e491]: Algunas campañas recientes requieren tu atención
+                                - paragraph
+                              - img [ref=e492]: expand_less
+                            - region "Algunas campañas recientes requieren tu atención" [ref=e493]:
+                              - generic [ref=e500]:
+                                - generic [ref=e501]:
+                                  - generic [ref=e505]:
+                                    - generic [ref=e506]:
+                                      - link "Venta Instrumentos" [ref=e507]
+                                      - generic [ref=e509]: Apto (configuración errónea)
+                                      - generic [ref=e510]: No se pueden aplicar cargos al método de pago y más de 1 problema más
+                                    - button "Ver detalles" [ref=e512]:
+                                      - generic [ref=e515]: Ver detalles
+                                  - generic [ref=e519]:
+                                    - generic [ref=e520]:
+                                      - link "Ley de ductos (Trafico Web)" [ref=e521]
+                                      - generic [ref=e523]: Apto (configuración errónea)
+                                      - generic [ref=e524]: No se pueden aplicar cargos al método de pago y más de 1 problema más
+                                    - button "Ver detalles" [ref=e526]:
+                                      - generic [ref=e529]: Ver detalles
+                                  - generic [ref=e533]:
+                                    - generic [ref=e534]:
+                                      - link "Sincronismo" [ref=e535]
+                                      - generic [ref=e537]: Apto (configuración errónea)
+                                      - generic [ref=e538]: No se pueden aplicar cargos al método de pago
+                                    - button "Ver detalles" [ref=e540]:
+                                      - generic [ref=e543]: Ver detalles
+                                  - generic [ref=e547]:
+                                    - generic [ref=e548]:
+                                      - link "Website traffic-Search-Bodet" [ref=e549]
+                                      - generic [ref=e551]: Apto (configuración errónea)
+                                      - generic [ref=e552]: No se pueden aplicar cargos al método de pago
+                                    - button "Ver detalles" [ref=e554]:
+                                      - generic [ref=e557]: Ver detalles
+                                  - generic [ref=e561]:
+                                    - generic [ref=e562]:
+                                      - link "Truehifi" [ref=e563]
+                                      - generic [ref=e565]: Apto (configuración errónea)
+                                      - generic [ref=e566]: No se pueden aplicar cargos al método de pago
+                                    - button "Ver detalles" [ref=e568]:
+                                      - generic [ref=e571]: Ver detalles
+                                - button [ref=e572] [cursor=pointer]:
+                                  - img [ref=e575]: chevron_right
+                    - generic [ref=e579]:
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e580]:
+                        - generic [ref=e582]:
+                          - generic [ref=e583]:
+                            - generic [ref=e584]:
+                              - img [ref=e586]: lightbulb
+                              - heading "Recomendación" [level=1] [ref=e587]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e591] [cursor=pointer]:
+                              - img [ref=e594]: more_vert
+                          - generic [ref=e598]:
+                            - generic [ref=e599]:
+                              - generic [ref=e602]: Fija un CPA objetivo para atraer aumentos del tráfico en el futuro
+                              - button "Aplica esta recomendación para aumentar el nivel de optimización en un 0,5 %" [ref=e605] [cursor=pointer]: +0,5 %
+                            - generic [ref=e606]:
+                              - generic [ref=e607]: Es posible que pierdas conversiones de un aumento del tráfico previsto próximamente. Aprovecha ese aumento para conseguir conversiones con un CPA similar fijando un objetivo y aumentando el presupuesto.
+                              - generic [ref=e608]:
+                                - text: Te hacemos esta recomendación porque, según nuestras simulaciones, se espera que el tráfico aumente un 5 % o más
+                                - button "Más información" [ref=e609] [cursor=pointer]:
+                                  - img [ref=e611]: help_outline
+                            - generic [ref=e614]:
+                              - button "Aplicar" [ref=e615] [cursor=pointer]:
+                                - generic [ref=e616]: Aplicar
+                              - button "Ver" [ref=e618] [cursor=pointer]:
+                                - generic [ref=e619]: Ver
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e621]:
+                        - generic [ref=e623]:
+                          - generic [ref=e624]:
+                            - generic [ref=e625]:
+                              - img [ref=e627]: add_ad
+                              - heading "Cambios más importantes" [level=1] [ref=e628]
+                            - generic [ref=e630]:
+                              - 'button "Elige una métrica para la tarjeta Cambios más importantes. Métrica actual: Coste" [ref=e631]':
+                                - 'generic "Elige una métrica para la tarjeta Cambios más importantes. Métrica actual: Coste" [ref=e632] [cursor=pointer]':
+                                  - generic [ref=e633]: Coste
+                                  - text: arrow_drop_down
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e635] [cursor=pointer]:
+                                - img [ref=e638]: more_vert
+                          - generic [ref=e641]:
+                            - generic [ref=e642]: Los cambios más importantes en tus campañas y grupos de anuncios
+                            - generic [ref=e643]:
+                              - text: Los últimos 30 días comparados con los 30 días anteriores
+                              - button "Pulsa Intro para obtener más información sobre la comparación de periodos." [ref=e644] [cursor=pointer]:
+                                - img [ref=e646]: help_outline
+                            - region "Usa las teclas de flecha para moverte por las filas" [ref=e647]:
+                              - list [ref=e648]:
+                                - listitem [ref=e649]:
+                                  - generic [ref=e653]:
+                                    - img [ref=e656]: circle
+                                    - generic [ref=e657]:
+                                      - generic [ref=e658]:
+                                        - generic [ref=e659]: Venta Instrumentos
+                                        - generic [ref=e660]: ›
+                                      - generic [ref=e661]: Instrumentos
+                                    - generic [ref=e666]:
+                                      - generic [ref=e667]: 316.834 CLP más
+                                      - generic [ref=e668]: 22,01 % más
+                                - listitem [ref=e670]:
+                                  - generic [ref=e674]:
+                                    - img [ref=e677]: circle
+                                    - generic [ref=e678]:
+                                      - generic [ref=e679]:
+                                        - generic [ref=e680]: Website traffic-Search-Bodet
+                                        - generic [ref=e681]: ›
+                                      - generic [ref=e682]: Bodet Time
+                                    - generic [ref=e687]:
+                                      - generic [ref=e688]: 20.730 CLP más
+                                      - generic [ref=e689]: 22,90 % más
+                          - generic [ref=e692]:
+                            - generic:
+                              - img: keyboard_arrow_left
+                            - generic [ref=e693]: 1 / 1
+                            - generic:
+                              - img: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e694]:
+                        - generic [ref=e696]:
+                          - generic [ref=e697]:
+                            - generic [ref=e698]:
+                              - img [ref=e700]: user_attributes
+                              - heading "Grupos demográficos" [level=1] [ref=e701]
+                            - generic [ref=e703]:
+                              - 'button "Elige una métrica para la tarjeta Grupos demográficos. Métrica actual: Impresiones" [ref=e704]':
+                                - 'generic "Elige una métrica para la tarjeta Grupos demográficos. Métrica actual: Impresiones" [ref=e705] [cursor=pointer]':
+                                  - generic [ref=e706]: Impresiones
+                                  - text: arrow_drop_down
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e708] [cursor=pointer]:
+                                - img [ref=e711]: more_vert
+                          - generic [ref=e714]:
+                            - generic [ref=e715]: Resumen de los grupos demográficos a los que llegan tus anuncios por edad y sexo
+                            - tablist [ref=e717]:
+                              - tab "Sexo" [ref=e719] [cursor=pointer]:
+                                - generic [ref=e720]: Sexo
+                              - tab "Sexo y edad" [selected] [ref=e722] [cursor=pointer]:
+                                - generic [ref=e723]: Sexo y edad
+                              - tab "Edad" [ref=e725] [cursor=pointer]:
+                                - generic [ref=e726]: Edad
+                            - generic [ref=e728]:
+                              - generic [ref=e729]:
+                                - generic [ref=e730]: Hombre
+                                - generic [ref=e731]: Mujer
+                              - grid [ref=e732]:
+                                - generic [ref=e733]:
+                                  - row [ref=e734]:
+                                    - gridcell [ref=e735]
+                                    - gridcell [ref=e736]
+                                    - gridcell [ref=e737]
+                                    - gridcell [ref=e738]
+                                    - gridcell [ref=e739]
+                                    - gridcell [ref=e740]
+                                  - row [ref=e741]:
+                                    - gridcell [ref=e742]
+                                    - gridcell [ref=e743]
+                                    - gridcell [ref=e744]
+                                    - gridcell [ref=e745]
+                                    - gridcell [ref=e746]
+                                    - gridcell [ref=e747]
+                              - generic [ref=e749]:
+                                - generic [ref=e750]: 18-24
+                                - generic [ref=e751]: 25-34
+                                - generic [ref=e752]: 35-44
+                                - generic [ref=e753]: 45-54
+                                - generic [ref=e754]: 55-64
+                                - generic [ref=e755]: "+65"
+                            - generic [ref=e756]:
+                              - text: Según el 81 % de las impresiones cuyo sexo y edad se conocen.
+                              - button "Más información" [ref=e758] [cursor=pointer]:
+                                - img [ref=e760]: help_outline
+                          - button "Sexo y edad" [ref=e763] [cursor=pointer]:
+                            - generic [ref=e764]: Sexo y edad
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e766]:
+                        - generic [ref=e768]:
+                          - generic [ref=e769]:
+                            - generic [ref=e770]:
+                              - img [ref=e772]: share_eta
+                              - heading "Día y hora" [level=1] [ref=e773]
+                            - generic [ref=e775]:
+                              - 'button "Elige una métrica para la tarjeta Día y hora. Métrica actual: Impresiones" [ref=e776]':
+                                - 'generic "Elige una métrica para la tarjeta Día y hora. Métrica actual: Impresiones" [ref=e777] [cursor=pointer]':
+                                  - generic [ref=e778]: Impresiones
+                                  - text: arrow_drop_down
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e780] [cursor=pointer]:
+                                - img [ref=e783]: more_vert
+                          - generic [ref=e786]:
+                            - generic [ref=e787]: Tu rendimiento por día de la semana y por hora del día
+                            - tablist [ref=e789]:
+                              - tab "Día" [ref=e791] [cursor=pointer]:
+                                - generic [ref=e792]: Día
+                              - tab "Día y hora" [selected] [ref=e794] [cursor=pointer]:
+                                - generic [ref=e795]: Día y hora
+                              - tab "Hora" [ref=e797] [cursor=pointer]:
+                                - generic [ref=e798]: Hora
+                            - generic [ref=e800]:
+                              - generic [ref=e801]:
+                                - generic [ref=e802]: D
+                                - generic [ref=e803]: L
+                                - generic [ref=e804]: M
+                                - generic [ref=e805]: X
+                                - generic [ref=e806]: J
+                                - generic [ref=e807]: V
+                                - generic [ref=e808]: S
+                              - grid [ref=e809]:
+                                - generic [ref=e810]:
+                                  - row [ref=e811]:
+                                    - gridcell [ref=e812]
+                                    - gridcell [ref=e813]
+                                    - gridcell [ref=e814]
+                                    - gridcell [ref=e815]
+                                    - gridcell [ref=e816]
+                                    - gridcell [ref=e817]
+                                    - gridcell [ref=e818]
+                                    - gridcell [ref=e819]
+                                    - gridcell [ref=e820]
+                                    - gridcell [ref=e821]
+                                    - gridcell [ref=e822]
+                                    - gridcell [ref=e823]
+                                    - gridcell [ref=e824]
+                                    - gridcell [ref=e825]
+                                    - gridcell [ref=e826]
+                                    - gridcell [ref=e827]
+                                    - gridcell [ref=e828]
+                                    - gridcell [ref=e829]
+                                    - gridcell [ref=e830]
+                                    - gridcell [ref=e831]
+                                    - gridcell [ref=e832]
+                                    - gridcell [ref=e833]
+                                    - gridcell [ref=e834]
+                                    - gridcell [ref=e835]
+                                  - row [ref=e836]:
+                                    - gridcell [ref=e837]
+                                    - gridcell [ref=e838]
+                                    - gridcell [ref=e839]
+                                    - gridcell [ref=e840]
+                                    - gridcell [ref=e841]
+                                    - gridcell [ref=e842]
+                                    - gridcell [ref=e843]
+                                    - gridcell [ref=e844]
+                                    - gridcell [ref=e845]
+                                    - gridcell [ref=e846]
+                                    - gridcell [ref=e847]
+                                    - gridcell [ref=e848]
+                                    - gridcell [ref=e849]
+                                    - gridcell [ref=e850]
+                                    - gridcell [ref=e851]
+                                    - gridcell [ref=e852]
+                                    - gridcell [ref=e853]
+                                    - gridcell [ref=e854]
+                                    - gridcell [ref=e855]
+                                    - gridcell [ref=e856]
+                                    - gridcell [ref=e857]
+                                    - gridcell [ref=e858]
+                                    - gridcell [ref=e859]
+                                    - gridcell [ref=e860]
+                                  - row [ref=e861]:
+                                    - gridcell [ref=e862]
+                                    - gridcell [ref=e863]
+                                    - gridcell [ref=e864]
+                                    - gridcell [ref=e865]
+                                    - gridcell [ref=e866]
+                                    - gridcell [ref=e867]
+                                    - gridcell [ref=e868]
+                                    - gridcell [ref=e869]
+                                    - gridcell [ref=e870]
+                                    - gridcell [ref=e871]
+                                    - gridcell [ref=e872]
+                                    - gridcell [ref=e873]
+                                    - gridcell [ref=e874]
+                                    - gridcell [ref=e875]
+                                    - gridcell [ref=e876]
+                                    - gridcell [ref=e877]
+                                    - gridcell [ref=e878]
+                                    - gridcell [ref=e879]
+                                    - gridcell [ref=e880]
+                                    - gridcell [ref=e881]
+                                    - gridcell [ref=e882]
+                                    - gridcell [ref=e883]
+                                    - gridcell [ref=e884]
+                                    - gridcell [ref=e885]
+                                  - row [ref=e886]:
+                                    - gridcell [ref=e887]
+                                    - gridcell [ref=e888]
+                                    - gridcell [ref=e889]
+                                    - gridcell [ref=e890]
+                                    - gridcell [ref=e891]
+                                    - gridcell [ref=e892]
+                                    - gridcell [ref=e893]
+                                    - gridcell [ref=e894]
+                                    - gridcell [ref=e895]
+                                    - gridcell [ref=e896]
+                                    - gridcell [ref=e897]
+                                    - gridcell [ref=e898]
+                                    - gridcell [ref=e899]
+                                    - gridcell [ref=e900]
+                                    - gridcell [ref=e901]
+                                    - gridcell [ref=e902]
+                                    - gridcell [ref=e903]
+                                    - gridcell [ref=e904]
+                                    - gridcell [ref=e905]
+                                    - gridcell [ref=e906]
+                                    - gridcell [ref=e907]
+                                    - gridcell [ref=e908]
+                                    - gridcell [ref=e909]
+                                    - gridcell [ref=e910]
+                                  - row [ref=e911]:
+                                    - gridcell [ref=e912]
+                                    - gridcell [ref=e913]
+                                    - gridcell [ref=e914]
+                                    - gridcell [ref=e915]
+                                    - gridcell [ref=e916]
+                                    - gridcell [ref=e917]
+                                    - gridcell [ref=e918]
+                                    - gridcell [ref=e919]
+                                    - gridcell [ref=e920]
+                                    - gridcell [ref=e921]
+                                    - gridcell [ref=e922]
+                                    - gridcell [ref=e923]
+                                    - gridcell [ref=e924]
+                                    - gridcell [ref=e925]
+                                    - gridcell [ref=e926]
+                                    - gridcell [ref=e927]
+                                    - gridcell [ref=e928]
+                                    - gridcell [ref=e929]
+                                    - gridcell [ref=e930]
+                                    - gridcell [ref=e931]
+                                    - gridcell [ref=e932]
+                                    - gridcell [ref=e933]
+                                    - gridcell [ref=e934]
+                                    - gridcell [ref=e935]
+                                  - row [ref=e936]:
+                                    - gridcell [ref=e937]
+                                    - gridcell [ref=e938]
+                                    - gridcell [ref=e939]
+                                    - gridcell [ref=e940]
+                                    - gridcell [ref=e941]
+                                    - gridcell [ref=e942]
+                                    - gridcell [ref=e943]
+                                    - gridcell [ref=e944]
+                                    - gridcell [ref=e945]
+                                    - gridcell [ref=e946]
+                                    - gridcell [ref=e947]
+                                    - gridcell [ref=e948]
+                                    - gridcell [ref=e949]
+                                    - gridcell [ref=e950]
+                                    - gridcell [ref=e951]
+                                    - gridcell [ref=e952]
+                                    - gridcell [ref=e953]
+                                    - gridcell [ref=e954]
+                                    - gridcell [ref=e955]
+                                    - gridcell [ref=e956]
+                                    - gridcell [ref=e957]
+                                    - gridcell [ref=e958]
+                                    - gridcell [ref=e959]
+                                    - gridcell [ref=e960]
+                                  - row [ref=e961]:
+                                    - gridcell [ref=e962]
+                                    - gridcell [ref=e963]
+                                    - gridcell [ref=e964]
+                                    - gridcell [ref=e965]
+                                    - gridcell [ref=e966]
+                                    - gridcell [ref=e967]
+                                    - gridcell [ref=e968]
+                                    - gridcell [ref=e969]
+                                    - gridcell [ref=e970]
+                                    - gridcell [ref=e971]
+                                    - gridcell [ref=e972]
+                                    - gridcell [ref=e973]
+                                    - gridcell [ref=e974]
+                                    - gridcell [ref=e975]
+                                    - gridcell [ref=e976]
+                                    - gridcell [ref=e977]
+                                    - gridcell [ref=e978]
+                                    - gridcell [ref=e979]
+                                    - gridcell [ref=e980]
+                                    - gridcell [ref=e981]
+                                    - gridcell [ref=e982]
+                                    - gridcell [ref=e983]
+                                    - gridcell [ref=e984]
+                                    - gridcell [ref=e985]
+                              - generic [ref=e993]:
+                                - generic [ref=e994]: "0"
+                                - generic [ref=e995]: "6"
+                                - generic [ref=e996]: "12"
+                                - generic [ref=e997]: "18"
+                                - generic [ref=e998]: "0"
+                          - button "Ir a la tabla de programación de anuncios" [ref=e1001] [cursor=pointer]:
+                            - generic [ref=e1002]: Programación de anuncios
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1004]:
+                        - generic [ref=e1006]:
+                          - generic [ref=e1007]:
+                            - generic [ref=e1008]:
+                              - img [ref=e1010]: lightbulb
+                              - heading "Nivel de optimización" [level=1] [ref=e1011]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1015] [cursor=pointer]:
+                              - img [ref=e1018]: more_vert
+                          - generic [ref=e1021]:
+                            - generic [ref=e1022]:
+                              - generic [ref=e1023]:
+                                - link "El nivel de optimización de tu cuenta es del 79,1 %." [ref=e1024] [cursor=pointer]: 79,1 %
+                                - progressbar "progreso activo" [ref=e1027]
+                              - generic [ref=e1031]:
+                                - generic [ref=e1032]:
+                                  - generic [ref=e1033]: Tu nivel de optimización
+                                  - button "Más información" [ref=e1035] [cursor=pointer]:
+                                    - img [ref=e1037]: help_outline
+                                - generic [ref=e1038]: Aumenta tu nivel aplicando las recomendaciones de estas campañas
+                            - grid "Usa las teclas de flecha para moverte por las filas" [ref=e1039]:
+                              - rowgroup [ref=e1040]:
+                                - row "El nivel de optimización de Sincronismo es 58,9 %. Usa la tecla Intro para ir a las recomendaciones oportunas." [ref=e1041] [cursor=pointer]:
+                                  - gridcell "58,9 %" [ref=e1042]
+                                  - gridcell "Sincronismo" [ref=e1043]
+                                  - gridcell [ref=e1044]:
+                                    - img [ref=e1046]: east
+                                - row "El nivel de optimización de Venta Instrumentos es 79,7 %. Usa la tecla Intro para ir a las recomendaciones oportunas." [ref=e1047] [cursor=pointer]:
+                                  - gridcell "79,7 %" [ref=e1048]
+                                  - gridcell "Venta Instrumentos" [ref=e1049]
+                                  - gridcell [ref=e1050]:
+                                    - img [ref=e1052]: east
+                                - row "El nivel de optimización de Website traffic-Search-Bodet es 80,8 %. Usa la tecla Intro para ir a las recomendaciones oportunas." [ref=e1053] [cursor=pointer]:
+                                  - gridcell "80,8 %" [ref=e1054]
+                                  - gridcell "Website traffic-Search-Bodet" [ref=e1055]
+                                  - gridcell [ref=e1056]:
+                                    - img [ref=e1058]: east
+                                - row "El nivel de optimización de Ley de ductos (Trafico Web) es 82,3 %. Usa la tecla Intro para ir a las recomendaciones oportunas." [ref=e1059] [cursor=pointer]:
+                                  - gridcell "82,3 %" [ref=e1060]
+                                  - gridcell "Ley de ductos (Trafico Web)" [ref=e1061]
+                                  - gridcell [ref=e1062]:
+                                    - img [ref=e1064]: east
+                                - row "El nivel de optimización de Truehifi es 86,2 %. Usa la tecla Intro para ir a las recomendaciones oportunas." [ref=e1065] [cursor=pointer]:
+                                  - gridcell "86,2 %" [ref=e1066]
+                                  - gridcell "Truehifi" [ref=e1067]
+                                  - gridcell [ref=e1068]:
+                                    - img [ref=e1070]: east
+                          - generic [ref=e1071]:
+                            - button "Ir al sitio de las recomendaciones" [ref=e1073] [cursor=pointer]:
+                              - generic [ref=e1074]: Todas las recomendaciones
+                            - generic [ref=e1076]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e1077]: 1 / 1
+                              - generic:
+                                - img: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1078]:
+                        - generic [ref=e1080]:
+                          - generic [ref=e1081]:
+                            - generic [ref=e1082]:
+                              - img [ref=e1084]: devices
+                              - heading "Dispositivos" [level=1] [ref=e1085]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1089] [cursor=pointer]:
+                              - img [ref=e1092]: more_vert
+                          - generic [ref=e1095]:
+                            - generic [ref=e1096]: Rendimiento de los anuncios en todos los dispositivos
+                            - generic [ref=e1097]:
+                              - generic [ref=e1098]:
+                                - generic [ref=e1099]:
+                                  - generic [ref=e1100]:
+                                    - generic [ref=e1101]: smartphone
+                                    - generic [ref=e1102]: Teléfonos móviles
+                                  - generic [ref=e1103]:
+                                    - generic [ref=e1104]: tablet
+                                    - generic [ref=e1105]: Tablets
+                                  - generic [ref=e1106]:
+                                    - generic [ref=e1107]: laptop
+                                    - generic [ref=e1108]: Ordenadores
+                                - table "Datos segmentados. Usa las teclas de flecha para desplazarte por las celdas." [ref=e1109]:
+                                  - generic [ref=e1110]:
+                                    - row [ref=e1111]:
+                                      - cell [ref=e1112]
+                                      - cell [ref=e1113]
+                                      - cell [ref=e1114]
+                                    - row "68,6 % 0,8 % 30,6 %" [ref=e1115]:
+                                      - cell "68,6 %" [ref=e1116]:
+                                        - generic [ref=e1118]: 68,6 %
+                                      - cell "0,8 %" [ref=e1119]:
+                                        - generic [ref=e1121]: 0,8 %
+                                      - cell "30,6 %" [ref=e1122]:
+                                        - generic [ref=e1124]: 30,6 %
+                                  - generic [ref=e1125]:
+                                    - row [ref=e1126]:
+                                      - cell [ref=e1127]
+                                      - cell [ref=e1128]
+                                      - cell [ref=e1129]
+                                    - row "77,9 % 1,1 % 21,1 %" [ref=e1130]:
+                                      - cell "77,9 %" [ref=e1131]:
+                                        - generic [ref=e1133]: 77,9 %
+                                      - cell "1,1 %" [ref=e1134]:
+                                        - generic [ref=e1136]: 1,1 %
+                                      - cell "21,1 %" [ref=e1137]:
+                                        - generic [ref=e1139]: 21,1 %
+                                  - generic [ref=e1140]:
+                                    - row [ref=e1141]:
+                                      - cell [ref=e1142]
+                                      - cell [ref=e1143]
+                                      - cell [ref=e1144]
+                                    - row "71,0 % 0,8 % 28,3 %" [ref=e1145]:
+                                      - cell "71,0 %" [ref=e1146]:
+                                        - generic [ref=e1148]: 71,0 %
+                                      - cell "0,8 %" [ref=e1149]:
+                                        - generic [ref=e1151]: 0,8 %
+                                      - cell "28,3 %" [ref=e1152]:
+                                        - generic [ref=e1154]: 28,3 %
+                              - generic [ref=e1155]:
+                                - 'button "Elige la métrica 1 de 3 para la tarjeta Dispositivos. Métrica actual: Coste" [ref=e1157]':
+                                  - 'generic "Elige la métrica 1 de 3 para la tarjeta Dispositivos. Métrica actual: Coste" [ref=e1158] [cursor=pointer]':
+                                    - generic [ref=e1159]: Coste
+                                    - text: arrow_drop_down
+                                - 'button "Elige la métrica 2 de 3 para la tarjeta Dispositivos. Métrica actual: Clics" [ref=e1161]':
+                                  - 'generic "Elige la métrica 2 de 3 para la tarjeta Dispositivos. Métrica actual: Clics" [ref=e1162] [cursor=pointer]':
+                                    - generic [ref=e1163]: Clics
+                                    - text: arrow_drop_down
+                                - 'button "Elige la métrica 3 de 3 para la tarjeta Dispositivos. Métrica actual: Conversiones" [ref=e1165]':
+                                  - 'generic "Elige la métrica 3 de 3 para la tarjeta Dispositivos. Métrica actual: Conversiones" [ref=e1166] [cursor=pointer]':
+                                    - generic [ref=e1167]: Conversiones
+                                    - text: arrow_drop_down
+                          - button "Ir a la tabla de dispositivos" [ref=e1170] [cursor=pointer]:
+                            - generic [ref=e1171]: Dispositivos
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1173]:
+                        - generic [ref=e1175]:
+                          - generic [ref=e1176]:
+                            - generic [ref=e1177]:
+                              - img [ref=e1179]: bar_chart
+                              - heading "Campañas" [level=1] [ref=e1180]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1184] [cursor=pointer]:
+                              - img [ref=e1187]: more_vert
+                          - region "Campañas ordenadas por Coste (de más a menos). Usa las teclas de flecha para seleccionar, la tecla E para editar el presupuesto e Intro para ir a la visión general de la campaña" [ref=e1190]:
+                            - generic [ref=e1191]: Resumen del rendimiento de tus campañas
+                            - generic:
+                              - generic: Campañas ordenadas por Coste (de más a menos). Usa las teclas de flecha para seleccionar, la tecla E para editar el presupuesto e Intro para ir a la visión general de la campaña
+                            - generic [ref=e1193]:
+                              - generic [ref=e1197]:
+                                - generic [ref=e1204] [cursor=pointer]:
+                                  - img [ref=e1206]: circle
+                                  - generic [ref=e1207]: Venta Instrumentos
+                                - generic [ref=e1214] [cursor=pointer]:
+                                  - img [ref=e1216]: circle
+                                  - generic [ref=e1217]: Website traffic-Search-Bodet
+                                - generic [ref=e1224] [cursor=pointer]:
+                                  - img [ref=e1226]: circle
+                                  - generic [ref=e1227]: Sincronismo
+                                - generic [ref=e1234] [cursor=pointer]:
+                                  - img [ref=e1236]: circle
+                                  - generic [ref=e1237]: Ley de ductos (Trafico Web)
+                                - generic [ref=e1244] [cursor=pointer]:
+                                  - img [ref=e1246]: circle
+                                  - generic [ref=e1247]: Truehifi
+                              - generic [ref=e1248]:
+                                - 'button "Elige la métrica 1 de 3 para la tarjeta Campañas. Métrica actual: Coste" [ref=e1250]':
+                                  - 'generic "Elige la métrica 1 de 3 para la tarjeta Campañas. Métrica actual: Coste" [ref=e1251] [cursor=pointer]':
+                                    - generic [ref=e1252]: Coste
+                                    - text: arrow_drop_down
+                                - generic [ref=e1254]:
+                                  - generic [ref=e1259]: 1.757.922 CLP
+                                  - generic [ref=e1264]: 111.816 CLP
+                                  - generic [ref=e1269]: 76.885 CLP
+                                  - generic [ref=e1274]: 62.063 CLP
+                                  - generic [ref=e1279]: 281 CLP
+                              - generic [ref=e1280]:
+                                - 'button "Elige la métrica 2 de 3 para la tarjeta Campañas. Métrica actual: Conversiones" [ref=e1282]':
+                                  - 'generic "Elige la métrica 2 de 3 para la tarjeta Campañas. Métrica actual: Conversiones" [ref=e1283] [cursor=pointer]':
+                                    - generic [ref=e1284]: Conversiones
+                                    - text: arrow_drop_down
+                                - generic [ref=e1286]:
+                                  - generic [ref=e1291]: 4.924,60
+                                  - generic [ref=e1296]: 38,01
+                                  - generic [ref=e1301]: 37,01
+                                  - generic [ref=e1306]: 27,99
+                                  - generic [ref=e1311]: 0,00
+                              - generic [ref=e1312]:
+                                - 'button "Elige la métrica 3 de 3 para la tarjeta Campañas. Métrica actual: Coste/conv." [ref=e1314]':
+                                  - 'generic "Elige la métrica 3 de 3 para la tarjeta Campañas. Métrica actual: Coste/conv." [ref=e1315] [cursor=pointer]':
+                                    - generic [ref=e1316]: Coste/conv.
+                                    - text: arrow_drop_down
+                                - generic [ref=e1318]:
+                                  - generic [ref=e1323]: 357 CLP
+                                  - generic [ref=e1328]: 2.942 CLP
+                                  - generic [ref=e1333]: 2.077 CLP
+                                  - generic [ref=e1338]: 2.217 CLP
+                                  - generic [ref=e1343]: 0 CLP
+                          - generic [ref=e1344]:
+                            - button "Ir a la tabla de campañas" [ref=e1346] [cursor=pointer]:
+                              - generic [ref=e1347]: Todas las campañas
+                            - generic [ref=e1349]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e1350]: 1 / 1
+                              - generic:
+                                - img: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1351]:
+                        - generic [ref=e1353]:
+                          - generic [ref=e1354]:
+                            - generic [ref=e1355]:
+                              - img [ref=e1357]: google
+                              - heading "Google Marketing Live 2026" [level=1] [ref=e1358]
+                            - generic [ref=e1360]:
+                              - button "Oculta esta tarjeta hasta que se vuelva a cargar la página." [ref=e1361] [cursor=pointer]:
+                                - img [ref=e1364]: close
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1367] [cursor=pointer]:
+                                - img [ref=e1370]: more_vert
+                          - generic [ref=e1373]:
+                            - generic "Google Marketing Live 2026" [ref=e1374]
+                            - generic "Acompáñanos en este evento para conocer las novedades más importantes de Google Ads, la Búsqueda y YouTube, y descubre tácticas que puedes poner en práctica." [ref=e1375]
+                            - img "Imagen del evento Google Marketing Live" [ref=e1377]
+                          - button "Accede para consultar más información sobre Google Marketing Live." [ref=e1380] [cursor=pointer]:
+                            - generic [ref=e1381]: Ver más
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1383]:
+                        - generic [ref=e1385]:
+                          - generic [ref=e1386]:
+                            - generic [ref=e1387]:
+                              - img [ref=e1389]: search
+                              - button "Búsquedas" [ref=e1390]:
+                                - heading "Búsquedas" [level=1] [ref=e1391] [cursor=pointer]
+                            - generic [ref=e1393]:
+                              - generic [ref=e1394]: "Ordenar por:"
+                              - 'button "Elige una métrica para la tarjeta Búsquedas. Métrica actual: Impresiones" [ref=e1395]':
+                                - 'generic "Elige una métrica para la tarjeta Búsquedas. Métrica actual: Impresiones" [ref=e1396] [cursor=pointer]':
+                                  - generic [ref=e1397]: Impresiones
+                                  - text: arrow_drop_down
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1399] [cursor=pointer]:
+                                - img [ref=e1402]: more_vert
+                          - generic [ref=e1405]:
+                            - generic [ref=e1406]: Principales búsquedas y palabras en búsquedas en las que los usuarios han visto tus anuncios
+                            - tablist [ref=e1408]:
+                              - tab "Búsquedas" [selected] [ref=e1410] [cursor=pointer]:
+                                - generic [ref=e1411]: Búsquedas
+                              - tab "Palabras" [ref=e1413] [cursor=pointer]:
+                                - generic [ref=e1414]: Palabras
+                            - 'listbox "100 resultados, como: estec, fusionadora de fibra optica y osciloscopio" [ref=e1418]':
+                              - option "estec" [ref=e1419] [cursor=pointer]:
+                                - generic [ref=e1420]: estec
+                              - option "fusionadora de fibra optica" [ref=e1421] [cursor=pointer]:
+                                - generic [ref=e1422]: fusionadora de fibra optica
+                              - option "osciloscopio" [ref=e1423] [cursor=pointer]:
+                                - generic [ref=e1424]: osciloscopio
+                              - option "otdr" [ref=e1425] [cursor=pointer]:
+                                - generic [ref=e1426]: otdr
+                              - option "avantec" [ref=e1427] [cursor=pointer]:
+                                - generic [ref=e1428]: avantec
+                              - option "reloj digital" [ref=e1429] [cursor=pointer]:
+                                - generic [ref=e1430]: reloj digital
+                              - option "fluke" [ref=e1431] [cursor=pointer]:
+                                - generic [ref=e1432]: fluke
+                              - option "metacom" [ref=e1433] [cursor=pointer]:
+                                - generic [ref=e1434]: metacom
+                              - option "power meter" [ref=e1435] [cursor=pointer]:
+                                - generic [ref=e1436]: power meter
+                              - option "certificadora de puntos de red" [ref=e1437] [cursor=pointer]:
+                                - generic [ref=e1438]: certificadora de puntos de red
+                              - option "furukawa" [ref=e1439] [cursor=pointer]:
+                                - generic [ref=e1440]: furukawa
+                              - option "estec cl" [ref=e1441] [cursor=pointer]:
+                                - generic [ref=e1442]: estec cl
+                              - option "furukawa chile" [ref=e1443] [cursor=pointer]:
+                                - generic [ref=e1444]: furukawa chile
+                              - option "osciloscopio automotriz" [ref=e1445] [cursor=pointer]:
+                                - generic [ref=e1446]: osciloscopio automotriz
+                              - option "certificadora de red" [ref=e1447] [cursor=pointer]:
+                                - generic [ref=e1448]: certificadora de red
+                              - option "otdr viavi" [ref=e1449] [cursor=pointer]:
+                                - generic [ref=e1450]: otdr viavi
+                              - option "otdr fibra optica" [ref=e1451] [cursor=pointer]:
+                                - generic [ref=e1452]: otdr fibra optica
+                              - option "fluke networks" [ref=e1453] [cursor=pointer]:
+                                - generic [ref=e1454]: fluke networks
+                              - option "osciloscopio online" [ref=e1455] [cursor=pointer]:
+                                - generic [ref=e1456]: osciloscopio online
+                              - option "osciloscopio digital" [ref=e1457] [cursor=pointer]:
+                                - generic [ref=e1458]: osciloscopio digital
+                              - option "cable fibra optica" [ref=e1459] [cursor=pointer]:
+                                - generic [ref=e1460]: cable fibra optica
+                              - option "cortadora de fibra optica" [ref=e1461] [cursor=pointer]:
+                                - generic [ref=e1462]: cortadora de fibra optica
+                              - option "reloj digital hombre" [ref=e1463] [cursor=pointer]:
+                                - generic [ref=e1464]: reloj digital hombre
+                              - option "conectores de fibra optica" [ref=e1465] [cursor=pointer]:
+                                - generic [ref=e1466]: conectores de fibra optica
+                              - option "fusionadora" [ref=e1467] [cursor=pointer]:
+                                - generic [ref=e1468]: fusionadora
+                              - option "linkstore" [ref=e1469] [cursor=pointer]:
+                                - generic [ref=e1470]: linkstore
+                              - option "viavi" [ref=e1471] [cursor=pointer]:
+                                - generic [ref=e1472]: viavi
+                              - option "detector de trafico fibra optica" [ref=e1473] [cursor=pointer]:
+                                - generic [ref=e1474]: detector de trafico fibra optica
+                              - option "centralnet" [ref=e1475] [cursor=pointer]:
+                                - generic [ref=e1476]: centralnet
+                              - option "analizador de red" [ref=e1477] [cursor=pointer]:
+                                - generic [ref=e1478]: analizador de red
+                              - option "ley de ductos" [ref=e1479] [cursor=pointer]:
+                                - generic [ref=e1480]: ley de ductos
+                              - option "reflectometro" [ref=e1481] [cursor=pointer]:
+                                - generic [ref=e1482]: reflectometro
+                              - option "relojes digitales" [ref=e1483] [cursor=pointer]:
+                                - generic [ref=e1484]: relojes digitales
+                              - option "fujikura" [ref=e1485] [cursor=pointer]:
+                                - generic [ref=e1486]: fujikura
+                              - option "central net" [ref=e1487] [cursor=pointer]:
+                                - generic [ref=e1488]: central net
+                              - option "osciloscopio portatil" [ref=e1489] [cursor=pointer]:
+                                - generic [ref=e1490]: osciloscopio portatil
+                              - option "vfl" [ref=e1491] [cursor=pointer]:
+                                - generic [ref=e1492]: vfl
+                              - option "cable de fibra optica" [ref=e1493] [cursor=pointer]:
+                                - generic [ref=e1494]: cable de fibra optica
+                              - option "certificadora fluke" [ref=e1495] [cursor=pointer]:
+                                - generic [ref=e1496]: certificadora fluke
+                              - option "estec chile" [ref=e1497] [cursor=pointer]:
+                                - generic [ref=e1498]: estec chile
+                              - option "estec concepcion" [ref=e1499] [cursor=pointer]:
+                                - generic [ref=e1500]: estec concepcion
+                              - option "media converter fibra" [ref=e1501] [cursor=pointer]:
+                                - generic [ref=e1502]: media converter fibra
+                              - option "otdr fibra" [ref=e1503] [cursor=pointer]:
+                                - generic [ref=e1504]: otdr fibra
+                              - option "anritsu" [ref=e1505] [cursor=pointer]:
+                                - generic [ref=e1506]: anritsu
+                              - option "lantek iv" [ref=e1507] [cursor=pointer]:
+                                - generic [ref=e1508]: lantek iv
+                              - option "fibra optica monomodo" [ref=e1509] [cursor=pointer]:
+                                - generic [ref=e1510]: fibra optica monomodo
+                              - option "fusionadora de fibra" [ref=e1511] [cursor=pointer]:
+                                - generic [ref=e1512]: fusionadora de fibra
+                              - option "rollo fibra optica" [ref=e1513] [cursor=pointer]:
+                                - generic [ref=e1514]: rollo fibra optica
+                              - option "generador de tono fluke" [ref=e1515] [cursor=pointer]:
+                                - generic [ref=e1516]: generador de tono fluke
+                              - option "fusionador de fibra optica" [ref=e1517] [cursor=pointer]:
+                                - generic [ref=e1518]: fusionador de fibra optica
+                              - option "mini otdr" [ref=e1519] [cursor=pointer]:
+                                - generic [ref=e1520]: mini otdr
+                              - option "power meter fibra optica" [ref=e1521] [cursor=pointer]:
+                                - generic [ref=e1522]: power meter fibra optica
+                              - option "reloj inteligente hombre" [ref=e1523] [cursor=pointer]:
+                                - generic [ref=e1524]: reloj inteligente hombre
+                              - option "advantech" [ref=e1525] [cursor=pointer]:
+                                - generic [ref=e1526]: advantech
+                              - option "fluke chile" [ref=e1527] [cursor=pointer]:
+                                - generic [ref=e1528]: fluke chile
+                              - option "fusionadora signal fire" [ref=e1529] [cursor=pointer]:
+                                - generic [ref=e1530]: fusionadora signal fire
+                              - option "vfl fibra optica" [ref=e1531] [cursor=pointer]:
+                                - generic [ref=e1532]: vfl fibra optica
+                              - option "certificadora de fibra optica" [ref=e1533] [cursor=pointer]:
+                                - generic [ref=e1534]: certificadora de fibra optica
+                              - option "conector fibra optica" [ref=e1535] [cursor=pointer]:
+                                - generic [ref=e1536]: conector fibra optica
+                              - option "maquina certificadora de red" [ref=e1537] [cursor=pointer]:
+                                - generic [ref=e1538]: maquina certificadora de red
+                              - option "bobina de lanzamiento fibra óptica" [ref=e1539] [cursor=pointer]:
+                                - generic [ref=e1540]: bobina de lanzamiento fibra óptica
+                              - option "conectores fibra optica" [ref=e1541] [cursor=pointer]:
+                                - generic [ref=e1542]: conectores fibra optica
+                              - option "fusion de fibra optica" [ref=e1543] [cursor=pointer]:
+                                - generic [ref=e1544]: fusion de fibra optica
+                              - option "panduit" [ref=e1545] [cursor=pointer]:
+                                - generic [ref=e1546]: panduit
+                              - option "true hifi" [ref=e1547] [cursor=pointer]:
+                                - generic [ref=e1548]: true hifi
+                              - option "fusionadora de fibra óptica" [ref=e1549] [cursor=pointer]:
+                                - generic [ref=e1550]: fusionadora de fibra óptica
+                              - option "laser para fibra optica" [ref=e1551] [cursor=pointer]:
+                                - generic [ref=e1552]: laser para fibra optica
+                              - option "metacom chile" [ref=e1553] [cursor=pointer]:
+                                - generic [ref=e1554]: metacom chile
+                              - option "rollo de fibra optica" [ref=e1555] [cursor=pointer]:
+                                - generic [ref=e1556]: rollo de fibra optica
+                              - option "signal fire ai 9" [ref=e1557] [cursor=pointer]:
+                                - generic [ref=e1558]: signal fire ai 9
+                              - option "trimerx fx39" [ref=e1559] [cursor=pointer]:
+                                - generic [ref=e1560]: trimerx fx39
+                              - option "anixter" [ref=e1561] [cursor=pointer]:
+                                - generic [ref=e1562]: anixter
+                              - option "estec puerto montt" [ref=e1563] [cursor=pointer]:
+                                - generic [ref=e1564]: estec puerto montt
+                              - option "maquina certificadora de puntos de red" [ref=e1565] [cursor=pointer]:
+                                - generic [ref=e1566]: maquina certificadora de puntos de red
+                              - option "osciloscopio fnirsi" [ref=e1567] [cursor=pointer]:
+                                - generic [ref=e1568]: osciloscopio fnirsi
+                              - option "power meter fibra" [ref=e1569] [cursor=pointer]:
+                                - generic [ref=e1570]: power meter fibra
+                              - option "analizador de redes" [ref=e1571] [cursor=pointer]:
+                                - generic [ref=e1572]: analizador de redes
+                              - option "anixter chile" [ref=e1573] [cursor=pointer]:
+                                - generic [ref=e1574]: anixter chile
+                              - option "certificador de redes" [ref=e1575] [cursor=pointer]:
+                                - generic [ref=e1576]: certificador de redes
+                              - option "comdiel" [ref=e1577] [cursor=pointer]:
+                                - generic [ref=e1578]: comdiel
+                              - option "cortadora de fibra" [ref=e1579] [cursor=pointer]:
+                                - generic [ref=e1580]: cortadora de fibra
+                              - option "fusionadora fibra optica" [ref=e1581] [cursor=pointer]:
+                                - generic [ref=e1582]: fusionadora fibra optica
+                              - option "lantek iii" [ref=e1583] [cursor=pointer]:
+                                - generic [ref=e1584]: lantek iii
+                              - option "medidor de potencia" [ref=e1585] [cursor=pointer]:
+                                - generic [ref=e1586]: medidor de potencia
+                              - option "mini otdr para celular" [ref=e1587] [cursor=pointer]:
+                                - generic [ref=e1588]: mini otdr para celular
+                              - option "truehifi" [ref=e1589] [cursor=pointer]:
+                                - generic [ref=e1590]: truehifi
+                              - option "analizador de espectro" [ref=e1591] [cursor=pointer]:
+                                - generic [ref=e1592]: analizador de espectro
+                              - option "arriendo certificadora de red" [ref=e1593] [cursor=pointer]:
+                                - generic [ref=e1594]: arriendo certificadora de red
+                              - option "fujikura 90s" [ref=e1595] [cursor=pointer]:
+                                - generic [ref=e1596]: fujikura 90s
+                              - option "fusionadora fujikura" [ref=e1597] [cursor=pointer]:
+                                - generic [ref=e1598]: fusionadora fujikura
+                              - option "grandway" [ref=e1599] [cursor=pointer]:
+                                - generic [ref=e1600]: grandway
+                              - option "jumper fibra optica" [ref=e1601] [cursor=pointer]:
+                                - generic [ref=e1602]: jumper fibra optica
+                              - option "lantek iv s" [ref=e1603] [cursor=pointer]:
+                                - generic [ref=e1604]: lantek iv s
+                              - option "pon power meter" [ref=e1605] [cursor=pointer]:
+                                - generic [ref=e1606]: pon power meter
+                              - option "relojes digitales hombre" [ref=e1607] [cursor=pointer]:
+                                - generic [ref=e1608]: relojes digitales hombre
+                              - option "cabecera de fibra optica" [ref=e1609] [cursor=pointer]:
+                                - generic [ref=e1610]: cabecera de fibra optica
+                              - option "conector rapido fibra optica" [ref=e1611] [cursor=pointer]:
+                                - generic [ref=e1612]: conector rapido fibra optica
+                              - option "cortador de fibra optica" [ref=e1613] [cursor=pointer]:
+                                - generic [ref=e1614]: cortador de fibra optica
+                              - option "fibra monomodo" [ref=e1615] [cursor=pointer]:
+                                - generic [ref=e1616]: fibra monomodo
+                              - option "fibra optica multimodo" [ref=e1617] [cursor=pointer]:
+                                - generic [ref=e1618]: fibra optica multimodo
+                          - generic [ref=e1619]:
+                            - button "Ir a la tabla de búsquedas" [ref=e1621] [cursor=pointer]:
+                              - generic [ref=e1622]: Todas las búsquedas
+                            - generic [ref=e1624]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e1625]: 1 / 7
+                              - img [ref=e1627] [cursor=pointer]: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1628]:
+                        - generic [ref=e1630]:
+                          - generic [ref=e1631]:
+                            - generic [ref=e1632]:
+                              - img [ref=e1634]: query_stats
+                              - heading "Palabras clave" [level=1] [ref=e1635]
+                            - generic [ref=e1637]:
+                              - link "Añadir una palabra clave" [ref=e1638] [cursor=pointer]:
+                                - generic [ref=e1639]:
+                                  - img [ref=e1641]: add
+                                  - text: Añadir palabra clave
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1644] [cursor=pointer]:
+                                - img [ref=e1647]: more_vert
+                          - generic "Palabras clave ordenadas por Coste (de más a menos). Usa las teclas de flecha para seleccionar, la tecla E para editar el presupuesto e Intro para ir a la visión general de la palabra clave" [ref=e1650]:
+                            - generic [ref=e1651]: Resumen del rendimiento de tus palabras clave
+                            - generic:
+                              - generic: Palabras clave ordenadas por Coste (de más a menos). Usa las teclas de flecha para seleccionar, la tecla E para editar el presupuesto e Intro para ir a la visión general de la palabra clave
+                            - generic [ref=e1653]:
+                              - generic [ref=e1657]:
+                                - generic [ref=e1664] [cursor=pointer]:
+                                  - img [ref=e1666]: circle
+                                  - generic [ref=e1667]: otdr
+                                - generic [ref=e1674] [cursor=pointer]:
+                                  - img [ref=e1676]: circle
+                                  - generic [ref=e1677]: fusionadora de fibra optica
+                                - generic [ref=e1684] [cursor=pointer]:
+                                  - img [ref=e1686]: circle
+                                  - generic [ref=e1687]: certificadora de puntos de red
+                                - generic [ref=e1694] [cursor=pointer]:
+                                  - img [ref=e1696]: circle
+                                  - generic [ref=e1697]: medidor de fibra
+                                - generic [ref=e1704] [cursor=pointer]:
+                                  - img [ref=e1706]: circle
+                                  - generic [ref=e1707]: osciloscopio
+                              - generic [ref=e1709]:
+                                - 'button "Elige la métrica 1 de 3 para la tarjeta Palabras clave. Métrica actual: Coste" [ref=e1711]':
+                                  - 'generic "Elige la métrica 1 de 3 para la tarjeta Palabras clave. Métrica actual: Coste" [ref=e1712] [cursor=pointer]':
+                                    - generic [ref=e1713]: Coste
+                                    - text: arrow_drop_down
+                                - generic [ref=e1715]:
+                                  - generic [ref=e1720]: 220.225 CLP
+                                  - generic [ref=e1725]: 114.989 CLP
+                                  - generic [ref=e1730]: 74.431 CLP
+                                  - generic [ref=e1735]: 49.574 CLP
+                                  - generic [ref=e1740]: 48.447 CLP
+                              - generic [ref=e1742]:
+                                - 'button "Elige la métrica 2 de 3 para la tarjeta Palabras clave. Métrica actual: Clics" [ref=e1744]':
+                                  - 'generic "Elige la métrica 2 de 3 para la tarjeta Palabras clave. Métrica actual: Clics" [ref=e1745] [cursor=pointer]':
+                                    - generic [ref=e1746]: Clics
+                                    - text: arrow_drop_down
+                                - generic [ref=e1748]:
+                                  - generic [ref=e1753]: "527"
+                                  - generic [ref=e1758]: "266"
+                                  - generic [ref=e1763]: "170"
+                                  - generic [ref=e1768]: "123"
+                                  - generic [ref=e1773]: "111"
+                              - generic [ref=e1775]:
+                                - 'button "Elige la métrica 3 de 3 para la tarjeta Palabras clave. Métrica actual: CTR" [ref=e1777]':
+                                  - 'generic "Elige la métrica 3 de 3 para la tarjeta Palabras clave. Métrica actual: CTR" [ref=e1778] [cursor=pointer]':
+                                    - generic [ref=e1779]: CTR
+                                    - text: arrow_drop_down
+                                - generic [ref=e1781]:
+                                  - generic [ref=e1786]: 9,70 %
+                                  - generic [ref=e1791]: 10,39 %
+                                  - generic [ref=e1796]: 13,60 %
+                                  - generic [ref=e1801]: 14,70 %
+                                  - generic [ref=e1806]: 5,23 %
+                          - generic [ref=e1808]:
+                            - generic [ref=e1809]:
+                              - button "Ir a la tabla de palabras clave" [ref=e1810] [cursor=pointer]:
+                                - generic [ref=e1811]: Palabras clave
+                              - button "Ir a la tabla de palabras clave negativas" [ref=e1813] [cursor=pointer]:
+                                - generic [ref=e1814]: Palabras clave negativas
+                            - generic [ref=e1816]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e1817]: 1 / 10
+                              - img [ref=e1819] [cursor=pointer]: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1820]:
+                        - generic [ref=e1822]:
+                          - generic [ref=e1823]:
+                            - generic [ref=e1824]:
+                              - img [ref=e1826]: bar_chart
+                              - heading "Comparativa de subastas" [level=1] [ref=e1827]
+                            - generic [ref=e1829]:
+                              - 'button "Tarjeta de comparativa de subastas: coloca el cursor sobre ella o pulsa Intro en este icono para obtener más información" [ref=e1830] [cursor=pointer]':
+                                - img [ref=e1832]: help_outline
+                              - button "Comparación de métricas" [ref=e1833]: bubble_chart
+                              - button "Mostrar la evolución de la métrica a lo largo del tiempo" [ref=e1834]: show_chart
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1836] [cursor=pointer]:
+                                - img [ref=e1839]: more_vert
+                          - generic [ref=e1842]:
+                            - generic [ref=e1843]: Otros anunciantes que participan en las mismas subastas de anuncios
+                            - 'button "Elige la métrica 1 de 2 para la tarjeta Comparativa de subastas. Métrica actual: Cuota de impresiones" [ref=e1846]':
+                              - 'generic "Elige la métrica 1 de 2 para la tarjeta Comparativa de subastas. Métrica actual: Cuota de impresiones" [ref=e1847] [cursor=pointer]':
+                                - generic [ref=e1848]: Cuota de impresiones
+                                - text: arrow_drop_down
+                            - generic [ref=e1850]:
+                              - generic [ref=e1851]:
+                                - generic [ref=e1853]:
+                                  - generic [ref=e1855]: 30,00 %
+                                  - generic [ref=e1857]: 20,00 %
+                                  - generic [ref=e1859]: < 10 %
+                                - generic [ref=e1872]:
+                                  - generic [ref=e1875]: 0,00 %
+                                  - generic [ref=e1878]: 100,00 %
+                              - generic [ref=e1879]:
+                                - generic [ref=e1882]: Usuario
+                                - generic [ref=e1885]: mercadolibre.cl
+                                - generic [ref=e1888]: midex.cl
+                                - generic [ref=e1891]: avantec.cl
+                            - 'button "Elige la métrica 2 de 2 para la tarjeta Comparativa de subastas. Métrica actual: Tasa de parte superior de la página" [ref=e1894]':
+                              - 'generic "Elige la métrica 2 de 2 para la tarjeta Comparativa de subastas. Métrica actual: Tasa de parte superior de la página" [ref=e1895] [cursor=pointer]':
+                                - generic [ref=e1896]: Tasa de parte superior de la página
+                                - text: arrow_drop_down
+                          - button "Ir a la tabla Comparativa de subastas de la Red de Búsqueda" [ref=e1899] [cursor=pointer]:
+                            - generic [ref=e1900]: Comparativa de subastas
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1902]:
+                        - generic [ref=e1904]:
+                          - generic [ref=e1905]:
+                            - generic [ref=e1906]:
+                              - img [ref=e1908]: bar_chart
+                              - heading "Redes" [level=1] [ref=e1909]
+                            - generic [ref=e1911]:
+                              - 'button "Tarjeta de redes: coloca el cursor sobre ella o pulsa Intro en este icono para obtener más información" [ref=e1912] [cursor=pointer]':
+                                - img [ref=e1914]: help_outline
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e1916] [cursor=pointer]:
+                                - img [ref=e1919]: more_vert
+                          - generic [ref=e1922]:
+                            - generic [ref=e1923]: Resumen del rendimiento de tus anuncios en estas redes
+                            - generic [ref=e1924]:
+                              - generic [ref=e1925]:
+                                - generic [ref=e1926]:
+                                  - generic [ref=e1927]:
+                                    - generic [ref=e1928]: stop
+                                    - generic [ref=e1929]: Búsqueda en Google
+                                  - generic [ref=e1930]:
+                                    - generic [ref=e1931]: stop
+                                    - generic [ref=e1932]: Partners de búsqueda
+                                  - generic [ref=e1933]:
+                                    - generic [ref=e1934]: stop
+                                    - generic [ref=e1935]: Red de Display
+                                - table "Datos segmentados. Usa las teclas de flecha para desplazarte por las celdas." [ref=e1936]:
+                                  - generic [ref=e1937]:
+                                    - row [ref=e1938]:
+                                      - cell [ref=e1939]
+                                      - cell [ref=e1940]
+                                      - cell [ref=e1941]
+                                    - row "32,7 % 11,7 % 55,5 %" [ref=e1942]:
+                                      - cell "32,7 %" [ref=e1943]:
+                                        - generic [ref=e1945]: 32,7 %
+                                      - cell "11,7 %" [ref=e1946]:
+                                        - generic [ref=e1948]: 11,7 %
+                                      - cell "55,5 %" [ref=e1949]:
+                                        - generic [ref=e1951]: 55,5 %
+                                  - generic [ref=e1952]:
+                                    - row [ref=e1953]:
+                                      - cell [ref=e1954]
+                                      - cell [ref=e1955]
+                                      - cell [ref=e1956]
+                                    - row "46,4 % 11,1 % 42,5 %" [ref=e1957]:
+                                      - cell "46,4 %" [ref=e1958]:
+                                        - generic [ref=e1960]: 46,4 %
+                                      - cell "11,1 %" [ref=e1961]:
+                                        - generic [ref=e1963]: 11,1 %
+                                      - cell "42,5 %" [ref=e1964]:
+                                        - generic [ref=e1966]: 42,5 %
+                                  - row "487 CLP 324 CLP 263 CLP" [ref=e1968]:
+                                    - cell "487 CLP" [ref=e1969]:
+                                      - generic [ref=e1972]: 487 CLP
+                                    - cell "324 CLP" [ref=e1973]:
+                                      - generic [ref=e1976]: 324 CLP
+                                    - cell "263 CLP" [ref=e1977]:
+                                      - generic [ref=e1980]: 263 CLP
+                              - generic [ref=e1981]:
+                                - 'button "Elige la métrica 1 de 3 para la tarjeta Redes. Métrica actual: Clics" [ref=e1983]':
+                                  - 'generic "Elige la métrica 1 de 3 para la tarjeta Redes. Métrica actual: Clics" [ref=e1984] [cursor=pointer]':
+                                    - generic [ref=e1985]: Clics
+                                    - text: arrow_drop_down
+                                - 'button "Elige la métrica 2 de 3 para la tarjeta Redes. Métrica actual: Coste" [ref=e1987]':
+                                  - 'generic "Elige la métrica 2 de 3 para la tarjeta Redes. Métrica actual: Coste" [ref=e1988] [cursor=pointer]':
+                                    - generic [ref=e1989]: Coste
+                                    - text: arrow_drop_down
+                                - 'button "Elige la métrica 3 de 3 para la tarjeta Redes. Métrica actual: CPC medio" [ref=e1991]':
+                                  - 'generic "Elige la métrica 3 de 3 para la tarjeta Redes. Métrica actual: CPC medio" [ref=e1992] [cursor=pointer]':
+                                    - generic [ref=e1993]: CPC medio
+                                    - text: arrow_drop_down
+                          - button "Ir a la tabla de campañas segmentada por redes" [ref=e1996] [cursor=pointer]:
+                            - generic [ref=e1997]: Redes
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e1999]:
+                        - generic [ref=e2001]:
+                          - generic [ref=e2002]:
+                            - generic [ref=e2003]:
+                              - img [ref=e2005]: add_ad
+                              - heading "Anuncios de búsqueda que más se muestran" [level=1] [ref=e2006]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e2010] [cursor=pointer]:
+                              - img [ref=e2013]: more_vert
+                          - list "Usa las teclas de flecha hacia la derecha y hacia la izquierda para moverte por los anuncios, E para editar el que quieras, C para copiarlo e Intro para desplazarte hasta su URL." [ref=e2016]:
+                            - listitem [ref=e2017]:
+                              - generic [ref=e2018]:
+                                - link "Encontrado en campaign Venta Instrumentos con estado activo" [ref=e2019] [cursor=pointer]:
+                                  - generic [ref=e2022]: Venta Instrumentos
+                                - generic [ref=e2023]: ›
+                                - link "ad group Instrumentos con estado activo" [ref=e2024] [cursor=pointer]:
+                                  - generic [ref=e2027]: Instrumentos
+                            - listitem [ref=e2028]:
+                              - generic [ref=e2035]:
+                                - generic [ref=e2037]:
+                                  - generic [ref=e2038]:
+                                    - generic [ref=e2039]: Fibra Óptica, FTTH, Red Datos
+                                    - generic [ref=e2041]: "|"
+                                    - generic [ref=e2043]: Equipos Certificación FTTH/PON
+                                    - generic [ref=e2045]: "|"
+                                    - generic [ref=e2047]: Instrumentación y Medición
+                                  - generic [ref=e2049]:
+                                    - generic [ref=e2050]: Anuncio
+                                    - text: www.truetech.cl
+                                - generic [ref=e2055]:
+                                  - generic [ref=e2057]: Instrumentos para Fibra, Microondas, HFC, FTTH PON, Sincronismo, Rango dinámico 50/48/48dB. Instrumentos para Fibra Óptica marca Grandway, interfaz de usuario OTDR.
+                                  - generic [ref=e2059]:
+                                    - generic [ref=e2061]: Nuestros Servicios
+                                    - generic [ref=e2063]: Galería Disponible
+                                    - generic [ref=e2065]: Nuestra Galería
+                                    - generic [ref=e2067]: Sobre Nosotros
+                            - listitem [ref=e2068]
+                            - listitem [ref=e2069]
+                            - listitem [ref=e2070]
+                            - listitem [ref=e2071]
+                            - listitem [ref=e2072]
+                            - listitem [ref=e2073]
+                            - listitem [ref=e2074]
+                            - listitem [ref=e2075]
+                            - listitem [ref=e2076]
+                            - generic [ref=e2077]:
+                              - generic [ref=e2078]: Anuncio
+                              - generic [ref=e2080]:
+                                - img [ref=e2082]: circle
+                                - generic [ref=e2083]: Habilitado
+                            - listitem [ref=e2084]:
+                              - generic [ref=e2085]: Estado
+                              - generic [ref=e2086]: Apto
+                            - generic [ref=e2087]:
+                              - generic [ref=e2088]: Impresiones
+                              - generic [ref=e2089]: "37.439"
+                            - 'listitem "Elige la métrica 1 de 2 para la tarjeta Anuncios de búsqueda que más se muestran. Métrica actual: Clics" [ref=e2092]':
+                              - 'generic "Elige la métrica 1 de 2 para la tarjeta Anuncios de búsqueda que más se muestran. Métrica actual: Clics" [ref=e2093] [cursor=pointer]':
+                                - generic [ref=e2094]: Clics
+                                - text: arrow_drop_down
+                            - generic [ref=e2095]: "920"
+                            - 'listitem "Elige la métrica 2 de 2 para la tarjeta Anuncios de búsqueda que más se muestran. Métrica actual: CTR" [ref=e2098]':
+                              - 'generic "Elige la métrica 2 de 2 para la tarjeta Anuncios de búsqueda que más se muestran. Métrica actual: CTR" [ref=e2099] [cursor=pointer]':
+                                - generic [ref=e2100]: CTR
+                                - text: arrow_drop_down
+                            - generic [ref=e2101]: 2,46 %
+                            - generic [ref=e2102]: Fibra Óptica, FTTH, Red Datos | Equipos Certificación FTTH/PON | Instrumentación y Medición
+                          - generic [ref=e2103]:
+                            - generic [ref=e2104]:
+                              - button "Ir a la tabla de nuncios" [ref=e2105] [cursor=pointer]:
+                                - generic [ref=e2106]: Todos los anuncios de búsqueda
+                              - button "Ir a la tabla de recursos" [ref=e2108] [cursor=pointer]:
+                                - generic [ref=e2109]: Todos los recursos
+                            - generic [ref=e2111]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e2112]: 1 / 10
+                              - img [ref=e2114] [cursor=pointer]: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e2115]:
+                        - generic [ref=e2117]:
+                          - generic [ref=e2118]:
+                            - generic [ref=e2119]:
+                              - img [ref=e2121]: troubleshoot
+                              - heading "Tendencias de búsqueda" [level=1] [ref=e2122]
+                            - generic [ref=e2124]:
+                              - button "Clics" [ref=e2127] [cursor=pointer]:
+                                - generic [ref=e2128]: Clics
+                                - img [ref=e2130]: arrow_drop_down
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e2132] [cursor=pointer]:
+                                - img [ref=e2135]: more_vert
+                          - generic [ref=e2138]:
+                            - generic [ref=e2140]:
+                              - strong [ref=e2141]: "Internet y telecomunicaciones: fibra optica"
+                              - text: es tendencia en comparación con
+                              - strong [ref=e2142]: el mes pasado
+                            - generic [ref=e2144]:
+                              - generic [ref=e2145]:
+                                - generic [ref=e2148]: Volumen de búsquedas (CL)
+                                - generic [ref=e2150]: +8 %
+                              - generic [ref=e2151]:
+                                - generic [ref=e2154]: Tus clics
+                                - generic [ref=e2156]: +12 %
+                          - button "Ir a detalles de tendencia" [ref=e2163] [cursor=pointer]:
+                            - generic [ref=e2164]: Ver tendencia
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e2166]:
+                        - generic [ref=e2168]:
+                          - generic [ref=e2169]:
+                            - generic [ref=e2170]:
+                              - img [ref=e2172]: payments
+                              - heading "Facturación" [level=1] [ref=e2173]
+                            - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e2177] [cursor=pointer]:
+                              - img [ref=e2180]: more_vert
+                          - generic [ref=e2184]:
+                            - generic [ref=e2185]:
+                              - generic [ref=e2187]:
+                                - generic [ref=e2188]: Saldo a fecha de 16 may 2026
+                                - generic [ref=e2189]: 974.201 CLP
+                              - generic [ref=e2191]:
+                                - generic [ref=e2192]:
+                                  - text: Próximo pago automático
+                                  - button "Más información" [ref=e2194] [cursor=pointer]:
+                                    - img "Más información" [ref=e2195]: help_outline
+                                - generic [ref=e2197]:
+                                  - generic [ref=e2198]: 1 jun 2026
+                                  - generic [ref=e2201]:
+                                    - text: o cuando tengas un
+                                    - text: saldo de 1.000.000 CLP
+                            - generic [ref=e2203]:
+                              - generic [ref=e2204]: Métodos de pago
+                              - button "Tienes Mastercard •••• 6038 Y 1 MÁS métodos de pago. Pulsa Intro para cambiar los métodos de pago." [ref=e2206] [cursor=pointer]:
+                                - generic [ref=e2208]: Mastercard •••• 6038 Y 1 MÁS
+                              - generic [ref=e2210]:
+                                - generic [ref=e2211]:
+                                  - img [ref=e2213]: warning
+                                  - text: Se requiere un nuevo método de pago
+                                - 'button "Alerta de método de pago: Se requiere un nuevo método de pago. Pulsa Intro para solucionarla." [ref=e2214] [cursor=pointer]':
+                                  - generic [ref=e2216]: Solucionar
+                          - generic [ref=e2219]:
+                            - button "Ver facturación" [ref=e2220] [cursor=pointer]:
+                              - generic [ref=e2221]: Ver facturación
+                            - button "Ver extractos y documentos fiscales" [ref=e2223] [cursor=pointer]:
+                              - generic [ref=e2224]: Ver extractos y documentos fiscales
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e2226]:
+                        - generic [ref=e2228]:
+                          - generic [ref=e2229]:
+                            - generic [ref=e2230]:
+                              - img [ref=e2232]: bid_landscape
+                              - heading "Señales de puja principales" [level=1] [ref=e2233]
+                            - generic [ref=e2235]:
+                              - 'button "Tarjeta de principales señales de puja: mueve el cursor o pulsa Intro en este icono para obtener más información." [ref=e2237] [cursor=pointer]':
+                                - img [ref=e2239]: help_outline
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e2241] [cursor=pointer]:
+                                - img [ref=e2244]: more_vert
+                          - region "Página 1 de 4. Usa las teclas de flecha hacia la derecha o hacia la izquierda para ir a otras páginas. Usa la tecla de flecha hacia abajo o la tecla Intro para ver más señales de conversión." [ref=e2247]:
+                            - generic [ref=e2248]: Ejemplos de señales relevantes para tu estrategia de puja
+                            - generic [ref=e2249]:
+                              - generic [ref=e2250] [cursor=pointer]:
+                                - img [ref=e2252]: circle
+                                - link "Venta Instrumentos" [ref=e2253]
+                              - generic [ref=e2255]:
+                                - generic [ref=e2256] [cursor=pointer]: keyboard_arrow_right
+                                - generic [ref=e2257]: 1 / 4
+                                - generic: keyboard_arrow_left
+                            - list [ref=e2258]:
+                              - listitem [ref=e2259]:
+                                - generic [ref=e2260]: Ejemplos de señales relevantes que se usan para optimizar tus pujas. No tienes que hacer nada. Smart Bidding ya se encarga de optimizar las pujas basándose en estas señales.
+                                - list "Usa la tecla de flecha para ver señales de conversión específicas. Pulsa la tecla Escape para volver al elemento de vista previa y poder desplazarte por las páginas hacia la izquierda y hacia la derecha." [ref=e2261]:
+                                  - listitem [ref=e2262] [cursor=pointer]:
+                                    - 'generic "Dispositivo: <b>ordenadores</b> y Periodo: <b>Días laborables, de 9a. m. a 5p. m.</b>" [ref=e2263]':
+                                      - generic [ref=e2264]:
+                                        - img [ref=e2266]
+                                        - generic [ref=e2271]: "Dispositivo: ordenadores y Periodo: Días laborables, de 9a. m. a 5p. m."
+                                  - listitem [ref=e2272] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Santiago</b>" [ref=e2273]':
+                                      - generic [ref=e2274]:
+                                        - img [ref=e2276]
+                                        - generic [ref=e2281]: "Ubicación: Santiago"
+                                  - listitem [ref=e2282] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Providencia</b>" [ref=e2283]':
+                                      - generic [ref=e2284]:
+                                        - img [ref=e2286]
+                                        - generic [ref=e2291]: "Ubicación: Providencia"
+                                  - listitem [ref=e2292] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Nunoa</b>" [ref=e2293]':
+                                      - generic [ref=e2294]:
+                                        - img [ref=e2296]
+                                        - generic [ref=e2301]: "Ubicación: Nunoa"
+                                  - listitem [ref=e2302] [cursor=pointer]:
+                                    - 'generic "Consulta: <b>fusionadora de fibra optica</b> y Dispositivo: <b>teléfonos móviles</b>" [ref=e2303]':
+                                      - generic [ref=e2304]:
+                                        - img [ref=e2306]
+                                        - generic [ref=e2311]: "Consulta: fusionadora de fibra optica y Dispositivo: teléfonos móviles"
+                                  - listitem [ref=e2312] [cursor=pointer]:
+                                    - 'generic "Consulta: <b>certificadora de puntos de red</b>" [ref=e2313]':
+                                      - generic [ref=e2314]:
+                                        - img [ref=e2316]
+                                        - generic [ref=e2321]: "Consulta: certificadora de puntos de red"
+                                  - listitem [ref=e2322] [cursor=pointer]:
+                                    - 'generic "Consulta: <b>furukawa chile</b>" [ref=e2323]':
+                                      - generic [ref=e2324]:
+                                        - img [ref=e2326]
+                                        - generic [ref=e2331]: "Consulta: furukawa chile"
+                              - listitem [ref=e2332]:
+                                - generic [ref=e2333]: Ejemplos de señales relevantes que se usan para optimizar tus pujas. No tienes que hacer nada. Smart Bidding ya se encarga de optimizar las pujas basándose en estas señales.
+                                - list "Usa la tecla de flecha para ver señales de conversión específicas. Pulsa la tecla Escape para volver al elemento de vista previa y poder desplazarte por las páginas hacia la izquierda y hacia la derecha." [ref=e2334]:
+                                  - listitem [ref=e2335] [cursor=pointer]:
+                                    - 'generic "Dispositivo: <b>ordenadores</b> y Periodo: <b>Días laborables, de 8a. m. a 4p. m.</b>" [ref=e2336]':
+                                      - generic [ref=e2337]:
+                                        - img [ref=e2339]
+                                        - generic [ref=e2344]: "Dispositivo: ordenadores y Periodo: Días laborables, de 8a. m. a 4p. m."
+                                  - listitem [ref=e2345] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Providencia</b>" [ref=e2346]':
+                                      - generic [ref=e2347]:
+                                        - img [ref=e2349]
+                                        - generic [ref=e2354]: "Ubicación: Providencia"
+                                  - listitem [ref=e2355] [cursor=pointer]:
+                                    - 'generic "Consulta: <b>relojes digitales</b>" [ref=e2356]':
+                                      - generic [ref=e2357]:
+                                        - img [ref=e2359]
+                                        - generic [ref=e2364]: "Consulta: relojes digitales"
+                                  - listitem [ref=e2365] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Araucania</b> y Dispositivo: <b>teléfonos móviles</b>" [ref=e2366]':
+                                      - generic [ref=e2367]:
+                                        - img [ref=e2369]
+                                        - generic [ref=e2374]: "Ubicación: Araucania y Dispositivo: teléfonos móviles"
+                                  - listitem [ref=e2375] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Concepcion Province</b>" [ref=e2376]':
+                                      - generic [ref=e2377]:
+                                        - img [ref=e2379]
+                                        - generic [ref=e2384]: "Ubicación: Concepcion Province"
+                              - listitem [ref=e2385]:
+                                - generic [ref=e2386]: Ejemplos de señales relevantes que se usan para optimizar tus pujas. No tienes que hacer nada. Smart Bidding ya se encarga de optimizar las pujas basándose en estas señales.
+                                - list "Usa la tecla de flecha para ver señales de conversión específicas. Pulsa la tecla Escape para volver al elemento de vista previa y poder desplazarte por las páginas hacia la izquierda y hacia la derecha." [ref=e2387]:
+                                  - listitem [ref=e2388] [cursor=pointer]:
+                                    - 'generic "Dispositivo: <b>ordenadores</b> y Periodo: <b>Días laborables, de 11a. m. a 5p. m.</b>" [ref=e2389]':
+                                      - generic [ref=e2390]:
+                                        - img [ref=e2392]
+                                        - generic [ref=e2397]: "Dispositivo: ordenadores y Periodo: Días laborables, de 11a. m. a 5p. m."
+                                  - listitem [ref=e2398] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Maipu</b>" [ref=e2399]':
+                                      - generic [ref=e2400]:
+                                        - img [ref=e2402]
+                                        - generic [ref=e2407]: "Ubicación: Maipu"
+                                  - listitem [ref=e2408] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Araucania</b>" [ref=e2409]':
+                                      - generic [ref=e2410]:
+                                        - img [ref=e2412]
+                                        - generic [ref=e2417]: "Ubicación: Araucania"
+                              - listitem [ref=e2418]:
+                                - generic [ref=e2419]: Ejemplos de señales relevantes que se usan para optimizar tus pujas. No tienes que hacer nada. Smart Bidding ya se encarga de optimizar las pujas basándose en estas señales.
+                                - list "Usa la tecla de flecha para ver señales de conversión específicas. Pulsa la tecla Escape para volver al elemento de vista previa y poder desplazarte por las páginas hacia la izquierda y hacia la derecha." [ref=e2420]:
+                                  - listitem [ref=e2421] [cursor=pointer]:
+                                    - 'generic "Dispositivo: <b>ordenadores</b> y Periodo: <b>Días laborables, de 7a. m. a 3p. m.</b>" [ref=e2422]':
+                                      - generic [ref=e2423]:
+                                        - img [ref=e2425]
+                                        - generic [ref=e2430]: "Dispositivo: ordenadores y Periodo: Días laborables, de 7a. m. a 3p. m."
+                                  - listitem [ref=e2431] [cursor=pointer]:
+                                    - 'generic "Ubicación: <b>Concepcion Province</b>" [ref=e2432]':
+                                      - generic [ref=e2433]:
+                                        - img [ref=e2435]
+                                        - generic [ref=e2440]: "Ubicación: Concepcion Province"
+                          - generic [ref=e2441]:
+                            - button "Ir al informe de estrategia de puja" [ref=e2443] [cursor=pointer]:
+                              - generic [ref=e2444]: Ver informe
+                            - generic [ref=e2446]:
+                              - generic:
+                                - img: keyboard_arrow_left
+                              - generic [ref=e2447]: 1 / 2
+                              - img [ref=e2449] [cursor=pointer]: keyboard_arrow_right
+                      - listitem "Tarjeta 1 de 0. Usa las teclas de flecha para ir a otra tarjeta y la tecla Tabulador para introducir contenido en la tarjeta." [ref=e2450]:
+                        - generic [ref=e2452]:
+                          - generic [ref=e2453]:
+                            - generic [ref=e2454]:
+                              - img [ref=e2456]: bar_chart
+                              - heading "Estado del seguimiento de conversiones" [level=1] [ref=e2457]
+                            - generic [ref=e2459]:
+                              - button "Todo" [ref=e2463] [cursor=pointer]:
+                                - generic [ref=e2464]: Todo
+                                - img [ref=e2466]: arrow_drop_down
+                              - button "Rutas de conversión" [ref=e2467] [cursor=pointer]:
+                                - img [ref=e2470]: conversion_path
+                              - button "Un menú con opciones de tarjeta adicionales. Pulsa Intro para abrir." [ref=e2473] [cursor=pointer]:
+                                - img [ref=e2476]: more_vert
+                          - grid "Gráfico de barras horizontales. Usa las teclas de flecha para moverte por las filas" [ref=e2482]:
+                            - 'row "Name: Etiqueta inactiva; valor: 0" [ref=e2483]':
+                              - gridcell "Etiqueta inactiva" [ref=e2484]
+                              - gridcell "0" [ref=e2485]:
+                                - generic [ref=e2487]: "0"
+                            - 'row "Name: No verificado; valor: 0" [ref=e2488]':
+                              - gridcell "No verificado" [ref=e2489]
+                              - gridcell "0" [ref=e2490]:
+                                - generic [ref=e2492]: "0"
+                            - 'row "Name: No hay conversiones recientes; valor: 11" [ref=e2493]':
+                              - gridcell "No hay conversiones recientes" [ref=e2494]
+                              - gridcell "11" [ref=e2495]:
+                                - generic [ref=e2497]: "11"
+                            - 'row "Name: Registrando conversiones; valor: 2" [ref=e2498]':
+                              - gridcell "Registrando conversiones" [ref=e2499]
+                              - gridcell "2" [ref=e2500]:
+                                - generic [ref=e2502]: "2"
+                          - button "Ir a la tabla de conversiones" [ref=e2505] [cursor=pointer]:
+                            - generic [ref=e2506]: Administrar las conversiones
+              - generic [ref=e2509]:
+                - generic [ref=e2510]:
+                  - link "Los informes no se generan en tiempo real." [ref=e2512] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_2544985&hl=es
+                  - text: "Zona horaria aplicable a todas las fechas y horas: (GMT-04:00) hora de Chile."
+                  - link "Más información sobre cómo cambiar la configuración de tu cuenta de Google Ads" [ref=e2514] [cursor=pointer]:
+                    - /url: https://support.google.com/google-ads/?p=help_9842104&hl=es
+                    - text: Más información
+                  - generic [ref=e2515]: Es posible que una parte del inventario se proporcione a través de intermediarios externos.
+                  - generic [ref=e2516]: La acreditación del Media Rating Council (MRC) se muestra al colocar el cursor sobre el encabezado de la columna de la métrica acreditada.
+                - generic [ref=e2517]: © Google, 2026.
+  - generic:
+    - dialog:
+      - generic:
+        - generic:
+          - heading [level=1]: Turn off ad blockers
+          - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"
+  - generic:
+    - generic:
+      - generic:
+        - dialog "cuadro de diálogo"

@@ -1,0 +1,98 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Mapa del sitio XML" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Este mapa de sitio XML lo genera WordPress para hacer que tu contenido sea más visible para los motores de búsqueda.
+    - paragraph [ref=e6]:
+      - link "Aprende más sobre de los mapas del sitio XML." [ref=e7] [cursor=pointer]:
+        - /url: https://www.sitemaps.org/
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: "Número de URLs en este mapa del sitio XML: 21."
+    - table [ref=e10]:
+      - rowgroup [ref=e11]:
+        - row "URL" [ref=e12]:
+          - columnheader "URL" [ref=e13]
+      - rowgroup [ref=e14]:
+        - row "https://mosanelectric.cl/categoria-producto/marcas/montrel/" [ref=e15]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/montrel/" [ref=e16]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/montrel/" [ref=e17] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/montrel/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/gfuve/" [ref=e18]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/gfuve/" [ref=e19]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/gfuve/" [ref=e20] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/gfuve/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/etcr/" [ref=e21]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/etcr/" [ref=e22]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/etcr/" [ref=e23] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/etcr/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/meatrol/" [ref=e24]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/meatrol/" [ref=e25]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/meatrol/" [ref=e26] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/meatrol/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/" [ref=e27]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/" [ref=e28]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/" [ref=e29] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/
+        - row "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-monofasicos/" [ref=e30]:
+          - cell "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-monofasicos/" [ref=e31]:
+            - link "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-monofasicos/" [ref=e32] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-monofasicos/
+        - row "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-trifasicos/" [ref=e33]:
+          - cell "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-trifasicos/" [ref=e34]:
+            - link "https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-trifasicos/" [ref=e35] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-trifasicos/
+        - row "https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/" [ref=e36]:
+          - cell "https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/" [ref=e37]:
+            - link "https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/" [ref=e38] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/
+        - row "https://mosanelectric.cl/categoria-producto/medidores-aislamiento/" [ref=e39]:
+          - cell "https://mosanelectric.cl/categoria-producto/medidores-aislamiento/" [ref=e40]:
+            - link "https://mosanelectric.cl/categoria-producto/medidores-aislamiento/" [ref=e41] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-aislamiento/
+        - row "https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/" [ref=e42]:
+          - cell "https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/" [ref=e43]:
+            - link "https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/" [ref=e44] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/
+        - row "https://mosanelectric.cl/categoria-producto/voltimetro-de-media-y-alta-tension/" [ref=e45]:
+          - cell "https://mosanelectric.cl/categoria-producto/voltimetro-de-media-y-alta-tension/" [ref=e46]:
+            - link "https://mosanelectric.cl/categoria-producto/voltimetro-de-media-y-alta-tension/" [ref=e47] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/voltimetro-de-media-y-alta-tension/
+        - row "https://mosanelectric.cl/categoria-producto/medidor-de-baja-resistencia/" [ref=e48]:
+          - cell "https://mosanelectric.cl/categoria-producto/medidor-de-baja-resistencia/" [ref=e49]:
+            - link "https://mosanelectric.cl/categoria-producto/medidor-de-baja-resistencia/" [ref=e50] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidor-de-baja-resistencia/
+        - row "https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/" [ref=e51]:
+          - cell "https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/" [ref=e52]:
+            - link "https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/" [ref=e53] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/habotest/" [ref=e54]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/habotest/" [ref=e55]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/habotest/" [ref=e56] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/habotest/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/ecamec/" [ref=e57]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/ecamec/" [ref=e58]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/ecamec/" [ref=e59] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/ecamec/
+        - row "https://mosanelectric.cl/categoria-producto/calibradores-electricos/" [ref=e60]:
+          - cell "https://mosanelectric.cl/categoria-producto/calibradores-electricos/" [ref=e61]:
+            - link "https://mosanelectric.cl/categoria-producto/calibradores-electricos/" [ref=e62] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/calibradores-electricos/
+        - row "https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/" [ref=e63]:
+          - cell "https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/" [ref=e64]:
+            - link "https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/" [ref=e65] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/
+        - row "https://mosanelectric.cl/categoria-producto/medidores-de-ambiente/" [ref=e66]:
+          - cell "https://mosanelectric.cl/categoria-producto/medidores-de-ambiente/" [ref=e67]:
+            - link "https://mosanelectric.cl/categoria-producto/medidores-de-ambiente/" [ref=e68] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-de-ambiente/
+        - row "https://mosanelectric.cl/categoria-producto/marcas/sonel/" [ref=e69]:
+          - cell "https://mosanelectric.cl/categoria-producto/marcas/sonel/" [ref=e70]:
+            - link "https://mosanelectric.cl/categoria-producto/marcas/sonel/" [ref=e71] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/sonel/
+        - row "https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/" [ref=e72]:
+          - cell "https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/" [ref=e73]:
+            - link "https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/" [ref=e74] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/
+        - row "https://mosanelectric.cl/categoria-producto/peakmeter/" [ref=e75]:
+          - cell "https://mosanelectric.cl/categoria-producto/peakmeter/" [ref=e76]:
+            - link "https://mosanelectric.cl/categoria-producto/peakmeter/" [ref=e77] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/peakmeter/

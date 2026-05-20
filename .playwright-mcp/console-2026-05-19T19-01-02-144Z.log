@@ -1,0 +1,17 @@
+[       4ms] [LOG] 🚀 Page about to navigate/unload @ https://performance.vambeai.com/website-tracker/v1.js:537
+[       4ms] [LOG] ❌ No recent click, ignoring navigation @ https://performance.vambeai.com/website-tracker/v1.js:542
+[    1023ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1025ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1063ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    1065ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWJkOTJmOWRkMQ.js:0
+[    7173ms] [WARNING] The resource https://www.vambe.ai/fonts/plus-jakarta-sans-v12-latin-600.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.vambe.ai/extension/ads:0
+[    7173ms] [WARNING] The resource https://www.vambe.ai/fonts/plus-jakarta-sans-v12-latin-regular.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.vambe.ai/extension/ads:0
+[    7173ms] [WARNING] The resource https://www.vambe.ai/hero_nxg/001_BKG.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.vambe.ai/extension/ads:0

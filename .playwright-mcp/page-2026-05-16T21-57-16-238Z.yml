@@ -1,0 +1,521 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Buscar" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e80]:
+      - generic [ref=e82]:
+        - heading "CAYIN JAZZ 80" [level=1] [ref=e83]
+        - navigation [ref=e85]:
+          - link "Inicio" [ref=e86] [cursor=pointer]:
+            - /url: https://truehifi.cl
+          - text: /
+          - link "Amplificador Integrado a Tubo" [ref=e87] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/amplificadores/
+      - list [ref=e89]:
+        - listitem [ref=e90]:
+          - link "" [ref=e91] [cursor=pointer]:
+            - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+            - generic [ref=e92]: 
+        - listitem [ref=e93]:
+          - link "" [ref=e94] [cursor=pointer]:
+            - /url: https://truehifi.cl/producto/cayin-845a-pro-edicion-aniversario/
+            - generic [ref=e95]: 
+    - main [ref=e96]:
+      - generic [ref=e100]:
+        - complementary [ref=e102]:
+          - text: Filtrar
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "Accesorios" [ref=e106] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/accesorios/
+            - listitem [ref=e107]:
+              - link "Amplificador de Audífonos" [ref=e108] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+            - listitem [ref=e109]:
+              - link "Amplificador de Poder" [ref=e110] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+            - listitem [ref=e111]:
+              - link "Amplificador Integrado a Tubo" [ref=e112] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificadores/
+            - listitem [ref=e113]:
+              - link "Amplificador Integrado SS" [ref=e114] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+            - listitem [ref=e115]:
+              - link "Cables" [ref=e116] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/cables/
+              - button "Toggle" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]: 
+              - text:     
+            - listitem [ref=e119]:
+              - link "Cápsulas MM/MC" [ref=e120] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+            - listitem [ref=e121]:
+              - link "CD PLAYER" [ref=e122] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/cd-player/
+            - listitem [ref=e123]:
+              - link "DAC" [ref=e124] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/dac/
+            - listitem [ref=e125]:
+              - link "Hi-Fi Stereo Rack" [ref=e126] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+            - listitem [ref=e127]:
+              - link "Packs" [ref=e128] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/pack/
+              - button "Toggle" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: 
+            - listitem [ref=e131]:
+              - link "Parlantes" [ref=e132] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/parlantes/
+              - button "Toggle" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: 
+            - listitem [ref=e135]:
+              - link "Personal Audio" [ref=e136] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/personal-audio/
+              - button "Toggle" [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]: 
+            - listitem [ref=e139]:
+              - link "Pre-Amplificadores" [ref=e140] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+            - listitem [ref=e141]:
+              - link "Preamp de Phono" [ref=e142] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+            - listitem [ref=e143]:
+              - link "Radio HiFi" [ref=e144] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+            - listitem [ref=e145]:
+              - link "Streamer - Network Player" [ref=e146] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/dap-2/
+            - listitem [ref=e147]:
+              - link "Subwoofer" [ref=e148] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/subwoofer/
+            - listitem [ref=e149]:
+              - link "Tornamesas" [ref=e150] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/tornamesas/
+            - listitem [ref=e151]:
+              - link "Tubo de Vacío" [ref=e152] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+            - listitem [ref=e153]:
+              - link "Usados" [ref=e154] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/usados/
+            - listitem [ref=e155]:
+              - link "Zapatillas / Filtros de Poder" [ref=e156] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - generic [ref=e165]:
+                  - link [ref=e167] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80_KT88_Silver_2000px.jpg
+                  - link [ref=e169] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80_EL34_Silver_2000px.jpg
+                  - link [ref=e171] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-KT88-Black-2-scaled.jpg
+                  - link [ref=e173] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-KT88-Black-1-scaled.jpg
+                  - link [ref=e175] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-KT88-Black-13-scaled.jpg
+                  - link [ref=e177] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-KT88-Black-11-scaled.jpg
+                  - link [ref=e179] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-EL34-Black-2-scaled.jpg
+                  - link [ref=e181] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-EL34-Black-5-scaled.jpg
+                  - link [ref=e183] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2023/10/Jazz-80-EL34-Black-3-scaled.jpg
+                - button "Previous" [ref=e184] [cursor=pointer]:
+                  - img [ref=e185]
+                - button "Next" [ref=e187] [cursor=pointer]:
+                  - img [ref=e188]
+              - link "" [ref=e191] [cursor=pointer]:
+                - /url: "#product-zoom"
+                - generic [ref=e192]: 
+            - generic [ref=e213]:
+              - paragraph [ref=e215]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]: $
+                  - text: 1.800.000
+                - text: –
+                - generic [ref=e220]:
+                  - generic [ref=e221]: $
+                  - text: 1.950.000
+                - generic [ref=e222]: IVA Incluido
+              - paragraph [ref=e224]:
+                - text: Amplificador Integrado, hasta 40 watts en modo Ultralineal
+                - text: Conexión Bluetooth/LDAC
+              - generic [ref=e225]:
+                - generic [ref=e226]: Color
+                - combobox "Color" [ref=e227]:
+                  - option "Elige una opción" [selected]
+                  - option "Negro"
+                  - option "Plata"
+                - generic [ref=e228]: Tubo
+                - combobox "Tubo" [ref=e229]:
+                  - option "Elige una opción" [selected]
+                  - option "KT88"
+                  - option "EL34"
+                - alert [ref=e230]
+                - generic [ref=e231]:
+                  - alert
+                  - generic [ref=e232]:
+                    - generic [ref=e233]:
+                      - button "-" [ref=e234] [cursor=pointer]
+                      - generic [ref=e235]: CAYIN JAZZ 80 cantidad
+                      - spinbutton "Cantidad de productos" [ref=e236]: "1"
+                      - button "+" [ref=e237] [cursor=pointer]
+                    - button "Añadir al carrito" [ref=e238] [cursor=pointer]
+              - generic [ref=e239]:
+                - generic [ref=e240]: "SKU: N/D"
+                - generic [ref=e241]:
+                  - text: "Categoría:"
+                  - link "Amplificador Integrado a Tubo" [ref=e242] [cursor=pointer]:
+                    - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - generic [ref=e243]:
+                - text: 
+                - link "Compartir en Facebook" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer.php?u=https://truehifi.cl/producto/cayin-jazz-80/
+                  - generic [ref=e245]: 
+                - link "Envía por email" [ref=e246] [cursor=pointer]:
+                  - /url: mailto:?subject=CAYIN%20JAZZ%2080&body=Check%20this%20out%3A%20https%3A%2F%2Ftruehifi.cl%2Fproducto%2Fcayin-jazz-80%2F
+                  - generic [ref=e247]: 
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - tablist [ref=e250]:
+                - tab "Descripción" [selected] [ref=e251] [cursor=pointer]
+                - tab "Información adicional" [ref=e252] [cursor=pointer]
+              - tabpanel "Descripción" [ref=e254]:
+                - paragraph [ref=e255]:
+                  - text: El amplificador de válvulas Cayin Jazz 80 KT88/EL34 cuenta con cuatro válvulas acopladas con dos válvulas 12AU7 y dos 12AX7 para dar a su música calidez, timbre natural y precisión. Cayin Jazz 80 utiliza componentes cuidadosamente seleccionados y ensamblados a mano en una configuración diseñada para minimizar el recorrido de la señal. La amplificación es proporcionada por ocho válvulas de muy alta calidad, incluyendo cuatro KT88/EL34 para la sección de potencia. Éstas se combinan con una etapa de preamplificación que utiliza dos 12AX7 para aumentar el nivel de tensión de las señales musicales entrantes. Éstas se acoplan a dos válvulas 12AU7 que actúan como divisores de fase para accionar las válvulas KT88. Puede funcionar en modo triodo o ultralineal. En modo triodo, ofrece un sonido cálido y texturizado con una imagen completa. La potencia de salida es de 2 x 20 vatios a 8 ohmios. En modo ultralineal, la respuesta de graves se amplía y la potencia aumenta a 2 x 40 vatios, con una musicalidad que sigue siendo excepcional. Como resultado, puede alimentar eficazmente la mayoría de los parlantes tanto bookshelf o columnas.
+                  - text: Con una potencia de salida de 2x 40W en modo ultralineal, proporciona una potencia óptima para la mayoría de los parlantes del mercado.
+                - heading "Especificaciones" [level=3] [ref=e256]
+                - list [ref=e257]:
+                  - listitem [ref=e258]: "Potencia a 4 y 8 ohmios: 2 x 20 W en modo triodo y 2 x 40 W en modo ultralineal"
+                  - listitem [ref=e259]: "Respuesta en frecuencia: 8 Hz a 60 kHz"
+                  - listitem [ref=e260]: "Relación señal/ruido: 90 dB"
+                  - listitem [ref=e261]: "Distorsión armónica total (THD): 0,2% (1 kHz)"
+                  - listitem [ref=e262]: "Sensibilidad de entrada: 300 mV"
+                  - listitem [ref=e263]: "Impedancia de entrada: 100 kohmios"
+                - paragraph [ref=e264]: Tubos
+                - list [ref=e265]:
+                  - listitem [ref=e266]: 4x KT88/EL34
+                  - listitem [ref=e267]: 2x 12AU7
+                  - listitem [ref=e268]: 2x 12AX7
+                - paragraph [ref=e269]: Bluetooth
+                - list [ref=e270]:
+                  - listitem [ref=e271]: Bluetooth 5.0
+                  - listitem [ref=e272]: "Códecs compatibles: SBC, AAC, aptX, aptX HD, aptX Low Latency, UAT, LDAC"
+                - paragraph [ref=e273]: Conexiones
+                - list [ref=e274]:
+                  - listitem [ref=e275]: 3 x líneas RCA estéreo
+                  - listitem [ref=e276]: 1x salida de auriculares de 6,35 mm
+                  - listitem [ref=e277]: Terminales de tornillo para altavoces
+                - paragraph [ref=e278]: General
+                - list [ref=e279]:
+                  - listitem [ref=e280]:
+                    - text: "Dimensiones (AnxAlxPr):"
+                    - strong [ref=e281]: 300 x 190 x 385 mm
+                  - listitem [ref=e282]: "Peso: 17 kg"
+                - paragraph [ref=e283]
+            - generic [ref=e284]:
+              - heading "Productos relacionados" [level=3] [ref=e285]
+              - generic [ref=e286]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - generic:
+                      - generic: Nuevo
+                  - generic [ref=e290]:
+                    - generic [ref=e291]:
+                      - generic:
+                        - link "CAYIN JAZZ 100 - CLASE A":
+                          - /url: https://truehifi.cl/producto/cayin-jazz-100-clase-a/
+                          - img "CAYIN JAZZ 100 - CLASE A" [ref=e292] [cursor=pointer]
+                      - generic:
+                        - link "Vista Rápida":
+                          - /url: "#quick-view"
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - paragraph [ref=e295]: Amplificador Integrado a Tubo
+                        - paragraph [ref=e296]:
+                          - link "CAYIN JAZZ 100 – CLASE A" [ref=e297] [cursor=pointer]:
+                            - /url: https://truehifi.cl/producto/cayin-jazz-100-clase-a/
+                      - generic [ref=e299]:
+                        - generic [ref=e301]: $3.900.000
+                        - generic [ref=e302]: IVA Incluido
+                      - link "Elige las opciones para “CAYIN JAZZ 100 - CLASE A”" [ref=e304] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-jazz-100-clase-a/
+                        - text: Seleccionar opciones
+                      - generic [ref=e305]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic:
+                      - link "SOUL 170I":
+                        - /url: https://truehifi.cl/producto/soul-170i/
+                        - img "SOUL 170I" [ref=e310] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e311]:
+                    - generic [ref=e312]:
+                      - paragraph [ref=e313]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e314]:
+                        - link "SOUL 170I" [ref=e315] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/soul-170i/
+                    - generic [ref=e317]:
+                      - generic [ref=e319]: $6.100.000
+                      - generic [ref=e320]: IVA Incluido
+                    - link "Elige las opciones para “SOUL 170I”" [ref=e322] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/soul-170i/
+                      - text: Seleccionar opciones
+                    - generic [ref=e323]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e326]:
+                  - generic [ref=e327]:
+                    - generic:
+                      - link "Cayin Pearl 30i - 30th Anniversary":
+                        - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+                        - img "Cayin Pearl 30i - 30th Anniversary" [ref=e328] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - paragraph [ref=e331]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e332]:
+                        - link "Cayin Pearl 30i – 30th Anniversary" [ref=e333] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+                    - generic [ref=e335]:
+                      - generic [ref=e337]: $18.500.000
+                      - generic [ref=e338]: IVA Incluido
+                    - 'link "Añadir al carrito: “Cayin Pearl 30i - 30th Anniversary”" [ref=e340] [cursor=pointer]':
+                      - /url: "?add-to-cart=3919"
+                      - text: Añadir al carrito
+                - generic [ref=e344]:
+                  - generic [ref=e345]:
+                    - generic:
+                      - link "CAYIN CS-845A REFERENCE":
+                        - /url: https://truehifi.cl/producto/cayin-cs-845a/
+                        - img "CAYIN CS-845A REFERENCE" [ref=e346] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e347]:
+                    - generic [ref=e348]:
+                      - paragraph [ref=e349]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e350]:
+                        - link "CAYIN CS-845A REFERENCE" [ref=e351] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-cs-845a/
+                    - generic [ref=e353]:
+                      - generic [ref=e355]: $5.500.000
+                      - generic [ref=e356]: IVA Incluido
+                    - link "Elige las opciones para “CAYIN CS-845A REFERENCE”" [ref=e358] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cayin-cs-845a/
+                      - text: Seleccionar opciones
+                    - generic [ref=e359]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - generic:
+                      - generic: NUEVO
+                  - generic [ref=e363]:
+                    - generic [ref=e364]:
+                      - generic:
+                        - link "CAYIN JAZZ 90":
+                          - /url: https://truehifi.cl/producto/cayin-jazz-90/
+                          - img "CAYIN JAZZ 90" [ref=e365] [cursor=pointer]
+                      - generic:
+                        - link "Vista Rápida":
+                          - /url: "#quick-view"
+                    - generic [ref=e366]:
+                      - generic [ref=e367]:
+                        - paragraph [ref=e368]: Amplificador Integrado a Tubo
+                        - paragraph [ref=e369]:
+                          - link "CAYIN JAZZ 90" [ref=e370] [cursor=pointer]:
+                            - /url: https://truehifi.cl/producto/cayin-jazz-90/
+                      - generic [ref=e372]:
+                        - generic [ref=e374]: $2.990.000
+                        - generic [ref=e375]: IVA Incluido
+                      - link "Elige las opciones para “CAYIN JAZZ 90”" [ref=e377] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-jazz-90/
+                        - text: Seleccionar opciones
+                      - generic [ref=e378]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e381]:
+                  - generic [ref=e382]:
+                    - generic:
+                      - link "Cayin CS-300A":
+                        - /url: https://truehifi.cl/producto/cayin-cs-300a/
+                        - img "Cayin CS-300A" [ref=e383] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e384]:
+                    - generic [ref=e385]:
+                      - paragraph [ref=e386]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e387]:
+                        - link "Cayin CS-300A" [ref=e388] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-cs-300a/
+                    - generic [ref=e390]:
+                      - generic [ref=e392]: $3.990.000
+                      - generic [ref=e393]: IVA Incluido
+                    - link "Elige las opciones para “Cayin CS-300A”" [ref=e395] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cayin-cs-300a/
+                      - text: Seleccionar opciones
+                    - generic [ref=e396]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - generic:
+                      - link "MT-12N 6P1":
+                        - /url: https://truehifi.cl/producto/mt-12n-6p1/
+                        - img "MT-12N 6P1" [ref=e401] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e402]:
+                    - generic [ref=e403]:
+                      - paragraph [ref=e404]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e405]:
+                        - link "MT-12N 6P1" [ref=e406] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/mt-12n-6p1/
+                    - generic [ref=e408]:
+                      - generic [ref=e410]: $750.000
+                      - generic [ref=e411]: IVA Incluido
+                    - 'link "Añadir al carrito: “MT-12N 6P1”" [ref=e413] [cursor=pointer]':
+                      - /url: "?add-to-cart=984"
+                      - text: Añadir al carrito
+                - generic [ref=e417]:
+                  - generic [ref=e418]:
+                    - generic:
+                      - link "CAYIN MT-35 MK2 BT LDAC":
+                        - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                        - img "CAYIN MT-35 MK2 BT LDAC" [ref=e419] [cursor=pointer]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e420]:
+                    - generic [ref=e421]:
+                      - paragraph [ref=e422]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e423]:
+                        - link "CAYIN MT-35 MK2 BT LDAC" [ref=e424] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                    - generic [ref=e426]:
+                      - generic [ref=e428]: $1.280.000
+                      - generic [ref=e429]: IVA Incluido
+                    - link "Elige las opciones para “CAYIN MT-35 MK2 BT LDAC”" [ref=e431] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                      - text: Seleccionar opciones
+                    - generic [ref=e432]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+    - contentinfo [ref=e433]:
+      - generic [ref=e435]:
+        - img "bg_image" [ref=e438]
+        - generic [ref=e439]:
+          - list [ref=e441]:
+            - listitem [ref=e442]:
+              - link "Inicio" [ref=e443] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e444]:
+              - link "Seguimiento" [ref=e445] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e446]:
+              - link "Tienda" [ref=e447] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e448]:
+              - link "Contacto" [ref=e449] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e450]:
+            - text: Copyright 2025 ©
+            - strong [ref=e451]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e454] [cursor=pointer]:
+    - img
+  - status [ref=e455]

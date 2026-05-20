@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - main [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+      - link "Postula aquí" [ref=e11] [cursor=pointer]:
+        - /url: /careers
+        - generic [ref=e12]: Postula aquí
+        - img [ref=e13]
+    - generic [ref=e18]:
+      - link [ref=e19] [cursor=pointer]:
+        - /url: /
+        - img [ref=e20]
+      - generic [ref=e27]:
+        - 'button "Selected country: Chile" [ref=e29] [cursor=pointer]':
+          - img "cl" [ref=e30]
+        - button "Open menu" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - generic [ref=e33]: Open menu
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - img "Vambe Ads" [ref=e40]
+        - heading "Encuentra más clientes como los que ya te compran" [level=1] [ref=e41]:
+          - text: Encuentra más clientes
+          - text: como los que ya te compran
+        - paragraph [ref=e42]: Vambe analiza cada conversación exitosa y crea audiencias de compradores similares para tus anuncios, maximizando las ventas de tus productos premium.
+        - generic [ref=e43]:
+          - link "Conocer Planes" [ref=e44] [cursor=pointer]:
+            - /url: /pricing
+            - text: Conocer Planes
+            - img [ref=e45]
+          - link "Agenda una Demo" [ref=e47] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e49]:
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: Me gustaría el iPhone 16 Pro Max de 512GB en titanio negro. ¿Cuál es el precio y tienen alguna promoción?
+          - generic [ref=e56]:
+            - text: 14:34
+            - img [ref=e58]
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - text: Analizando perfil de compra
+          - generic [ref=e66]:
+            - generic [ref=e72]: vambe-ads-optimizer.ts
+            - generic [ref=e75]: //|
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - img [ref=e82]
+              - generic [ref=e84]: Compra de alto valor detectada
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - generic [ref=e87]: PRODUCTO
+                - generic [ref=e88]: iPhone 16 Pro Max
+              - generic [ref=e89]:
+                - generic [ref=e90]: MODELO
+                - generic [ref=e91]: 512GB - Titanio Negro
+              - generic [ref=e92]:
+                - generic [ref=e93]: PRECIO
+                - generic [ref=e94]: $1,599
+              - generic [ref=e95]:
+                - generic [ref=e96]: PROMOCIÓN
+                - generic [ref=e97]: 10% descuento + 12 MSI
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: VALOR CLIENTE
+                  - generic [ref=e101]: $3,450
+                - generic [ref=e102]:
+                  - generic [ref=e103]: TASA CONVERSIÓN
+                  - generic [ref=e104]: 92%
+        - generic [ref=e106]:
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - text: Generando audiencias personalizadas
+          - generic [ref=e111]:
+            - generic [ref=e117]: vambe-ads-targeting.ts
+            - generic [ref=e120]: //|
+          - generic [ref=e121]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: Ventas de iPhone - Con audiencias similares
+              - generic [ref=e125]: ↗️ +65% incremento
+            - generic [ref=e126]:
+              - img [ref=e127]:
+                - generic [ref=e135]: 24 u/mes
+                - generic [ref=e136]: 42 u/mes
+              - generic [ref=e137]: 42 u/mes
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: Compradores iPhone
+              - generic [ref=e143]: +45%
+            - generic [ref=e146]:
+              - generic [ref=e147]: Audiencia Premium
+              - generic [ref=e148]: +32%
+            - generic [ref=e151]:
+              - generic [ref=e152]: Compradores Tech
+              - generic [ref=e153]: +67%
+            - generic [ref=e156]:
+              - generic [ref=e157]: Interesados Apple
+              - generic [ref=e158]: +89%
+        - generic [ref=e160]:
+          - generic [ref=e162]:
+            - img [ref=e163]
+            - text: Distribuyendo a plataformas publicitarias
+          - generic [ref=e166]:
+            - img [ref=e168]
+            - img [ref=e171]
+            - img [ref=e177]
+            - img [ref=e180]
+            - img [ref=e186]
+            - img [ref=e189]
+          - generic [ref=e192]:
+            - generic [ref=e193]: Audiencias optimizadas distribuidas
+            - paragraph [ref=e194]: Segmentos de audiencia similares a compradores de alto valor enviados a todas las plataformas publicitarias para maximizar ROAS y conversiones.
+        - generic [ref=e195]:
+          - button "Stage 1" [ref=e196]
+          - button "Stage 2" [ref=e197]
+          - button "Stage 3" [ref=e198]
+          - button "Stage 4" [ref=e199]
+    - generic [ref=e203]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - generic [ref=e209]: +50%
+          - generic [ref=e210]: Mejor ROAS
+          - generic [ref=e211]: Atribución real de conversiones
+        - generic [ref=e212]:
+          - generic [ref=e213]: 2.3K
+          - generic [ref=e214]: Audiencias creadas
+          - generic [ref=e215]: Dinámicas y automáticas
+        - generic [ref=e216]:
+          - generic [ref=e217]: Automática
+          - generic [ref=e218]: Optimización
+          - generic [ref=e219]: Redistribución inteligente
+        - generic [ref=e220]:
+          - generic [ref=e221]: 94%
+          - generic [ref=e222]: Precisión
+          - generic [ref=e223]: vs. métricas vanity
+      - generic [ref=e227]:
+        - heading "Los equipos de growth operan a ciegas" [level=2] [ref=e228]
+        - paragraph [ref=e229]: Las plataformas de anuncios no conocen el contexto de las conversaciones ni los cierres reales de venta. Se desperdicia presupuesto porque construir y actualizar audiencias es manual y lento.
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - img [ref=e233]
+            - heading "Métricas Vanity" [level=3] [ref=e236]
+            - paragraph [ref=e237]: Clicks y views no te dicen quién realmente convierte.
+          - generic [ref=e238]:
+            - img [ref=e240]
+            - heading "Presupuesto Desperdiciado" [level=3] [ref=e242]
+            - paragraph [ref=e243]: Sin datos reales, optimizas hacia métricas incorrectas.
+          - generic [ref=e244]:
+            - img [ref=e246]
+            - heading "Audiencias Manuales" [level=3] [ref=e249]
+            - paragraph [ref=e250]: Crear y actualizar audiencias es lento y basado en suposiciones.
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - heading "Invierte cada dólar con inteligencia" [level=2] [ref=e255]
+          - paragraph [ref=e256]: Hacia audiencias que realmente convierten. Atribución real de conversiones, no métricas vanity.
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - img [ref=e260]
+            - heading "Contexto Real" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Vambe entiende cada conversación y sabe qué leads realmente cierran.
+          - generic [ref=e264]:
+            - img [ref=e266]
+            - heading "Audiencias Dinámicas" [level=3] [ref=e270]
+            - paragraph [ref=e271]: Crea audiencias complejas con solo unos clicks basadas en comportamiento real.
+          - generic [ref=e272]:
+            - img [ref=e274]
+            - heading "Optimización Automática" [level=3] [ref=e276]
+            - paragraph [ref=e277]: Retroalimenta las campañas con eventos reales para optimizar algoritmos.
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - heading "Cómo funciona la inteligencia publicitaria" [level=2] [ref=e280]
+          - paragraph [ref=e281]: Del primer click hasta la conversión real, con atribución precisa y optimización automática.
+        - list [ref=e284]:
+          - listitem [ref=e285]:
+            - generic [ref=e286]: "1"
+            - generic [ref=e288]:
+              - heading "Vambe aprende de tus ventas" [level=3] [ref=e289]
+              - paragraph [ref=e290]: Nuestra IA analiza las conversaciones que terminan en una venta para entender qué tipo de cliente te compra.
+          - listitem [ref=e291]:
+            - generic [ref=e292]: "2"
+            - generic [ref=e294]:
+              - heading "Crea audiencias de alto valor" [level=3] [ref=e295]
+              - paragraph [ref=e296]: Automáticamente, Vambe construye audiencias lookalike en Meta y Google con los perfiles de tus mejores clientes.
+          - listitem [ref=e297]:
+            - generic [ref=e298]: "3"
+            - generic [ref=e300]:
+              - heading "Optimiza tu presupuesto en tiempo real" [level=3] [ref=e301]
+              - paragraph [ref=e302]: Tu gasto publicitario se concentra en las audiencias que tienen más probabilidad de convertir, maximizando tu ROAS.
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - img [ref=e308]
+          - generic [ref=e311]: Historias de éxito
+        - heading "Lo que dicen nuestros clientes de Vambe Ads" [level=2] [ref=e312]:
+          - text: Lo que dicen nuestros clientes de
+          - generic [ref=e313]: Vambe Ads
+        - paragraph [ref=e314]: Resultados reales de clientes que transformaron su negocio con nuestra plataforma.
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - img [ref=e317]
+          - blockquote [ref=e320]: “Gracias a Vambe, logramos escalar nuestras operaciones a nivel internacional sin perder la cercanía con nuestros clientes. La IA nos permite mantener conversaciones personalizadas a gran escala.”
+          - generic [ref=e321]:
+            - generic [ref=e322]:
+              - img "Tomás Ulloa" [ref=e324]
+              - generic [ref=e325]:
+                - generic [ref=e326]: Tomás Ulloa
+                - generic [ref=e327]: Co-fundador
+                - generic [ref=e328]: Reuse
+            - generic [ref=e329]:
+              - generic [ref=e330]: +220%
+              - generic [ref=e331]:
+                - img [ref=e332]
+                - text: Aumento en ventas
+        - generic [ref=e336]:
+          - img [ref=e337]
+          - blockquote [ref=e340]: “Pasamos de hacer esperar a nuestros clientes horas a responder en segundos. La IA de Vambe conoce nuestro catálogo mejor que algunos vendedores.”
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - img "Equipo Zola" [ref=e344]
+              - generic [ref=e345]:
+                - generic [ref=e346]: Equipo Zola
+                - generic [ref=e347]: E-commerce Team
+                - generic [ref=e348]: Zola Outdoor
+            - generic [ref=e349]:
+              - generic [ref=e350]: +45%
+              - generic [ref=e351]:
+                - img [ref=e352]
+                - text: Conversión
+        - generic [ref=e356]:
+          - img [ref=e357]
+          - blockquote [ref=e360]: “La IA de Vambe habla con nuestros clientes de forma tan cercana y natural que muchos piensan que están hablando con un especialista real. Y las ventas hablan por sí solas.”
+          - generic [ref=e361]:
+            - generic [ref=e362]:
+              - img "Equipo Vitahub" [ref=e364]
+              - generic [ref=e365]:
+                - generic [ref=e366]: Equipo Vitahub
+                - generic [ref=e367]: E-commerce & Marketing
+                - generic [ref=e368]: Vitahub
+            - generic [ref=e369]:
+              - generic [ref=e370]: 20%
+              - generic [ref=e371]:
+                - img [ref=e372]
+                - text: Conversión de consultas
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - generic [ref=e380]: A
+            - generic [ref=e381]: B
+            - generic [ref=e382]: C
+            - generic [ref=e383]: D
+            - generic [ref=e384]: E
+          - generic [ref=e385]:
+            - generic [ref=e386]: 1500+ usuarios
+            - generic [ref=e387]: Crecemos cada día
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - img [ref=e391]
+            - img [ref=e393]
+            - img [ref=e395]
+            - img [ref=e397]
+            - img [ref=e399]
+          - generic [ref=e401]:
+            - generic [ref=e402]: 4.9/5 Calificación promedio
+            - generic [ref=e403]: De clientes verificados
+        - generic [ref=e405]:
+          - generic [ref=e406]: Únete al éxito
+          - link "Agenda una Demo →" [ref=e408] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e412]:
+      - heading "Elige tu plan de Ads Intelligence" [level=2] [ref=e413]
+      - paragraph [ref=e414]: Planes flexibles que crecen con tu presupuesto publicitario y objetivos de performance.
+      - generic [ref=e415]:
+        - link "Ver planes y precios" [ref=e416] [cursor=pointer]:
+          - /url: /pricing
+          - text: Ver planes y precios
+          - img [ref=e417]
+        - paragraph [ref=e419]: Implementación personalizada • Sin compromiso de permanencia
+    - generic [ref=e422]:
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - link [ref=e426] [cursor=pointer]:
+              - /url: /
+              - img [ref=e427]
+            - button "Select country" [ref=e436] [cursor=pointer]:
+              - img "cl" [ref=e437]
+              - generic [ref=e438]: Chile
+              - img [ref=e439]
+          - paragraph [ref=e441]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+          - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e442]
+          - generic [ref=e443]:
+            - link "Download on App Store" [ref=e444] [cursor=pointer]:
+              - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+              - img "Download on App Store" [ref=e445]
+            - link "Get it on Google Play" [ref=e446] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.vambe
+              - img "Get it on Google Play" [ref=e447]
+        - generic [ref=e448]:
+          - heading "Producto" [level=5] [ref=e449]
+          - list [ref=e450]:
+            - listitem [ref=e451]:
+              - link "Plataforma" [ref=e452] [cursor=pointer]:
+                - /url: /platform
+            - listitem [ref=e453]:
+              - link "Ads" [ref=e454] [cursor=pointer]:
+                - /url: /extension/ads
+            - listitem [ref=e455]:
+              - link "Precios" [ref=e456] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e457]:
+              - link "Services" [ref=e458] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e459]:
+          - heading "Empresa" [level=5] [ref=e460]
+          - list [ref=e461]:
+            - listitem [ref=e462]:
+              - link "Nosotros" [ref=e463] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e464]:
+              - link "Careers" [ref=e465] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e466]:
+              - link "Contacto" [ref=e467] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e468]:
+          - heading "Social" [level=5] [ref=e469]
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - link "Facebook" [ref=e472] [cursor=pointer]:
+                - /url: https://facebook.com/vambeai
+                - img [ref=e473]
+                - text: Facebook
+            - listitem [ref=e475]:
+              - link "YouTube" [ref=e476] [cursor=pointer]:
+                - /url: https://www.youtube.com/@vambeai
+                - img [ref=e477]
+                - text: YouTube
+            - listitem [ref=e480]:
+              - link "Instagram" [ref=e481] [cursor=pointer]:
+                - /url: https://instagram.com/vambeai
+                - img [ref=e482]
+                - text: Instagram
+            - listitem [ref=e485]:
+              - link "LinkedIn" [ref=e486] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/vambe/
+                - img [ref=e487]
+                - text: LinkedIn
+      - generic [ref=e492]:
+        - paragraph [ref=e494]:
+          - generic [ref=e495]: HQ 🇨🇱
+          - generic [ref=e496]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+        - paragraph [ref=e498]:
+          - generic [ref=e499]: OF 🇲🇽
+          - generic [ref=e500]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - heading "Partners" [level=5] [ref=e504]
+          - generic:
+            - img "Meta Business Partner"
+            - img "NVIDIA Inception Program"
+        - generic [ref=e505]:
+          - heading "Cumplimiento" [level=5] [ref=e506]
+          - generic [ref=e507]:
+            - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+            - img "SOC 2 — Controles de seguridad"
+        - generic [ref=e508]:
+          - heading "Hecho con en Latam" [level=5] [ref=e509]:
+            - text: Hecho con
+            - img [ref=e510]
+            - text: en Latam
+          - generic [ref=e512]:
+            - img "Marca Chile" [ref=e513]
+            - img "Hecho en México" [ref=e515]
+        - generic [ref=e516]:
+          - heading "Backed by" [level=5] [ref=e517]
+          - generic [ref=e518]:
+            - link "Monashees" [ref=e519] [cursor=pointer]:
+              - /url: https://www.monashees.com/portfolio?name=vambe
+              - img "Monashees" [ref=e520]
+            - link "Nazca" [ref=e521] [cursor=pointer]:
+              - /url: https://www.nazca.vc/portfolio/vambe
+              - img "Nazca" [ref=e522]
+            - link "M13" [ref=e523] [cursor=pointer]:
+              - /url: https://www.m13.co/company/vambe
+              - img "M13" [ref=e524]
+      - generic [ref=e525]:
+        - paragraph [ref=e526]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+        - generic [ref=e527]:
+          - link "Política de Privacidad" [ref=e528] [cursor=pointer]:
+            - /url: /privacy
+          - link "Términos de Servicio" [ref=e529] [cursor=pointer]:
+            - /url: /terms
+  - alert [ref=e530]

@@ -1,0 +1,492 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Search" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e80]:
+      - generic [ref=e82]:
+        - heading "CAYIN CS-845A REFERENCE" [level=1] [ref=e83]
+        - navigation [ref=e85]:
+          - link "Inicio" [ref=e86] [cursor=pointer]:
+            - /url: https://truehifi.cl
+          - text: /
+          - link "Amplificador Integrado a Tubo" [ref=e87] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/amplificadores/
+      - list [ref=e89]:
+        - listitem [ref=e90]:
+          - link "" [ref=e91] [cursor=pointer]:
+            - /url: https://truehifi.cl/producto/cayin-mt-50/
+            - generic [ref=e92]: 
+    - main [ref=e93]:
+      - generic [ref=e97]:
+        - complementary [ref=e99]:
+          - text: Filtrar
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "Accesorios" [ref=e103] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/accesorios/
+            - listitem [ref=e104]:
+              - link "Amplificador de Audífonos" [ref=e105] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+            - listitem [ref=e106]:
+              - link "Amplificador de Poder" [ref=e107] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+            - listitem [ref=e108]:
+              - link "Amplificador Integrado a Tubo" [ref=e109] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificadores/
+            - listitem [ref=e110]:
+              - link "Amplificador Integrado SS" [ref=e111] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+            - listitem [ref=e112]:
+              - link "Cables" [ref=e113] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/cables/
+              - button "Toggle" [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: 
+              - text:     
+            - listitem [ref=e116]:
+              - link "Cápsulas MM/MC" [ref=e117] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+            - listitem [ref=e118]:
+              - link "CD PLAYER" [ref=e119] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/cd-player/
+            - listitem [ref=e120]:
+              - link "DAC" [ref=e121] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/dac/
+            - listitem [ref=e122]:
+              - link "Hi-Fi Stereo Rack" [ref=e123] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+            - listitem [ref=e124]:
+              - link "Packs" [ref=e125] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/pack/
+              - button "Toggle" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]: 
+            - listitem [ref=e128]:
+              - link "Parlantes" [ref=e129] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/parlantes/
+              - button "Toggle" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]: 
+            - listitem [ref=e132]:
+              - link "Personal Audio" [ref=e133] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/personal-audio/
+              - button "Toggle" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]: 
+            - listitem [ref=e136]:
+              - link "Pre-Amplificadores" [ref=e137] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+            - listitem [ref=e138]:
+              - link "Preamp de Phono" [ref=e139] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+            - listitem [ref=e140]:
+              - link "Radio HiFi" [ref=e141] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+            - listitem [ref=e142]:
+              - link "Streamer - Network Player" [ref=e143] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/dap-2/
+            - listitem [ref=e144]:
+              - link "Subwoofer" [ref=e145] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/subwoofer/
+            - listitem [ref=e146]:
+              - link "Tornamesas" [ref=e147] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/tornamesas/
+            - listitem [ref=e148]:
+              - link "Tubo de Vacío" [ref=e149] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+            - listitem [ref=e150]:
+              - link "Usados" [ref=e151] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/usados/
+            - listitem [ref=e152]:
+              - link "Zapatillas / Filtros de Poder" [ref=e153] [cursor=pointer]:
+                - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162]:
+                  - link [ref=e164] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2020/11/DSC02296-scaled.jpg
+                  - link [ref=e166] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2020/11/prod-cs-845a-3.jpg
+                  - link [ref=e168] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2020/11/DSC02267-scaled.jpg
+                  - link [ref=e170] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2020/11/DSC02296-1-scaled.jpg
+                  - link [ref=e172] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2020/11/DSC02250-scaled.jpg
+                  - link [ref=e174] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2022/10/DSC02238-scaled.jpg
+                  - link [ref=e176] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2022/10/DSC02224-scaled.jpg
+                  - link [ref=e178] [cursor=pointer]:
+                    - /url: https://truehifi.cl/wp-content/uploads/2022/10/DSC02199-scaled.jpg
+                - button "Previous" [ref=e179] [cursor=pointer]:
+                  - img [ref=e180]
+                - button "Next" [ref=e182] [cursor=pointer]:
+                  - img [ref=e183]
+              - link "" [ref=e186] [cursor=pointer]:
+                - /url: "#product-zoom"
+                - generic [ref=e187]: 
+            - generic [ref=e206]:
+              - paragraph [ref=e208]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: $
+                  - text: 5.500.000
+                - generic [ref=e212]: IVA Incluido
+              - generic [ref=e213]:
+                - paragraph [ref=e214]:
+                  - strong [ref=e216]: Tubo 845
+                - paragraph [ref=e217]:
+                  - text: PESO 38 kg
+                  - text: DIMENSIONES 420×389×240mm³
+              - generic [ref=e218]:
+                - generic [ref=e219]: Color
+                - combobox "Color" [ref=e220]:
+                  - option "Choose an option" [selected]
+                  - option "Plata"
+                  - option "Negro"
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - button "-" [ref=e224] [cursor=pointer]
+                    - generic [ref=e225]: CAYIN CS-845A REFERENCE quantity
+                    - spinbutton "Product quantity" [ref=e226]: "1"
+                    - button "+" [ref=e227] [cursor=pointer]
+                  - button "Add to cart" [ref=e228] [cursor=pointer]
+              - generic [ref=e229]:
+                - generic [ref=e230]: "SKU: CS-845A"
+                - generic [ref=e231]:
+                  - text: "Category:"
+                  - link "Amplificador Integrado a Tubo" [ref=e232] [cursor=pointer]:
+                    - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - generic [ref=e233]:
+                - text: 
+                - link "Compartir en Facebook" [ref=e234] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer.php?u=https://truehifi.cl/producto/cayin-cs-845a/
+                  - generic [ref=e235]: 
+                - link "Envía por email" [ref=e236] [cursor=pointer]:
+                  - /url: mailto:?subject=CAYIN%20CS-845A%20REFERENCE&body=Check%20this%20out%3A%20https%3A%2F%2Ftruehifi.cl%2Fproducto%2Fcayin-cs-845a%2F
+                  - generic [ref=e237]: 
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - tablist [ref=e240]:
+                - tab "Description" [selected] [ref=e241] [cursor=pointer]
+                - tab "Additional information" [ref=e242] [cursor=pointer]
+              - tabpanel "Description" [ref=e244]:
+                - paragraph [ref=e245]:
+                  - text: Veinticuatro vatios por canal, diseño de un solo extremo, estéreo integrado Class A Puro.
+                  - text: Amplificador con válvulas 845 de potencia de salida. Todos los tubos integrados con etapa de amplificación de voltaje 6SN7, etapa de controlador 300B y 845.
+                  - text: Tubos de salida Tres pares de entradas de línea, un par de Pre-In están ubicados en el panel trasero del
+                  - text: amplificador. A diferencia de otras entradas, Pre-In le ofrece la posibilidad de conectarse a otros
+                  - text: Preamplificadores para que puedas usar el CS-845A Reference como un amplificador de potencia. Los terminales de altavoz para altavoces de 4 y 8 ohmios se encuentran en el panel trasero del
+                  - text: Amplificador.
+                  - text: Aprovechando el transformador de salida personalizado CS-845A Reference proporciona
+                  - text: Salida de auriculares que puede manejar la mayoría de los auriculares del mercado. Los controles de polarización del usuario para 845 se han utilizado para el ajuste de polarización y se ha agregado un medidor a la placa superior para permitirle monitorear el sesgo con facilidad. Se puede acceder al Hum Balancer para tubo 300B en la placa superior para facilitar el ajuste del
+                  - text: nivel de zumbido de los tubos.
+                  - text: La selección de retroalimentación negativa está disponible en el frente y en el control remoto que puede
+                  - text: elegir entre dos niveles de NFB para disfrutar de las diferentes salidas de sonido del
+                  - text: CS-845A Reference.
+                  - text: Bajo el estado de 0dB tiene un sonido abierto con más detalles mientras que -3dB CS-845A Reference emite un sonido suave y limpio.
+                  - text: Frontal de aluminio anodizado, chasis totalmente ventilado con excelente acabado, construcción hecha a mano con el más fino cableado punto a punto. Circuito de arranque suave y retardo de alto voltaje para proteger el amplificador para una vida útil prolongada demcomponentes sensibles.
+                  - text: Los fusibles de alto voltaje se utilizan en el amplificador para protección. En caso de que hubiera falla
+                  - text: de tubos, el Fusible reaccionará primero para que pueda saber fácilmente dónde está el problema.
+                  - strong [ref=e246]: "Piezas premium:"
+                  - text: control de volumen Alps, enchufes de tubo de porcelana, condensadores de grado de audio y resistencias de película de carbono, transformador toroidal para fuente de alimentación, EI de ancho de banda amplio, transformador de salida, etc.
+                  - text: Control remoto, la referencia CS-845A puede memorizar la última operación del
+                  - text: unidad una vez apagada.
+                  - text: "Acabado frontal disponible: Plata y Negro"
+                - generic [ref=e247]:
+                  - generic [ref=e248]: Reproductor de vídeo
+                  - application "Reproductor de vídeo" [ref=e249]:
+                    - generic:
+                      - generic [ref=e255]:
+                        - paragraph [ref=e256]: "Media error: Format(s) not supported or source(s) not found"
+                        - 'link "Descargar archivo: https://hifitruetech.cl/wp-content/uploads/2020/11/CS845A.mp4?_=1" [ref=e257] [cursor=pointer]':
+                          - /url: https://hifitruetech.cl/wp-content/uploads/2020/11/CS845A.mp4?_=1
+                      - generic [ref=e258]:
+                        - button "Reproducir" [ref=e260] [cursor=pointer]
+                        - timer [ref=e261]: 00:00
+                        - slider "Control de tiempo" [ref=e263] [cursor=pointer]
+                        - generic [ref=e265]: 00:00
+                        - button "Silenciar" [ref=e267] [cursor=pointer]
+                        - button "Pantalla completa" [ref=e269] [cursor=pointer]
+            - generic [ref=e270]:
+              - heading "Related products" [level=3] [ref=e271]
+              - generic [ref=e272]:
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic:
+                      - link "YAQIN VK-2100":
+                        - /url: https://truehifi.cl/producto/yaqin-vk-2100/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e277]:
+                    - generic [ref=e278]:
+                      - paragraph [ref=e279]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e280]:
+                        - link "YAQIN VK-2100" [ref=e281] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/yaqin-vk-2100/
+                    - generic [ref=e283]:
+                      - generic [ref=e285]: $645.000
+                      - generic [ref=e286]: IVA Incluido
+                    - 'link "Add to cart: “YAQIN VK-2100”" [ref=e288] [cursor=pointer]':
+                      - /url: "?add-to-cart=1419"
+                      - text: Add to cart
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - generic:
+                      - link "MT-12N 6P1":
+                        - /url: https://truehifi.cl/producto/mt-12n-6p1/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - paragraph [ref=e295]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e296]:
+                        - link "MT-12N 6P1" [ref=e297] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/mt-12n-6p1/
+                    - generic [ref=e299]:
+                      - generic [ref=e301]: $750.000
+                      - generic [ref=e302]: IVA Incluido
+                    - 'link "Add to cart: “MT-12N 6P1”" [ref=e304] [cursor=pointer]':
+                      - /url: "?add-to-cart=984"
+                      - text: Add to cart
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic:
+                      - link "CAYIN MT-50":
+                        - /url: https://truehifi.cl/producto/cayin-mt-50/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e309]:
+                    - generic [ref=e310]:
+                      - paragraph [ref=e311]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e312]:
+                        - link "CAYIN MT-50" [ref=e313] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-mt-50/
+                    - generic [ref=e315]:
+                      - generic [ref=e317]: $1.590.000
+                      - generic [ref=e318]: IVA Incluido
+                    - link "Select options for “CAYIN MT-50”" [ref=e320] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cayin-mt-50/
+                      - text: Select options
+                - generic [ref=e323]:
+                  - generic [ref=e324]:
+                    - generic:
+                      - link "A-300B MK2 FULL MUSIC 300B":
+                        - /url: https://truehifi.cl/producto/a-300b-mk2-full-music-300b/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e325]:
+                    - generic [ref=e326]:
+                      - paragraph [ref=e327]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e328]:
+                        - link "A-300B MK2 FULL MUSIC 300B" [ref=e329] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/a-300b-mk2-full-music-300b/
+                    - generic [ref=e331]:
+                      - generic [ref=e333]: $4.140.000
+                      - generic [ref=e334]: IVA Incluido
+                    - 'link "Add to cart: “A-300B MK2 FULL MUSIC 300B ”" [ref=e336] [cursor=pointer]':
+                      - /url: "?add-to-cart=631"
+                      - text: Add to cart
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic:
+                      - link "CAYIN CS-55A":
+                        - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - paragraph [ref=e343]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e344]:
+                        - link "CAYIN CS-55A" [ref=e345] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                    - generic [ref=e347]:
+                      - generic [ref=e349]: $1.880.000
+                      - text: –
+                      - generic [ref=e351]: $2.220.000
+                      - generic [ref=e352]: IVA Incluido
+                    - link "Select options for “CAYIN CS-55A”" [ref=e354] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                      - text: Select options
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - generic:
+                      - link "Cayin Pearl 30i - 30th Anniversary":
+                        - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e359]:
+                    - generic [ref=e360]:
+                      - paragraph [ref=e361]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e362]:
+                        - link "Cayin Pearl 30i – 30th Anniversary" [ref=e363] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+                    - generic [ref=e365]:
+                      - generic [ref=e367]: $18.500.000
+                      - generic [ref=e368]: IVA Incluido
+                    - 'link "Add to cart: “Cayin Pearl 30i - 30th Anniversary”" [ref=e370] [cursor=pointer]':
+                      - /url: "?add-to-cart=3919"
+                      - text: Add to cart
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - generic:
+                      - link "M-845i":
+                        - /url: https://truehifi.cl/producto/1019/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e375]:
+                    - generic [ref=e376]:
+                      - paragraph [ref=e377]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e378]:
+                        - link "M-845i" [ref=e379] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/1019/
+                    - generic [ref=e381]:
+                      - generic [ref=e383]: $7.990.000
+                      - generic [ref=e384]: IVA Incluido
+                    - 'link "Add to cart: “M-845i”" [ref=e386] [cursor=pointer]':
+                      - /url: "?add-to-cart=1019"
+                      - text: Add to cart
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - generic:
+                      - link "LA-34 Plus (Descontinuado) Reemplazo MT-35":
+                        - /url: https://truehifi.cl/producto/la-34-silver/
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                    - generic [ref=e391]: Out of stock
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - paragraph [ref=e394]: Amplificador Integrado a Tubo
+                      - paragraph [ref=e395]:
+                        - link "LA-34 Plus (Descontinuado) Reemplazo MT-35" [ref=e396] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/la-34-silver/
+                    - generic [ref=e398]:
+                      - generic [ref=e400]: $980.000
+                      - generic [ref=e401]: IVA Incluido
+                    - link "Select options for “LA-34 Plus (Descontinuado) Reemplazo MT-35”" [ref=e403] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/la-34-silver/
+                      - text: Select options
+    - contentinfo [ref=e404]:
+      - generic [ref=e406]:
+        - img "bg_image" [ref=e409]
+        - generic [ref=e410]:
+          - list [ref=e412]:
+            - listitem [ref=e413]:
+              - link "Inicio" [ref=e414] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e415]:
+              - link "Seguimiento" [ref=e416] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e417]:
+              - link "Tienda" [ref=e418] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e419]:
+              - link "Contacto" [ref=e420] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e421]:
+            - text: Copyright 2025 ©
+            - strong [ref=e422]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e425] [cursor=pointer]:
+    - img
+  - status [ref=e426]

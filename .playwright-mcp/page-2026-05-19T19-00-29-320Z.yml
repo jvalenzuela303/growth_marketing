@@ -1,0 +1,506 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+      - link "Postula aquí" [ref=e9] [cursor=pointer]:
+        - /url: /careers
+        - generic [ref=e10]: Postula aquí
+        - img [ref=e11]
+    - generic [ref=e16]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e25]:
+        - button "Plataforma" [ref=e27] [cursor=pointer]:
+          - text: Plataforma
+          - img [ref=e28]
+        - button "Clientes" [ref=e31] [cursor=pointer]:
+          - text: Clientes
+          - img [ref=e32]
+        - button "Recursos" [ref=e35] [cursor=pointer]:
+          - text: Recursos
+          - img [ref=e36]
+        - link "Precios" [ref=e38] [cursor=pointer]:
+          - /url: /pricing
+        - link "Nosotros" [ref=e39] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e40]:
+        - 'button "Selected country: Chile" [ref=e42] [cursor=pointer]':
+          - img "cl" [ref=e43]
+        - link "Iniciar Sesión" [ref=e44] [cursor=pointer]:
+          - /url: https://app.vambeai.com/login
+          - button "Iniciar Sesión" [ref=e45]
+        - link "Agenda Demo" [ref=e46] [cursor=pointer]:
+          - /url: /contact
+          - button "Agenda Demo" [ref=e47]
+    - banner "Standing Man of Vambe" [ref=e48]:
+      - generic [ref=e49]:
+        - generic:
+          - img "Ethereal space background"
+      - generic [ref=e51]:
+        - generic:
+          - img "Galaxy layer"
+      - generic [ref=e53]:
+        - generic:
+          - generic: EL CAOS
+          - generic: COMERCIAL
+          - generic: TERMINA AQUÍ
+      - generic:
+        - generic:
+          - generic:
+            - heading "EL CAOS COMERCIAL TERMINA AQUÍ" [level=1]:
+              - generic: EL CAOS
+              - generic: COMERCIAL
+              - generic: TERMINA AQUÍ
+      - generic:
+        - generic:
+          - img "Mountain"
+      - generic:
+        - generic:
+          - generic:
+            - heading "EL CAOS COMERCIAL TERMINA AQUÍ" [level=1]:
+              - generic: EL CAOS
+              - generic: COMERCIAL
+              - generic: TERMINA AQUÍ
+      - generic:
+        - generic:
+          - img "Standing person silhouette"
+      - generic:
+        - generic:
+          - generic:
+            - heading "EL CAOS COMERCIAL TERMINA AQUÍ" [level=1]:
+              - generic: EL CAOS
+              - generic: COMERCIAL
+              - generic: TERMINA AQUÍ
+      - generic [ref=e55]:
+        - paragraph [ref=e57]: UNA EXTENSIÓN DE TU EQUIPO QUE IMPULSA TU NEGOCIO
+        - paragraph [ref=e58]:
+          - text: Automatiza y deja que la IA responda, califique y haga seguimiento.
+          - strong [ref=e59]: Más leads
+          - text: ","
+          - strong [ref=e60]: más conversión
+          - text: ", y lo mejor, sin aumentar tus costos."
+        - generic [ref=e61]:
+          - button "Pruebalo en WhatsApp" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - img [ref=e64]
+              - text: Comenzar ahora
+          - link "Agenda una demo" [ref=e67] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - text: Agenda una demo
+        - generic [ref=e71]:
+          - generic [ref=e74]: +1,500 Clientes en Latinoamérica
+          - generic [ref=e77]: Garantía total de 60 días
+          - generic [ref=e80]: Implementación personalizada
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - img [ref=e85]
+          - generic [ref=e88]: Plataforma de IA Comercial
+        - heading "Todo lo que necesitas para hacer crecer tu negocio" [level=2] [ref=e89]:
+          - text: Todo lo que necesitas
+          - generic [ref=e90]: para hacer crecer tu negocio
+        - paragraph [ref=e91]: Un producto y sus extensiones trabajando en conjunto para automatizar toda tu operación de ventas, atención y marketing.
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - img "Vambe Ads" [ref=e105]
+              - img "Vambe Ads" [ref=e108]
+            - paragraph [ref=e109]: INTELIGENCIA DE ANUNCIOS
+            - paragraph [ref=e110]: Basado en tus ventas, destina presupuesto hacia las audiencias que realmente convierten con atribución real y eficiente.
+          - link "Optimizar Anuncios" [ref=e112] [cursor=pointer]:
+            - /url: /extension/ads
+            - text: Optimizar Anuncios
+            - img [ref=e113]
+        - generic [ref=e115]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img [ref=e124]
+              - img "Vambe AI" [ref=e129]
+            - paragraph [ref=e130]: OPERACIÓN CENTRAL
+            - paragraph [ref=e131]: Tu equipo inicia cada día con leads calificados, seguimientos ejecutados y ventas 100% cerradas por IA.
+          - link "Automatizar Conversaciones" [ref=e133] [cursor=pointer]:
+            - /url: /platform
+            - text: Automatizar Conversaciones
+            - img [ref=e134]
+        - generic [ref=e136]:
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - img "Vambe Connect" [ref=e148]
+              - img "Vambe Connect" [ref=e151]
+            - paragraph [ref=e152]: INTEGRACIONES FÁCILES
+            - paragraph [ref=e153]: Conecta todos tus sistemas y crea flujos completos a la medida sin código. Datos que fluyen entre tus sistemas.
+          - link "Conectar Herramientas" [ref=e155] [cursor=pointer]:
+            - /url: /extension/connect
+            - text: Conectar Herramientas
+            - img [ref=e156]
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - img "Vambe Ads" [ref=e166]
+          - img [ref=e168]
+          - img "Vambe Connect" [ref=e176]
+        - img [ref=e177]
+        - generic [ref=e179]:
+          - generic [ref=e180]: Plataforma centralizada
+          - generic [ref=e181]: Todas las extensiones en una plataforma
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - heading "Nuestros clientes" [level=2] [ref=e185]
+        - link "Conoce los casos de éxito" [ref=e186] [cursor=pointer]:
+          - /url: /client-stories
+      - generic [ref=e187]:
+        - generic [ref=e189]:
+          - img "Formed" [ref=e193]
+          - img "Wift" [ref=e197]
+          - img "Diio" [ref=e201]
+          - img "Ruuf" [ref=e205]
+          - img "Fintoc" [ref=e209]
+          - img "Copec Flux" [ref=e213]
+          - img "Reuse" [ref=e217]
+          - img "Formed" [ref=e221]
+          - img "Wift" [ref=e225]
+          - img "Diio" [ref=e229]
+          - img "Ruuf" [ref=e233]
+          - img "Fintoc" [ref=e237]
+          - img "Copec Flux" [ref=e241]
+          - img "Reuse" [ref=e245]
+          - img "Formed" [ref=e249]
+          - img "Wift" [ref=e253]
+          - img "Diio" [ref=e257]
+          - img "Ruuf" [ref=e261]
+          - img "Fintoc" [ref=e265]
+          - img "Copec Flux" [ref=e269]
+          - img "Reuse" [ref=e273]
+        - generic [ref=e275]:
+          - img "Clínica San Martín" [ref=e279]
+          - img "Vitahub" [ref=e283]
+          - img "MedPlus" [ref=e287]
+          - img "Telesalud LATAM" [ref=e291]
+          - img "Bodegas AkiKB" [ref=e295]
+          - img "Techstore" [ref=e299]
+          - img "Chevrolet Angelopolis" [ref=e303]
+          - img "Klicker" [ref=e307]
+          - img "Grupo Americar" [ref=e311]
+          - img "Gestioncar" [ref=e315]
+          - img "Romeo Sports" [ref=e319]
+          - img "Universidad Adolfo Ibáñez" [ref=e323]
+          - img "Movicenter" [ref=e327]
+          - img "Bsale" [ref=e331]
+          - img "Global66" [ref=e335]
+          - img "Clínica San Martín" [ref=e339]
+          - img "Vitahub" [ref=e343]
+          - img "MedPlus" [ref=e347]
+          - img "Telesalud LATAM" [ref=e351]
+          - img "Bodegas AkiKB" [ref=e355]
+          - img "Techstore" [ref=e359]
+          - img "Chevrolet Angelopolis" [ref=e363]
+          - img "Klicker" [ref=e367]
+          - img "Grupo Americar" [ref=e371]
+          - img "Gestioncar" [ref=e375]
+          - img "Romeo Sports" [ref=e379]
+          - img "Universidad Adolfo Ibáñez" [ref=e383]
+          - img "Movicenter" [ref=e387]
+          - img "Bsale" [ref=e391]
+          - img "Global66" [ref=e395]
+          - img "Clínica San Martín" [ref=e399]
+          - img "Vitahub" [ref=e403]
+          - img "MedPlus" [ref=e407]
+          - img "Telesalud LATAM" [ref=e411]
+          - img "Bodegas AkiKB" [ref=e415]
+          - img "Techstore" [ref=e419]
+          - img "Chevrolet Angelopolis" [ref=e423]
+          - img "Klicker" [ref=e427]
+          - img "Grupo Americar" [ref=e431]
+          - img "Gestioncar" [ref=e435]
+          - img "Romeo Sports" [ref=e439]
+          - img "Universidad Adolfo Ibáñez" [ref=e443]
+          - img "Movicenter" [ref=e447]
+          - img "Bsale" [ref=e451]
+          - img "Global66" [ref=e455]
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - img [ref=e461]
+            - generic [ref=e464]: Casos de éxito
+          - heading "Historias reales de éxito" [level=2] [ref=e465]
+          - paragraph [ref=e466]: Descubre cómo empresas como la tuya están transformando su atención al cliente con Vambe
+        - link "Ver todas las historias" [ref=e467] [cursor=pointer]:
+          - /url: /client-stories
+          - button "Ver todas las historias" [ref=e468]:
+            - text: Ver todas las historias
+            - img
+      - generic [ref=e469]:
+        - button "Ver caso anterior" [ref=e470]:
+          - img [ref=e471]
+        - button "Ver siguiente caso" [ref=e473]:
+          - img [ref=e474]
+        - article [ref=e478]:
+          - generic [ref=e480]:
+            - img "Romeo Sports" [ref=e482]
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - generic [ref=e485]:
+                  - generic [ref=e487]: Agencia de viajes
+                  - heading "Romeo Sports" [level=3] [ref=e488]
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - img [ref=e491]
+                    - blockquote [ref=e494]: “Vambe es un aliado super potente. Su valor principal es el ahorro de tiempo, el cual permite un cierre de ventas más rápido y la capacidad de ofrecer un buen servicio a cualquier hora.”
+                  - generic [ref=e495]:
+                    - paragraph [ref=e496]: Francisco Quijón
+                    - paragraph [ref=e497]: Porduct Manager
+                - generic [ref=e498]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: Automatizadas por Vambe
+                    - generic [ref=e501]: + 2.000 conversaciones
+                  - generic [ref=e502]:
+                    - generic [ref=e503]: Ejecutivos se enfocan en aspectos relacionados al producto
+                    - generic [ref=e504]: Enfoque en lo administrativo
+              - link "Ver historia completa" [ref=e506] [cursor=pointer]:
+                - /url: /client-stories/34
+                - button "Ver historia completa" [ref=e507]:
+                  - text: Ver historia completa
+                  - img
+      - generic [ref=e508]:
+        - button "Ir al caso 1" [ref=e509]
+        - button "Ir al caso 2" [ref=e510]
+        - button "Ir al caso 3" [ref=e511]
+        - button "Ir al caso 4" [ref=e512]
+        - button "Ir al caso 5" [ref=e513]
+        - button "Ir al caso 6" [ref=e514]
+        - button "Ir al caso 7" [ref=e515]
+        - button "Ir al caso 8" [ref=e516]
+        - button "Ir al caso 9" [ref=e517]
+        - button "Ir al caso 10" [ref=e518]
+        - button "Ir al caso 11" [ref=e519]
+        - button "Ir al caso 12" [ref=e520]
+      - generic [ref=e521]: 1 / 12
+    - generic [ref=e523]:
+      - generic [ref=e524]:
+        - generic [ref=e526]: Resultados Comprobados
+        - heading "Los números hablan por sí mismos" [level=2] [ref=e527]:
+          - text: Los números hablan
+          - generic [ref=e528]: por sí mismos
+        - paragraph [ref=e529]: Ve el impacto en métricas reales.
+      - generic [ref=e530]:
+        - generic [ref=e531]:
+          - img [ref=e534]
+          - generic [ref=e537]: 3x
+          - generic [ref=e538]: Más conversiones automáticas
+          - generic [ref=e539]: Sin aumentar personal comercial ni gestiones manuales
+        - generic [ref=e540]:
+          - img [ref=e543]
+          - generic [ref=e545]: 50%
+          - generic [ref=e546]: Mejor ROAS
+          - generic [ref=e547]: Mejora en retorno de inversión publicitaria con optimización inteligente
+        - generic [ref=e548]:
+          - img [ref=e551]
+          - generic [ref=e556]: +1,500
+          - generic [ref=e557]: Empresas confían en nosotros
+          - generic [ref=e558]: Desde startups hasta empresas en más de 15 países
+        - generic [ref=e559]:
+          - img [ref=e562]
+          - generic [ref=e565]: 99.95%
+          - generic [ref=e566]: Uptime garantizado
+          - generic [ref=e567]: Confiabilidad empresarial con automatización que nunca para
+        - generic [ref=e568]:
+          - img [ref=e571]
+          - generic [ref=e575]: 70%
+          - generic [ref=e576]: Menos tiempo administrativo
+          - generic [ref=e577]: Reducción en tareas manuales con flujos automatizados
+        - generic [ref=e578]:
+          - img [ref=e581]
+          - generic [ref=e583]: 7+
+          - generic [ref=e584]: Canales impulsados por IA
+          - generic [ref=e585]: WhatsApp, Instagram, TikTok, Webchat y más. Conversaciones automatizadas
+    - generic [ref=e590]:
+      - generic [ref=e591]:
+        - heading "Automatiza tus ventas por múltiples canales" [level=3] [ref=e592]
+        - paragraph [ref=e593]: Tu equipo comercial de IA que califica leads, agenda reuniones y ejecuta seguimientos 24/7.
+      - generic [ref=e594]:
+        - generic [ref=e595]:
+          - img [ref=e597]
+          - paragraph [ref=e600]: IA Conversacional que entiende y persuade
+        - generic [ref=e601]:
+          - img [ref=e603]
+          - paragraph [ref=e606]: Agentes autónomos que nutren y califican
+        - generic [ref=e607]:
+          - img [ref=e609]
+          - paragraph [ref=e612]: Ejecución de acciones en tus sistemas
+        - generic [ref=e613]:
+          - img [ref=e615]
+          - paragraph [ref=e618]: Análisis predictivo de oportunidades
+      - link "Conoce la Plataforma" [ref=e620] [cursor=pointer]:
+        - /url: /platform
+        - text: Conoce la Plataforma
+        - img [ref=e621]
+    - generic [ref=e638]:
+      - generic [ref=e639]:
+        - heading "Invierte en anuncios que realmente convierten" [level=3] [ref=e640]
+        - paragraph [ref=e641]: Deja de gastar en métricas que no impactan. Vambe Ads optimiza tu presupuesto basándose en conversaciones y ventas reales.
+      - generic [ref=e642]:
+        - generic [ref=e643]:
+          - img [ref=e645]
+          - paragraph [ref=e648]: Atribución de ventas, no solo de clicks
+        - generic [ref=e649]:
+          - img [ref=e651]
+          - paragraph [ref=e654]: Creación automática de audiencias que compran
+        - generic [ref=e655]:
+          - img [ref=e657]
+          - paragraph [ref=e660]: Optimización de ROAS basada en datos reales
+        - generic [ref=e661]:
+          - img [ref=e663]
+          - paragraph [ref=e666]: Retroalimentación constante a tus campañas
+      - link "Conoce Vambe Ads" [ref=e668] [cursor=pointer]:
+        - /url: /extension/ads
+        - text: Conoce Vambe Ads
+        - img [ref=e669]
+    - generic [ref=e686]:
+      - generic [ref=e687]:
+        - heading "Conecta tus sistemas para ejecutar acciones en múltiples apps" [level=3] [ref=e688]
+        - paragraph [ref=e689]: Haz que la IA no solo hable, sino que actualice tu CRM, procese pagos y automatice flujos completos.
+      - generic [ref=e690]:
+        - generic [ref=e691]:
+          - img [ref=e693]
+          - paragraph [ref=e696]: Constructor visual de flujos sin código
+        - generic [ref=e697]:
+          - img [ref=e699]
+          - paragraph [ref=e702]: +150 integraciones nativas y vía API
+        - generic [ref=e703]:
+          - img [ref=e705]
+          - paragraph [ref=e708]: IA con memoria a largo plazo de tu negocio
+        - generic [ref=e709]:
+          - img [ref=e711]
+          - paragraph [ref=e714]: Vincula los flujos de cada una de tus herramientas en paralelo
+      - link "Conoce Vambe Connect" [ref=e716] [cursor=pointer]:
+        - /url: /extension/connect
+        - text: Conoce Vambe Connect
+        - img [ref=e717]
+    - generic [ref=e734]:
+      - heading "Empieza a crecer, sin aumentar tu gestión ni tu inversión" [level=2] [ref=e735]
+      - paragraph [ref=e736]: Planes transparentes diseñados para escalar contigo. Sin costos ocultos ni sorpresas.
+      - generic [ref=e737]:
+        - link "Ver Planes" [ref=e738] [cursor=pointer]:
+          - /url: /pricing
+        - link "Agenda una Demo" [ref=e739] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e742]:
+      - generic [ref=e743]:
+        - generic [ref=e744]:
+          - generic [ref=e745]:
+            - link [ref=e746] [cursor=pointer]:
+              - /url: /
+              - img [ref=e747]
+            - button "Select country" [ref=e756] [cursor=pointer]:
+              - img "cl" [ref=e757]
+              - generic [ref=e758]: Chile
+              - img [ref=e759]
+          - paragraph [ref=e761]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+          - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e762]
+          - generic [ref=e763]:
+            - link "Download on App Store" [ref=e764] [cursor=pointer]:
+              - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+              - img "Download on App Store" [ref=e765]
+            - link "Get it on Google Play" [ref=e766] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.vambe
+              - img "Get it on Google Play" [ref=e767]
+        - generic [ref=e768]:
+          - heading "Producto" [level=5] [ref=e769]
+          - list [ref=e770]:
+            - listitem [ref=e771]:
+              - link "Plataforma" [ref=e772] [cursor=pointer]:
+                - /url: /platform
+            - listitem [ref=e773]:
+              - link "Ads" [ref=e774] [cursor=pointer]:
+                - /url: /extension/ads
+            - listitem [ref=e775]:
+              - link "Precios" [ref=e776] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e777]:
+              - link "Services" [ref=e778] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e779]:
+          - heading "Empresa" [level=5] [ref=e780]
+          - list [ref=e781]:
+            - listitem [ref=e782]:
+              - link "Nosotros" [ref=e783] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e784]:
+              - link "Careers" [ref=e785] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e786]:
+              - link "Contacto" [ref=e787] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e788]:
+          - heading "Social" [level=5] [ref=e789]
+          - list [ref=e790]:
+            - listitem [ref=e791]:
+              - link "Facebook" [ref=e792] [cursor=pointer]:
+                - /url: https://facebook.com/vambeai
+                - img [ref=e793]
+                - text: Facebook
+            - listitem [ref=e795]:
+              - link "YouTube" [ref=e796] [cursor=pointer]:
+                - /url: https://www.youtube.com/@vambeai
+                - img [ref=e797]
+                - text: YouTube
+            - listitem [ref=e800]:
+              - link "Instagram" [ref=e801] [cursor=pointer]:
+                - /url: https://instagram.com/vambeai
+                - img [ref=e802]
+                - text: Instagram
+            - listitem [ref=e805]:
+              - link "LinkedIn" [ref=e806] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/vambe/
+                - img [ref=e807]
+                - text: LinkedIn
+      - generic [ref=e812]:
+        - paragraph [ref=e814]:
+          - generic [ref=e815]: HQ 🇨🇱
+          - generic [ref=e816]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+        - paragraph [ref=e818]:
+          - generic [ref=e819]: OF 🇲🇽
+          - generic [ref=e820]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+      - generic [ref=e822]:
+        - generic [ref=e823]:
+          - heading "Partners" [level=5] [ref=e824]
+          - generic:
+            - img "Meta Business Partner"
+            - img "NVIDIA Inception Program"
+        - generic [ref=e825]:
+          - heading "Cumplimiento" [level=5] [ref=e826]
+          - generic [ref=e827]:
+            - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+            - img "SOC 2 — Controles de seguridad"
+        - generic [ref=e828]:
+          - heading "Hecho con en Latam" [level=5] [ref=e829]:
+            - text: Hecho con
+            - img [ref=e830]
+            - text: en Latam
+          - generic [ref=e832]:
+            - img "Marca Chile" [ref=e833]
+            - img "Hecho en México" [ref=e835]
+        - generic [ref=e836]:
+          - heading "Backed by" [level=5] [ref=e837]
+          - generic [ref=e838]:
+            - link "Monashees" [ref=e839] [cursor=pointer]:
+              - /url: https://www.monashees.com/portfolio?name=vambe
+              - img "Monashees" [ref=e840]
+            - link "Nazca" [ref=e841] [cursor=pointer]:
+              - /url: https://www.nazca.vc/portfolio/vambe
+              - img "Nazca" [ref=e842]
+            - link "M13" [ref=e843] [cursor=pointer]:
+              - /url: https://www.m13.co/company/vambe
+              - img "M13" [ref=e844]
+      - generic [ref=e845]:
+        - paragraph [ref=e846]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+        - generic [ref=e847]:
+          - link "Política de Privacidad" [ref=e848] [cursor=pointer]:
+            - /url: /privacy
+          - link "Términos de Servicio" [ref=e849] [cursor=pointer]:
+            - /url: /terms
+  - alert [ref=e850]

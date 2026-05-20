@@ -1,0 +1,323 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+      - link "Postula aquí" [ref=e9] [cursor=pointer]:
+        - /url: /careers
+        - generic [ref=e10]: Postula aquí
+        - img [ref=e11]
+    - banner [ref=e14]:
+      - generic [ref=e16]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e25]:
+          - 'button "Selected country: Chile" [ref=e27] [cursor=pointer]':
+            - img "cl" [ref=e28]
+          - button "Open menu" [ref=e29] [cursor=pointer]:
+            - img [ref=e30]
+            - generic [ref=e31]: Open menu
+    - banner "Hero section" [ref=e32]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - generic [ref=e44]: Turbo fast
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]: Enterprise ready
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]: AI-powered
+        - heading "Somos tu partner estratégico" [level=1] [ref=e53]
+        - paragraph [ref=e54]: "Más que tecnología: Transformación garantizada"
+        - paragraph [ref=e55]: Contamos con un equipo de ingenieros expertos en automatización. Te acompañamos para que multipliques resultados desde el primer día.
+        - generic [ref=e57]:
+          - link "Solicitar consulta" [ref=e58] [cursor=pointer]:
+            - /url: /contact
+            - text: Solicitar consulta
+            - img
+          - link "Ver casos de éxito" [ref=e59] [cursor=pointer]:
+            - /url: /client-stories
+        - generic [ref=e61]:
+          - paragraph [ref=e63]: +1,500 organizaciones confían en Vambe
+          - region "Company logos" [ref=e64]:
+            - generic [ref=e65]:
+              - img "Clínica San Martín" [ref=e67]
+              - img "Vitahub" [ref=e69]
+              - img "Formed" [ref=e71]
+              - img "MedPlus" [ref=e73]
+              - img "Telesalud LATAM" [ref=e75]
+              - img "Bodegas AkiKB" [ref=e77]
+              - img "Techstore" [ref=e79]
+              - img "Chevrolet Angelopolis" [ref=e81]
+              - img "Klicker" [ref=e83]
+              - img "Grupo Americar" [ref=e85]
+              - img "Gestioncar" [ref=e87]
+              - img "Romeo Sports" [ref=e89]
+              - img "Wift" [ref=e91]
+              - img "Universidad Adolfo Ibáñez" [ref=e93]
+              - img "Diio" [ref=e95]
+              - img "Ruuf" [ref=e97]
+              - img "Movicenter" [ref=e99]
+              - img "Bsale" [ref=e101]
+              - img "Fintoc" [ref=e103]
+              - img "Global66" [ref=e105]
+              - img "Copec Flux" [ref=e107]
+              - img "Reuse" [ref=e109]
+              - img "Clínica San Martín" [ref=e111]
+              - img "Vitahub" [ref=e113]
+              - img "Formed" [ref=e115]
+              - img "MedPlus" [ref=e117]
+              - img "Telesalud LATAM" [ref=e119]
+              - img "Bodegas AkiKB" [ref=e121]
+              - img "Techstore" [ref=e123]
+              - img "Chevrolet Angelopolis" [ref=e125]
+              - img "Klicker" [ref=e127]
+              - img "Grupo Americar" [ref=e129]
+              - img "Gestioncar" [ref=e131]
+              - img "Romeo Sports" [ref=e133]
+              - img "Wift" [ref=e135]
+              - img "Universidad Adolfo Ibáñez" [ref=e137]
+              - img "Diio" [ref=e139]
+              - img "Ruuf" [ref=e141]
+              - img "Movicenter" [ref=e143]
+              - img "Bsale" [ref=e145]
+              - img "Fintoc" [ref=e147]
+              - img "Global66" [ref=e149]
+              - img "Copec Flux" [ref=e151]
+              - img "Reuse" [ref=e153]
+              - img "Clínica San Martín" [ref=e155]
+              - img "Vitahub" [ref=e157]
+              - img "Formed" [ref=e159]
+              - img "MedPlus" [ref=e161]
+              - img "Telesalud LATAM" [ref=e163]
+              - img "Bodegas AkiKB" [ref=e165]
+              - img "Techstore" [ref=e167]
+              - img "Chevrolet Angelopolis" [ref=e169]
+              - img "Klicker" [ref=e171]
+              - img "Grupo Americar" [ref=e173]
+              - img "Gestioncar" [ref=e175]
+              - img "Romeo Sports" [ref=e177]
+              - img "Wift" [ref=e179]
+              - img "Universidad Adolfo Ibáñez" [ref=e181]
+              - img "Diio" [ref=e183]
+              - img "Ruuf" [ref=e185]
+              - img "Movicenter" [ref=e187]
+              - img "Bsale" [ref=e189]
+              - img "Fintoc" [ref=e191]
+              - img "Global66" [ref=e193]
+              - img "Copec Flux" [ref=e195]
+              - img "Reuse" [ref=e197]
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - heading "Servicios diseñados para tu éxito" [level=2] [ref=e202]
+        - paragraph [ref=e203]: Implementación, asesoría y soporte especializado de principio a fin
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - img [ref=e207]
+          - heading "Ingeniería Personalizada" [level=3] [ref=e209]
+          - paragraph [ref=e210]: Nuestro equipo de ingenieros expertos desarrolla soluciones a medida que se ajustan exactamente a tu operación.
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - img [ref=e213]
+              - generic [ref=e216]: Integraciones custom con tus sistemas actuales
+            - listitem [ref=e217]:
+              - img [ref=e218]
+              - generic [ref=e221]: Flujos automatizados diseñados para tu industria
+            - listitem [ref=e222]:
+              - img [ref=e223]
+              - generic [ref=e226]: Configuración avanzada de agentes IA
+            - listitem [ref=e227]:
+              - img [ref=e228]
+              - generic [ref=e231]: Arquitectura técnica escalable
+          - link "Conocer plataforma" [ref=e233] [cursor=pointer]:
+            - /url: /
+        - generic [ref=e234]:
+          - img [ref=e236]
+          - heading "Gestión del Cambio" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Programa estructurado de transformación que garantiza que tu equipo adopte y domine la plataforma.
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - img [ref=e245]
+              - generic [ref=e248]: Capacitación práctica continua
+            - listitem [ref=e249]:
+              - img [ref=e250]
+              - generic [ref=e253]: Soporte en tiempo real durante transición
+            - listitem [ref=e254]:
+              - img [ref=e255]
+              - generic [ref=e258]: Documentación personalizada
+            - listitem [ref=e259]:
+              - img [ref=e260]
+              - generic [ref=e263]: Acompañamiento estratégico
+          - link "Conocer equipo" [ref=e265] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e266]:
+          - img [ref=e268]
+          - heading "Asesoría Estratégica" [level=3] [ref=e272]
+          - paragraph [ref=e273]: Consultores especializados que diseñan tu hoja de ruta de automatización basada en análisis profundo.
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - img [ref=e276]
+              - generic [ref=e279]: Auditoría operacional completa
+            - listitem [ref=e280]:
+              - img [ref=e281]
+              - generic [ref=e284]: Mapeo de oportunidades priorizadas
+            - listitem [ref=e285]:
+              - img [ref=e286]
+              - generic [ref=e289]: Diseño de estrategia de implementación
+            - listitem [ref=e290]:
+              - img [ref=e291]
+              - generic [ref=e294]: Roadmap personalizado de crecimiento
+          - link "Ver casos de éxito" [ref=e296] [cursor=pointer]:
+            - /url: /client-stories
+        - generic [ref=e297]:
+          - img [ref=e299]
+          - heading "Implementación Acelerada" [level=3] [ref=e304]
+          - paragraph [ref=e305]: Proceso full-service que te hace operativo en semanas con resultados medibles desde el día uno.
+          - list [ref=e306]:
+            - listitem [ref=e307]:
+              - img [ref=e308]
+              - generic [ref=e311]: Configuración completa de plataforma
+            - listitem [ref=e312]:
+              - img [ref=e313]
+              - generic [ref=e316]: Integración con herramientas críticas
+            - listitem [ref=e317]:
+              - img [ref=e318]
+              - generic [ref=e321]: Testing exhaustivo en ambiente controlado
+            - listitem [ref=e322]:
+              - img [ref=e323]
+              - generic [ref=e326]: Monitoreo continuo y ajustes en tiempo real
+          - link "Ver pricing" [ref=e328] [cursor=pointer]:
+            - /url: /pricing
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - img [ref=e333]
+        - generic [ref=e336]:
+          - heading "Garantía de Resultados Vambe" [level=3] [ref=e337]
+          - paragraph [ref=e338]: Si en los primeros 60 días no ves mejoras medibles en conversión, tiempo de respuesta o eficiencia operativa, te devolvemos tu inversión.
+      - paragraph [ref=e339]: Porque no vendemos software, vendemos transformación. Y la transformación se mide en resultados, no en promesas.
+    - generic [ref=e342]:
+      - heading "Agenda tu sesión de implementación personalizada" [level=3] [ref=e343]
+      - paragraph [ref=e344]: Auditamos tu operación actual, identificamos tus 3 oportunidades más grandes de automatización y diseñamos una propuesta personalizada.
+      - link "Comenzar ahora" [ref=e345] [cursor=pointer]:
+        - /url: /contact
+        - img [ref=e346]
+        - text: Comenzar ahora
+    - contentinfo [ref=e349]:
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - link [ref=e354] [cursor=pointer]:
+                - /url: /
+                - img [ref=e355]
+              - button "Select country" [ref=e364] [cursor=pointer]:
+                - img "cl" [ref=e365]
+                - generic [ref=e366]: Chile
+                - img [ref=e367]
+            - paragraph [ref=e369]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+            - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e370]
+            - generic [ref=e371]:
+              - link "Download on App Store" [ref=e372] [cursor=pointer]:
+                - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+                - img "Download on App Store" [ref=e373]
+              - link "Get it on Google Play" [ref=e374] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.vambe
+                - img "Get it on Google Play" [ref=e375]
+          - generic [ref=e376]:
+            - heading "Producto" [level=5] [ref=e377]
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - link "Plataforma" [ref=e380] [cursor=pointer]:
+                  - /url: /platform
+              - listitem [ref=e381]:
+                - link "Ads" [ref=e382] [cursor=pointer]:
+                  - /url: /extension/ads
+              - listitem [ref=e383]:
+                - link "Precios" [ref=e384] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e385]:
+                - link "Services" [ref=e386] [cursor=pointer]:
+                  - /url: /services
+          - generic [ref=e387]:
+            - heading "Empresa" [level=5] [ref=e388]
+            - list [ref=e389]:
+              - listitem [ref=e390]:
+                - link "Nosotros" [ref=e391] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e392]:
+                - link "Careers" [ref=e393] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e394]:
+                - link "Contacto" [ref=e395] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=e396]:
+            - heading "Social" [level=5] [ref=e397]
+            - list [ref=e398]:
+              - listitem [ref=e399]:
+                - link "Facebook" [ref=e400] [cursor=pointer]:
+                  - /url: https://facebook.com/vambeai
+                  - img [ref=e401]
+                  - text: Facebook
+              - listitem [ref=e403]:
+                - link "YouTube" [ref=e404] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@vambeai
+                  - img [ref=e405]
+                  - text: YouTube
+              - listitem [ref=e408]:
+                - link "Instagram" [ref=e409] [cursor=pointer]:
+                  - /url: https://instagram.com/vambeai
+                  - img [ref=e410]
+                  - text: Instagram
+              - listitem [ref=e413]:
+                - link "LinkedIn" [ref=e414] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/vambe/
+                  - img [ref=e415]
+                  - text: LinkedIn
+        - generic [ref=e420]:
+          - paragraph [ref=e422]:
+            - generic [ref=e423]: HQ 🇨🇱
+            - generic [ref=e424]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+          - paragraph [ref=e426]:
+            - generic [ref=e427]: OF 🇲🇽
+            - generic [ref=e428]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - heading "Partners" [level=5] [ref=e432]
+            - generic:
+              - img "Meta Business Partner"
+              - img "NVIDIA Inception Program"
+          - generic [ref=e433]:
+            - heading "Cumplimiento" [level=5] [ref=e434]
+            - generic [ref=e435]:
+              - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+              - img "SOC 2 — Controles de seguridad"
+          - generic [ref=e436]:
+            - heading "Hecho con en Latam" [level=5] [ref=e437]:
+              - text: Hecho con
+              - img [ref=e438]
+              - text: en Latam
+            - generic [ref=e440]:
+              - img "Marca Chile" [ref=e441]
+              - img "Hecho en México" [ref=e443]
+          - generic [ref=e444]:
+            - heading "Backed by" [level=5] [ref=e445]
+            - generic [ref=e446]:
+              - link "Monashees" [ref=e447] [cursor=pointer]:
+                - /url: https://www.monashees.com/portfolio?name=vambe
+                - img "Monashees" [ref=e448]
+              - link "Nazca" [ref=e449] [cursor=pointer]:
+                - /url: https://www.nazca.vc/portfolio/vambe
+                - img "Nazca" [ref=e450]
+              - link "M13" [ref=e451] [cursor=pointer]:
+                - /url: https://www.m13.co/company/vambe
+                - img "M13" [ref=e452]
+        - generic [ref=e453]:
+          - paragraph [ref=e454]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+          - generic [ref=e455]:
+            - link "Política de Privacidad" [ref=e456] [cursor=pointer]:
+              - /url: /privacy
+            - link "Términos de Servicio" [ref=e457] [cursor=pointer]:
+              - /url: /terms
+  - alert [ref=e458]

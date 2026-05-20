@@ -1,0 +1,240 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - link "ME 440" [ref=e36] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/wp-content/uploads/2020/04/ME-440.jpg
+              - img "ME 440" [ref=e37]
+          - generic [ref=e38]:
+            - heading "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [level=1] [ref=e39]
+            - generic [ref=e40]:
+              - img "Valorado con 4.00 de 5" [ref=e41]:
+                - text: sssss
+                - generic [ref=e42]:
+                  - text: SSSSS Valorado con
+                  - strong [ref=e43]: "4.00"
+                  - text: de 5 en base a
+                  - generic [ref=e44]: SSSSS 1
+                  - text: valoración de un cliente
+              - link "( valoración de cliente)" [ref=e45] [cursor=pointer]:
+                - /url: "#reviews"
+            - paragraph
+            - paragraph [ref=e47]:
+              - text: El
+              - strong [ref=e48]: Analizador de Calidad de Energía ME 440
+              - text: es una herramienta avanzada diseñada para evaluar y monitorear la calidad de la energía eléctrica en instalaciones industriales y comerciales. Con la capacidad de medir en varias configuraciones de fases y cables, este analizador permite una evaluación precisa de parámetros como armónicos, distorsiones y fluctuaciones de voltaje. Su pantalla TFT de 3,5 pulgadas facilita la visualización de datos en tiempo real, mientras que su memoria de 16 GB y formato de registro CSV permiten almacenar y exportar los datos fácilmente para análisis posteriores.
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - text: "Categorías:"
+                - link "ANALIZADOR DE CALIDAD DE ENERGÍA ECAMEC" [ref=e51] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/
+                - text: ","
+                - link "MEATROL" [ref=e52] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/meatrol/
+              - generic [ref=e53]:
+                - text: "Etiquetas:"
+                - link "Analizadores" [ref=e54] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/analizadores/
+                - text: ","
+                - link "Corriente" [ref=e55] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/corriente/
+                - text: ","
+                - link "Energía" [ref=e56] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/energia/
+                - text: ","
+                - link "MEATROL" [ref=e57] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/meatrol/
+          - generic [ref=e58]:
+            - tablist [ref=e59]:
+              - tab "Descripción" [selected] [ref=e60]:
+                - link "Descripción" [ref=e61] [cursor=pointer]:
+                  - /url: "#tab-description"
+              - tab "Valoraciones (1)" [ref=e62]:
+                - link "Valoraciones (1)" [ref=e63] [cursor=pointer]:
+                  - /url: "#tab-reviews"
+            - tabpanel "Descripción" [ref=e64]:
+              - heading "Descripción" [level=2] [ref=e65]
+              - blockquote [ref=e66]:
+                - paragraph [ref=e67]:
+                  - strong [ref=e68]: "Características:"
+                - list [ref=e69]:
+                  - listitem [ref=e70]:
+                    - strong [ref=e71]: "Modos de medición:"
+                    - list [ref=e72]:
+                      - listitem [ref=e73]: 3PH 4W, 3PH 3W, 1PH 2W (LN), 1PH 2W (LL), 1PH 3W (LLN)
+                  - listitem [ref=e74]:
+                    - strong [ref=e75]: "Intervalo de registro:"
+                    - text: Ajustable de 1 segundo a 2 horas para adaptarse a diferentes necesidades de análisis
+                  - listitem [ref=e76]:
+                    - strong [ref=e77]: Memoria interna de 16 GB
+                    - text: para un almacenamiento de largo plazo de los datos de medición
+                  - listitem [ref=e78]:
+                    - strong [ref=e79]: Formato de registro CSV
+                    - text: para fácil exportación y análisis en software
+                  - listitem [ref=e80]:
+                    - strong [ref=e81]: Pantalla TFT de 3,5 pulgadas
+                    - text: para visualización clara y detallada de las mediciones
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Medición de armónicos hasta el 51° armónico
+                    - text: para análisis de distorsiones en la energía eléctrica
+                - paragraph [ref=e84]:
+                  - strong [ref=e85]: "Especificaciones técnicas:"
+                - list [ref=e86]:
+                  - listitem [ref=e87]:
+                    - strong [ref=e88]: "Tipo de medición:"
+                    - text: Calidad de energía en sistemas de 1 fase y 3 fases
+                  - listitem [ref=e89]:
+                    - strong [ref=e90]: "Configuración de medición:"
+                    - text: 3PH 4W, 3PH 3W, 1PH 2W (LN), 1PH 2W (LL), 1PH 3W (LLN)
+                  - listitem [ref=e91]:
+                    - strong [ref=e92]: "Intervalo de registro:"
+                    - text: De 1 segundo a 2 horas
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: "Memoria:"
+                    - text: 16 GB para almacenamiento extendido
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: "Formato de archivo:"
+                    - text: CSV para fácil análisis y exportación
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: "Pantalla:"
+                    - text: TFT de 3,5 pulgadas
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: "Medición de armónicos:"
+                    - text: Hasta el 51° armónico
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: "Grado de protección:"
+                    - text: (Si tienes más detalles, se podría agregar aquí
+            - text: sssss SSSSS     
+          - generic [ref=e103]:
+            - heading "Productos relacionados" [level=2] [ref=e104]
+            - list [ref=e105]:
+              - listitem [ref=e106]:
+                - link "Analizador de Calidad ECAMEC ECAPLUS" [ref=e107] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/analizador-de-calidad-energia-norma-electrica-chilena/
+                  - heading "Analizador de Calidad ECAMEC ECAPLUS" [level=2] [ref=e108]
+              - listitem [ref=e109]:
+                - link "Detector de Tensión- Voltaje Tipo Lapiz HABOTEST" [ref=e110] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/detector-de-tension-voltaje-tipo-lapiz/
+                  - heading "Detector de Tensión- Voltaje Tipo Lapiz HABOTEST" [level=2] [ref=e111]
+              - listitem [ref=e112]:
+                - link "Multimetro Digital HABOTEST" [ref=e113] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/multimetro-digital/
+                  - heading "Multimetro Digital HABOTEST" [level=2] [ref=e114]
+              - listitem [ref=e115]:
+                - link "VOLTÍMETRO DE MEDIA Y ALTA TENSIÓN MODELO 1800 A" [ref=e116] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/voltimetro-de-media-y-alta-tension-modelo-1800-a/
+                  - heading "VOLTÍMETRO DE MEDIA Y ALTA TENSIÓN MODELO 1800 A" [level=2] [ref=e117]
+      - complementary [ref=e118]:
+        - generic [ref=e119]:
+          - heading "Buscar Productos" [level=2] [ref=e120]
+          - search [ref=e121]:
+            - generic [ref=e122]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e123]
+            - button "Buscar" [ref=e124] [cursor=pointer]
+        - generic [ref=e125]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e126]
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e129] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e130]:
+      - generic [ref=e133]:
+        - complementary [ref=e134]:
+          - complementary [ref=e135]:
+            - heading "Menú" [level=3] [ref=e136]
+            - list [ref=e138]:
+              - listitem [ref=e139]:
+                - link "Inicio" [ref=e140] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e141]:
+                - link "Nosotros" [ref=e142] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e143]:
+                - link "Productos" [ref=e144] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e145]:
+                - link "Contacto" [ref=e146] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e147]:
+                  - listitem [ref=e148]:
+                    - link "Politica de Privacidad" [ref=e149] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e150]:
+          - complementary [ref=e151]:
+            - heading "Horarios de Atención" [level=3] [ref=e152]
+            - generic [ref=e153]:
+              - paragraph [ref=e154]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e155]:
+                - listitem [ref=e156]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e157]: 9am a 5pm
+                - listitem [ref=e158]:
+                  - text: "Sábado:"
+                  - generic [ref=e159]: cerrado
+                - listitem [ref=e160]:
+                  - text: "Domingo:"
+                  - generic [ref=e161]: Cerrado
+        - complementary [ref=e162]:
+          - complementary [ref=e163]:
+            - heading "Contacto" [level=3] [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168]: 
+                - generic [ref=e169]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e170]:
+                - generic [ref=e172]: 
+                - link "+56 950942148" [ref=e174] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e176] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e177]:
+                - generic [ref=e179]: 
+                - link "contacto@mosanelectric.cl" [ref=e181] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e182]:
+          - complementary [ref=e183]:
+            - heading "Ubicación" [level=3] [ref=e184]
+            - iframe [ref=e186]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f10e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f10e6]
+      - generic [ref=e188]:
+        - generic [ref=e189]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e190]:
+          - link "Screenr parallax theme" [ref=e191] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e194] [cursor=pointer]:
+    - img
+  - status [ref=e195]

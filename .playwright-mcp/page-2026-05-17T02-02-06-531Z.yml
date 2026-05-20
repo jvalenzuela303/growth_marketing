@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading " 404 ¡No encontrado!" [level=2] [ref=e25]:
+      - generic [ref=e26]: 
+      - text: 404 ¡No encontrado!
+    - generic [ref=e28]:
+      - heading "¡Vaya! No se ha podido encontrar esa página." [level=1] [ref=e31]
+      - main [ref=e34]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?
+          - search [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: "Buscar:"
+              - searchbox "Buscar:" [ref=e41]
+            - button "Buscar" [ref=e42] [cursor=pointer]
+    - contentinfo [ref=e43]:
+      - generic [ref=e46]:
+        - complementary [ref=e47]:
+          - complementary [ref=e48]:
+            - heading "Menú" [level=3] [ref=e49]
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "Inicio" [ref=e53] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e54]:
+                - link "Nosotros" [ref=e55] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e56]:
+                - link "Productos" [ref=e57] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e58]:
+                - link "Contacto" [ref=e59] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e60]:
+                  - listitem [ref=e61]:
+                    - link "Politica de Privacidad" [ref=e62] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e63]:
+          - complementary [ref=e64]:
+            - heading "Horarios de Atención" [level=3] [ref=e65]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e68]:
+                - listitem [ref=e69]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e70]: 9am a 5pm
+                - listitem [ref=e71]:
+                  - text: "Sábado:"
+                  - generic [ref=e72]: cerrado
+                - listitem [ref=e73]:
+                  - text: "Domingo:"
+                  - generic [ref=e74]: Cerrado
+        - complementary [ref=e75]:
+          - complementary [ref=e76]:
+            - heading "Contacto" [level=3] [ref=e77]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e81]: 
+                - generic [ref=e82]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e83]:
+                - generic [ref=e85]: 
+                - link "+56 950942148" [ref=e87] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e89] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e90]:
+                - generic [ref=e92]: 
+                - link "contacto@mosanelectric.cl" [ref=e94] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e95]:
+          - complementary [ref=e96]:
+            - heading "Ubicación" [level=3] [ref=e97]
+            - iframe [ref=e99]:
+              - generic [active] [ref=f4e1]:
+                - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f4e4] [cursor=pointer]:
+                  - /url: about:invalid#zClosurez
+                  - text: Abrir en Maps
+                  - img [ref=f4e6]
+                - generic [ref=f4e9]:
+                  - region "Mapa" [ref=f4e10]
+                  - iframe [ref=f4e28]:
+                    
+      - generic [ref=e101]:
+        - generic [ref=e102]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e103]:
+          - link "Screenr parallax theme" [ref=e104] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e107] [cursor=pointer]:
+    - img
+  - status [ref=e108]

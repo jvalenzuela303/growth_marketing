@@ -1,0 +1,70 @@
+name: Deploy Frontend to Vercel/Cloud Run
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/frontend/**'
+      - 'packages/shared-types/**'
+      - '.github/workflows/deploy-frontend.yml'
+
+env:
+  GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  GCP_REGION: us-central1
+  SERVICE_NAME: ge-frontend
+  IMAGE: gcr.io/${{ secrets.GCP_PROJECT_ID }}/ge-frontend
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: { version: 9 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: pnpm }
+      - run: pnpm install
+      - run: pnpm --filter @growth-engine/frontend lint
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to GCP
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.GCP_SA_EMAIL }}
+
+      - name: Setup GCloud CLI
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t $IMAGE:$GITHUB_SHA -t $IMAGE:latest apps/frontend/
+          docker push $IMAGE:$GITHUB_SHA
+          docker push $IMAGE:latest
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy $SERVICE_NAME \
+            --image $IMAGE:$GITHUB_SHA \
+            --region $GCP_REGION \
+            --platform managed \
+            --min-instances 1 \
+            --max-instances 20 \
+            --memory 1Gi \
+            --cpu 1 \
+            --concurrency 100 \
+            --port 3000 \
+            --no-traffic \
+            --set-env-vars "NODE_ENV=production" \
+            --set-secrets "NEXTAUTH_SECRET=ge-nextauth-secret:latest,META_PIXEL_ID=ge-meta-pixel:latest"
+
+      - name: Route Traffic
+        run: |
+          gcloud run services update-traffic $SERVICE_NAME \
+            --to-latest \
+            --region $GCP_REGION

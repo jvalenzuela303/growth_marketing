@@ -1,0 +1,940 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Mapa del sitio XML" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Este mapa de sitio XML lo genera WordPress para hacer que tu contenido sea más visible para los motores de búsqueda.
+    - paragraph [ref=e6]:
+      - link "Aprende más sobre de los mapas del sitio XML." [ref=e7] [cursor=pointer]:
+        - /url: https://www.sitemaps.org/
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: "Número de URLs en este mapa del sitio XML: 185."
+    - table [ref=e10]:
+      - rowgroup [ref=e11]:
+        - row "URL Última modificación" [ref=e12]:
+          - columnheader "URL" [ref=e13]
+          - columnheader "Última modificación" [ref=e14]
+      - rowgroup [ref=e15]:
+        - row "https://truehifi.cl/producto/cayin-cs-845a/ 2024-05-29T13:16:40-04:00" [ref=e16]:
+          - cell "https://truehifi.cl/producto/cayin-cs-845a/" [ref=e17]:
+            - link "https://truehifi.cl/producto/cayin-cs-845a/" [ref=e18] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-845a/
+          - cell "2024-05-29T13:16:40-04:00" [ref=e19]
+        - row "https://truehifi.cl/producto/cayin-mt-50/ 2023-01-04T09:27:05-04:00" [ref=e20]:
+          - cell "https://truehifi.cl/producto/cayin-mt-50/" [ref=e21]:
+            - link "https://truehifi.cl/producto/cayin-mt-50/" [ref=e22] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-mt-50/
+          - cell "2023-01-04T09:27:05-04:00" [ref=e23]
+        - row "https://truehifi.cl/producto/idac-6mk2/ 2025-08-06T14:10:02-04:00" [ref=e24]:
+          - cell "https://truehifi.cl/producto/idac-6mk2/" [ref=e25]:
+            - link "https://truehifi.cl/producto/idac-6mk2/" [ref=e26] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/idac-6mk2/
+          - cell "2025-08-06T14:10:02-04:00" [ref=e27]
+        - row "https://truehifi.cl/producto/idap-6/ 2022-11-29T20:02:39-04:00" [ref=e28]:
+          - cell "https://truehifi.cl/producto/idap-6/" [ref=e29]:
+            - link "https://truehifi.cl/producto/idap-6/" [ref=e30] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/idap-6/
+          - cell "2022-11-29T20:02:39-04:00" [ref=e31]
+        - row "https://truehifi.cl/producto/c9/ 2023-05-26T14:16:12-04:00" [ref=e32]:
+          - cell "https://truehifi.cl/producto/c9/" [ref=e33]:
+            - link "https://truehifi.cl/producto/c9/" [ref=e34] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/c9/
+          - cell "2023-05-26T14:16:12-04:00" [ref=e35]
+        - row "https://truehifi.cl/producto/la-34-silver/ 2023-09-29T11:07:38-04:00" [ref=e36]:
+          - cell "https://truehifi.cl/producto/la-34-silver/" [ref=e37]:
+            - link "https://truehifi.cl/producto/la-34-silver/" [ref=e38] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/la-34-silver/
+          - cell "2023-09-29T11:07:38-04:00" [ref=e39]
+        - row "https://truehifi.cl/producto/a-300b-mk2-full-music-300b/ 2021-09-15T14:57:12-04:00" [ref=e40]:
+          - cell "https://truehifi.cl/producto/a-300b-mk2-full-music-300b/" [ref=e41]:
+            - link "https://truehifi.cl/producto/a-300b-mk2-full-music-300b/" [ref=e42] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/a-300b-mk2-full-music-300b/
+          - cell "2021-09-15T14:57:12-04:00" [ref=e43]
+        - row "https://truehifi.cl/producto/a-300b-mk2-shuguang-300b/ 2021-09-15T15:11:08-04:00" [ref=e44]:
+          - cell "https://truehifi.cl/producto/a-300b-mk2-shuguang-300b/" [ref=e45]:
+            - link "https://truehifi.cl/producto/a-300b-mk2-shuguang-300b/" [ref=e46] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/a-300b-mk2-shuguang-300b/
+          - cell "2021-09-15T15:11:08-04:00" [ref=e47]
+        - row "https://truehifi.cl/producto/cs-100dac/ 2021-09-15T14:55:41-04:00" [ref=e48]:
+          - cell "https://truehifi.cl/producto/cs-100dac/" [ref=e49]:
+            - link "https://truehifi.cl/producto/cs-100dac/" [ref=e50] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-100dac/
+          - cell "2021-09-15T14:55:41-04:00" [ref=e51]
+        - row "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/ 2024-07-31T12:37:18-04:00" [ref=e52]:
+          - cell "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/" [ref=e53]:
+            - link "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/" [ref=e54] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+          - cell "2024-07-31T12:37:18-04:00" [ref=e55]
+        - row "https://truehifi.cl/producto/cs-55-cd-player/ 2024-05-29T13:11:24-04:00" [ref=e56]:
+          - cell "https://truehifi.cl/producto/cs-55-cd-player/" [ref=e57]:
+            - link "https://truehifi.cl/producto/cs-55-cd-player/" [ref=e58] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-55-cd-player/
+          - cell "2024-05-29T13:11:24-04:00" [ref=e59]
+        - row "https://truehifi.cl/producto/m-50cd/ 2021-09-15T14:54:34-04:00" [ref=e60]:
+          - cell "https://truehifi.cl/producto/m-50cd/" [ref=e61]:
+            - link "https://truehifi.cl/producto/m-50cd/" [ref=e62] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/m-50cd/
+          - cell "2021-09-15T14:54:34-04:00" [ref=e63]
+        - row "https://truehifi.cl/producto/689/ 2021-09-15T14:54:09-04:00" [ref=e64]:
+          - cell "https://truehifi.cl/producto/689/" [ref=e65]:
+            - link "https://truehifi.cl/producto/689/" [ref=e66] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/689/
+          - cell "2021-09-15T14:54:09-04:00" [ref=e67]
+        - row "https://truehifi.cl/producto/ha-1amk2/ 2024-07-15T15:16:08-04:00" [ref=e68]:
+          - cell "https://truehifi.cl/producto/ha-1amk2/" [ref=e69]:
+            - link "https://truehifi.cl/producto/ha-1amk2/" [ref=e70] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ha-1amk2/
+          - cell "2024-07-15T15:16:08-04:00" [ref=e71]
+        - row "https://truehifi.cl/producto/cs-100-cd-hibrido/ 2024-03-21T10:11:51-04:00" [ref=e72]:
+          - cell "https://truehifi.cl/producto/cs-100-cd-hibrido/" [ref=e73]:
+            - link "https://truehifi.cl/producto/cs-100-cd-hibrido/" [ref=e74] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-100-cd-hibrido/
+          - cell "2024-03-21T10:11:51-04:00" [ref=e75]
+        - row "https://truehifi.cl/producto/fantasy/ 2022-04-13T16:17:19-04:00" [ref=e76]:
+          - cell "https://truehifi.cl/producto/fantasy/" [ref=e77]:
+            - link "https://truehifi.cl/producto/fantasy/" [ref=e78] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/fantasy/
+          - cell "2022-04-13T16:17:19-04:00" [ref=e79]
+        - row "https://truehifi.cl/producto/iha-6/ 2022-04-13T16:15:01-04:00" [ref=e80]:
+          - cell "https://truehifi.cl/producto/iha-6/" [ref=e81]:
+            - link "https://truehifi.cl/producto/iha-6/" [ref=e82] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/iha-6/
+          - cell "2022-04-13T16:15:01-04:00" [ref=e83]
+        - row "https://truehifi.cl/producto/ha-6a-el34-kt88/ 2021-09-15T14:48:28-04:00" [ref=e84]:
+          - cell "https://truehifi.cl/producto/ha-6a-el34-kt88/" [ref=e85]:
+            - link "https://truehifi.cl/producto/ha-6a-el34-kt88/" [ref=e86] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ha-6a-el34-kt88/
+          - cell "2021-09-15T14:48:28-04:00" [ref=e87]
+        - row "https://truehifi.cl/producto/sc-6ls-mk2/ 2021-09-15T14:47:39-04:00" [ref=e88]:
+          - cell "https://truehifi.cl/producto/sc-6ls-mk2/" [ref=e89]:
+            - link "https://truehifi.cl/producto/sc-6ls-mk2/" [ref=e90] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/sc-6ls-mk2/
+          - cell "2021-09-15T14:47:39-04:00" [ref=e91]
+        - row "https://truehifi.cl/producto/m-11ls/ 2021-09-15T14:47:09-04:00" [ref=e92]:
+          - cell "https://truehifi.cl/producto/m-11ls/" [ref=e93]:
+            - link "https://truehifi.cl/producto/m-11ls/" [ref=e94] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/m-11ls/
+          - cell "2021-09-15T14:47:09-04:00" [ref=e95]
+        - row "https://truehifi.cl/producto/mt-12n-6p1/ 2026-02-17T21:48:00-04:00" [ref=e96]:
+          - cell "https://truehifi.cl/producto/mt-12n-6p1/" [ref=e97]:
+            - link "https://truehifi.cl/producto/mt-12n-6p1/" [ref=e98] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mt-12n-6p1/
+          - cell "2026-02-17T21:48:00-04:00" [ref=e99]
+        - row "https://truehifi.cl/producto/mt-12n-el84eh/ 2021-09-15T14:46:17-04:00" [ref=e100]:
+          - cell "https://truehifi.cl/producto/mt-12n-el84eh/" [ref=e101]:
+            - link "https://truehifi.cl/producto/mt-12n-el84eh/" [ref=e102] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mt-12n-el84eh/
+          - cell "2021-09-15T14:46:17-04:00" [ref=e103]
+        - row "https://truehifi.cl/producto/cayin-cs-100a-el34/ 2023-01-05T10:00:57-04:00" [ref=e104]:
+          - cell "https://truehifi.cl/producto/cayin-cs-100a-el34/" [ref=e105]:
+            - link "https://truehifi.cl/producto/cayin-cs-100a-el34/" [ref=e106] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-100a-el34/
+          - cell "2023-01-05T10:00:57-04:00" [ref=e107]
+        - row "https://truehifi.cl/producto/1019/ 2021-09-15T14:45:06-04:00" [ref=e108]:
+          - cell "https://truehifi.cl/producto/1019/" [ref=e109]:
+            - link "https://truehifi.cl/producto/1019/" [ref=e110] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/1019/
+          - cell "2021-09-15T14:45:06-04:00" [ref=e111]
+        - row "https://truehifi.cl/producto/cardas-paserc/ 2022-02-26T10:08:02-04:00" [ref=e112]:
+          - cell "https://truehifi.cl/producto/cardas-paserc/" [ref=e113]:
+            - link "https://truehifi.cl/producto/cardas-paserc/" [ref=e114] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-paserc/
+          - cell "2022-02-26T10:08:02-04:00" [ref=e115]
+        - row "https://truehifi.cl/producto/cardas-clear-sky/ 2022-09-28T16:05:57-04:00" [ref=e116]:
+          - cell "https://truehifi.cl/producto/cardas-clear-sky/" [ref=e117]:
+            - link "https://truehifi.cl/producto/cardas-clear-sky/" [ref=e118] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-clear-sky/
+          - cell "2022-09-28T16:05:57-04:00" [ref=e119]
+        - row "https://truehifi.cl/producto/cardas-iridium/ 2022-09-28T12:26:40-04:00" [ref=e120]:
+          - cell "https://truehifi.cl/producto/cardas-iridium/" [ref=e121]:
+            - link "https://truehifi.cl/producto/cardas-iridium/" [ref=e122] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-iridium/
+          - cell "2022-09-28T12:26:40-04:00" [ref=e123]
+        - row "https://truehifi.cl/producto/cardas-parsec/ 2023-02-23T15:41:50-04:00" [ref=e124]:
+          - cell "https://truehifi.cl/producto/cardas-parsec/" [ref=e125]:
+            - link "https://truehifi.cl/producto/cardas-parsec/" [ref=e126] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-parsec/
+          - cell "2023-02-23T15:41:50-04:00" [ref=e127]
+        - row "https://truehifi.cl/producto/cardas-iridium-2/ 2022-10-03T09:11:29-04:00" [ref=e128]:
+          - cell "https://truehifi.cl/producto/cardas-iridium-2/" [ref=e129]:
+            - link "https://truehifi.cl/producto/cardas-iridium-2/" [ref=e130] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-iridium-2/
+          - cell "2022-10-03T09:11:29-04:00" [ref=e131]
+        - row "https://truehifi.cl/producto/cayin-cs-88a-2/ 2024-11-28T15:36:16-04:00" [ref=e132]:
+          - cell "https://truehifi.cl/producto/cayin-cs-88a-2/" [ref=e133]:
+            - link "https://truehifi.cl/producto/cayin-cs-88a-2/" [ref=e134] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-88a-2/
+          - cell "2024-11-28T15:36:16-04:00" [ref=e135]
+        - row "https://truehifi.cl/producto/nautilus-power-strip/ 2022-10-06T15:54:46-04:00" [ref=e136]:
+          - cell "https://truehifi.cl/producto/nautilus-power-strip/" [ref=e137]:
+            - link "https://truehifi.cl/producto/nautilus-power-strip/" [ref=e138] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/nautilus-power-strip/
+          - cell "2022-10-06T15:54:46-04:00" [ref=e139]
+        - row "https://truehifi.cl/producto/iridium-power-cord/ 2024-10-03T13:09:23-04:00" [ref=e140]:
+          - cell "https://truehifi.cl/producto/iridium-power-cord/" [ref=e141]:
+            - link "https://truehifi.cl/producto/iridium-power-cord/" [ref=e142] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/iridium-power-cord/
+          - cell "2024-10-03T13:09:23-04:00" [ref=e143]
+        - row "https://truehifi.cl/producto/cardas-101-speaker/ 2022-10-03T08:56:34-04:00" [ref=e144]:
+          - cell "https://truehifi.cl/producto/cardas-101-speaker/" [ref=e145]:
+            - link "https://truehifi.cl/producto/cardas-101-speaker/" [ref=e146] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-101-speaker/
+          - cell "2022-10-03T08:56:34-04:00" [ref=e147]
+        - row "https://truehifi.cl/producto/clear-usb-a-b/ 2025-06-12T09:48:24-04:00" [ref=e148]:
+          - cell "https://truehifi.cl/producto/clear-usb-a-b/" [ref=e149]:
+            - link "https://truehifi.cl/producto/clear-usb-a-b/" [ref=e150] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/clear-usb-a-b/
+          - cell "2025-06-12T09:48:24-04:00" [ref=e151]
+        - row "https://truehifi.cl/producto/parsec-coaxial/ 2022-11-04T13:46:11-04:00" [ref=e152]:
+          - cell "https://truehifi.cl/producto/parsec-coaxial/" [ref=e153]:
+            - link "https://truehifi.cl/producto/parsec-coaxial/" [ref=e154] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/parsec-coaxial/
+          - cell "2022-11-04T13:46:11-04:00" [ref=e155]
+        - row "https://truehifi.cl/producto/rodillo-de-soldadura-quad-eutectico/ 2025-02-12T12:37:06-04:00" [ref=e156]:
+          - cell "https://truehifi.cl/producto/rodillo-de-soldadura-quad-eutectico/" [ref=e157]:
+            - link "https://truehifi.cl/producto/rodillo-de-soldadura-quad-eutectico/" [ref=e158] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/rodillo-de-soldadura-quad-eutectico/
+          - cell "2025-02-12T12:37:06-04:00" [ref=e159]
+        - row "https://truehifi.cl/producto/funda-de-cuero-cayin-n3pro-verde-esmeralda/ 2024-05-31T10:11:26-04:00" [ref=e160]:
+          - cell "https://truehifi.cl/producto/funda-de-cuero-cayin-n3pro-verde-esmeralda/" [ref=e161]:
+            - link "https://truehifi.cl/producto/funda-de-cuero-cayin-n3pro-verde-esmeralda/" [ref=e162] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/funda-de-cuero-cayin-n3pro-verde-esmeralda/
+          - cell "2024-05-31T10:11:26-04:00" [ref=e163]
+        - row "https://truehifi.cl/producto/cable-coaxial-cs-40tc35/ 2024-05-31T10:10:20-04:00" [ref=e164]:
+          - cell "https://truehifi.cl/producto/cable-coaxial-cs-40tc35/" [ref=e165]:
+            - link "https://truehifi.cl/producto/cable-coaxial-cs-40tc35/" [ref=e166] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cable-coaxial-cs-40tc35/
+          - cell "2024-05-31T10:10:20-04:00" [ref=e167]
+        - row "https://truehifi.cl/producto/modulo-de-placa-base-reemplazable-para-cayin-n6ii-r01/ 2021-09-15T14:43:33-04:00" [ref=e168]:
+          - cell "https://truehifi.cl/producto/modulo-de-placa-base-reemplazable-para-cayin-n6ii-r01/" [ref=e169]:
+            - link "https://truehifi.cl/producto/modulo-de-placa-base-reemplazable-para-cayin-n6ii-r01/" [ref=e170] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/modulo-de-placa-base-reemplazable-para-cayin-n6ii-r01/
+          - cell "2021-09-15T14:43:33-04:00" [ref=e171]
+        - row "https://truehifi.cl/producto/1342/ 2022-11-29T20:02:39-04:00" [ref=e172]:
+          - cell "https://truehifi.cl/producto/1342/" [ref=e173]:
+            - link "https://truehifi.cl/producto/1342/" [ref=e174] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/1342/
+          - cell "2022-11-29T20:02:39-04:00" [ref=e175]
+        - row "https://truehifi.cl/producto/cs-805a/ 2025-06-25T11:34:42-04:00" [ref=e176]:
+          - cell "https://truehifi.cl/producto/cs-805a/" [ref=e177]:
+            - link "https://truehifi.cl/producto/cs-805a/" [ref=e178] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-805a/
+          - cell "2025-06-25T11:34:42-04:00" [ref=e179]
+        - row "https://truehifi.cl/producto/cayin-cs-55a-kt88/ 2024-11-28T15:31:45-04:00" [ref=e180]:
+          - cell "https://truehifi.cl/producto/cayin-cs-55a-kt88/" [ref=e181]:
+            - link "https://truehifi.cl/producto/cayin-cs-55a-kt88/" [ref=e182] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+          - cell "2024-11-28T15:31:45-04:00" [ref=e183]
+        - row "https://truehifi.cl/producto/yaqin-vk-2100/ 2026-03-19T14:26:34-04:00" [ref=e184]:
+          - cell "https://truehifi.cl/producto/yaqin-vk-2100/" [ref=e185]:
+            - link "https://truehifi.cl/producto/yaqin-vk-2100/" [ref=e186] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/yaqin-vk-2100/
+          - cell "2026-03-19T14:26:34-04:00" [ref=e187]
+        - row "https://truehifi.cl/producto/soul-170i/ 2026-03-19T14:50:51-04:00" [ref=e188]:
+          - cell "https://truehifi.cl/producto/soul-170i/" [ref=e189]:
+            - link "https://truehifi.cl/producto/soul-170i/" [ref=e190] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/soul-170i/
+          - cell "2026-03-19T14:50:51-04:00" [ref=e191]
+        - row "https://truehifi.cl/producto/parsec-power-cord/ 2023-02-08T10:10:51-04:00" [ref=e192]:
+          - cell "https://truehifi.cl/producto/parsec-power-cord/" [ref=e193]:
+            - link "https://truehifi.cl/producto/parsec-power-cord/" [ref=e194] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/parsec-power-cord/
+          - cell "2023-02-08T10:10:51-04:00" [ref=e195]
+        - row "https://truehifi.cl/producto/iridium-phono-rca-a-rca/ 2022-09-30T09:41:55-04:00" [ref=e196]:
+          - cell "https://truehifi.cl/producto/iridium-phono-rca-a-rca/" [ref=e197]:
+            - link "https://truehifi.cl/producto/iridium-phono-rca-a-rca/" [ref=e198] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/iridium-phono-rca-a-rca/
+          - cell "2022-09-30T09:41:55-04:00" [ref=e199]
+        - row "https://truehifi.cl/producto/svetlana-kt88-sv/ 2025-07-02T15:26:32-04:00" [ref=e200]:
+          - cell "https://truehifi.cl/producto/svetlana-kt88-sv/" [ref=e201]:
+            - link "https://truehifi.cl/producto/svetlana-kt88-sv/" [ref=e202] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/svetlana-kt88-sv/
+          - cell "2025-07-02T15:26:32-04:00" [ref=e203]
+        - row "https://truehifi.cl/producto/electro-harmonix-kt88eh/ 2023-01-10T11:13:43-04:00" [ref=e204]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-kt88eh/" [ref=e205]:
+            - link "https://truehifi.cl/producto/electro-harmonix-kt88eh/" [ref=e206] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-kt88eh/
+          - cell "2023-01-10T11:13:43-04:00" [ref=e207]
+        - row "https://truehifi.cl/producto/electro-harmonix-2a3/ 2023-03-10T11:27:55-04:00" [ref=e208]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-2a3/" [ref=e209]:
+            - link "https://truehifi.cl/producto/electro-harmonix-2a3/" [ref=e210] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-2a3/
+          - cell "2023-03-10T11:27:55-04:00" [ref=e211]
+        - row "https://truehifi.cl/producto/electro-harmonix-300b/ 2025-07-02T15:26:44-04:00" [ref=e212]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-300b/" [ref=e213]:
+            - link "https://truehifi.cl/producto/electro-harmonix-300b/" [ref=e214] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-300b/
+          - cell "2025-07-02T15:26:44-04:00" [ref=e215]
+        - row "https://truehifi.cl/producto/tung-sol-6l6gc-str/ 2022-10-13T15:40:51-04:00" [ref=e216]:
+          - cell "https://truehifi.cl/producto/tung-sol-6l6gc-str/" [ref=e217]:
+            - link "https://truehifi.cl/producto/tung-sol-6l6gc-str/" [ref=e218] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/tung-sol-6l6gc-str/
+          - cell "2022-10-13T15:40:51-04:00" [ref=e219]
+        - row "https://truehifi.cl/producto/mullard-12au7-ecc82/ 2023-01-10T11:12:41-04:00" [ref=e220]:
+          - cell "https://truehifi.cl/producto/mullard-12au7-ecc82/" [ref=e221]:
+            - link "https://truehifi.cl/producto/mullard-12au7-ecc82/" [ref=e222] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mullard-12au7-ecc82/
+          - cell "2023-01-10T11:12:41-04:00" [ref=e223]
+        - row "https://truehifi.cl/producto/electro-harmonix-el84/ 2023-11-21T15:58:37-04:00" [ref=e224]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-el84/" [ref=e225]:
+            - link "https://truehifi.cl/producto/electro-harmonix-el84/" [ref=e226] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-el84/
+          - cell "2023-11-21T15:58:37-04:00" [ref=e227]
+        - row "https://truehifi.cl/producto/electro-harmonix-12au7-ecc82/ 2023-01-10T11:11:20-04:00" [ref=e228]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-12au7-ecc82/" [ref=e229]:
+            - link "https://truehifi.cl/producto/electro-harmonix-12au7-ecc82/" [ref=e230] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-12au7-ecc82/
+          - cell "2023-01-10T11:11:20-04:00" [ref=e231]
+        - row "https://truehifi.cl/producto/electro-harmonix-12ax7/ 2022-09-24T14:49:29-04:00" [ref=e232]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-12ax7/" [ref=e233]:
+            - link "https://truehifi.cl/producto/electro-harmonix-12ax7/" [ref=e234] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-12ax7/
+          - cell "2022-09-24T14:49:29-04:00" [ref=e235]
+        - row "https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/ 2023-01-10T11:22:30-04:00" [ref=e236]:
+          - cell "https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/" [ref=e237]:
+            - link "https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/" [ref=e238] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/
+          - cell "2023-01-10T11:22:30-04:00" [ref=e239]
+        - row "https://truehifi.cl/producto/cocktail-audio-x45/ 2025-04-14T16:49:10-04:00" [ref=e240]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x45/" [ref=e241]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x45/" [ref=e242] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x45/
+          - cell "2025-04-14T16:49:10-04:00" [ref=e243]
+        - row "https://truehifi.cl/producto/cocktail-audio-n25-amp/ 2025-05-09T11:36:30-04:00" [ref=e244]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-n25-amp/" [ref=e245]:
+            - link "https://truehifi.cl/producto/cocktail-audio-n25-amp/" [ref=e246] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-n25-amp/
+          - cell "2025-05-09T11:36:30-04:00" [ref=e247]
+        - row "https://truehifi.cl/producto/ru6-r-2r/ 2025-09-08T10:00:54-04:00" [ref=e248]:
+          - cell "https://truehifi.cl/producto/ru6-r-2r/" [ref=e249]:
+            - link "https://truehifi.cl/producto/ru6-r-2r/" [ref=e250] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ru6-r-2r/
+          - cell "2025-09-08T10:00:54-04:00" [ref=e251]
+        - row "https://truehifi.cl/producto/ru6-r-2r-2/ 2023-03-10T10:25:54-04:00" [ref=e252]:
+          - cell "https://truehifi.cl/producto/ru6-r-2r-2/" [ref=e253]:
+            - link "https://truehifi.cl/producto/ru6-r-2r-2/" [ref=e254] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ru6-r-2r-2/
+          - cell "2023-03-10T10:25:54-04:00" [ref=e255]
+        - row "https://truehifi.cl/producto/moonriver-404-reference/ 2024-07-15T13:17:25-04:00" [ref=e256]:
+          - cell "https://truehifi.cl/producto/moonriver-404-reference/" [ref=e257]:
+            - link "https://truehifi.cl/producto/moonriver-404-reference/" [ref=e258] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/moonriver-404-reference/
+          - cell "2024-07-15T13:17:25-04:00" [ref=e259]
+        - row "https://truehifi.cl/producto/solidsteel-s2-5/ 2024-11-28T15:22:20-04:00" [ref=e260]:
+          - cell "https://truehifi.cl/producto/solidsteel-s2-5/" [ref=e261]:
+            - link "https://truehifi.cl/producto/solidsteel-s2-5/" [ref=e262] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/solidsteel-s2-5/
+          - cell "2024-11-28T15:22:20-04:00" [ref=e263]
+        - row "https://truehifi.cl/producto/s2-4/ 2024-11-28T15:22:06-04:00" [ref=e264]:
+          - cell "https://truehifi.cl/producto/s2-4/" [ref=e265]:
+            - link "https://truehifi.cl/producto/s2-4/" [ref=e266] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/s2-4/
+          - cell "2024-11-28T15:22:06-04:00" [ref=e267]
+        - row "https://truehifi.cl/producto/n15d/ 2025-04-14T16:41:34-04:00" [ref=e268]:
+          - cell "https://truehifi.cl/producto/n15d/" [ref=e269]:
+            - link "https://truehifi.cl/producto/n15d/" [ref=e270] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/n15d/
+          - cell "2025-04-14T16:41:34-04:00" [ref=e271]
+        - row "https://truehifi.cl/producto/cocktail-audio-x14/ 2025-04-14T16:41:34-04:00" [ref=e272]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x14/" [ref=e273]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x14/" [ref=e274] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x14/
+          - cell "2025-04-14T16:41:34-04:00" [ref=e275]
+        - row "https://truehifi.cl/producto/cocktail-audio-x35/ 2025-04-14T16:39:19-04:00" [ref=e276]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x35/" [ref=e277]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x35/" [ref=e278] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x35/
+          - cell "2025-04-14T16:39:19-04:00" [ref=e279]
+        - row "https://truehifi.cl/producto/cocktail-audio-x50d/ 2025-04-14T16:41:34-04:00" [ref=e280]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x50d/" [ref=e281]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x50d/" [ref=e282] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x50d/
+          - cell "2025-04-14T16:41:34-04:00" [ref=e283]
+        - row "https://truehifi.cl/producto/cocktail-audio-x45-pro/ 2025-04-14T16:41:33-04:00" [ref=e284]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x45-pro/" [ref=e285]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x45-pro/" [ref=e286] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x45-pro/
+          - cell "2025-04-14T16:41:33-04:00" [ref=e287]
+        - row "https://truehifi.cl/producto/cocktail-audio-x50-pro/ 2025-04-14T16:41:53-04:00" [ref=e288]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-x50-pro/" [ref=e289]:
+            - link "https://truehifi.cl/producto/cocktail-audio-x50-pro/" [ref=e290] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-x50-pro/
+          - cell "2025-04-14T16:41:53-04:00" [ref=e291]
+        - row "https://truehifi.cl/producto/cocktail-audio-ha500h/ 2025-04-14T16:42:08-04:00" [ref=e292]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-ha500h/" [ref=e293]:
+            - link "https://truehifi.cl/producto/cocktail-audio-ha500h/" [ref=e294] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-ha500h/
+          - cell "2025-04-14T16:42:08-04:00" [ref=e295]
+        - row "https://truehifi.cl/producto/audiophysic-classic-15/ 2024-05-29T12:49:34-04:00" [ref=e296]:
+          - cell "https://truehifi.cl/producto/audiophysic-classic-15/" [ref=e297]:
+            - link "https://truehifi.cl/producto/audiophysic-classic-15/" [ref=e298] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audiophysic-classic-15/
+          - cell "2024-05-29T12:49:34-04:00" [ref=e299]
+        - row "https://truehifi.cl/producto/classic-3/ 2024-04-24T14:36:44-04:00" [ref=e300]:
+          - cell "https://truehifi.cl/producto/classic-3/" [ref=e301]:
+            - link "https://truehifi.cl/producto/classic-3/" [ref=e302] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/classic-3/
+          - cell "2024-04-24T14:36:44-04:00" [ref=e303]
+        - row "https://truehifi.cl/producto/classic-8/ 2024-08-21T12:09:53-04:00" [ref=e304]:
+          - cell "https://truehifi.cl/producto/classic-8/" [ref=e305]:
+            - link "https://truehifi.cl/producto/classic-8/" [ref=e306] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/classic-8/
+          - cell "2024-08-21T12:09:53-04:00" [ref=e307]
+        - row "https://truehifi.cl/producto/classic-25/ 2022-07-15T16:54:15-04:00" [ref=e308]:
+          - cell "https://truehifi.cl/producto/classic-25/" [ref=e309]:
+            - link "https://truehifi.cl/producto/classic-25/" [ref=e310] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/classic-25/
+          - cell "2022-07-15T16:54:15-04:00" [ref=e311]
+        - row "https://truehifi.cl/producto/reference-spark/ 2025-05-06T16:40:36-04:00" [ref=e312]:
+          - cell "https://truehifi.cl/producto/reference-spark/" [ref=e313]:
+            - link "https://truehifi.cl/producto/reference-spark/" [ref=e314] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/reference-spark/
+          - cell "2025-05-06T16:40:36-04:00" [ref=e315]
+        - row "https://truehifi.cl/producto/step-35/ 2022-02-07T15:15:41-04:00" [ref=e316]:
+          - cell "https://truehifi.cl/producto/step-35/" [ref=e317]:
+            - link "https://truehifi.cl/producto/step-35/" [ref=e318] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/step-35/
+          - cell "2022-02-07T15:15:41-04:00" [ref=e319]
+        - row "https://truehifi.cl/producto/avanti-35/ 2022-02-07T15:50:55-04:00" [ref=e320]:
+          - cell "https://truehifi.cl/producto/avanti-35/" [ref=e321]:
+            - link "https://truehifi.cl/producto/avanti-35/" [ref=e322] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/avanti-35/
+          - cell "2022-02-07T15:50:55-04:00" [ref=e323]
+        - row "https://truehifi.cl/producto/audio-physic-tempo-35/ 2022-02-07T15:44:33-04:00" [ref=e324]:
+          - cell "https://truehifi.cl/producto/audio-physic-tempo-35/" [ref=e325]:
+            - link "https://truehifi.cl/producto/audio-physic-tempo-35/" [ref=e326] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-tempo-35/
+          - cell "2022-02-07T15:44:33-04:00" [ref=e327]
+        - row "https://truehifi.cl/producto/audio-physic-midex/ 2022-02-07T15:13:01-04:00" [ref=e328]:
+          - cell "https://truehifi.cl/producto/audio-physic-midex/" [ref=e329]:
+            - link "https://truehifi.cl/producto/audio-physic-midex/" [ref=e330] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-midex/
+          - cell "2022-02-07T15:13:01-04:00" [ref=e331]
+        - row "https://truehifi.cl/producto/audio-physic-codex/ 2022-02-07T16:16:11-04:00" [ref=e332]:
+          - cell "https://truehifi.cl/producto/audio-physic-codex/" [ref=e333]:
+            - link "https://truehifi.cl/producto/audio-physic-codex/" [ref=e334] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-codex/
+          - cell "2022-02-07T16:16:11-04:00" [ref=e335]
+        - row "https://truehifi.cl/producto/audio-physic-codex-2/ 2022-02-07T17:22:02-04:00" [ref=e336]:
+          - cell "https://truehifi.cl/producto/audio-physic-codex-2/" [ref=e337]:
+            - link "https://truehifi.cl/producto/audio-physic-codex-2/" [ref=e338] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-codex-2/
+          - cell "2022-02-07T17:22:02-04:00" [ref=e339]
+        - row "https://truehifi.cl/producto/audio-physic-classic-35/ 2022-02-08T17:06:42-04:00" [ref=e340]:
+          - cell "https://truehifi.cl/producto/audio-physic-classic-35/" [ref=e341]:
+            - link "https://truehifi.cl/producto/audio-physic-classic-35/" [ref=e342] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-classic-35/
+          - cell "2022-02-08T17:06:42-04:00" [ref=e343]
+        - row "https://truehifi.cl/producto/audio-physic-hhc-iii/ 2022-02-09T13:55:41-04:00" [ref=e344]:
+          - cell "https://truehifi.cl/producto/audio-physic-hhc-iii/" [ref=e345]:
+            - link "https://truehifi.cl/producto/audio-physic-hhc-iii/" [ref=e346] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-hhc-iii/
+          - cell "2022-02-09T13:55:41-04:00" [ref=e347]
+        - row "https://truehifi.cl/producto/audio-physic-luna/ 2022-02-09T15:19:11-04:00" [ref=e348]:
+          - cell "https://truehifi.cl/producto/audio-physic-luna/" [ref=e349]:
+            - link "https://truehifi.cl/producto/audio-physic-luna/" [ref=e350] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audio-physic-luna/
+          - cell "2022-02-09T15:19:11-04:00" [ref=e351]
+        - row "https://truehifi.cl/producto/vcf-v-magnetic-plus/ 2025-06-17T10:26:01-04:00" [ref=e352]:
+          - cell "https://truehifi.cl/producto/vcf-v-magnetic-plus/" [ref=e353]:
+            - link "https://truehifi.cl/producto/vcf-v-magnetic-plus/" [ref=e354] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/vcf-v-magnetic-plus/
+          - cell "2025-06-17T10:26:01-04:00" [ref=e355]
+        - row "https://truehifi.cl/producto/juego-de-componentes-vcf-v-magnetic-plus/ 2025-06-17T10:43:59-04:00" [ref=e356]:
+          - cell "https://truehifi.cl/producto/juego-de-componentes-vcf-v-magnetic-plus/" [ref=e357]:
+            - link "https://truehifi.cl/producto/juego-de-componentes-vcf-v-magnetic-plus/" [ref=e358] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/juego-de-componentes-vcf-v-magnetic-plus/
+          - cell "2025-06-17T10:43:59-04:00" [ref=e359]
+        - row "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes/ 2025-06-17T10:29:45-04:00" [ref=e360]:
+          - cell "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes/" [ref=e361]:
+            - link "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes/" [ref=e362] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes/
+          - cell "2025-06-17T10:29:45-04:00" [ref=e363]
+        - row "https://truehifi.cl/producto/juego-de-componentes-vcf-ii-magnetic-plus/ 2025-06-17T10:08:18-04:00" [ref=e364]:
+          - cell "https://truehifi.cl/producto/juego-de-componentes-vcf-ii-magnetic-plus/" [ref=e365]:
+            - link "https://truehifi.cl/producto/juego-de-componentes-vcf-ii-magnetic-plus/" [ref=e366] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/juego-de-componentes-vcf-ii-magnetic-plus/
+          - cell "2025-06-17T10:08:18-04:00" [ref=e367]
+        - row "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables/ 2024-05-31T10:03:27-04:00" [ref=e368]:
+          - cell "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables/" [ref=e369]:
+            - link "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables/" [ref=e370] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables/
+          - cell "2024-05-31T10:03:27-04:00" [ref=e371]
+        - row "https://truehifi.cl/producto/soporte-magnetico-vcf-para-tornamesa/ 2025-06-17T10:39:49-04:00" [ref=e372]:
+          - cell "https://truehifi.cl/producto/soporte-magnetico-vcf-para-tornamesa/" [ref=e373]:
+            - link "https://truehifi.cl/producto/soporte-magnetico-vcf-para-tornamesa/" [ref=e374] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/soporte-magnetico-vcf-para-tornamesa/
+          - cell "2025-06-17T10:39:49-04:00" [ref=e375]
+        - row "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes-2/ 2025-06-17T13:01:16-04:00" [ref=e376]:
+          - cell "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes-2/" [ref=e377]:
+            - link "https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes-2/" [ref=e378] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/vcf-ii-magnetic-plus-set-parlantes-2/
+          - cell "2025-06-17T13:01:16-04:00" [ref=e379]
+        - row "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables-2/ 2024-05-31T09:59:28-04:00" [ref=e380]:
+          - cell "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables-2/" [ref=e381]:
+            - link "https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables-2/" [ref=e382] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/soporte-magnetico-vcf-para-cables-2/
+          - cell "2024-05-31T09:59:28-04:00" [ref=e383]
+        - row "https://truehifi.cl/producto/juego-de-componentes-dcf-ii-m8/ 2024-05-31T09:58:20-04:00" [ref=e384]:
+          - cell "https://truehifi.cl/producto/juego-de-componentes-dcf-ii-m8/" [ref=e385]:
+            - link "https://truehifi.cl/producto/juego-de-componentes-dcf-ii-m8/" [ref=e386] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/juego-de-componentes-dcf-ii-m8/
+          - cell "2024-05-31T09:58:20-04:00" [ref=e387]
+        - row "https://truehifi.cl/producto/ha-300mk2/ 2022-10-04T12:06:56-04:00" [ref=e388]:
+          - cell "https://truehifi.cl/producto/ha-300mk2/" [ref=e389]:
+            - link "https://truehifi.cl/producto/ha-300mk2/" [ref=e390] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ha-300mk2/
+          - cell "2022-10-04T12:06:56-04:00" [ref=e391]
+        - row "https://truehifi.cl/producto/cs-150a/ 2022-10-04T12:25:37-04:00" [ref=e392]:
+          - cell "https://truehifi.cl/producto/cs-150a/" [ref=e393]:
+            - link "https://truehifi.cl/producto/cs-150a/" [ref=e394] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-150a/
+          - cell "2022-10-04T12:25:37-04:00" [ref=e395]
+        - row "https://truehifi.cl/producto/muarah-audio-power-switch/ 2025-04-01T15:27:01-04:00" [ref=e396]:
+          - cell "https://truehifi.cl/producto/muarah-audio-power-switch/" [ref=e397]:
+            - link "https://truehifi.cl/producto/muarah-audio-power-switch/" [ref=e398] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/muarah-audio-power-switch/
+          - cell "2025-04-01T15:27:01-04:00" [ref=e399]
+        - row "https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/ 2023-02-15T14:53:31-04:00" [ref=e400]:
+          - cell "https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/" [ref=e401]:
+            - link "https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/" [ref=e402] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/
+          - cell "2023-02-15T14:53:31-04:00" [ref=e403]
+        - row "https://truehifi.cl/producto/mu-2-mm-mc/ 2022-11-29T20:02:39-04:00" [ref=e404]:
+          - cell "https://truehifi.cl/producto/mu-2-mm-mc/" [ref=e405]:
+            - link "https://truehifi.cl/producto/mu-2-mm-mc/" [ref=e406] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mu-2-mm-mc/
+          - cell "2022-11-29T20:02:39-04:00" [ref=e407]
+        - row "https://truehifi.cl/producto/psc/ 2022-04-26T18:06:24-04:00" [ref=e408]:
+          - cell "https://truehifi.cl/producto/psc/" [ref=e409]:
+            - link "https://truehifi.cl/producto/psc/" [ref=e410] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/psc/
+          - cell "2022-04-26T18:06:24-04:00" [ref=e411]
+        - row "https://truehifi.cl/producto/goldnote-vasari-red/ 2024-11-28T15:24:09-04:00" [ref=e412]:
+          - cell "https://truehifi.cl/producto/goldnote-vasari-red/" [ref=e413]:
+            - link "https://truehifi.cl/producto/goldnote-vasari-red/" [ref=e414] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/goldnote-vasari-red/
+          - cell "2024-11-28T15:24:09-04:00" [ref=e415]
+        - row "https://truehifi.cl/producto/gold-note-vasari-gold/ 2024-11-28T15:23:58-04:00" [ref=e416]:
+          - cell "https://truehifi.cl/producto/gold-note-vasari-gold/" [ref=e417]:
+            - link "https://truehifi.cl/producto/gold-note-vasari-gold/" [ref=e418] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/gold-note-vasari-gold/
+          - cell "2024-11-28T15:23:58-04:00" [ref=e419]
+        - row "https://truehifi.cl/producto/gold-note-es-78/ 2024-11-28T15:24:48-04:00" [ref=e420]:
+          - cell "https://truehifi.cl/producto/gold-note-es-78/" [ref=e421]:
+            - link "https://truehifi.cl/producto/gold-note-es-78/" [ref=e422] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/gold-note-es-78/
+          - cell "2024-11-28T15:24:48-04:00" [ref=e423]
+        - row "https://truehifi.cl/producto/cocktail-audio-n-25/ 2025-04-14T16:17:38-04:00" [ref=e424]:
+          - cell "https://truehifi.cl/producto/cocktail-audio-n-25/" [ref=e425]:
+            - link "https://truehifi.cl/producto/cocktail-audio-n-25/" [ref=e426] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cocktail-audio-n-25/
+          - cell "2025-04-14T16:17:38-04:00" [ref=e427]
+        - row "https://truehifi.cl/producto/mini-cd-mk2/ 2025-10-21T14:33:37-04:00" [ref=e428]:
+          - cell "https://truehifi.cl/producto/mini-cd-mk2/" [ref=e429]:
+            - link "https://truehifi.cl/producto/mini-cd-mk2/" [ref=e430] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mini-cd-mk2/
+          - cell "2025-10-21T14:33:37-04:00" [ref=e431]
+        - row "https://truehifi.cl/producto/cayin-cs-300a/ 2022-10-04T12:33:29-04:00" [ref=e432]:
+          - cell "https://truehifi.cl/producto/cayin-cs-300a/" [ref=e433]:
+            - link "https://truehifi.cl/producto/cayin-cs-300a/" [ref=e434] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-300a/
+          - cell "2022-10-04T12:33:29-04:00" [ref=e435]
+        - row "https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/ 2024-11-28T15:39:25-04:00" [ref=e436]:
+          - cell "https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/" [ref=e437]:
+            - link "https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/" [ref=e438] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/
+          - cell "2024-11-28T15:39:25-04:00" [ref=e439]
+        - row "https://truehifi.cl/producto/rega-planar-2-negro/ 2024-11-28T15:39:43-04:00" [ref=e440]:
+          - cell "https://truehifi.cl/producto/rega-planar-2-negro/" [ref=e441]:
+            - link "https://truehifi.cl/producto/rega-planar-2-negro/" [ref=e442] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/rega-planar-2-negro/
+          - cell "2024-11-28T15:39:43-04:00" [ref=e443]
+        - row "https://truehifi.cl/producto/2430/ 2024-11-28T15:38:17-04:00" [ref=e444]:
+          - cell "https://truehifi.cl/producto/2430/" [ref=e445]:
+            - link "https://truehifi.cl/producto/2430/" [ref=e446] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/2430/
+          - cell "2024-11-28T15:38:17-04:00" [ref=e447]
+        - row "https://truehifi.cl/producto/muarah-mu-4-evo/ 2022-10-12T09:06:58-04:00" [ref=e448]:
+          - cell "https://truehifi.cl/producto/muarah-mu-4-evo/" [ref=e449]:
+            - link "https://truehifi.cl/producto/muarah-mu-4-evo/" [ref=e450] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/muarah-mu-4-evo/
+          - cell "2022-10-12T09:06:58-04:00" [ref=e451]
+        - row "https://truehifi.cl/producto/cardas-myrtle-silver-heart-moving-coil-mc/ 2024-11-28T15:23:47-04:00" [ref=e452]:
+          - cell "https://truehifi.cl/producto/cardas-myrtle-silver-heart-moving-coil-mc/" [ref=e453]:
+            - link "https://truehifi.cl/producto/cardas-myrtle-silver-heart-moving-coil-mc/" [ref=e454] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cardas-myrtle-silver-heart-moving-coil-mc/
+          - cell "2024-11-28T15:23:47-04:00" [ref=e455]
+        - row "https://truehifi.cl/producto/cayin-845a-pro-edicion-aniversario/ 2022-12-28T16:14:58-04:00" [ref=e456]:
+          - cell "https://truehifi.cl/producto/cayin-845a-pro-edicion-aniversario/" [ref=e457]:
+            - link "https://truehifi.cl/producto/cayin-845a-pro-edicion-aniversario/" [ref=e458] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-845a-pro-edicion-aniversario/
+          - cell "2022-12-28T16:14:58-04:00" [ref=e459]
+        - row "https://truehifi.cl/producto/audia-flight-fl-three-s/ 2024-08-19T10:28:22-04:00" [ref=e460]:
+          - cell "https://truehifi.cl/producto/audia-flight-fl-three-s/" [ref=e461]:
+            - link "https://truehifi.cl/producto/audia-flight-fl-three-s/" [ref=e462] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/audia-flight-fl-three-s/
+          - cell "2024-08-19T10:28:22-04:00" [ref=e463]
+        - row "https://truehifi.cl/producto/pylon-jasper-monitor-18/ 2024-07-15T15:51:59-04:00" [ref=e464]:
+          - cell "https://truehifi.cl/producto/pylon-jasper-monitor-18/" [ref=e465]:
+            - link "https://truehifi.cl/producto/pylon-jasper-monitor-18/" [ref=e466] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jasper-monitor-18/
+          - cell "2024-07-15T15:51:59-04:00" [ref=e467]
+        - row "https://truehifi.cl/producto/pylon-diamond-monitor-18/ 2024-11-28T15:58:09-04:00" [ref=e468]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-monitor-18/" [ref=e469]:
+            - link "https://truehifi.cl/producto/pylon-diamond-monitor-18/" [ref=e470] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-monitor-18/
+          - cell "2024-11-28T15:58:09-04:00" [ref=e471]
+        - row "https://truehifi.cl/producto/pylon-diamond-monitor-15/ 2024-11-28T15:58:19-04:00" [ref=e472]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-monitor-15/" [ref=e473]:
+            - link "https://truehifi.cl/producto/pylon-diamond-monitor-15/" [ref=e474] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-monitor-15/
+          - cell "2024-11-28T15:58:19-04:00" [ref=e475]
+        - row "https://truehifi.cl/producto/full-music-el34-par-matched/ 2025-07-02T15:26:56-04:00" [ref=e476]:
+          - cell "https://truehifi.cl/producto/full-music-el34-par-matched/" [ref=e477]:
+            - link "https://truehifi.cl/producto/full-music-el34-par-matched/" [ref=e478] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/full-music-el34-par-matched/
+          - cell "2025-07-02T15:26:56-04:00" [ref=e479]
+        - row "https://truehifi.cl/producto/mt1-evo/ 2023-01-31T16:50:07-04:00" [ref=e480]:
+          - cell "https://truehifi.cl/producto/mt1-evo/" [ref=e481]:
+            - link "https://truehifi.cl/producto/mt1-evo/" [ref=e482] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/mt1-evo/
+          - cell "2023-01-31T16:50:07-04:00" [ref=e483]
+        - row "https://truehifi.cl/producto/muarah-mt2-special-edition/ 2023-02-02T10:12:32-04:00" [ref=e484]:
+          - cell "https://truehifi.cl/producto/muarah-mt2-special-edition/" [ref=e485]:
+            - link "https://truehifi.cl/producto/muarah-mt2-special-edition/" [ref=e486] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/muarah-mt2-special-edition/
+          - cell "2023-02-02T10:12:32-04:00" [ref=e487]
+        - row "https://truehifi.cl/producto/pylon-jade-twenty/ 2025-11-10T11:39:56-04:00" [ref=e488]:
+          - cell "https://truehifi.cl/producto/pylon-jade-twenty/" [ref=e489]:
+            - link "https://truehifi.cl/producto/pylon-jade-twenty/" [ref=e490] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jade-twenty/
+          - cell "2025-11-10T11:39:56-04:00" [ref=e491]
+        - row "https://truehifi.cl/producto/pylon-amber-mkii/ 2024-03-26T09:25:36-04:00" [ref=e492]:
+          - cell "https://truehifi.cl/producto/pylon-amber-mkii/" [ref=e493]:
+            - link "https://truehifi.cl/producto/pylon-amber-mkii/" [ref=e494] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-amber-mkii/
+          - cell "2024-03-26T09:25:36-04:00" [ref=e495]
+        - row "https://truehifi.cl/producto/pylon-jasper-25-mk2/ 2024-03-27T13:12:51-04:00" [ref=e496]:
+          - cell "https://truehifi.cl/producto/pylon-jasper-25-mk2/" [ref=e497]:
+            - link "https://truehifi.cl/producto/pylon-jasper-25-mk2/" [ref=e498] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jasper-25-mk2/
+          - cell "2024-03-27T13:12:51-04:00" [ref=e499]
+        - row "https://truehifi.cl/producto/pylon-jasper-23/ 2024-03-27T11:21:18-04:00" [ref=e500]:
+          - cell "https://truehifi.cl/producto/pylon-jasper-23/" [ref=e501]:
+            - link "https://truehifi.cl/producto/pylon-jasper-23/" [ref=e502] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jasper-23/
+          - cell "2024-03-27T11:21:18-04:00" [ref=e503]
+        - row "https://truehifi.cl/producto/pylon-diamond-28/ 2024-03-27T10:57:39-04:00" [ref=e504]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-28/" [ref=e505]:
+            - link "https://truehifi.cl/producto/pylon-diamond-28/" [ref=e506] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-28/
+          - cell "2024-03-27T10:57:39-04:00" [ref=e507]
+        - row "https://truehifi.cl/producto/pylon-diamond-25/ 2024-03-26T09:37:06-04:00" [ref=e508]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-25/" [ref=e509]:
+            - link "https://truehifi.cl/producto/pylon-diamond-25/" [ref=e510] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-25/
+          - cell "2024-03-26T09:37:06-04:00" [ref=e511]
+        - row "https://truehifi.cl/producto/cayin-n7/ 2024-07-23T08:23:35-04:00" [ref=e512]:
+          - cell "https://truehifi.cl/producto/cayin-n7/" [ref=e513]:
+            - link "https://truehifi.cl/producto/cayin-n7/" [ref=e514] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-n7/
+          - cell "2024-07-23T08:23:35-04:00" [ref=e515]
+        - row "https://truehifi.cl/producto/pylon-ruby-30/ 2024-03-27T15:00:07-04:00" [ref=e516]:
+          - cell "https://truehifi.cl/producto/pylon-ruby-30/" [ref=e517]:
+            - link "https://truehifi.cl/producto/pylon-ruby-30/" [ref=e518] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-ruby-30/
+          - cell "2024-03-27T15:00:07-04:00" [ref=e519]
+        - row "https://truehifi.cl/producto/pylon-ruby-25-mkii/ 2024-03-27T14:57:34-04:00" [ref=e520]:
+          - cell "https://truehifi.cl/producto/pylon-ruby-25-mkii/" [ref=e521]:
+            - link "https://truehifi.cl/producto/pylon-ruby-25-mkii/" [ref=e522] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-ruby-25-mkii/
+          - cell "2024-03-27T14:57:34-04:00" [ref=e523]
+        - row "https://truehifi.cl/producto/pylon-ruby-20/ 2024-03-27T14:55:17-04:00" [ref=e524]:
+          - cell "https://truehifi.cl/producto/pylon-ruby-20/" [ref=e525]:
+            - link "https://truehifi.cl/producto/pylon-ruby-20/" [ref=e526] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-ruby-20/
+          - cell "2024-03-27T14:55:17-04:00" [ref=e527]
+        - row "https://truehifi.cl/producto/pylon-ruby-monitor/ 2023-03-07T15:31:16-04:00" [ref=e528]:
+          - cell "https://truehifi.cl/producto/pylon-ruby-monitor/" [ref=e529]:
+            - link "https://truehifi.cl/producto/pylon-ruby-monitor/" [ref=e530] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-ruby-monitor/
+          - cell "2023-03-07T15:31:16-04:00" [ref=e531]
+        - row "https://truehifi.cl/producto/pylon-sapphire-31/ 2024-03-27T15:10:53-04:00" [ref=e532]:
+          - cell "https://truehifi.cl/producto/pylon-sapphire-31/" [ref=e533]:
+            - link "https://truehifi.cl/producto/pylon-sapphire-31/" [ref=e534] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-sapphire-31/
+          - cell "2024-03-27T15:10:53-04:00" [ref=e535]
+        - row "https://truehifi.cl/producto/pylon-sapphire-25/ 2024-03-27T15:11:46-04:00" [ref=e536]:
+          - cell "https://truehifi.cl/producto/pylon-sapphire-25/" [ref=e537]:
+            - link "https://truehifi.cl/producto/pylon-sapphire-25/" [ref=e538] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-sapphire-25/
+          - cell "2024-03-27T15:11:46-04:00" [ref=e539]
+        - row "https://truehifi.cl/producto/pylon-sapphire-23/ 2024-03-27T15:09:57-04:00" [ref=e540]:
+          - cell "https://truehifi.cl/producto/pylon-sapphire-23/" [ref=e541]:
+            - link "https://truehifi.cl/producto/pylon-sapphire-23/" [ref=e542] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-sapphire-23/
+          - cell "2024-03-27T15:09:57-04:00" [ref=e543]
+        - row "https://truehifi.cl/producto/pylon-sapphire-sat/ 2024-03-27T15:07:54-04:00" [ref=e544]:
+          - cell "https://truehifi.cl/producto/pylon-sapphire-sat/" [ref=e545]:
+            - link "https://truehifi.cl/producto/pylon-sapphire-sat/" [ref=e546] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-sapphire-sat/
+          - cell "2024-03-27T15:07:54-04:00" [ref=e547]
+        - row "https://truehifi.cl/producto/pylon-opal-30/ 2024-11-14T15:03:43-04:00" [ref=e548]:
+          - cell "https://truehifi.cl/producto/pylon-opal-30/" [ref=e549]:
+            - link "https://truehifi.cl/producto/pylon-opal-30/" [ref=e550] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-30/
+          - cell "2024-11-14T15:03:43-04:00" [ref=e551]
+        - row "https://truehifi.cl/producto/pylon-opal-23/ 2024-03-27T13:24:59-04:00" [ref=e552]:
+          - cell "https://truehifi.cl/producto/pylon-opal-23/" [ref=e553]:
+            - link "https://truehifi.cl/producto/pylon-opal-23/" [ref=e554] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-23/
+          - cell "2024-03-27T13:24:59-04:00" [ref=e555]
+        - row "https://truehifi.cl/producto/pylon-opal-20/ 2024-03-27T13:21:53-04:00" [ref=e556]:
+          - cell "https://truehifi.cl/producto/pylon-opal-20/" [ref=e557]:
+            - link "https://truehifi.cl/producto/pylon-opal-20/" [ref=e558] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-20/
+          - cell "2024-03-27T13:21:53-04:00" [ref=e559]
+        - row "https://truehifi.cl/producto/pylon-opal-monitor/ 2024-03-27T13:30:18-04:00" [ref=e560]:
+          - cell "https://truehifi.cl/producto/pylon-opal-monitor/" [ref=e561]:
+            - link "https://truehifi.cl/producto/pylon-opal-monitor/" [ref=e562] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-monitor/
+          - cell "2024-03-27T13:30:18-04:00" [ref=e563]
+        - row "https://truehifi.cl/producto/pylon-opal-sat/ 2024-03-27T13:33:26-04:00" [ref=e564]:
+          - cell "https://truehifi.cl/producto/pylon-opal-sat/" [ref=e565]:
+            - link "https://truehifi.cl/producto/pylon-opal-sat/" [ref=e566] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-sat/
+          - cell "2024-03-27T13:33:26-04:00" [ref=e567]
+        - row "https://truehifi.cl/producto/pylon-pearl-27/ 2024-03-27T14:52:08-04:00" [ref=e568]:
+          - cell "https://truehifi.cl/producto/pylon-pearl-27/" [ref=e569]:
+            - link "https://truehifi.cl/producto/pylon-pearl-27/" [ref=e570] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-pearl-27/
+          - cell "2024-03-27T14:52:08-04:00" [ref=e571]
+        - row "https://truehifi.cl/producto/pylon-pearl-25/ 2024-03-27T14:46:06-04:00" [ref=e572]:
+          - cell "https://truehifi.cl/producto/pylon-pearl-25/" [ref=e573]:
+            - link "https://truehifi.cl/producto/pylon-pearl-25/" [ref=e574] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-pearl-25/
+          - cell "2024-03-27T14:46:06-04:00" [ref=e575]
+        - row "https://truehifi.cl/producto/pylon-pearl-20/ 2024-03-27T14:41:46-04:00" [ref=e576]:
+          - cell "https://truehifi.cl/producto/pylon-pearl-20/" [ref=e577]:
+            - link "https://truehifi.cl/producto/pylon-pearl-20/" [ref=e578] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-pearl-20/
+          - cell "2024-03-27T14:41:46-04:00" [ref=e579]
+        - row "https://truehifi.cl/producto/robin-sv021-new/ 2023-07-04T16:45:29-04:00" [ref=e580]:
+          - cell "https://truehifi.cl/producto/robin-sv021-new/" [ref=e581]:
+            - link "https://truehifi.cl/producto/robin-sv021-new/" [ref=e582] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/robin-sv021-new/
+          - cell "2023-07-04T16:45:29-04:00" [ref=e583]
+        - row "https://truehifi.cl/producto/sivga-sv023/ 2024-06-18T10:31:20-04:00" [ref=e584]:
+          - cell "https://truehifi.cl/producto/sivga-sv023/" [ref=e585]:
+            - link "https://truehifi.cl/producto/sivga-sv023/" [ref=e586] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/sivga-sv023/
+          - cell "2024-06-18T10:31:20-04:00" [ref=e587]
+        - row "https://truehifi.cl/producto/sendy-audio-aiva-planar-magnetic/ 2023-04-12T15:14:27-04:00" [ref=e588]:
+          - cell "https://truehifi.cl/producto/sendy-audio-aiva-planar-magnetic/" [ref=e589]:
+            - link "https://truehifi.cl/producto/sendy-audio-aiva-planar-magnetic/" [ref=e590] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/sendy-audio-aiva-planar-magnetic/
+          - cell "2023-04-12T15:14:27-04:00" [ref=e591]
+        - row "https://truehifi.cl/producto/headphones-stand-palisandro/ 2023-04-12T15:18:50-04:00" [ref=e592]:
+          - cell "https://truehifi.cl/producto/headphones-stand-palisandro/" [ref=e593]:
+            - link "https://truehifi.cl/producto/headphones-stand-palisandro/" [ref=e594] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/headphones-stand-palisandro/
+          - cell "2023-04-12T15:18:50-04:00" [ref=e595]
+        - row "https://truehifi.cl/producto/sivga-oriole/ 2025-06-09T13:37:01-04:00" [ref=e596]:
+          - cell "https://truehifi.cl/producto/sivga-oriole/" [ref=e597]:
+            - link "https://truehifi.cl/producto/sivga-oriole/" [ref=e598] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/sivga-oriole/
+          - cell "2025-06-09T13:37:01-04:00" [ref=e599]
+        - row "https://truehifi.cl/producto/cayin-jazz-80/ 2025-10-13T11:09:20-04:00" [ref=e600]:
+          - cell "https://truehifi.cl/producto/cayin-jazz-80/" [ref=e601]:
+            - link "https://truehifi.cl/producto/cayin-jazz-80/" [ref=e602] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-jazz-80/
+          - cell "2025-10-13T11:09:20-04:00" [ref=e603]
+        - row "https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/ 2024-11-28T15:38:48-04:00" [ref=e604]:
+          - cell "https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/" [ref=e605]:
+            - link "https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/" [ref=e606] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/
+          - cell "2024-11-28T15:38:48-04:00" [ref=e607]
+        - row "https://truehifi.cl/producto/superconnect-stereo/ 2025-10-21T14:24:58-04:00" [ref=e608]:
+          - cell "https://truehifi.cl/producto/superconnect-stereo/" [ref=e609]:
+            - link "https://truehifi.cl/producto/superconnect-stereo/" [ref=e610] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/superconnect-stereo/
+          - cell "2025-10-21T14:24:58-04:00" [ref=e611]
+        - row "https://truehifi.cl/producto/supersignal/ 2023-12-19T14:39:07-04:00" [ref=e612]:
+          - cell "https://truehifi.cl/producto/supersignal/" [ref=e613]:
+            - link "https://truehifi.cl/producto/supersignal/" [ref=e614] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/supersignal/
+          - cell "2023-12-19T14:39:07-04:00" [ref=e615]
+        - row "https://truehifi.cl/producto/idac-8/ 2025-05-26T15:11:40-04:00" [ref=e616]:
+          - cell "https://truehifi.cl/producto/idac-8/" [ref=e617]:
+            - link "https://truehifi.cl/producto/idac-8/" [ref=e618] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/idac-8/
+          - cell "2025-05-26T15:11:40-04:00" [ref=e619]
+        - row "https://truehifi.cl/producto/pylon-diamond-sub/ 2024-04-18T11:20:07-04:00" [ref=e620]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-sub/" [ref=e621]:
+            - link "https://truehifi.cl/producto/pylon-diamond-sub/" [ref=e622] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-sub/
+          - cell "2024-04-18T11:20:07-04:00" [ref=e623]
+        - row "https://truehifi.cl/producto/muarah-mt3/ 2025-07-02T14:03:56-04:00" [ref=e624]:
+          - cell "https://truehifi.cl/producto/muarah-mt3/" [ref=e625]:
+            - link "https://truehifi.cl/producto/muarah-mt3/" [ref=e626] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/muarah-mt3/
+          - cell "2025-07-02T14:03:56-04:00" [ref=e627]
+        - row "https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/ 2024-06-06T12:33:01-04:00" [ref=e628]:
+          - cell "https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/" [ref=e629]:
+            - link "https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/" [ref=e630] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-pearl-30i-30th-anniversary/
+          - cell "2024-06-06T12:33:01-04:00" [ref=e631]
+        - row "https://truehifi.cl/producto/pylon-diamond-30-mkii/ 2024-11-14T13:21:54-04:00" [ref=e632]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-30-mkii/" [ref=e633]:
+            - link "https://truehifi.cl/producto/pylon-diamond-30-mkii/" [ref=e634] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-30-mkii/
+          - cell "2024-11-14T13:21:54-04:00" [ref=e635]
+        - row "https://truehifi.cl/producto/moonriver-404-reference-demo/ 2024-08-19T10:13:55-04:00" [ref=e636]:
+          - cell "https://truehifi.cl/producto/moonriver-404-reference-demo/" [ref=e637]:
+            - link "https://truehifi.cl/producto/moonriver-404-reference-demo/" [ref=e638] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/moonriver-404-reference-demo/
+          - cell "2024-08-19T10:13:55-04:00" [ref=e639]
+        - row "https://truehifi.cl/producto/yaqin-vk-2100-demo/ 2024-08-19T10:26:49-04:00" [ref=e640]:
+          - cell "https://truehifi.cl/producto/yaqin-vk-2100-demo/" [ref=e641]:
+            - link "https://truehifi.cl/producto/yaqin-vk-2100-demo/" [ref=e642] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/yaqin-vk-2100-demo/
+          - cell "2024-08-19T10:26:49-04:00" [ref=e643]
+        - row "https://truehifi.cl/producto/ha-1amk2-open-box/ 2025-08-25T17:46:59-04:00" [ref=e644]:
+          - cell "https://truehifi.cl/producto/ha-1amk2-open-box/" [ref=e645]:
+            - link "https://truehifi.cl/producto/ha-1amk2-open-box/" [ref=e646] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ha-1amk2-open-box/
+          - cell "2025-08-25T17:46:59-04:00" [ref=e647]
+        - row "https://truehifi.cl/producto/ha-300mk2-open-box/ 2024-07-15T15:28:01-04:00" [ref=e648]:
+          - cell "https://truehifi.cl/producto/ha-300mk2-open-box/" [ref=e649]:
+            - link "https://truehifi.cl/producto/ha-300mk2-open-box/" [ref=e650] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/ha-300mk2-open-box/
+          - cell "2024-07-15T15:28:01-04:00" [ref=e651]
+        - row "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/ 2025-07-29T10:12:17-04:00" [ref=e652]:
+          - cell "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/" [ref=e653]:
+            - link "https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/" [ref=e654] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/
+          - cell "2025-07-29T10:12:17-04:00" [ref=e655]
+        - row "https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/ 2025-07-01T12:48:44-04:00" [ref=e656]:
+          - cell "https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/" [ref=e657]:
+            - link "https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/" [ref=e658] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/
+          - cell "2025-07-01T12:48:44-04:00" [ref=e659]
+        - row "https://truehifi.cl/producto/cs-805a-open-box/ 2025-07-01T12:47:20-04:00" [ref=e660]:
+          - cell "https://truehifi.cl/producto/cs-805a-open-box/" [ref=e661]:
+            - link "https://truehifi.cl/producto/cs-805a-open-box/" [ref=e662] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-805a-open-box/
+          - cell "2025-07-01T12:47:20-04:00" [ref=e663]
+        - row "https://truehifi.cl/producto/cayin-n3-ultra/ 2025-07-29T10:15:05-04:00" [ref=e664]:
+          - cell "https://truehifi.cl/producto/cayin-n3-ultra/" [ref=e665]:
+            - link "https://truehifi.cl/producto/cayin-n3-ultra/" [ref=e666] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-n3-ultra/
+          - cell "2025-07-29T10:15:05-04:00" [ref=e667]
+        - row "https://truehifi.cl/producto/supersignal-open-box/ 2025-07-15T11:20:22-04:00" [ref=e668]:
+          - cell "https://truehifi.cl/producto/supersignal-open-box/" [ref=e669]:
+            - link "https://truehifi.cl/producto/supersignal-open-box/" [ref=e670] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/supersignal-open-box/
+          - cell "2025-07-15T11:20:22-04:00" [ref=e671]
+        - row "https://truehifi.cl/producto/cayin-ha-2a/ 2024-08-07T14:38:56-04:00" [ref=e672]:
+          - cell "https://truehifi.cl/producto/cayin-ha-2a/" [ref=e673]:
+            - link "https://truehifi.cl/producto/cayin-ha-2a/" [ref=e674] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-ha-2a/
+          - cell "2024-08-07T14:38:56-04:00" [ref=e675]
+        - row "https://truehifi.cl/producto/cayin-soul-170ha/ 2024-08-23T10:07:16-04:00" [ref=e676]:
+          - cell "https://truehifi.cl/producto/cayin-soul-170ha/" [ref=e677]:
+            - link "https://truehifi.cl/producto/cayin-soul-170ha/" [ref=e678] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-soul-170ha/
+          - cell "2024-08-23T10:07:16-04:00" [ref=e679]
+        - row "https://truehifi.cl/producto/cs-6ph-open-box/ 2025-07-01T12:52:48-04:00" [ref=e680]:
+          - cell "https://truehifi.cl/producto/cs-6ph-open-box/" [ref=e681]:
+            - link "https://truehifi.cl/producto/cs-6ph-open-box/" [ref=e682] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cs-6ph-open-box/
+          - cell "2025-07-01T12:52:48-04:00" [ref=e683]
+        - row "https://truehifi.cl/producto/cayin-btc-2/ 2024-10-24T15:05:54-04:00" [ref=e684]:
+          - cell "https://truehifi.cl/producto/cayin-btc-2/" [ref=e685]:
+            - link "https://truehifi.cl/producto/cayin-btc-2/" [ref=e686] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-btc-2/
+          - cell "2024-10-24T15:05:54-04:00" [ref=e687]
+        - row "https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/ 2025-07-08T10:03:04-04:00" [ref=e688]:
+          - cell "https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/" [ref=e689]:
+            - link "https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/" [ref=e690] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/
+          - cell "2025-07-08T10:03:04-04:00" [ref=e691]
+        - row "https://truehifi.cl/producto/pylon-diamond-30-mkii-open-box/ 2024-11-14T13:23:24-04:00" [ref=e692]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-30-mkii-open-box/" [ref=e693]:
+            - link "https://truehifi.cl/producto/pylon-diamond-30-mkii-open-box/" [ref=e694] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-30-mkii-open-box/
+          - cell "2024-11-14T13:23:24-04:00" [ref=e695]
+        - row "https://truehifi.cl/producto/soul-170i-copia/ 2025-10-10T11:59:05-04:00" [ref=e696]:
+          - cell "https://truehifi.cl/producto/soul-170i-copia/" [ref=e697]:
+            - link "https://truehifi.cl/producto/soul-170i-copia/" [ref=e698] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/soul-170i-copia/
+          - cell "2025-10-10T11:59:05-04:00" [ref=e699]
+        - row "https://truehifi.cl/producto/pylon-jade-twenty-open-box-incluyen-pedestales/ 2024-11-14T14:33:47-04:00" [ref=e700]:
+          - cell "https://truehifi.cl/producto/pylon-jade-twenty-open-box-incluyen-pedestales/" [ref=e701]:
+            - link "https://truehifi.cl/producto/pylon-jade-twenty-open-box-incluyen-pedestales/" [ref=e702] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jade-twenty-open-box-incluyen-pedestales/
+          - cell "2024-11-14T14:33:47-04:00" [ref=e703]
+        - row "https://truehifi.cl/producto/pylon-opal-30-open-box/ 2024-11-14T14:59:09-04:00" [ref=e704]:
+          - cell "https://truehifi.cl/producto/pylon-opal-30-open-box/" [ref=e705]:
+            - link "https://truehifi.cl/producto/pylon-opal-30-open-box/" [ref=e706] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-opal-30-open-box/
+          - cell "2024-11-14T14:59:09-04:00" [ref=e707]
+        - row "https://truehifi.cl/producto/pylon-diamond-monitor-18-mkii-open-box/ 2024-11-18T14:51:20-04:00" [ref=e708]:
+          - cell "https://truehifi.cl/producto/pylon-diamond-monitor-18-mkii-open-box/" [ref=e709]:
+            - link "https://truehifi.cl/producto/pylon-diamond-monitor-18-mkii-open-box/" [ref=e710] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-diamond-monitor-18-mkii-open-box/
+          - cell "2024-11-18T14:51:20-04:00" [ref=e711]
+        - row "https://truehifi.cl/producto/cayin-jazz-80-kt-88-open-box/ 2025-05-19T15:07:11-04:00" [ref=e712]:
+          - cell "https://truehifi.cl/producto/cayin-jazz-80-kt-88-open-box/" [ref=e713]:
+            - link "https://truehifi.cl/producto/cayin-jazz-80-kt-88-open-box/" [ref=e714] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-jazz-80-kt-88-open-box/
+          - cell "2025-05-19T15:07:11-04:00" [ref=e715]
+        - row "https://truehifi.cl/producto/cayin-jazz-100-clase-a/ 2024-11-26T12:38:34-04:00" [ref=e716]:
+          - cell "https://truehifi.cl/producto/cayin-jazz-100-clase-a/" [ref=e717]:
+            - link "https://truehifi.cl/producto/cayin-jazz-100-clase-a/" [ref=e718] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-jazz-100-clase-a/
+          - cell "2024-11-26T12:38:34-04:00" [ref=e719]
+        - row "https://truehifi.cl/producto/cayin-soul-170c/ 2025-08-07T12:50:51-04:00" [ref=e720]:
+          - cell "https://truehifi.cl/producto/cayin-soul-170c/" [ref=e721]:
+            - link "https://truehifi.cl/producto/cayin-soul-170c/" [ref=e722] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-soul-170c/
+          - cell "2025-08-07T12:50:51-04:00" [ref=e723]
+        - row "https://truehifi.cl/producto/cayin-soul-170p/ 2025-08-07T12:49:02-04:00" [ref=e724]:
+          - cell "https://truehifi.cl/producto/cayin-soul-170p/" [ref=e725]:
+            - link "https://truehifi.cl/producto/cayin-soul-170p/" [ref=e726] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-soul-170p/
+          - cell "2025-08-07T12:49:02-04:00" [ref=e727]
+        - row "https://truehifi.cl/producto/cayin-cs-30rca/ 2026-02-05T17:18:43-04:00" [ref=e728]:
+          - cell "https://truehifi.cl/producto/cayin-cs-30rca/" [ref=e729]:
+            - link "https://truehifi.cl/producto/cayin-cs-30rca/" [ref=e730] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-30rca/
+          - cell "2026-02-05T17:18:43-04:00" [ref=e731]
+        - row "https://truehifi.cl/producto/cayin-cs-30sp/ 2025-08-05T09:58:37-04:00" [ref=e732]:
+          - cell "https://truehifi.cl/producto/cayin-cs-30sp/" [ref=e733]:
+            - link "https://truehifi.cl/producto/cayin-cs-30sp/" [ref=e734] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-cs-30sp/
+          - cell "2025-08-05T09:58:37-04:00" [ref=e735]
+        - row "https://truehifi.cl/producto/cayin-jazz-90/ 2025-08-07T12:57:06-04:00" [ref=e736]:
+          - cell "https://truehifi.cl/producto/cayin-jazz-90/" [ref=e737]:
+            - link "https://truehifi.cl/producto/cayin-jazz-90/" [ref=e738] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-jazz-90/
+          - cell "2025-08-07T12:57:06-04:00" [ref=e739]
+        - row "https://truehifi.cl/producto/cayin-mt-35-mk3/ 2025-08-11T12:03:49-04:00" [ref=e740]:
+          - cell "https://truehifi.cl/producto/cayin-mt-35-mk3/" [ref=e741]:
+            - link "https://truehifi.cl/producto/cayin-mt-35-mk3/" [ref=e742] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/cayin-mt-35-mk3/
+          - cell "2025-08-11T12:03:49-04:00" [ref=e743]
+        - row "https://truehifi.cl/producto/pylon-jade-30/ 2025-11-10T11:39:04-04:00" [ref=e744]:
+          - cell "https://truehifi.cl/producto/pylon-jade-30/" [ref=e745]:
+            - link "https://truehifi.cl/producto/pylon-jade-30/" [ref=e746] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/pylon-jade-30/
+          - cell "2025-11-10T11:39:04-04:00" [ref=e747]
+        - row "https://truehifi.cl/producto/project-rpm-1-carbon-open-box/ 2025-12-18T11:59:17-04:00" [ref=e748]:
+          - cell "https://truehifi.cl/producto/project-rpm-1-carbon-open-box/" [ref=e749]:
+            - link "https://truehifi.cl/producto/project-rpm-1-carbon-open-box/" [ref=e750] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/project-rpm-1-carbon-open-box/
+          - cell "2025-12-18T11:59:17-04:00" [ref=e751]
+        - row "https://truehifi.cl/producto/luxsin-x9/ 2026-03-30T13:51:34-04:00" [ref=e752]:
+          - cell "https://truehifi.cl/producto/luxsin-x9/" [ref=e753]:
+            - link "https://truehifi.cl/producto/luxsin-x9/" [ref=e754] [cursor=pointer]:
+              - /url: https://truehifi.cl/producto/luxsin-x9/
+          - cell "2026-03-30T13:51:34-04:00" [ref=e755]

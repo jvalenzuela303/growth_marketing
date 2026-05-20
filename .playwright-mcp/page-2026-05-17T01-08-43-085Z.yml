@@ -1,0 +1,525 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Informe de Análisis Competitivo
+      - heading "TrueHiFi.cl Diagnóstico de Productos y Mercado" [level=1] [ref=e5]:
+        - text: TrueHiFi.cl
+        - text: Diagnóstico de Productos y Mercado
+      - paragraph [ref=e6]: Análisis de catálogo, ranking de prioridad, calidad de contenido y recomendaciones de publicidad para el mercado chileno de audio HiFi.
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - strong [ref=e9]: "185"
+          - text: Productos en catálogo
+        - generic [ref=e10]:
+          - strong [ref=e11]: "45"
+          - text: Categorías
+        - generic [ref=e12]:
+          - strong [ref=e13]: Mayo 2026
+          - text: Fecha del análisis
+        - generic [ref=e14]:
+          - strong [ref=e15]: Chile
+          - text: Mercado objetivo
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - heading "⚠️ Alertas Críticas — Acción Inmediata" [level=2] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]: 🚨
+        - generic [ref=e21]:
+          - generic [ref=e22]: La página /tienda/ no carga ningún producto
+          - paragraph [ref=e23]:
+            - text: La URL principal de la tienda (
+            - code [ref=e24]: truehifi.cl/tienda/
+            - text: ) muestra una página en blanco. Todos los usuarios que hacen clic en "Tienda" desde el menú encuentran un callejón sin salida. Pérdida directa de ventas.
+      - generic [ref=e25]:
+        - generic [ref=e26]: 🚫
+        - generic [ref=e27]:
+          - generic [ref=e28]: La homepage muestra un producto descontinuado como destacado
+          - paragraph [ref=e29]:
+            - text: El
+            - strong [ref=e30]: LA-34 Plus
+            - text: (marcado como "Descontinuado – Sin existencias") ocupa uno de los 3 slots de la página de inicio. Reemplazarlo por el MT-35 MK3 o JAZZ 80 genera impacto inmediato en conversión.
+      - generic [ref=e31]:
+        - generic [ref=e32]: 📦
+        - generic [ref=e33]:
+          - generic [ref=e34]: "Tornamesas Rega: 4 de 5 modelos sin stock"
+          - paragraph [ref=e35]: La categoría de tornamesas tiene stock solo en 1 producto (Project Essential III). Los modelos Rega Planar 1, 2 y 3 aparecen como "Sin existencias" y aun así son visibles, distorsionando la percepción del catálogo.
+      - generic [ref=e36]:
+        - generic [ref=e37]: 🖼️
+        - generic [ref=e38]:
+          - generic [ref=e39]: 3 productos NUEVOS sin imagen ni descripción en el listado
+          - paragraph [ref=e40]: CAYIN JAZZ 90, JAZZ 100 y MT-35 MK3 aparecen con etiqueta "NUEVO" pero sin imagen ni texto en la vista de categoría. Un producto sin imagen en e-commerce tiene una tasa de conversión cercana a 0.
+    - generic [ref=e41]:
+      - heading "📊 Métricas del Catálogo" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: "25"
+          - generic [ref=e46]: Amplificadores a Tubo
+          - paragraph [ref=e47]: La categoría principal. Rango desde $645.000 hasta $18.500.000 CLP. Mayoría en stock.
+        - generic [ref=e48]:
+          - generic [ref=e49]: 35+
+          - generic [ref=e50]: Parlantes (Pylon + Audio Physic)
+          - paragraph [ref=e51]: Dos marcas europeas de nivel. Pylon (Polonia) cubre entry a premium. Audio Physic (Alemania) para segmento luxury.
+        - generic [ref=e52]:
+          - generic [ref=e53]: "18"
+          - generic [ref=e54]: Usados / Demo / Open Box
+          - paragraph [ref=e55]: Sección con potencial alto de conversión, actualmente sin descripciones de condición ni garantía explícita.
+        - generic [ref=e56]:
+          - generic [ref=e57]: "15"
+          - generic [ref=e58]: Cables Cardas
+          - paragraph [ref=e59]: Marca de referencia global. No hay texto que justifique el precio diferencial vs cables genéricos.
+        - generic [ref=e60]:
+          - generic [ref=e61]: "9"
+          - generic [ref=e62]: Tornamesas
+          - paragraph [ref=e63]: Solo 2 con stock activo. El auge del vinilo en Chile no se está aprovechando por quiebre de inventario.
+        - generic [ref=e64]:
+          - generic [ref=e65]: "12"
+          - generic [ref=e66]: Tubos de Vacío
+          - paragraph [ref=e67]: Accesorios recurrentes. Oportunidad de venta cruzada con cada amplificador vendido.
+      - generic [ref=e68]:
+        - heading "Distribución del catálogo por rango de precio" [level=4] [ref=e69]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Hasta $1.000.000
+            - generic [ref=e75]: ~52 prods
+          - generic [ref=e76]:
+            - generic [ref=e77]: $1.000.000 – $2.500.000
+            - generic [ref=e80]: ~70 prods
+          - generic [ref=e81]:
+            - generic [ref=e82]: $2.500.000 – $5.000.000
+            - generic [ref=e85]: ~37 prods
+          - generic [ref=e86]:
+            - generic [ref=e87]: Sobre $5.000.000
+            - generic [ref=e90]: ~26 prods
+    - generic [ref=e91]:
+      - heading "🏆 Ranking de Prioridad para Publicidad" [level=2] [ref=e92]
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: 🔥
+          - generic [ref=e96]:
+            - heading "TIER 1 — Máxima Prioridad" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Productos accesibles, en stock, con diferenciadores claros. Mayor volumen potencial de mercado.
+        - table [ref=e100]:
+          - rowgroup [ref=e101]:
+            - row "# Producto Precio Estado Por qué priorizar" [ref=e102]:
+              - columnheader "#" [ref=e103]
+              - columnheader "Producto" [ref=e104]
+              - columnheader "Precio" [ref=e105]
+              - columnheader "Estado" [ref=e106]
+              - columnheader "Por qué priorizar" [ref=e107]
+          - rowgroup [ref=e108]:
+            - row "1 CAYIN MT-35 MK3 $1.450.000 NUEVO Evolución del modelo más vendido de la marca. BT/LDAC, tubo EL34, sin imagen aún — primera oportunidad de posicionamiento." [ref=e109]:
+              - cell "1" [ref=e110]:
+                - strong [ref=e111]: "1"
+              - cell "CAYIN MT-35 MK3" [ref=e112]:
+                - strong [ref=e113]: CAYIN MT-35 MK3
+              - cell "$1.450.000" [ref=e114]
+              - cell "NUEVO" [ref=e115]
+              - cell "Evolución del modelo más vendido de la marca. BT/LDAC, tubo EL34, sin imagen aún — primera oportunidad de posicionamiento." [ref=e116]
+            - 'row "2 CAYIN JAZZ 80 $1.800.000–$1.950.000 EN STOCK 40W Ultralineal + BT5.0/LDAC. El punto dulce del catálogo: suficiente potencia, precio competitivo, conectividad moderna." [ref=e117]':
+              - cell "2" [ref=e118]:
+                - strong [ref=e119]: "2"
+              - cell "CAYIN JAZZ 80" [ref=e120]:
+                - strong [ref=e121]: CAYIN JAZZ 80
+              - cell "$1.800.000–$1.950.000" [ref=e122]
+              - cell "EN STOCK" [ref=e123]
+              - 'cell "40W Ultralineal + BT5.0/LDAC. El punto dulce del catálogo: suficiente potencia, precio competitivo, conectividad moderna." [ref=e124]'
+            - row "3 MT-12N 6P1 $750.000 EN STOCK El amplificador a tubo más accesible del catálogo. Puerta de entrada perfecta para nuevos audiofílos chilenos." [ref=e125]:
+              - cell "3" [ref=e126]:
+                - strong [ref=e127]: "3"
+              - cell "MT-12N 6P1" [ref=e128]:
+                - strong [ref=e129]: MT-12N 6P1
+              - cell "$750.000" [ref=e130]
+              - cell "EN STOCK" [ref=e131]
+              - cell "El amplificador a tubo más accesible del catálogo. Puerta de entrada perfecta para nuevos audiofílos chilenos." [ref=e132]
+            - row "4 Project Essential III OM10 $650.000 EN STOCK Único tornamesa con stock. El vinilo está en auge en Chile y no hay competencia interna en esta categoría." [ref=e133]:
+              - cell "4" [ref=e134]:
+                - strong [ref=e135]: "4"
+              - cell "Project Essential III OM10" [ref=e136]:
+                - strong [ref=e137]: Project Essential III OM10
+              - cell "$650.000" [ref=e138]
+              - cell "EN STOCK" [ref=e139]
+              - cell "Único tornamesa con stock. El vinilo está en auge en Chile y no hay competencia interna en esta categoría." [ref=e140]
+            - row "5 CAYIN MT-35 MK2 BT LDAC $1.280.000 EN STOCK Modelo probado con cientos de reseñas positivas globales. Bluetooth, precio más bajo que el MK3 — ideal para campañas de conversión." [ref=e141]:
+              - cell "5" [ref=e142]:
+                - strong [ref=e143]: "5"
+              - cell "CAYIN MT-35 MK2 BT LDAC" [ref=e144]:
+                - strong [ref=e145]: CAYIN MT-35 MK2 BT LDAC
+              - cell "$1.280.000" [ref=e146]
+              - cell "EN STOCK" [ref=e147]
+              - cell "Modelo probado con cientos de reseñas positivas globales. Bluetooth, precio más bajo que el MK3 — ideal para campañas de conversión." [ref=e148]
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: 🌡️
+          - generic [ref=e152]:
+            - heading "TIER 2 — Alta Prioridad" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Público más consolidado, mayor ticket promedio. Requieren contenido especializado.
+        - table [ref=e156]:
+          - rowgroup [ref=e157]:
+            - row "# Producto Precio Estado Por qué priorizar" [ref=e158]:
+              - columnheader "#" [ref=e159]
+              - columnheader "Producto" [ref=e160]
+              - columnheader "Precio" [ref=e161]
+              - columnheader "Estado" [ref=e162]
+              - columnheader "Por qué priorizar" [ref=e163]
+          - rowgroup [ref=e164]:
+            - row "6 CAYIN JAZZ 90 $2.990.000 NUEVO Nuevo modelo sin descripción ni imagen. Nicho interesado en más potencia que el JAZZ 80 a precio razonable." [ref=e165]:
+              - cell "6" [ref=e166]:
+                - strong [ref=e167]: "6"
+              - cell "CAYIN JAZZ 90" [ref=e168]:
+                - strong [ref=e169]: CAYIN JAZZ 90
+              - cell "$2.990.000" [ref=e170]
+              - cell "NUEVO" [ref=e171]
+              - cell "Nuevo modelo sin descripción ni imagen. Nicho interesado en más potencia que el JAZZ 80 a precio razonable." [ref=e172]
+            - row "7 CAYIN CS-55A (KT88) $1.880.000–$2.220.000 EN STOCK Tubo KT88 con opciones de variante. Audiencia que busca más calidez tonal que el EL34." [ref=e173]:
+              - cell "7" [ref=e174]:
+                - strong [ref=e175]: "7"
+              - cell "CAYIN CS-55A (KT88)" [ref=e176]:
+                - strong [ref=e177]: CAYIN CS-55A (KT88)
+              - cell "$1.880.000–$2.220.000" [ref=e178]
+              - cell "EN STOCK" [ref=e179]
+              - cell "Tubo KT88 con opciones de variante. Audiencia que busca más calidez tonal que el EL34." [ref=e180]
+            - row "8 Pylon Jasper Monitor 18 ~$900.000 EN STOCK Bookshelf europeo accesible. Combina perfecto con el MT-35 — potencial de bundle con buen margen." [ref=e181]:
+              - cell "8" [ref=e182]:
+                - strong [ref=e183]: "8"
+              - cell "Pylon Jasper Monitor 18" [ref=e184]:
+                - strong [ref=e185]: Pylon Jasper Monitor 18
+              - cell "~$900.000" [ref=e186]
+              - cell "EN STOCK" [ref=e187]
+              - cell "Bookshelf europeo accesible. Combina perfecto con el MT-35 — potencial de bundle con buen margen." [ref=e188]
+            - row "9 Pylon Opal Monitor / Opal 20 ~$800.000–$1.000.000 EN STOCK Columna de entrada con buenas críticas. Sin visibilidad web por falta de descripción y publicidad." [ref=e189]:
+              - cell "9" [ref=e190]:
+                - strong [ref=e191]: "9"
+              - cell "Pylon Opal Monitor / Opal 20" [ref=e192]:
+                - strong [ref=e193]: Pylon Opal Monitor / Opal 20
+              - cell "~$800.000–$1.000.000" [ref=e194]
+              - cell "EN STOCK" [ref=e195]
+              - cell "Columna de entrada con buenas críticas. Sin visibilidad web por falta de descripción y publicidad." [ref=e196]
+            - row "10 CAYIN HA-1AMK2 — EN STOCK Amp de audífonos a tubo. Nicho en crecimiento con el auge del trabajo remoto y el mercado de headphones HiFi." [ref=e197]:
+              - cell "10" [ref=e198]:
+                - strong [ref=e199]: "10"
+              - cell "CAYIN HA-1AMK2" [ref=e200]:
+                - strong [ref=e201]: CAYIN HA-1AMK2
+              - cell "—" [ref=e202]
+              - cell "EN STOCK" [ref=e203]
+              - cell "Amp de audífonos a tubo. Nicho en crecimiento con el auge del trabajo remoto y el mercado de headphones HiFi." [ref=e204]
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: ❄️
+          - generic [ref=e208]:
+            - heading "TIER 3 — Nicho Premium" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Alta inversión por cliente, audiencia muy específica. Ciclo de compra largo.
+        - table [ref=e212]:
+          - rowgroup [ref=e213]:
+            - row "Producto Precio Observación" [ref=e214]:
+              - columnheader "Producto" [ref=e215]
+              - columnheader "Precio" [ref=e216]
+              - columnheader "Observación" [ref=e217]
+          - rowgroup [ref=e218]:
+            - row "SOUL 170I $6.100.000 Integrado de alta potencia. Descripción escasa, requiere storytelling técnico-emocional profundo." [ref=e219]:
+              - cell "SOUL 170I" [ref=e220]:
+                - strong [ref=e221]: SOUL 170I
+              - cell "$6.100.000" [ref=e222]
+              - cell "Integrado de alta potencia. Descripción escasa, requiere storytelling técnico-emocional profundo." [ref=e223]
+            - row "CS-805A $4.900.000 Tubo 805, audiencia ultra nicho. Contenido técnico de alto nivel indispensable." [ref=e224]:
+              - cell "CS-805A" [ref=e225]:
+                - strong [ref=e226]: CS-805A
+              - cell "$4.900.000" [ref=e227]
+              - cell "Tubo 805, audiencia ultra nicho. Contenido técnico de alto nivel indispensable." [ref=e228]
+            - row "Audio Physic Reference Spark ~$5.000.000+ Parlante alemán de referencia. Requiere narrativa de marca y video demostración." [ref=e229]:
+              - cell "Audio Physic Reference Spark" [ref=e230]:
+                - strong [ref=e231]: Audio Physic Reference Spark
+              - cell "~$5.000.000+" [ref=e232]
+              - cell "Parlante alemán de referencia. Requiere narrativa de marca y video demostración." [ref=e233]
+            - row "Cayin Pearl 30i 30th Anniversary $18.500.000 Producto trofeo. Solo para retargeting de clientes previos de alta gama." [ref=e234]:
+              - cell "Cayin Pearl 30i 30th Anniversary" [ref=e235]:
+                - strong [ref=e236]: Cayin Pearl 30i 30th Anniversary
+              - cell "$18.500.000" [ref=e237]
+              - cell "Producto trofeo. Solo para retargeting de clientes previos de alta gama." [ref=e238]
+    - generic [ref=e239]:
+      - heading "✍️ Calidad de Contenido por Categoría" [level=2] [ref=e240]
+      - table [ref=e242]:
+        - rowgroup [ref=e243]:
+          - row "Categoría Puntuación Nivel Qué falta" [ref=e244]:
+            - columnheader "Categoría" [ref=e245]
+            - columnheader "Puntuación" [ref=e246]
+            - columnheader "Nivel" [ref=e247]
+            - columnheader "Qué falta" [ref=e248]
+        - rowgroup [ref=e249]:
+          - row "Amplificadores Cayin (Jazz, MT-35) ⭐⭐⭐ 3/5 Falta comparativas entre modelos, beneficios emocionales, guías de uso" [ref=e250]:
+            - cell "Amplificadores Cayin (Jazz, MT-35)" [ref=e251]:
+              - strong [ref=e252]: Amplificadores Cayin (Jazz, MT-35)
+            - cell [ref=e253]
+            - cell "⭐⭐⭐ 3/5" [ref=e256]
+            - cell "Falta comparativas entre modelos, beneficios emocionales, guías de uso" [ref=e257]
+          - 'row "Amplificadores (nuevos: Jazz 90, 100, MK3) ⭐ 1/5 Sin imagen, sin descripción, sin especificaciones visibles en listado" [ref=e258]':
+            - 'cell "Amplificadores (nuevos: Jazz 90, 100, MK3)" [ref=e259]':
+              - strong [ref=e260]: "Amplificadores (nuevos: Jazz 90, 100, MK3)"
+            - cell [ref=e261]
+            - cell "⭐ 1/5" [ref=e264]
+            - cell "Sin imagen, sin descripción, sin especificaciones visibles en listado" [ref=e265]
+          - row "Parlantes Pylon ⭐⭐ 2/5 Solo especificaciones técnicas. Sin narrativa, contexto de uso ni sistemas recomendados" [ref=e266]:
+            - cell "Parlantes Pylon" [ref=e267]:
+              - strong [ref=e268]: Parlantes Pylon
+            - cell [ref=e269]
+            - cell "⭐⭐ 2/5" [ref=e272]
+            - cell "Solo especificaciones técnicas. Sin narrativa, contexto de uso ni sistemas recomendados" [ref=e273]
+          - row "Parlantes Audio Physic ⭐⭐ 2/5 Sin identidad de marca, sin explicar por qué \"alemán = referencia\"" [ref=e274]:
+            - cell "Parlantes Audio Physic" [ref=e275]:
+              - strong [ref=e276]: Parlantes Audio Physic
+            - cell [ref=e277]
+            - cell "⭐⭐ 2/5" [ref=e280]
+            - cell "Sin identidad de marca, sin explicar por qué \"alemán = referencia\"" [ref=e281]
+          - row "Cables Cardas ⭐⭐ 2/5 No justifican el precio vs cables genéricos. Sin guía de compatibilidad" [ref=e282]:
+            - cell "Cables Cardas" [ref=e283]:
+              - strong [ref=e284]: Cables Cardas
+            - cell [ref=e285]
+            - cell "⭐⭐ 2/5" [ref=e288]
+            - cell "No justifican el precio vs cables genéricos. Sin guía de compatibilidad" [ref=e289]
+          - row "Tornamesas ⭐ 1/5 Solo nombre y precio. Sin descripción, sin explicar cápsula incluida ni setup" [ref=e290]:
+            - cell "Tornamesas" [ref=e291]:
+              - strong [ref=e292]: Tornamesas
+            - cell [ref=e293]
+            - cell "⭐ 1/5" [ref=e296]
+            - cell "Solo nombre y precio. Sin descripción, sin explicar cápsula incluida ni setup" [ref=e297]
+          - row "Tubos de Vacío ⭐⭐ 2/5 Falta guía de compatibilidad (qué tubo va en qué amplificador) y cuándo reemplazar" [ref=e298]:
+            - cell "Tubos de Vacío" [ref=e299]:
+              - strong [ref=e300]: Tubos de Vacío
+            - cell [ref=e301]
+            - cell "⭐⭐ 2/5" [ref=e304]
+            - cell "Falta guía de compatibilidad (qué tubo va en qué amplificador) y cuándo reemplazar" [ref=e305]
+          - row "Usados / Demo / Open Box ⭐ 1/5 Sin detalle de condición, sin garantía explícita, sin foto de estado real" [ref=e306]:
+            - cell "Usados / Demo / Open Box" [ref=e307]:
+              - strong [ref=e308]: Usados / Demo / Open Box
+            - cell [ref=e309]
+            - cell "⭐ 1/5" [ref=e312]
+            - cell "Sin detalle de condición, sin garantía explícita, sin foto de estado real" [ref=e313]
+    - generic [ref=e314]:
+      - heading "🔍 Problemas de Texto Específicos por Producto" [level=2] [ref=e315]
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - heading "❌ Sin imagen ni descripción en categoría" [level=4] [ref=e318]
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - text: →
+              - strong [ref=e321]: CAYIN JAZZ 90
+              - text: — solo precio visible ($2.990.000)
+            - listitem [ref=e322]:
+              - text: →
+              - strong [ref=e323]: CAYIN JAZZ 100
+              - text: — solo precio ($3.900.000), etiqueta "Nuevo"
+            - listitem [ref=e324]:
+              - text: →
+              - strong [ref=e325]: CAYIN MT-35 MK3
+              - text: — etiqueta "NUEVO" sin foto ni texto
+          - paragraph [ref=e326]:
+            - text: "Impacto: Tasa de clics en listado estimada en"
+            - strong [ref=e327]: <2%
+            - text: sin imagen vs ~12% con imagen de calidad.
+        - generic [ref=e328]:
+          - heading "⚠️ Textos solo técnicos, sin narrativa" [level=4] [ref=e329]
+          - paragraph [ref=e330]: "La mayoría de los parlantes Pylon tienen únicamente especificaciones. Ejemplo de lo que falta:"
+          - paragraph [ref=e332]:
+            - text: "\"Diseñado para espacios medianos, el"
+            - strong [ref=e333]: Pylon Opal 20
+            - text: combina un tweeter de domo de tela con un woofer de polipropileno que entrega graves controlados sin fatiga auditiva. Ideal con el CAYIN MT-35 para un sistema completo desde $2.180.000."
+          - paragraph [ref=e334]: Narrativa + specs + bundle sugerido = +35% en tiempo en página.
+        - generic [ref=e335]:
+          - heading "⚠️ Productos descontinuados / sin stock visibles" [level=4] [ref=e336]
+          - list [ref=e337]:
+            - listitem [ref=e338]:
+              - text: →
+              - strong [ref=e339]: LA-34 Plus
+              - text: — En homepage Y descontinuado
+            - listitem [ref=e340]:
+              - text: →
+              - strong [ref=e341]: YAQIN VK-2100
+              - text: — Sin existencias, visible en catálogo
+            - listitem [ref=e342]:
+              - text: →
+              - strong [ref=e343]: REGA Planar 1, 2, 3
+              - text: — 3 modelos sin stock dominan la categoría tornamesas
+            - listitem [ref=e344]:
+              - text: →
+              - strong [ref=e345]: Mini CD MK2
+              - text: — Sin existencias visible
+        - generic [ref=e346]:
+          - heading "ℹ️ Sección \"Usados\" sin credibilidad" [level=4] [ref=e347]
+          - paragraph [ref=e348]: "La sección tiene 18 productos (demos, open box) pero ninguno incluye:"
+          - list [ref=e349]:
+            - listitem [ref=e350]: Estado de condición detallado
+            - listitem [ref=e351]: Fotos del equipo real (no renders de fabricante)
+            - listitem [ref=e352]: Política de garantía explícita
+            - listitem [ref=e353]: Ahorro calculado vs precio nuevo
+          - paragraph [ref=e354]: "Oportunidad: Los \"usados\" con buena descripción convierten a tasa similar a los nuevos."
+    - generic [ref=e355]:
+      - heading "📢 Estrategia de Publicidad Digital — Meta Ads / Google" [level=2] [ref=e356]
+      - table [ref=e358]:
+        - rowgroup [ref=e359]:
+          - row "Objetivo Producto Segmento Formato Mensaje clave" [ref=e360]:
+            - columnheader "Objetivo" [ref=e361]
+            - columnheader "Producto" [ref=e362]
+            - columnheader "Segmento" [ref=e363]
+            - columnheader "Formato" [ref=e364]
+            - columnheader "Mensaje clave" [ref=e365]
+        - rowgroup [ref=e366]:
+          - row "🎯 Awareness MT-12N 6P1 — $750.000 28–45 años, amante de la música, primera compra HiFi Reel/Video \"Tu primer amplificador a tubo desde $750.000\"" [ref=e367]:
+            - cell "🎯 Awareness" [ref=e368]:
+              - strong [ref=e369]: 🎯 Awareness
+            - cell "MT-12N 6P1 — $750.000" [ref=e370]
+            - cell "28–45 años, amante de la música, primera compra HiFi" [ref=e371]
+            - cell "Reel/Video" [ref=e372]
+            - cell "\"Tu primer amplificador a tubo desde $750.000\"" [ref=e373]
+          - row "💰 Conversión CAYIN JAZZ 80 — $1.800.000 30–50 años, ya conoce tubo, busca marca consolidada Carrusel Meta \"40W, Bluetooth LDAC, artesanal. El estándar del rango medio.\"" [ref=e374]:
+            - cell "💰 Conversión" [ref=e375]:
+              - strong [ref=e376]: 💰 Conversión
+            - cell "CAYIN JAZZ 80 — $1.800.000" [ref=e377]
+            - cell "30–50 años, ya conoce tubo, busca marca consolidada" [ref=e378]
+            - cell "Carrusel Meta" [ref=e379]
+            - cell "\"40W, Bluetooth LDAC, artesanal. El estándar del rango medio.\"" [ref=e380]
+          - row "🔁 Retargeting CAYIN MT-35 MK3 — $1.450.000 Visitantes que vieron amplificadores sin comprar Dynamic Ad \"El MT-35 evolucionó. Nuevo MK3 disponible.\"" [ref=e381]:
+            - cell "🔁 Retargeting" [ref=e382]:
+              - strong [ref=e383]: 🔁 Retargeting
+            - cell "CAYIN MT-35 MK3 — $1.450.000" [ref=e384]
+            - cell "Visitantes que vieron amplificadores sin comprar" [ref=e385]
+            - cell "Dynamic Ad" [ref=e386]
+            - cell "\"El MT-35 evolucionó. Nuevo MK3 disponible.\"" [ref=e387]
+          - row "📈 Upsell CAYIN CS-55A / CS-88A Compradores previos de equipos Cayin Email + Meta \"Tu próximo nivel de sonido ya está disponible.\"" [ref=e388]:
+            - cell "📈 Upsell" [ref=e389]:
+              - strong [ref=e390]: 📈 Upsell
+            - cell "CAYIN CS-55A / CS-88A" [ref=e391]
+            - cell "Compradores previos de equipos Cayin" [ref=e392]
+            - cell "Email + Meta" [ref=e393]
+            - cell "\"Tu próximo nivel de sonido ya está disponible.\"" [ref=e394]
+          - row "🎵 Nicho Vinilo Project Essential III — $650.000 Seguidores de páginas de vinilo/discos en Chile Story + Post \"Entra al mundo del vinilo. Todo incluido en un solo equipo.\"" [ref=e395]:
+            - cell "🎵 Nicho Vinilo" [ref=e396]:
+              - strong [ref=e397]: 🎵 Nicho Vinilo
+            - cell "Project Essential III — $650.000" [ref=e398]
+            - cell "Seguidores de páginas de vinilo/discos en Chile" [ref=e399]
+            - cell "Story + Post" [ref=e400]
+            - cell "\"Entra al mundo del vinilo. Todo incluido en un solo equipo.\"" [ref=e401]
+          - 'row "🏆 Brand Premium SOUL 170I — $6.100.000 Audiofílos avanzados, ingresos altos, 40–65 años Google Search Keywords: \"amplificador tubo premium Chile\", \"Cayin Soul Chile\"" [ref=e402]':
+            - cell "🏆 Brand Premium" [ref=e403]:
+              - strong [ref=e404]: 🏆 Brand Premium
+            - cell "SOUL 170I — $6.100.000" [ref=e405]
+            - cell "Audiofílos avanzados, ingresos altos, 40–65 años" [ref=e406]
+            - cell "Google Search" [ref=e407]
+            - 'cell "Keywords: \"amplificador tubo premium Chile\", \"Cayin Soul Chile\"" [ref=e408]'
+      - generic [ref=e409]:
+        - heading "Pilares de Contenido para Redes Sociales" [level=3] [ref=e410]
+        - generic [ref=e411]:
+          - generic [ref=e412]:
+            - heading "🎬 Unboxing / Demo de Sonido" [level=4] [ref=e413]
+            - paragraph [ref=e414]: Videos cortos (Reels/Shorts) mostrando el encendido de un tubo, el calentamiento y el primer sonido. Alto potencial viral en el nicho HiFi de habla hispana.
+          - generic [ref=e415]:
+            - heading "⚖️ Comparativas Visuales" [level=4] [ref=e416]
+            - paragraph [ref=e417]: "\"3 amplificadores, 3 presupuestos\" — posts comparativos entre MT-35, JAZZ 80 y CS-55A. Ayuda a la decisión de compra y genera engagement."
+          - generic [ref=e418]:
+            - heading "👤 Reseñas de Clientes Reales" [level=4] [ref=e419]
+            - paragraph [ref=e420]: Fotos de sistemas de clientes en sus hogares con el producto comprado. Genera confianza social y UGC que reduce el CAC en Meta Ads.
+    - generic [ref=e421]:
+      - heading "📋 Plan de Acción Priorizado" [level=2] [ref=e422]
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - heading "🚀 Esta Semana (Impacto Inmediato)" [level=4] [ref=e425]
+          - list [ref=e426]:
+            - listitem [ref=e427]:
+              - generic [ref=e428]: "1"
+              - generic [ref=e429]:
+                - strong [ref=e430]: Reparar /tienda/ — página en blanco
+                - text: Revisar configuración WooCommerce. Puede ser un conflicto de plugin o query var.
+            - listitem [ref=e431]:
+              - generic [ref=e432]: "2"
+              - generic [ref=e433]:
+                - strong [ref=e434]: Reemplazar LA-34 en homepage
+                - text: Poner MT-35 MK3 o JAZZ 80 en el slider/producto destacado.
+            - listitem [ref=e435]:
+              - generic [ref=e436]: "3"
+              - generic [ref=e437]:
+                - strong [ref=e438]: Subir imagen y descripción a JAZZ 90, 100 y MT-35 MK3
+                - text: Sin imagen no hay conversión. Es el cambio de mayor impacto por menor esfuerzo.
+            - listitem [ref=e439]:
+              - generic [ref=e440]: "4"
+              - generic [ref=e441]:
+                - strong [ref=e442]: Ocultar o marcar claramente productos sin stock
+                - text: Ocultar REGA Planar 1/2/3, YAQIN VK-2100 y LA-34 de los listados activos.
+        - generic [ref=e443]:
+          - heading "📝 Próximas 2–3 Semanas (Contenido)" [level=4] [ref=e444]
+          - list [ref=e445]:
+            - listitem [ref=e446]:
+              - generic [ref=e447]: "5"
+              - generic [ref=e448]:
+                - strong [ref=e449]: "Guía: \"¿Cuál amplificador a tubo elegir?\""
+                - text: Comparativa MT-12N vs MT-35 vs JAZZ 80. SEO + contenido de decisión.
+            - listitem [ref=e450]:
+              - generic [ref=e451]: "6"
+              - generic [ref=e452]:
+                - strong [ref=e453]: Reescribir fichas de toda la línea Pylon
+                - text: Narrativa + specs + sistema recomendado con amplificador TrueHiFi.
+            - listitem [ref=e454]:
+              - generic [ref=e455]: "7"
+              - generic [ref=e456]:
+                - strong [ref=e457]: Crear contenido para sección "Usados"
+                - text: Condición detallada, garantía, ahorro vs nuevo, fotos reales del equipo.
+            - listitem [ref=e458]:
+              - generic [ref=e459]: "8"
+              - generic [ref=e460]:
+                - strong [ref=e461]: Guía de compatibilidad de tubos de vacío
+                - text: "\"¿Qué tubo necesita tu CAYIN?\" — cross-sell automático post-venta."
+        - generic [ref=e462]:
+          - heading "📣 Mes 2 (Publicidad y Escala)" [level=4] [ref=e463]
+          - list [ref=e464]:
+            - listitem [ref=e465]:
+              - generic [ref=e466]: "9"
+              - generic [ref=e467]:
+                - strong [ref=e468]: Lanzar campaña Meta Ads para MT-12N 6P1 y Project Essential III
+                - text: "Awareness hacia nuevos audiofílos. Segmentar por intereses: vinilo, jazz, música clásica, hi-fi."
+            - listitem [ref=e469]:
+              - generic [ref=e470]: "10"
+              - generic [ref=e471]:
+                - strong [ref=e472]: Google Shopping para JAZZ 80 y MT-35 MK2
+                - text: Capturar demanda existente de personas que ya buscan estos modelos en Google Chile.
+            - listitem [ref=e473]:
+              - generic [ref=e474]: "11"
+              - generic [ref=e475]:
+                - strong [ref=e476]: Crear landing pages de bundle (tornamesa + amp + parlantes)
+                - text: "Ejemplo: \"Sistema completo por $2.500.000\" — Project Essential + MT-35 + Pylon Jasper Monitor."
+            - listitem [ref=e477]:
+              - generic [ref=e478]: "12"
+              - generic [ref=e479]:
+                - strong [ref=e480]: Programa de referidos / review de clientes
+                - text: Email post-compra solicitando foto del sistema y reseña. Base del UGC para ads.
+    - generic [ref=e481]:
+      - heading "📌 Resumen Ejecutivo" [level=2] [ref=e482]
+      - generic [ref=e483]:
+        - heading "Diagnóstico y Acciones Clave" [level=3] [ref=e484]
+        - generic [ref=e485]:
+          - generic [ref=e486]:
+            - heading "🔥 Máxima publicidad ahora" [level=4] [ref=e487]
+            - list [ref=e488]:
+              - listitem [ref=e489]: → CAYIN MT-35 MK3 — nuevo, sin visibilidad
+              - listitem [ref=e490]: → CAYIN JAZZ 80 — mejor propuesta mid-range
+              - listitem [ref=e491]: → MT-12N 6P1 — puerta de entrada al tubo
+              - listitem [ref=e492]: → Project Essential III — único tornamesa con stock
+              - listitem [ref=e493]: → Pylon Jasper / Opal — sin exposición web
+          - generic [ref=e494]:
+            - heading "✍️ Texto urgente requerido" [level=4] [ref=e495]
+            - list [ref=e496]:
+              - listitem [ref=e497]: → JAZZ 90, JAZZ 100 — sin descripción alguna
+              - listitem [ref=e498]: → Línea completa Pylon — solo specs
+              - listitem [ref=e499]: → Sección Usados — sin credibilidad
+              - listitem [ref=e500]: → Cables Cardas — sin justificación de precio
+              - listitem [ref=e501]: → Tornamesas — texto en blanco
+          - generic [ref=e502]:
+            - heading "🚨 Técnico a resolver" [level=4] [ref=e503]
+            - list [ref=e504]:
+              - listitem [ref=e505]: → /tienda/ no carga — pérdida directa de ventas
+              - listitem [ref=e506]: → LA-34 descontinuado en homepage
+              - listitem [ref=e507]: → JAZZ 90/100/MK3 sin imagen en catálogo
+              - listitem [ref=e508]: → Rega Planar 1/2/3 sin stock pero visibles
+              - listitem [ref=e509]: → YAQIN VK-2100 sin stock en listado
+  - contentinfo [ref=e510]:
+    - paragraph [ref=e511]:
+      - text: Informe generado con análisis via Playwright de
+      - strong [ref=e512]: truehifi.cl
+      - text: — Mayo 2026
+    - paragraph [ref=e513]: Datos extraídos del sitemap (185 productos, 45 categorías) + revisión de páginas de producto y categoría.

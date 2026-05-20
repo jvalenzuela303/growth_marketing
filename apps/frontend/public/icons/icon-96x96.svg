@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'>
+  <defs>
+    <linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#818cf8'/>
+      <stop offset='100%' stop-color='#6366f1'/>
+    </linearGradient>
+    <clipPath id='r'><rect rx='21' width='96' height='96'/></clipPath>
+  </defs>
+  <rect width='96' height='96' rx='21' fill='url(#g)'/>
+  <text x='48' y='69.12' font-size='62' text-anchor='middle' fill='white' font-family='Arial'>⚡</text>
+</svg>

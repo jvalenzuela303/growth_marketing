@@ -1,0 +1,244 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e34]:
+              - generic:
+                - generic [ref=e35]:
+                  - link "27-01-2022 12-29-07" [ref=e36] [cursor=pointer]:
+                    - /url: https://mosanelectric.cl/wp-content/uploads/2022/01/27-01-2022-12-29-07.jpg
+                    - img "27-01-2022 12-29-07" [ref=e37]
+                  - img [ref=e38]
+                - link "27-01-2022 12-29-44" [ref=e40] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2022/01/27-01-2022-12-29-44.jpg
+                  - img "27-01-2022 12-29-44" [ref=e41]
+                - link "27-01-2022 12-30-32" [ref=e43] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2022/01/27-01-2022-12-30-32.jpg
+                  - img "27-01-2022 12-30-32" [ref=e44]
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - img [ref=e47] [cursor=pointer]
+              - listitem [ref=e48]:
+                - img [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - img [ref=e51] [cursor=pointer]
+          - generic [ref=e52]:
+            - heading "Medidor de tierra (Telurímetro) ETCR 3200 C NEW" [level=1] [ref=e53]
+            - generic [ref=e54]:
+              - img "Valorado con 2.95 de 5" [ref=e55]:
+                - text: sssss
+                - generic [ref=e56]:
+                  - text: SSSSS Valorado con
+                  - strong [ref=e57]: "2.95"
+                  - text: de 5 en base a
+                  - generic [ref=e58]: SSSSS 97
+                  - text: valoraciones de clientes
+              - link "( valoraciones de clientes)" [ref=e59] [cursor=pointer]:
+                - /url: "#reviews"
+            - paragraph
+            - generic [ref=e60]:
+              - paragraph [ref=e61]: Equipo avanzado con tecnología FFT y AFC para medición precisa de resistencia a tierra, resistividad del suelo, corriente de fuga y más. Su diseño robusto incluye pantalla LCD de alta visibilidad, protección contra sobrecarga y conectividad Bluetooth para análisis desde dispositivos Android. Ideal para uso en exteriores gracias a su resistencia al agua y batería recargable.
+              - paragraph [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - text: "Categorías:"
+                - link "ETCR" [ref=e65] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/etcr/
+                - text: ","
+                - link "MEDIDORES DE TIERRA Y RESISTIVIDAD DE TERRENO" [ref=e66] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/
+              - generic [ref=e67]:
+                - text: "Etiquetas:"
+                - link "Corriente" [ref=e68] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/corriente/
+                - text: ","
+                - link "ETCR" [ref=e69] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/etcr/
+                - text: ","
+                - link "Medicion" [ref=e70] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/medicion/
+                - text: ","
+                - link "Telurimetro" [ref=e71] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/telurimetro/
+          - generic [ref=e72]:
+            - tablist [ref=e73]:
+              - tab "Descripción" [selected] [ref=e74]:
+                - link "Descripción" [ref=e75] [cursor=pointer]:
+                  - /url: "#tab-description"
+              - tab "Valoraciones (97)" [ref=e76]:
+                - link "Valoraciones (97)" [ref=e77] [cursor=pointer]:
+                  - /url: "#tab-reviews"
+            - tabpanel "Descripción" [ref=e78]:
+              - heading "Descripción" [level=2] [ref=e79]
+              - blockquote [ref=e80]:
+                - paragraph [ref=e81]:
+                  - strong [ref=e82]: "Características:"
+                - list [ref=e83]:
+                  - listitem [ref=e84]: Tecnología FFT y AFC para máxima precisión y adaptabilidad en diversas condiciones ambientales.
+                  - listitem [ref=e85]: Indicador de receptáculo de enchufe intuitivo para una operación sencilla y rápida.
+                  - listitem [ref=e86]: Caja protectora a prueba de agua y golpes, con batería de litio recargable de larga duración.
+                  - listitem [ref=e87]: Pantalla LCD de alto contraste con gráficos en barra para fácil visualización de datos.
+                  - listitem [ref=e88]: Función de alarma, protección contra sobrecarga y almacenamiento de datos USB.
+                  - listitem [ref=e89]: Conectividad Bluetooth para análisis desde dispositivos Android, facilitando la visualización de operaciones y el registro de pruebas.
+                - paragraph [ref=e90]
+                - paragraph [ref=e91]:
+                  - strong [ref=e92]: "Especificaciones técnicas:"
+                - list [ref=e93]:
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: "Fuente de alimentación:"
+                    - text: Batería de litio recargable de 7.4V y 2600mAh.
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: "Métodos de medición de resistencia a tierra:"
+                    - text: Soporta 2, 3 y 4 hilos, con precisión de ±2%.
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: "Rangos de medición:"
+                    - text: Resistencia de tierra hasta 30KΩ, corriente de fuga hasta 600.0A, y resistividad del suelo hasta 9000KΩ.
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: "Pantalla LCD:"
+                    - text: Dimensiones de 128x75mm (marco) y 124x67mm (pantalla).
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: "Capacidad de almacenamiento:"
+                    - text: Hasta 2000 grupos de datos.
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: "Conectividad y comunicación:"
+                    - text: Bluetooth y puerto USB para conexión a dispositivos Android y PC.
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: "Funciones adicionales:"
+                    - text: Apagado automático, alarma de sobrecarga, y accesorios incluidos como sensores y tenazas de corriente.
+            - text: sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS sssss SSSSS     
+          - generic [ref=e108]:
+            - heading "Productos relacionados" [level=2] [ref=e109]
+            - list [ref=e110]:
+              - listitem [ref=e111]:
+                - link "AMPERIMETRO DIGITAL HABOTEST" [ref=e112] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/amperimetro-digital/
+                  - heading "AMPERIMETRO DIGITAL HABOTEST" [level=2] [ref=e113]
+              - listitem [ref=e114]:
+                - link "Comprobador de instalaciones eléctricas MPI-507 / 506" [ref=e115] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/comprobador-de-instalaciones-electricas/
+                  - heading "Comprobador de instalaciones eléctricas MPI-507 / 506" [level=2] [ref=e116]
+              - listitem [ref=e117]:
+                - link "ANALIZADOR DE CALIDAD DE ENERGÍA ETCR" [ref=e118] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia/
+                  - heading "ANALIZADOR DE CALIDAD DE ENERGÍA ETCR" [level=2] [ref=e119]
+              - listitem [ref=e120]:
+                - link "Calibrador Eléctrico Monofásico GFUVE" [ref=e121] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/calibrador-electrico-monofasico/
+                  - heading "Calibrador Eléctrico Monofásico GFUVE" [level=2] [ref=e122]
+      - complementary [ref=e123]:
+        - generic [ref=e124]:
+          - heading "Buscar Productos" [level=2] [ref=e125]
+          - search [ref=e126]:
+            - generic [ref=e127]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e128]
+            - button "Buscar" [ref=e129] [cursor=pointer]
+        - generic [ref=e130]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e131]
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e134] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+            - listitem [ref=e135]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e136] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e137]:
+      - generic [ref=e140]:
+        - complementary [ref=e141]:
+          - complementary [ref=e142]:
+            - heading "Menú" [level=3] [ref=e143]
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Inicio" [ref=e147] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e148]:
+                - link "Nosotros" [ref=e149] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e150]:
+                - link "Productos" [ref=e151] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e152]:
+                - link "Contacto" [ref=e153] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Politica de Privacidad" [ref=e156] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e157]:
+          - complementary [ref=e158]:
+            - heading "Horarios de Atención" [level=3] [ref=e159]
+            - generic [ref=e160]:
+              - paragraph [ref=e161]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e162]:
+                - listitem [ref=e163]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e164]: 9am a 5pm
+                - listitem [ref=e165]:
+                  - text: "Sábado:"
+                  - generic [ref=e166]: cerrado
+                - listitem [ref=e167]:
+                  - text: "Domingo:"
+                  - generic [ref=e168]: Cerrado
+        - complementary [ref=e169]:
+          - complementary [ref=e170]:
+            - heading "Contacto" [level=3] [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e175]: 
+                - generic [ref=e176]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e177]:
+                - generic [ref=e179]: 
+                - link "+56 950942148" [ref=e181] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e183] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e184]:
+                - generic [ref=e186]: 
+                - link "contacto@mosanelectric.cl" [ref=e188] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e189]:
+          - complementary [ref=e190]:
+            - heading "Ubicación" [level=3] [ref=e191]
+            - iframe [ref=e193]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f11e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f11e6]
+      - generic [ref=e195]:
+        - generic [ref=e196]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e197]:
+          - link "Screenr parallax theme" [ref=e198] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e201] [cursor=pointer]:
+    - img
+  - status [ref=e202]

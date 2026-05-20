@@ -1,0 +1,1089 @@
+
+> @growth-engine/backend@0.1.0 dev /home/jvalenzuela/Desarollo/growth_marketing/apps/backend
+> nest start --watch
+
+[2J[3J[H[[90m17:30:58[0m] Starting compilation in watch mode...
+
+[[90m17:31:02[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWidgetModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessagingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessengerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFunnelsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConversationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdSpendModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSequencesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppointmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdCampaignsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdAccountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAudienceExportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationFlowsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mApiKeysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBudgetOptimizerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebhooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBillingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGoogleAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInstagramModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTikTokAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSmsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDealsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLeadsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQuizModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mRealtimeGateway subscribed to the "ping" message[39m[38;5;3m +31ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/v1/auth}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/refresh, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLeadsController {/api/v1/leads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/capture, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/score, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/prediction, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/push-subscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mQuizController {/api/v1/quiz}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/result/:leadId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug/submit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFunnelsController {/api/v1/funnels}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/templates, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/from-template, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id/publish, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebhooksController {/api/v1/webhooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/verify, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/leads, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/v1/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/funnels/:funnelId/abandonment, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/financial-kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/attribution, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/conversion-advisor, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ready, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDealsController {/api/v1/deals}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/v1/settings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConversationsController {/api/v1/conversations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdSpendController {/api/v1/ad-spend}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSequencesController {/api/v1/sequences}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id/toggle, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppointmentsController {/api/v1/appointments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdCampaignsController {/api/v1/ad-campaigns}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/:id/metrics, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdAccountsController {/api/v1/ad-accounts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGoogleAdsController {/api/v1/google-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAudienceExportsController {/api/v1/audience-exports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/v1/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/message, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/stream, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/models, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mInstagramController {/api/v1/instagram}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/dm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWidgetController {/api/v1/widget}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/config, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/widget.js, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBillingController {/api/v1/billing}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/portal, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/subscription, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/invoices, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTikTokAdsController {/api/v1/tiktok-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAutomationFlowsController {/api/v1/automation-flows}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/activate, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/pause, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/runs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSmsController {/api/v1/sms}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send-with-fallback, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mApiKeysController {/api/v1/api-keys}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMessengerController {/api/v1/messenger}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBudgetOptimizerController {/api/v1/budget-optimizer}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/budget-optimizer/recommendations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/v1/audit}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audit/logs, GET} route[39m[38;5;3m +0ms[39m
+[33m[Nest] 354473  - [39m19/05/2026, 17:31:02 [33m   WARN[39m [38;5;3m[NotificationsService] [39m[33mVAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY no configuradas — push notifications desactivadas.[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[ScoringProcessor] [39m[32mScoringProcessor iniciado.[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[MessagingProcessor] [39m[32mMessagingProcessor iniciado.[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[FollowUpScheduler] [39m[32mFollowUpScheduler registrado — escaneando leads cada 24h.[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[PrismaService] [39m[32mDatabase connected[39m
+[32m[Nest] 354473  - [39m19/05/2026, 17:31:02 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[31m[Nest] 354473  - [39m19/05/2026, 17:31:02 [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::4001[39m[38;5;3m +1ms[39m
+node:net:1908
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::4001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at ExpressAdapter.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+platform-express@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validat_3e645l3ehqiqb6yhgcfsxu7f44/node_modules/@nestjs/platform-express/adapters/express-adapter.js:95:32)
+    at /home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:183:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:173:16)
+    at async bootstrap (/home/jvalenzuela/Desarollo/growth_marketing/apps/backend/src/main.ts:60:3) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4001
+}
+
+Node.js v20.20.0
+[2J[3J[H[[90m17:31:11[0m] File change detected. Starting incremental compilation...
+
+[[90m17:31:12[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +20ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWidgetModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessagingModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessengerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFunnelsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConversationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdSpendModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSequencesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppointmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdCampaignsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdAccountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAudienceExportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationFlowsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mApiKeysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBudgetOptimizerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebhooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBillingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGoogleAdsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInstagramModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTikTokAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSmsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDealsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLeadsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQuizModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mRealtimeGateway subscribed to the "ping" message[39m[38;5;3m +45ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/v1/auth}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/refresh, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLeadsController {/api/v1/leads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/capture, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/score, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/prediction, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/push-subscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mQuizController {/api/v1/quiz}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/result/:leadId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug/submit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFunnelsController {/api/v1/funnels}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/templates, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/from-template, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id/publish, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebhooksController {/api/v1/webhooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/verify, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/leads, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/v1/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/funnels/:funnelId/abandonment, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/financial-kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/attribution, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/conversion-advisor, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ready, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDealsController {/api/v1/deals}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/v1/settings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConversationsController {/api/v1/conversations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdSpendController {/api/v1/ad-spend}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSequencesController {/api/v1/sequences}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id/toggle, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppointmentsController {/api/v1/appointments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdCampaignsController {/api/v1/ad-campaigns}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/:id/metrics, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdAccountsController {/api/v1/ad-accounts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGoogleAdsController {/api/v1/google-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/campaigns, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAudienceExportsController {/api/v1/audience-exports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/v1/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/message, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/stream, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/models, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mInstagramController {/api/v1/instagram}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/dm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWidgetController {/api/v1/widget}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/config, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/widget.js, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBillingController {/api/v1/billing}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/portal, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/subscription, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/invoices, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTikTokAdsController {/api/v1/tiktok-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/campaigns, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAutomationFlowsController {/api/v1/automation-flows}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/activate, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/pause, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/runs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSmsController {/api/v1/sms}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send-with-fallback, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mApiKeysController {/api/v1/api-keys}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMessengerController {/api/v1/messenger}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBudgetOptimizerController {/api/v1/budget-optimizer}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/budget-optimizer/recommendations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/v1/audit}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audit/logs, GET} route[39m[38;5;3m +0ms[39m
+[33m[Nest] 354794  - [39m19/05/2026, 17:31:13 [33m   WARN[39m [38;5;3m[NotificationsService] [39m[33mVAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY no configuradas — push notifications desactivadas.[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[ScoringProcessor] [39m[32mScoringProcessor iniciado.[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[MessagingProcessor] [39m[32mMessagingProcessor iniciado.[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[FollowUpScheduler] [39m[32mFollowUpScheduler registrado — escaneando leads cada 24h.[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[PrismaService] [39m[32mDatabase connected[39m
+[32m[Nest] 354794  - [39m19/05/2026, 17:31:13 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[31m[Nest] 354794  - [39m19/05/2026, 17:31:13 [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::4001[39m[38;5;3m +1ms[39m
+node:net:1908
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::4001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at ExpressAdapter.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+platform-express@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validat_3e645l3ehqiqb6yhgcfsxu7f44/node_modules/@nestjs/platform-express/adapters/express-adapter.js:95:32)
+    at /home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:183:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:173:16)
+    at async bootstrap (/home/jvalenzuela/Desarollo/growth_marketing/apps/backend/src/main.ts:60:3) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4001
+}
+
+Node.js v20.20.0
+[2J[3J[H[[90m17:31:19[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/analytics/analytics.service.ts[0m:[93m9[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Anthropic'.
+
+[7m9[0m   private readonly anthropic: Anthropic;
+[7m [0m [91m                              ~~~~~~~~~[0m
+
+[96msrc/modules/analytics/analytics.service.ts[0m:[93m14[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ConfigService'.
+
+[7m14[0m     private readonly config:  ConfigService,
+[7m  [0m [91m                              ~~~~~~~~~~~~~[0m
+
+[96msrc/modules/analytics/analytics.service.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Anthropic'.
+
+[7m16[0m     this.anthropic = new Anthropic({
+[7m  [0m [91m                         ~~~~~~~~~[0m
+
+[[90m17:31:19[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m17:31:24[0m] File change detected. Starting incremental compilation...
+
+[[90m17:31:24[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWidgetModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessagingModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessengerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFunnelsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConversationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdSpendModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSequencesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppointmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdCampaignsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdAccountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAudienceExportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationFlowsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mApiKeysModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBudgetOptimizerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebhooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBillingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGoogleAdsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInstagramModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTikTokAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSmsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDealsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLeadsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQuizModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mRealtimeGateway subscribed to the "ping" message[39m[38;5;3m +35ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/v1/auth}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/refresh, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLeadsController {/api/v1/leads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/capture, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/score, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/prediction, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/report, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/push-subscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mQuizController {/api/v1/quiz}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/result/:leadId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug/submit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFunnelsController {/api/v1/funnels}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/templates, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/from-template, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id/publish, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebhooksController {/api/v1/webhooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/verify, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/leads, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/v1/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/events, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/funnels/:funnelId/abandonment, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/financial-kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/attribution, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/conversion-advisor, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ready, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDealsController {/api/v1/deals}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/v1/settings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConversationsController {/api/v1/conversations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdSpendController {/api/v1/ad-spend}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSequencesController {/api/v1/sequences}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id/toggle, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppointmentsController {/api/v1/appointments}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdCampaignsController {/api/v1/ad-campaigns}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/:id/metrics, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdAccountsController {/api/v1/ad-accounts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGoogleAdsController {/api/v1/google-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAudienceExportsController {/api/v1/audience-exports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/v1/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/message, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/stream, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/models, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mInstagramController {/api/v1/instagram}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/dm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWidgetController {/api/v1/widget}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/config, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/widget.js, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBillingController {/api/v1/billing}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/portal, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/subscription, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/invoices, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTikTokAdsController {/api/v1/tiktok-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAutomationFlowsController {/api/v1/automation-flows}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/activate, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/pause, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/runs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSmsController {/api/v1/sms}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send-with-fallback, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mApiKeysController {/api/v1/api-keys}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMessengerController {/api/v1/messenger}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBudgetOptimizerController {/api/v1/budget-optimizer}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/budget-optimizer/recommendations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/v1/audit}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audit/logs, GET} route[39m[38;5;3m +1ms[39m
+[33m[Nest] 355197  - [39m19/05/2026, 17:31:25 [33m   WARN[39m [38;5;3m[NotificationsService] [39m[33mVAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY no configuradas — push notifications desactivadas.[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[ScoringProcessor] [39m[32mScoringProcessor iniciado.[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[MessagingProcessor] [39m[32mMessagingProcessor iniciado.[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[FollowUpScheduler] [39m[32mFollowUpScheduler registrado — escaneando leads cada 24h.[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[PrismaService] [39m[32mDatabase connected[39m
+[32m[Nest] 355197  - [39m19/05/2026, 17:31:25 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+Backend running on port 4001
+Swagger docs: http://localhost:4001/api/docs
+[2J[3J[H[[90m17:31:31[0m] File change detected. Starting incremental compilation...
+
+[[90m17:31:31[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +20ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWidgetModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessagingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessengerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFunnelsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConversationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdSpendModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSequencesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppointmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdCampaignsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdAccountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAudienceExportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationFlowsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mApiKeysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBudgetOptimizerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebhooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBillingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGoogleAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInstagramModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTikTokAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSmsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDealsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLeadsModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQuizModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mRealtimeGateway subscribed to the "ping" message[39m[38;5;3m +39ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/v1/auth}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/refresh, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/logout, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLeadsController {/api/v1/leads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/capture, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/score, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/prediction, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/export/csv, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/push-subscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mQuizController {/api/v1/quiz}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/result/:leadId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug/submit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFunnelsController {/api/v1/funnels}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/templates, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/from-template, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id/publish, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebhooksController {/api/v1/webhooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/verify, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/leads, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/v1/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/funnels/:funnelId/abandonment, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/financial-kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/attribution, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/conversion-advisor, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ready, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDealsController {/api/v1/deals}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/v1/settings}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConversationsController {/api/v1/conversations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdSpendController {/api/v1/ad-spend}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSequencesController {/api/v1/sequences}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id/toggle, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppointmentsController {/api/v1/appointments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdCampaignsController {/api/v1/ad-campaigns}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/:id/metrics, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdAccountsController {/api/v1/ad-accounts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGoogleAdsController {/api/v1/google-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/init, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAudienceExportsController {/api/v1/audience-exports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/v1/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/message, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/stream, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/models, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mInstagramController {/api/v1/instagram}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/dm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWidgetController {/api/v1/widget}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/config, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/widget.js, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBillingController {/api/v1/billing}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/portal, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/subscription, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/invoices, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTikTokAdsController {/api/v1/tiktok-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAutomationFlowsController {/api/v1/automation-flows}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/activate, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/pause, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/runs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSmsController {/api/v1/sms}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send-with-fallback, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mApiKeysController {/api/v1/api-keys}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMessengerController {/api/v1/messenger}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBudgetOptimizerController {/api/v1/budget-optimizer}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/budget-optimizer/recommendations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/v1/audit}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audit/logs, GET} route[39m[38;5;3m +0ms[39m
+[33m[Nest] 355556  - [39m19/05/2026, 17:31:31 [33m   WARN[39m [38;5;3m[NotificationsService] [39m[33mVAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY no configuradas — push notifications desactivadas.[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[ScoringProcessor] [39m[32mScoringProcessor iniciado.[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[MessagingProcessor] [39m[32mMessagingProcessor iniciado.[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[FollowUpScheduler] [39m[32mFollowUpScheduler registrado — escaneando leads cada 24h.[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[PrismaService] [39m[32mDatabase connected[39m
+[32m[Nest] 355556  - [39m19/05/2026, 17:31:31 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[31m[Nest] 355556  - [39m19/05/2026, 17:31:31 [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::4001[39m[38;5;3m +1ms[39m
+node:net:1908
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::4001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at ExpressAdapter.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+platform-express@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validat_3e645l3ehqiqb6yhgcfsxu7f44/node_modules/@nestjs/platform-express/adapters/express-adapter.js:95:32)
+    at /home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:183:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:173:16)
+    at async bootstrap (/home/jvalenzuela/Desarollo/growth_marketing/apps/backend/src/main.ts:60:3) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4001
+}
+
+Node.js v20.20.0
+[2J[3J[H[[90m17:40:51[0m] File change detected. Starting incremental compilation...
+
+[[90m17:40:52[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWidgetModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessagingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMessengerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFunnelsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConversationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdSpendModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSequencesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppointmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdCampaignsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdAccountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAudienceExportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationFlowsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mApiKeysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBudgetOptimizerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebhooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBillingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGoogleAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInstagramModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTikTokAdsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSmsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDealsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLeadsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mQuizModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mRealtimeGateway subscribed to the "ping" message[39m[38;5;3m +42ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/v1/auth}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/refresh, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/auth/logout, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLeadsController {/api/v1/leads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/capture, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/score, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/prediction, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/export/csv, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/leads/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/push-subscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mQuizController {/api/v1/quiz}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/result/:leadId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/quiz/:tenantSlug/:funnelSlug/submit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFunnelsController {/api/v1/funnels}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/templates, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/from-template, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:id/publish, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/funnels/:funnelId/variants/:variantId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebhooksController {/api/v1/webhooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/verify, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/webhooks/meta/leads, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/v1/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/funnels/:funnelId/abandonment, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/financial-kpis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/attribution, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/analytics/conversion-advisor, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ready, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDealsController {/api/v1/deals}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/deals/export/csv, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/v1/settings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConversationsController {/api/v1/conversations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/conversations/:leadId/messages, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdSpendController {/api/v1/ad-spend}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-spend, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSequencesController {/api/v1/sequences}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sequences/:id/toggle, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppointmentsController {/api/v1/appointments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/appointments/:id/status, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdCampaignsController {/api/v1/ad-campaigns}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-campaigns/:id/metrics, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdAccountsController {/api/v1/ad-accounts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ad-accounts/:id/sync, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGoogleAdsController {/api/v1/google-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/google-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAudienceExportsController {/api/v1/audience-exports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audience-exports, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/v1/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/message, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/stream, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/chat/models, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mInstagramController {/api/v1/instagram}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/instagram/dm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWidgetController {/api/v1/widget}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/config, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/widget/:slug/widget.js, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBillingController {/api/v1/billing}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/portal, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/subscription, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/invoices, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/billing/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTikTokAdsController {/api/v1/tiktok-ads}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/init, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/callback, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/oauth/:accountId/disconnect, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/tiktok-ads/campaigns, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAutomationFlowsController {/api/v1/automation-flows}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/activate, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/pause, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/automation-flows/:id/runs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSmsController {/api/v1/sms}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/status, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sms/send-with-fallback, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mApiKeysController {/api/v1/api-keys}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/api-keys/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMessengerController {/api/v1/messenger}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/messenger/webhook, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBudgetOptimizerController {/api/v1/budget-optimizer}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/budget-optimizer/recommendations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/v1/audit}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/audit/logs, GET} route[39m[38;5;3m +0ms[39m
+[33m[Nest] 380236  - [39m19/05/2026, 17:40:52 [33m   WARN[39m [38;5;3m[NotificationsService] [39m[33mVAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY no configuradas — push notifications desactivadas.[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[ScoringProcessor] [39m[32mScoringProcessor iniciado.[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[MessagingProcessor] [39m[32mMessagingProcessor iniciado.[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[FollowUpScheduler] [39m[32mFollowUpScheduler registrado — escaneando leads cada 24h.[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[PrismaService] [39m[32mDatabase connected[39m
+[32m[Nest] 380236  - [39m19/05/2026, 17:40:52 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[31m[Nest] 380236  - [39m19/05/2026, 17:40:52 [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::4001[39m[38;5;3m +2ms[39m
+node:net:1908
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::4001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at ExpressAdapter.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+platform-express@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validat_3e645l3ehqiqb6yhgcfsxu7f44/node_modules/@nestjs/platform-express/adapters/express-adapter.js:95:32)
+    at /home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:183:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/jvalenzuela/Desarollo/growth_marketing/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.14.4_re_s3zxsgsmsekta3oeycoqskcmia/node_modules/@nestjs/core/nest-application.js:173:16)
+    at async bootstrap (/home/jvalenzuela/Desarollo/growth_marketing/apps/backend/src/main.ts:60:3) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4001
+}
+
+Node.js v20.20.0
+ ELIFECYCLE  Command failed.

@@ -1,0 +1,523 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+      - link "Postula aquí" [ref=e9] [cursor=pointer]:
+        - /url: /careers
+        - generic [ref=e10]: Postula aquí
+        - img [ref=e11]
+    - generic [ref=e16]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e25]:
+        - button "Plataforma" [ref=e27] [cursor=pointer]:
+          - text: Plataforma
+          - img [ref=e28]
+        - button "Clientes" [ref=e31] [cursor=pointer]:
+          - text: Clientes
+          - img [ref=e32]
+        - button "Recursos" [ref=e35] [cursor=pointer]:
+          - text: Recursos
+          - img [ref=e36]
+        - link "Precios" [ref=e38] [cursor=pointer]:
+          - /url: /pricing
+        - link "Nosotros" [ref=e39] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e40]:
+        - 'button "Selected country: Chile" [ref=e42] [cursor=pointer]':
+          - img "cl" [ref=e43]
+        - link "Iniciar Sesión" [ref=e44] [cursor=pointer]:
+          - /url: https://app.vambeai.com/login
+          - button "Iniciar Sesión" [ref=e45]
+        - link "Agenda Demo" [ref=e46] [cursor=pointer]:
+          - /url: /contact
+          - button "Agenda Demo" [ref=e47]
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e57]: ROI garantizado
+        - heading "Nuestros precios" [level=1] [ref=e58]
+        - paragraph [ref=e59]: Hasta 2 meses de garantía. Precios en Dólares (USD).
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - generic [ref=e65]: Soporte directo por Whatsapp
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - generic [ref=e70]: Cancela cuando quieras
+          - generic [ref=e71]:
+            - img [ref=e72]
+            - generic [ref=e75]: Servicios profesionales
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - button "Planes" [ref=e79] [cursor=pointer]
+          - button "Addons" [ref=e81] [cursor=pointer]
+        - generic [ref=e82]:
+          - button "Mensual" [ref=e83] [cursor=pointer]
+          - button "Anual Ahorra 25%" [ref=e85] [cursor=pointer]:
+            - text: Anual
+            - generic [ref=e86]: Ahorra 25%
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - heading "Standard" [level=3] [ref=e92]
+              - generic [ref=e94]:
+                - img [ref=e95]
+                - generic [ref=e97]: Vambe
+            - generic [ref=e100]:
+              - generic [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: Mes 1
+                    - generic [ref=e106]: Implementación
+                  - img [ref=e107]
+                - generic [ref=e109]:
+                  - generic [ref=e110]: $600
+                  - generic [ref=e111]: one-time
+              - generic [ref=e114]:
+                - generic [ref=e115]: Mes 2
+                - generic [ref=e116]: $0
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - generic [ref=e121]: Mes 3
+                    - generic [ref=e122]: En adelante
+                    - generic [ref=e123]: Precio regular
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: $413
+                    - generic [ref=e126]: /mes
+                - generic [ref=e127]: 1,500 conversaciones
+            - button "Agenda una demo" [ref=e130] [cursor=pointer]
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Funciones Base
+              - generic [ref=e134]:
+                - generic [ref=e136]:
+                  - img [ref=e137]
+                  - generic [ref=e140]: Vambe AI Core System
+                - generic [ref=e142]:
+                  - img [ref=e144]
+                  - generic [ref=e146]: Vambe App (iOS/Android)
+                - generic [ref=e148]:
+                  - img [ref=e149]
+                  - generic [ref=e151]: Dashboards personalizables
+                - generic [ref=e153]:
+                  - img [ref=e154]
+                  - generic [ref=e157]: Integraciones estándar*
+            - generic [ref=e158]:
+              - generic [ref=e159]: Equipo y Soporte
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e163]: "3"
+                  - generic [ref=e164]: Usuarios
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Implementación
+                  - generic [ref=e168]: con ingeniero
+            - generic [ref=e170]:
+              - generic [ref=e171]: IA y Automatización
+              - generic [ref=e172]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: MODELO ÚNICO
+                  - text: Gemini 2.5 Flash
+                  - generic [ref=e177]: Google
+                - generic [ref=e179]:
+                  - generic [ref=e184]: 1 Embudo
+                  - generic [ref=e188]:
+                    - generic "WhatsApp" [ref=e189]:
+                      - img "WhatsApp" [ref=e191]
+                      - generic: WhatsApp - Mensajería instantánea
+                    - generic [ref=e192]: o
+                    - generic "Instagram" [ref=e193]:
+                      - img "Instagram" [ref=e195]
+                      - generic: Instagram - Mensajes directos y comentarios
+            - generic [ref=e197]:
+              - generic [ref=e198]: Precios
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - generic [ref=e203]: $0.4 por chat adicional
+        - generic [ref=e205]:
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - heading "Advanced" [level=3] [ref=e209]
+              - generic [ref=e210]:
+                - img [ref=e212]
+                - generic [ref=e214]:
+                  - img [ref=e215]
+                  - generic [ref=e217]: Ads Lite
+            - generic [ref=e220]:
+              - generic [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: Mes 1
+                    - generic [ref=e226]: Implementación
+                  - img [ref=e227]
+                - generic [ref=e229]:
+                  - generic [ref=e230]: $650
+                  - generic [ref=e231]: one-time
+              - generic [ref=e234]:
+                - generic [ref=e235]: Mes 2
+                - generic [ref=e236]: $0
+              - generic [ref=e238]:
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: Mes 3
+                    - generic [ref=e242]: En adelante
+                    - generic [ref=e243]: Precio regular
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: $574
+                    - generic [ref=e246]: /mes
+                - generic [ref=e247]: 2,500 conversaciones
+            - button "Agenda una demo" [ref=e250] [cursor=pointer]
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: Funciones Base
+              - generic [ref=e254]:
+                - generic [ref=e256]:
+                  - img [ref=e257]
+                  - generic [ref=e260]: Todo del Standard
+                - generic [ref=e262]:
+                  - img [ref=e264]
+                  - generic [ref=e266]: Vambe Ads Lite
+                - generic [ref=e268]:
+                  - img [ref=e269]
+                  - generic [ref=e271]: AI Insigths basic
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - generic [ref=e276]: Llamadas a través de Vambe
+            - generic [ref=e277]:
+              - generic [ref=e278]: Equipo y Soporte
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e282]: "8"
+                  - generic [ref=e283]: Usuarios
+                - generic [ref=e285]:
+                  - generic [ref=e286]: Implementación
+                  - generic [ref=e287]: con ingeniero
+            - generic [ref=e289]:
+              - generic [ref=e290]: IA y Automatización
+              - generic [ref=e291]:
+                - generic [ref=e294]:
+                  - text: Todos los modelos
+                  - generic [ref=e295]: GPT, Claude, Gemini y más
+                - generic [ref=e297]:
+                  - generic [ref=e302]: 1 Embudo
+                  - generic [ref=e306]:
+                    - generic "WhatsApp - Mensajería instantánea" [ref=e307]:
+                      - img "WhatsApp" [ref=e309]
+                      - generic: WhatsApp - Mensajería instantánea
+                    - generic "Instagram - Mensajes directos y comentarios" [ref=e310]:
+                      - img "Instagram" [ref=e312]
+                      - generic: Instagram - Mensajes directos y comentarios
+                    - generic "Facebook Messenger - Chat de Facebook" [ref=e313]:
+                      - img "Messenger" [ref=e315]
+                      - generic: Facebook Messenger - Chat de Facebook (No incluido)
+                    - generic "TikTok - Mensajes y comentarios" [ref=e316]:
+                      - img "TikTok" [ref=e318]
+                      - generic: TikTok - Mensajes y comentarios (No incluido)
+            - generic [ref=e320]:
+              - generic [ref=e321]: Precios
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - img [ref=e324]
+                  - generic [ref=e326]: $0.4 por chat adicional
+                - generic [ref=e327]:
+                  - img [ref=e328]
+                  - generic [ref=e330]: $0.3 por minuto adicional
+        - generic [ref=e332]:
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - heading "Corporate" [level=3] [ref=e336]
+              - generic [ref=e337]:
+                - img [ref=e339]
+                - img [ref=e342]
+                - img [ref=e345]
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - img [ref=e353]
+                - generic [ref=e356]:
+                  - paragraph [ref=e357]: UN PLAN
+                  - paragraph [ref=e358]: Diseñado a la medida
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: MENSUAL
+                    - generic [ref=e364]: DESDE
+                  - generic [ref=e365]: $2,173/mes
+                - generic [ref=e366]: 3,000 conversaciones
+            - button "Agenda una demo" [ref=e368] [cursor=pointer]
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - generic [ref=e371]: Funciones Base
+              - generic [ref=e372]:
+                - generic [ref=e374]:
+                  - img [ref=e375]
+                  - generic [ref=e378]: Integraciones personalizadas
+                - generic [ref=e380]:
+                  - img [ref=e381]
+                  - generic [ref=e384]: Horas de desarrollo
+                - generic [ref=e386]:
+                  - img [ref=e387]
+                  - generic [ref=e389]: Soporte Gold
+                - generic [ref=e391]:
+                  - img [ref=e393]
+                  - generic [ref=e395]: Licencia Infinity de Vambe
+            - generic [ref=e396]:
+              - generic [ref=e397]: Equipo y Soporte
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - img [ref=e401]
+                  - generic [ref=e403]: Usuarios
+                - generic [ref=e405]:
+                  - generic [ref=e406]: Consultoría
+                  - generic [ref=e407]: todos los meses
+            - generic [ref=e409]:
+              - generic [ref=e410]: IA y Automatización
+              - generic [ref=e411]:
+                - generic [ref=e414]:
+                  - text: Todos los modelos
+                  - generic [ref=e415]: GPT, Claude, Gemini y más
+                - generic [ref=e417]:
+                  - generic [ref=e420]: Customizado
+                  - generic [ref=e424]:
+                    - generic "WhatsApp - Mensajería instantánea" [ref=e425]:
+                      - img "WhatsApp" [ref=e427]
+                      - generic: WhatsApp - Mensajería instantánea
+                    - generic "Instagram - Mensajes directos y comentarios" [ref=e428]:
+                      - img "Instagram" [ref=e430]
+                      - generic: Instagram - Mensajes directos y comentarios
+                    - generic "Facebook Messenger - Chat de Facebook" [ref=e431]:
+                      - img "Messenger" [ref=e433]
+                      - generic: Facebook Messenger - Chat de Facebook
+                    - generic "TikTok - Mensajes y comentarios" [ref=e434]:
+                      - img "TikTok" [ref=e436]
+                      - generic: TikTok - Mensajes y comentarios (No incluido)
+            - generic [ref=e438]:
+              - generic [ref=e439]: Precios
+              - generic [ref=e440]:
+                - generic [ref=e441]:
+                  - img [ref=e442]
+                  - generic [ref=e444]: Chat adicional basado en uso
+                - generic [ref=e445]:
+                  - img [ref=e446]
+                  - generic [ref=e448]: Minuto adicional basado en uso
+    - generic [ref=e452]:
+      - generic [ref=e453]:
+        - heading "Compara todas las características" [level=2] [ref=e454]
+        - paragraph [ref=e455]: Mira exactamente qué está incluido en cada plan. Haz clic en los íconos de información para explicaciones detalladas.
+      - generic [ref=e456]:
+        - generic [ref=e457]:
+          - heading "Características" [level=3] [ref=e459]
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - heading "Standard" [level=3] [ref=e463]
+              - generic [ref=e464]: $413/mes
+            - link "Agenda una Demo" [ref=e465] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - heading "Advanced" [level=3] [ref=e469]
+              - generic [ref=e470]: $574/mes
+            - link "Agenda una Demo" [ref=e471] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - heading "Corporate" [level=3] [ref=e475]
+              - generic [ref=e476]: $2,173/mes
+            - link "Agenda una Demo" [ref=e477] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e478]:
+          - button "Precios variables y addons independientes" [ref=e480] [cursor=pointer]:
+            - generic [ref=e481]:
+              - img [ref=e483]
+              - heading "Precios variables y addons independientes" [level=4] [ref=e485]
+            - img [ref=e486]
+          - button "Vambe AI Platform" [ref=e489] [cursor=pointer]:
+            - generic [ref=e490]:
+              - img [ref=e492]
+              - heading "Vambe AI Platform" [level=4] [ref=e494]
+            - img [ref=e495]
+          - button "Vambe Services" [ref=e498] [cursor=pointer]:
+            - generic [ref=e499]:
+              - img [ref=e501]
+              - heading "Vambe Services" [level=4] [ref=e503]
+            - img [ref=e504]
+    - generic [ref=e508]:
+      - generic [ref=e509]:
+        - generic [ref=e510]:
+          - img [ref=e511]
+          - generic [ref=e514]: Preguntas Frecuentes
+        - heading "¿Tienes preguntas?" [level=2] [ref=e515]
+        - paragraph [ref=e516]:
+          - text: Aquí están las preguntas más comunes sobre nuestros precios y planes. ¿No encuentras lo que buscas?
+          - link "Ponte en contacto" [ref=e517] [cursor=pointer]:
+            - /url: /contact
+          - text: .
+      - generic [ref=e518]:
+        - generic [ref=e519]:
+          - generic [ref=e520]:
+            - button "¿Cómo funciona el proceso de implementación?" [expanded] [ref=e521] [cursor=pointer]:
+              - heading "¿Cómo funciona el proceso de implementación?" [level=3] [ref=e523]
+              - img [ref=e525]
+            - paragraph [ref=e530]: El equipo de Product Specialist crea tu cuenta y te proporciona un video explicativo con los pasos para completar la base de conocimiento. Esta información debe estar lista antes de tu primera reunión con Ingeniería, que marca el inicio del proceso de implementación de 2 semanas. Durante este período, coordinarás reuniones con tu ingeniero asignado según el plan seleccionado (la selección del plan se confirma en la primera reunión con Ingeniería).
+          - button "¿Cuánto tiempo dura el proceso de implementación?" [ref=e532] [cursor=pointer]:
+            - heading "¿Cuánto tiempo dura el proceso de implementación?" [level=3] [ref=e534]
+            - img [ref=e536]
+          - button "¿Qué información necesitan para entrenar al agente?" [ref=e539] [cursor=pointer]:
+            - heading "¿Qué información necesitan para entrenar al agente?" [level=3] [ref=e541]
+            - img [ref=e543]
+          - button "¿Con qué canales es compatible además de WhatsApp?" [ref=e546] [cursor=pointer]:
+            - heading "¿Con qué canales es compatible además de WhatsApp?" [level=3] [ref=e548]
+            - img [ref=e550]
+          - button "¿Puedo integrar otros canales más adelante?" [ref=e553] [cursor=pointer]:
+            - heading "¿Puedo integrar otros canales más adelante?" [level=3] [ref=e555]
+            - img [ref=e557]
+          - button "¿Hay aplicación móvil para administrar conversaciones?" [ref=e560] [cursor=pointer]:
+            - heading "¿Hay aplicación móvil para administrar conversaciones?" [level=3] [ref=e562]
+            - img [ref=e564]
+          - button "¿Cuándo se me empieza a cobrar? ¿Desde el día que contrato o que activo el número?" [ref=e567] [cursor=pointer]:
+            - heading "¿Cuándo se me empieza a cobrar? ¿Desde el día que contrato o que activo el número?" [level=3] [ref=e569]
+            - img [ref=e571]
+          - button "¿Hay contrato mínimo de permanencia?" [ref=e574] [cursor=pointer]:
+            - heading "¿Hay contrato mínimo de permanencia?" [level=3] [ref=e576]
+            - img [ref=e578]
+          - button "¿Hay algún pago inicial de setup o implementación?" [ref=e581] [cursor=pointer]:
+            - heading "¿Hay algún pago inicial de setup o implementación?" [level=3] [ref=e583]
+            - img [ref=e585]
+          - button "¿Puedo cambiarme de plan en cualquier momento?" [ref=e588] [cursor=pointer]:
+            - heading "¿Puedo cambiarme de plan en cualquier momento?" [level=3] [ref=e590]
+            - img [ref=e592]
+          - button "¿Qué pasa si se me acaban las conversaciones antes de que termine el mes?" [ref=e595] [cursor=pointer]:
+            - heading "¿Qué pasa si se me acaban las conversaciones antes de que termine el mes?" [level=3] [ref=e597]
+            - img [ref=e599]
+          - button "¿Qué pasa si no uso todas mis conversaciones del mes?" [ref=e602] [cursor=pointer]:
+            - heading "¿Qué pasa si no uso todas mis conversaciones del mes?" [level=3] [ref=e604]
+            - img [ref=e606]
+          - button "¿Qué es exactamente una conversación?" [ref=e609] [cursor=pointer]:
+            - heading "¿Qué es exactamente una conversación?" [level=3] [ref=e611]
+            - img [ref=e613]
+        - generic [ref=e615]:
+          - heading "¿Necesitas más ayuda?" [level=3] [ref=e616]
+          - paragraph [ref=e617]: Nuestro equipo de ventas está listo para responder cualquier pregunta sobre nuestros planes y características.
+          - generic [ref=e618]:
+            - link "Contactar a ventas" [ref=e619] [cursor=pointer]:
+              - /url: /contact
+            - button "Prueba la experiencia" [ref=e620] [cursor=pointer]
+    - generic [ref=e623]:
+      - generic [ref=e624]:
+        - generic [ref=e625]:
+          - generic [ref=e626]:
+            - link [ref=e627] [cursor=pointer]:
+              - /url: /
+              - img [ref=e628]
+            - button "Select country" [ref=e637] [cursor=pointer]:
+              - img "cl" [ref=e638]
+              - generic [ref=e639]: Chile
+              - img [ref=e640]
+          - paragraph [ref=e642]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+          - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e643]
+          - generic [ref=e644]:
+            - link "Download on App Store" [ref=e645] [cursor=pointer]:
+              - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+              - img "Download on App Store" [ref=e646]
+            - link "Get it on Google Play" [ref=e647] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.vambe
+              - img "Get it on Google Play" [ref=e648]
+        - generic [ref=e649]:
+          - heading "Producto" [level=5] [ref=e650]
+          - list [ref=e651]:
+            - listitem [ref=e652]:
+              - link "Plataforma" [ref=e653] [cursor=pointer]:
+                - /url: /platform
+            - listitem [ref=e654]:
+              - link "Ads" [ref=e655] [cursor=pointer]:
+                - /url: /extension/ads
+            - listitem [ref=e656]:
+              - link "Precios" [ref=e657] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e658]:
+              - link "Services" [ref=e659] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e660]:
+          - heading "Empresa" [level=5] [ref=e661]
+          - list [ref=e662]:
+            - listitem [ref=e663]:
+              - link "Nosotros" [ref=e664] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e665]:
+              - link "Careers" [ref=e666] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e667]:
+              - link "Contacto" [ref=e668] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e669]:
+          - heading "Social" [level=5] [ref=e670]
+          - list [ref=e671]:
+            - listitem [ref=e672]:
+              - link "Facebook" [ref=e673] [cursor=pointer]:
+                - /url: https://facebook.com/vambeai
+                - img [ref=e674]
+                - text: Facebook
+            - listitem [ref=e676]:
+              - link "YouTube" [ref=e677] [cursor=pointer]:
+                - /url: https://www.youtube.com/@vambeai
+                - img [ref=e678]
+                - text: YouTube
+            - listitem [ref=e681]:
+              - link "Instagram" [ref=e682] [cursor=pointer]:
+                - /url: https://instagram.com/vambeai
+                - img [ref=e683]
+                - text: Instagram
+            - listitem [ref=e686]:
+              - link "LinkedIn" [ref=e687] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/vambe/
+                - img [ref=e688]
+                - text: LinkedIn
+      - generic [ref=e693]:
+        - paragraph [ref=e695]:
+          - generic [ref=e696]: HQ 🇨🇱
+          - generic [ref=e697]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+        - paragraph [ref=e699]:
+          - generic [ref=e700]: OF 🇲🇽
+          - generic [ref=e701]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+      - generic [ref=e703]:
+        - generic [ref=e704]:
+          - heading "Partners" [level=5] [ref=e705]
+          - generic:
+            - img "Meta Business Partner"
+            - img "NVIDIA Inception Program"
+        - generic [ref=e706]:
+          - heading "Cumplimiento" [level=5] [ref=e707]
+          - generic [ref=e708]:
+            - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+            - img "SOC 2 — Controles de seguridad"
+        - generic [ref=e709]:
+          - heading "Hecho con en Latam" [level=5] [ref=e710]:
+            - text: Hecho con
+            - img [ref=e711]
+            - text: en Latam
+          - generic [ref=e713]:
+            - img "Marca Chile" [ref=e714]
+            - img "Hecho en México" [ref=e716]
+        - generic [ref=e717]:
+          - heading "Backed by" [level=5] [ref=e718]
+          - generic [ref=e719]:
+            - link "Monashees" [ref=e720] [cursor=pointer]:
+              - /url: https://www.monashees.com/portfolio?name=vambe
+              - img "Monashees" [ref=e721]
+            - link "Nazca" [ref=e722] [cursor=pointer]:
+              - /url: https://www.nazca.vc/portfolio/vambe
+              - img "Nazca" [ref=e723]
+            - link "M13" [ref=e724] [cursor=pointer]:
+              - /url: https://www.m13.co/company/vambe
+              - img "M13" [ref=e725]
+      - generic [ref=e726]:
+        - paragraph [ref=e727]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+        - generic [ref=e728]:
+          - link "Política de Privacidad" [ref=e729] [cursor=pointer]:
+            - /url: /privacy
+          - link "Términos de Servicio" [ref=e730] [cursor=pointer]:
+            - /url: /terms
+  - alert [ref=e731]

@@ -1,0 +1,413 @@
+- generic [active] [ref=e1]:
+  - main [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+      - link "Postula aquí" [ref=e11] [cursor=pointer]:
+        - /url: /careers
+        - generic [ref=e12]: Postula aquí
+        - img [ref=e13]
+    - generic [ref=e18]:
+      - link [ref=e19] [cursor=pointer]:
+        - /url: /
+        - img [ref=e20]
+      - generic [ref=e27]:
+        - 'button "Selected country: Chile" [ref=e29] [cursor=pointer]':
+          - img "cl" [ref=e30]
+        - button "Open menu" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - generic [ref=e33]: Open menu
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - img "Vambe Connect" [ref=e40]
+        - heading "Conecta tus sistemas para ejecutar acciones en múltiples apps" [level=1] [ref=e41]:
+          - text: Conecta tus sistemas
+          - text: para ejecutar acciones en múltiples apps
+        - paragraph [ref=e42]: La herramienta no-code que le da a tus Agentes IA el poder de actualizar tu CRM, procesar pagos y automatizar flujos complejos, convirtiendo la inteligencia en ganancias
+        - generic [ref=e43]:
+          - link "Agenda una Demo" [ref=e44] [cursor=pointer]:
+            - /url: /contact
+            - text: Agenda una Demo
+            - img [ref=e45]
+          - link "Conocer Planes" [ref=e47] [cursor=pointer]:
+            - /url: /pricing
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e54]: stripe-integration.js – Sublime Text
+          - generic [ref=e55]:
+            - generic [ref=e56]: "const payment = await stripe.paymentIntents.create({"
+            - generic [ref=e57]: "amount: customer.plan === 'pro' ? 9900 : 4900,"
+            - generic [ref=e58]: "currency: 'usd',"
+            - generic [ref=e59]: "automatic_payment_methods: { enabled: true },"
+            - generic [ref=e60]: "metadata: { customer_id: customer.id, source: 'vambe-ai' }"
+            - generic [ref=e61]: "})"
+            - generic [ref=e62]: await updateCustomerContext(customer.id, payment)
+            - generic [ref=e63]: await notifyAI(customer.phone, payment.status)
+        - generic [ref=e64]:
+          - generic [ref=e71]:
+            - generic [ref=e73]:
+              - img [ref=e74]
+              - generic [ref=e76]: Vambe Connect
+            - generic [ref=e79]: +
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: "Paso 1: Elige un Trigger"
+                - generic [ref=e85]: ¿Qué evento iniciará tu automatización?
+              - generic [ref=e86]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 📧
+                  - generic [ref=e90]: Email
+                - generic [ref=e92]:
+                  - generic [ref=e93]: 💳
+                  - generic [ref=e94]: Stripe
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 📱
+                  - generic [ref=e98]: WhatsApp
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 📊
+                  - generic [ref=e102]: HubSpot
+            - generic:
+              - generic:
+                - generic: "Paso 2: Configura una Acción"
+                - generic: ¿Qué debe hacer Connect cuando se active el trigger?
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Enviar a IA de Mensajes
+                  - generic:
+                    - generic:
+                      - generic: "Mensaje:"
+                      - generic: “¡Pago confirmado! Tu plan está activo.”
+                    - generic:
+                      - generic: "Datos:"
+                      - generic: Plan, Monto, Cliente
+            - generic:
+              - generic:
+                - generic: 🎉 ¡Automatización Activa!
+                - generic: Tu IA ahora recibe datos en tiempo real.
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: María - Plan Pro $99
+                      - generic: IA notificada • Contexto actualizado
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Carlos - Plan Básico $49
+                      - generic: Mensaje enviado • Datos sincronizados
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - text: Sin código
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - img [ref=e114]
+          - text: Orquestación Inteligente
+        - heading "Más que un conector, un director de orquesta" [level=2] [ref=e116]
+        - paragraph [ref=e117]: Las herramientas de automatización tradicionales solo mueven datos. Vambe Connect los entiende. Nuestra IA nativa interpreta el contexto de cada flujo para tomar decisiones, ejecutar acciones complejas y optimizar procesos de negocio completos.
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - heading "Conecta en Minutos, No en Meses" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Nuestra librería de 150+ conectores te permite unificar tu stack tecnológico sin necesidad de un desarrollador.
+        - generic [ref=e127]:
+          - img [ref=e129]
+          - heading "IA con Memoria a Largo Plazo" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Tu IA no solo responde, recuerda. Accede al historial completo de cada cliente para dar respuestas y tomar acciones personalizadas.
+        - generic [ref=e135]:
+          - img [ref=e137]
+          - heading "Workflows que se Optimizan Solos" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Nuestra IA no solo sigue instrucciones, aprende de cada flujo para sugerir optimizaciones y mejorar la eficiencia de tus procesos.
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - heading "Cómo funciona" [level=2] [ref=e146]
+        - paragraph [ref=e147]: Tres pasos simples para transformar tu operación empresarial
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: Paso 1
+            - heading "Unifica tu stack tecnológico" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Conecta tu CRM, pasarela de pagos y calendarios en minutos. Tu IA ahora tiene acceso a la misma información que tu equipo.
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - img [ref=e156]
+                - generic [ref=e159]: Integración con 150+ apps
+              - generic [ref=e160]:
+                - img [ref=e161]
+                - generic [ref=e164]: Sincronización en tiempo real
+              - generic [ref=e165]:
+                - img [ref=e166]
+                - generic [ref=e169]: Seguridad de nivel empresarial
+          - generic [ref=e172]:
+            - generic [ref=e173]: HubSpot
+            - generic [ref=e174]: Shopify
+            - generic [ref=e175]: Stripe
+            - generic [ref=e176]: WhatsApp
+            - generic [ref=e177]: Zoom
+            - generic [ref=e178]: Slack
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]: Paso 2
+            - heading "Automatiza procesos, no solo tareas" [level=3] [ref=e182]
+            - paragraph [ref=e183]: Crea flujos de trabajo de punta a punta con nuestro constructor visual. Desde la calificación de un lead hasta el envío de una propuesta, todo sin código.
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - generic [ref=e189]: Constructor drag-and-drop
+              - generic [ref=e190]:
+                - img [ref=e191]
+                - generic [ref=e194]: Templates por industria
+              - generic [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e199]: Validación en tiempo real
+          - generic [ref=e202]:
+            - generic [ref=e205]: Nuevo lead en HubSpot
+            - generic [ref=e206]:
+              - img [ref=e207]
+              - generic [ref=e209]: Crear contacto en WhatsApp
+            - generic [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e213]: Notificar al equipo comercial
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: Paso 3
+            - heading "Transforma tu IA en un agente autónomo" [level=3] [ref=e217]
+            - paragraph [ref=e218]: Tu IA ya no solo responde, ahora ejecuta. Actualiza tu CRM, agenda reuniones y procesa pagos, trabajando como un miembro más de tu equipo.
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - img [ref=e221]
+                - generic [ref=e224]: Ejecución de acciones multi-sistema
+              - generic [ref=e225]:
+                - img [ref=e226]
+                - generic [ref=e229]: Decisiones basadas en datos
+              - generic [ref=e230]:
+                - img [ref=e231]
+                - generic [ref=e234]: Operación 24/7 sin intervención
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - img [ref=e240]
+              - paragraph [ref=e247]: ¿Cuál es el status del pedido de Ana García?
+            - generic [ref=e248]:
+              - img [ref=e250]
+              - paragraph [ref=e254]: "Ana García tiene 2 pedidos activos: #1234 (enviado hoy) y #1235 (en preparación). Su última interacción fue ayer vía WhatsApp consultando sobre descuentos."
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - img [ref=e260]
+          - generic [ref=e263]: Historias de éxito
+        - heading "Lo que dicen nuestros clientes de Vambe Connect" [level=2] [ref=e264]:
+          - text: Lo que dicen nuestros clientes de
+          - generic [ref=e265]: Vambe Connect
+        - paragraph [ref=e266]: Resultados reales de clientes que transformaron su negocio con nuestra plataforma.
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - img [ref=e269]
+          - blockquote [ref=e272]: “Vambe convirtió nuestros mensajes sin respuesta en ventas reales. Ahora cada consulta recibe atención inmediata y personalizada, incluso fuera de horario.”
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - img "Equipo Osoji" [ref=e276]
+              - generic [ref=e277]:
+                - generic [ref=e278]: Equipo Osoji
+                - generic [ref=e279]: Dirección Comercial
+                - generic [ref=e280]: Osoji
+            - generic [ref=e281]:
+              - generic [ref=e282]: +180%
+              - generic [ref=e283]:
+                - img [ref=e284]
+                - text: Conversión a ventas
+        - generic [ref=e288]:
+          - img [ref=e289]
+          - blockquote [ref=e292]: “Digitalizamos nuestra atención al cliente y los resultados fueron inmediatos. Más citas agendadas, mejor seguimiento y un notable aumento en ventas.”
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - img "Equipo Chevrolet Peregrina" [ref=e296]
+              - generic [ref=e297]:
+                - generic [ref=e298]: Equipo Chevrolet Peregrina
+                - generic [ref=e299]: Gerencia Comercial
+                - generic [ref=e300]: Chevrolet Peregrina
+            - generic [ref=e301]:
+              - generic [ref=e302]: +60%
+              - generic [ref=e303]:
+                - img [ref=e304]
+                - text: Citas agendadas
+        - generic [ref=e308]:
+          - img [ref=e309]
+          - blockquote [ref=e312]: “Automatizar nuestros agendamientos liberó tiempo valioso de nuestro equipo y mejoró significativamente la experiencia del paciente. Funciona las 24 horas.”
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - img "Dr. Centro Médico Formed" [ref=e316]
+              - generic [ref=e317]:
+                - generic [ref=e318]: Dr. Centro Médico Formed
+                - generic [ref=e319]: Dirección Médica
+                - generic [ref=e320]: Centro Médico Formed
+            - generic [ref=e321]:
+              - generic [ref=e322]: 24/7
+              - generic [ref=e323]:
+                - img [ref=e324]
+                - text: Disponibilidad
+        - generic [ref=e328]:
+          - img [ref=e329]
+          - blockquote [ref=e332]: “La IA de Vambe habla con nuestros clientes de forma tan cercana y natural que muchos piensan que están hablando con un especialista real. Y las ventas hablan por sí solas.”
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - img "Equipo Vitahub" [ref=e336]
+              - generic [ref=e337]:
+                - generic [ref=e338]: Equipo Vitahub
+                - generic [ref=e339]: E-commerce & Marketing
+                - generic [ref=e340]: Vitahub
+            - generic [ref=e341]:
+              - generic [ref=e342]: 20%
+              - generic [ref=e343]:
+                - img [ref=e344]
+                - text: Conversión de consultas
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic [ref=e352]: A
+            - generic [ref=e353]: B
+            - generic [ref=e354]: C
+            - generic [ref=e355]: D
+            - generic [ref=e356]: E
+          - generic [ref=e357]:
+            - generic [ref=e358]: 1500+ usuarios
+            - generic [ref=e359]: Crecemos cada día
+        - generic [ref=e361]:
+          - generic [ref=e362]:
+            - img [ref=e363]
+            - img [ref=e365]
+            - img [ref=e367]
+            - img [ref=e369]
+            - img [ref=e371]
+          - generic [ref=e373]:
+            - generic [ref=e374]: 4.9/5 Calificación promedio
+            - generic [ref=e375]: De clientes verificados
+        - generic [ref=e377]:
+          - generic [ref=e378]: Únete al éxito
+          - link "Agenda una Demo →" [ref=e380] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e384]:
+      - heading "Elige tu plan" [level=2] [ref=e385]
+      - paragraph [ref=e386]: Encuentra el plan perfecto para las necesidades de integración de tu negocio
+      - generic [ref=e387]:
+        - link "Ver Planes" [ref=e388] [cursor=pointer]:
+          - /url: /pricing
+          - text: Ver Planes
+          - img [ref=e389]
+        - paragraph [ref=e391]: Implementación personalizada
+    - generic [ref=e394]:
+      - generic [ref=e395]:
+        - generic [ref=e396]:
+          - generic [ref=e397]:
+            - link [ref=e398] [cursor=pointer]:
+              - /url: /
+              - img [ref=e399]
+            - button "Select country" [ref=e408] [cursor=pointer]:
+              - img "cl" [ref=e409]
+              - generic [ref=e410]: Chile
+              - img [ref=e411]
+          - paragraph [ref=e413]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+          - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e414]
+          - generic [ref=e415]:
+            - link "Download on App Store" [ref=e416] [cursor=pointer]:
+              - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+              - img "Download on App Store" [ref=e417]
+            - link "Get it on Google Play" [ref=e418] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.vambe
+              - img "Get it on Google Play" [ref=e419]
+        - generic [ref=e420]:
+          - heading "Producto" [level=5] [ref=e421]
+          - list [ref=e422]:
+            - listitem [ref=e423]:
+              - link "Plataforma" [ref=e424] [cursor=pointer]:
+                - /url: /platform
+            - listitem [ref=e425]:
+              - link "Ads" [ref=e426] [cursor=pointer]:
+                - /url: /extension/ads
+            - listitem [ref=e427]:
+              - link "Precios" [ref=e428] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e429]:
+              - link "Services" [ref=e430] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e431]:
+          - heading "Empresa" [level=5] [ref=e432]
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - link "Nosotros" [ref=e435] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e436]:
+              - link "Careers" [ref=e437] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e438]:
+              - link "Contacto" [ref=e439] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e440]:
+          - heading "Social" [level=5] [ref=e441]
+          - list [ref=e442]:
+            - listitem [ref=e443]:
+              - link "Facebook" [ref=e444] [cursor=pointer]:
+                - /url: https://facebook.com/vambeai
+                - img [ref=e445]
+                - text: Facebook
+            - listitem [ref=e447]:
+              - link "YouTube" [ref=e448] [cursor=pointer]:
+                - /url: https://www.youtube.com/@vambeai
+                - img [ref=e449]
+                - text: YouTube
+            - listitem [ref=e452]:
+              - link "Instagram" [ref=e453] [cursor=pointer]:
+                - /url: https://instagram.com/vambeai
+                - img [ref=e454]
+                - text: Instagram
+            - listitem [ref=e457]:
+              - link "LinkedIn" [ref=e458] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/vambe/
+                - img [ref=e459]
+                - text: LinkedIn
+      - generic [ref=e464]:
+        - paragraph [ref=e466]:
+          - generic [ref=e467]: HQ 🇨🇱
+          - generic [ref=e468]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+        - paragraph [ref=e470]:
+          - generic [ref=e471]: OF 🇲🇽
+          - generic [ref=e472]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - heading "Partners" [level=5] [ref=e476]
+          - generic:
+            - img "Meta Business Partner"
+            - img "NVIDIA Inception Program"
+        - generic [ref=e477]:
+          - heading "Cumplimiento" [level=5] [ref=e478]
+          - generic [ref=e479]:
+            - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+            - img "SOC 2 — Controles de seguridad"
+        - generic [ref=e480]:
+          - heading "Hecho con en Latam" [level=5] [ref=e481]:
+            - text: Hecho con
+            - img [ref=e482]
+            - text: en Latam
+          - generic [ref=e484]:
+            - img "Marca Chile" [ref=e485]
+            - img "Hecho en México" [ref=e487]
+        - generic [ref=e488]:
+          - heading "Backed by" [level=5] [ref=e489]
+          - generic [ref=e490]:
+            - link "Monashees" [ref=e491] [cursor=pointer]:
+              - /url: https://www.monashees.com/portfolio?name=vambe
+              - img "Monashees" [ref=e492]
+            - link "Nazca" [ref=e493] [cursor=pointer]:
+              - /url: https://www.nazca.vc/portfolio/vambe
+              - img "Nazca" [ref=e494]
+            - link "M13" [ref=e495] [cursor=pointer]:
+              - /url: https://www.m13.co/company/vambe
+              - img "M13" [ref=e496]
+      - generic [ref=e497]:
+        - paragraph [ref=e498]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+        - generic [ref=e499]:
+          - link "Política de Privacidad" [ref=e500] [cursor=pointer]:
+            - /url: /privacy
+          - link "Términos de Servicio" [ref=e501] [cursor=pointer]:
+            - /url: /terms
+  - alert [ref=e502]

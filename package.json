@@ -1,0 +1,31 @@
+{
+  "name": "growth-engine",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "db:migrate": "cd apps/backend && pnpm prisma migrate dev",
+    "db:studio": "cd apps/backend && pnpm prisma studio",
+    "db:seed": "cd apps/backend && pnpm prisma db seed",
+    "infra:up": "cd infra/docker && docker-compose up -d",
+    "infra:down": "cd infra/docker && docker-compose down"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "prettier": "^3.3.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

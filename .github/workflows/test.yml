@@ -1,0 +1,67 @@
+name: Tests (PR Checks)
+
+on:
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: growth_engine_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports: ['5432:5432']
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: { version: 9 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: pnpm }
+      - run: pnpm install
+      - name: Run backend unit tests
+        run: pnpm --filter @growth-engine/backend test
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/growth_engine_test
+          REDIS_URL: redis://localhost:6379
+          JWT_PRIVATE_KEY: ${{ secrets.TEST_JWT_PRIVATE_KEY }}
+          JWT_PUBLIC_KEY: ${{ secrets.TEST_JWT_PUBLIC_KEY }}
+      - name: Run tenant isolation e2e tests (CRÍTICO)
+        run: pnpm --filter @growth-engine/backend test:e2e
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/growth_engine_test
+          REDIS_URL: redis://localhost:6379
+
+  test-ai-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: |
+          cd apps/ai-engine
+          pip install -r requirements.txt
+          pytest tests/ -v --tb=short
+
+  test-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: { version: 9 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: pnpm }
+      - run: pnpm install
+      - run: pnpm --filter @growth-engine/frontend lint
+      - run: pnpm --filter @growth-engine/frontend build

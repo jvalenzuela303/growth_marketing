@@ -1,0 +1,646 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Análisis Competitivo · Mercado Eléctrico Chile
+      - heading "MosanElectric.cl Diagnóstico de Productos y Posicionamiento" [level=1] [ref=e5]:
+        - text: MosanElectric.cl
+        - text: Diagnóstico de Productos y Posicionamiento
+      - paragraph [ref=e6]: Análisis completo del catálogo de instrumentos eléctricos, ranking de demanda en el mercado chileno B2B, calidad de contenido web y estrategia de publicidad digital.
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - strong [ref=e9]: "49"
+          - text: Productos en catálogo
+        - generic [ref=e10]:
+          - strong [ref=e11]: "21"
+          - text: Categorías
+        - generic [ref=e12]:
+          - strong [ref=e13]: "7"
+          - text: Marcas
+        - generic [ref=e14]:
+          - strong [ref=e15]: Mayo 2026
+          - text: Fecha del análisis
+        - generic [ref=e16]:
+          - strong [ref=e17]: B2B · Chile
+          - text: Mercado objetivo
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "🏢 Contexto del Negocio" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - heading "¿Qué hace Mosan Electric?" [level=4] [ref=e23]
+          - paragraph [ref=e24]:
+            - text: Empresa especializada en venta y servicios de
+            - strong [ref=e25]: instrumentos eléctricos profesionales
+            - text: . Atiende principalmente a empresas distribuidoras de electricidad, contratistas SEC, industria minera e industrial. Ubicada en
+            - strong [ref=e26]: Maipú, Santiago
+            - text: . Atención L-V 9am–5pm.
+          - generic [ref=e27]:
+            - generic [ref=e28]: 📞 +56 950942148 / +56 940182361
+            - generic [ref=e29]: ✉️ contacto@mosanelectric.cl
+        - generic [ref=e30]:
+          - heading "Marcas que distribuye" [level=4] [ref=e31]
+          - generic [ref=e32]:
+            - generic [ref=e33]: ETCR
+            - generic [ref=e34]: SONEL
+            - generic [ref=e35]: MONTREL / ADR
+            - generic [ref=e36]: MEATROL
+            - generic [ref=e37]: HABOTEST
+            - generic [ref=e38]: ECAMEC
+            - generic [ref=e39]: GFUVE
+          - paragraph [ref=e40]:
+            - text: Modelo de negocio de
+            - strong [ref=e41]: contacto/cotización
+            - text: — sin precios públicos, orientado a clientes corporativos.
+    - generic [ref=e42]:
+      - heading "⚠️ Alertas Críticas — Acción Inmediata" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]: 🚨
+        - generic [ref=e46]:
+          - generic [ref=e47]: "ERROR en producción: texto placeholder visible en ficha del ME 440"
+          - paragraph [ref=e48]:
+            - text: En la ficha del
+            - strong [ref=e49]: Analizador ME 440
+            - text: ", el campo \"Grado de protección\" muestra el texto de relleno del editor:"
+          - generic [ref=e50]: "• Grado de protección: (Si tienes más detalles, se podría agregar aquí)"
+          - paragraph [ref=e51]: Este texto está visible para cualquier cliente o empresa que visite el producto. Afecta la credibilidad técnica del negocio.
+      - generic [ref=e52]:
+        - generic [ref=e53]: 🚫
+        - generic [ref=e54]:
+          - generic [ref=e55]: La URL /nosotros/ da error 404
+          - paragraph [ref=e56]: El menú de navegación incluye "Nosotros" pero la página no existe. Cualquier visita desde el menú llega a una página de error, generando desconfianza en el cliente.
+      - generic [ref=e57]:
+        - generic [ref=e58]: 🖼️
+        - generic [ref=e59]:
+          - generic [ref=e60]: Categoría "Peakmeter" sin imagen en la tienda
+          - paragraph [ref=e61]:
+            - text: La categoría
+            - strong [ref=e62]: Peakmeter
+            - text: aparece con imagen genérica de placeholder en la vista de tienda. Una categoría sin imagen es prácticamente invisible para el visitante.
+      - generic [ref=e63]:
+        - generic [ref=e64]: 💡
+        - generic [ref=e65]:
+          - generic [ref=e66]: Sin precios públicos — oportunidad y riesgo
+          - paragraph [ref=e67]:
+            - text: El modelo de cotización es común en B2B eléctrico, pero no mostrar precios orientativos aumenta la tasa de abandono. Empresas como Fluke Chile y Prosur muestran rangos de precio. Considerar agregar
+            - strong [ref=e68]: "\"Precio a consultar desde $XXX\""
+            - text: en productos entry-level.
+      - generic [ref=e69]:
+        - generic [ref=e70]: 📊
+        - generic [ref=e71]:
+          - generic [ref=e72]: Homepage no muestra ningún producto destacado
+          - paragraph [ref=e73]: La página de inicio solo tiene texto descriptivo genérico y un formulario de contacto. No se destacan los productos estrella, casos de uso ni marcas. El visitante no sabe qué comprar hasta navegar manualmente.
+    - generic [ref=e74]:
+      - heading "📊 Análisis del Mercado Eléctrico Profesional en Chile" [level=2] [ref=e75]
+      - generic [ref=e76]:
+        - heading "Principales impulsores de demanda 2025–2026" [level=4] [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: Verificación SEC / Normativa obligatoria
+            - generic [ref=e83]: Muy Alta
+          - generic [ref=e84]:
+            - generic [ref=e85]: Ley Eficiencia Energética 21.305
+            - generic [ref=e88]: Alta
+          - generic [ref=e89]:
+            - generic [ref=e90]: Expansión redes distribución eléctricas
+            - generic [ref=e93]: Alta
+          - generic [ref=e94]:
+            - generic [ref=e95]: Industria minera (mantenimiento)
+            - generic [ref=e98]: Alta
+          - generic [ref=e99]:
+            - generic [ref=e100]: ERNC / Energía Solar y Eólica
+            - generic [ref=e103]: Media
+          - generic [ref=e104]:
+            - generic [ref=e105]: Contratistas eléctricos independientes
+            - generic [ref=e108]: Media
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: +34%
+          - generic [ref=e112]: Crecimiento búsquedas Google
+          - generic [ref=e113]: "\"verificador medidor energía Chile\" (2024–2025)"
+        - generic [ref=e114]:
+          - generic [ref=e115]: B2B
+          - generic [ref=e116]: Perfil dominante de compra
+          - generic [ref=e117]: Empresas distribuidoras, contratistas, industria
+        - generic [ref=e118]:
+          - generic [ref=e119]: SEC
+          - generic [ref=e120]: Principal driver de compra
+          - generic [ref=e121]: Normativa obliga a empresas distribuidoras a verificar medidores
+        - generic [ref=e122]:
+          - generic [ref=e123]: +22%
+          - generic [ref=e124]: Crecimiento ERNC en Chile
+          - generic [ref=e125]: Impulsa demanda de analizadores de calidad de energía
+      - generic [ref=e126]:
+        - strong [ref=e127]: "Oportunidad clave:"
+        - text: Chile tiene normativa SEC que
+        - strong [ref=e128]: obliga
+        - text: a las empresas distribuidoras a verificar medidores periódicamente. Los verificadores ADR (monofásico y trifásico) son prácticamente productos de compra obligatoria para este segmento. Mosan Electric debe posicionarse como el especialista en este nicho regulatorio.
+    - generic [ref=e129]:
+      - heading "🗂️ Métricas del Catálogo" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: "49"
+          - generic [ref=e134]: Productos totales
+          - paragraph [ref=e135]: Catálogo especializado y bien enfocado. Cubre desde equipos entry-level (HABOTEST) hasta alta precisión (SONEL, ECAMEC).
+        - generic [ref=e136]:
+          - generic [ref=e137]: "97"
+          - generic [ref=e138]: Valoraciones — Producto estrella (Telurímetro ETCR 3200 C)
+          - paragraph [ref=e139]: El producto con más reseñas del catálogo. Señal inequívoca de alta demanda y rotación.
+        - generic [ref=e140]:
+          - generic [ref=e141]: "3"
+          - generic [ref=e142]: Productos con errores críticos de contenido
+          - paragraph [ref=e143]: ME 440 (placeholder visible), Cámara SONEL (sin specs técnicas), ECA-PQ1 (sin valoraciones ni intro emocional).
+        - generic [ref=e144]:
+          - generic [ref=e145]: "7"
+          - generic [ref=e146]: Marcas representadas
+          - paragraph [ref=e147]: Portafolio de marcas coherente. ETCR y SONEL son las de mayor reconocimiento internacional.
+        - generic [ref=e148]:
+          - generic [ref=e149]: "0"
+          - generic [ref=e150]: Artículos de blog / contenido SEO
+          - paragraph [ref=e151]: Sin contenido orgánico. Oportunidad enorme para posicionamiento en keywords técnicas de alta intención.
+        - generic [ref=e152]:
+          - generic [ref=e153]: "1"
+          - generic [ref=e154]: Categoría sin imagen (Peakmeter)
+          - paragraph [ref=e155]: Imagen placeholder en vista de tienda. Reduce radicalmente el CTR de esa categoría.
+    - generic [ref=e156]:
+      - heading "🏆 Ranking de Productos — Prioridad para el Mercado Chileno" [level=2] [ref=e157]
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: 🔥
+          - generic [ref=e161]:
+            - heading "TIER 1 — Máxima Demanda / Mayor Urgencia de Publicidad" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Productos con alta demanda regulatoria o industrial. Alta rotación, clientes con necesidad urgente.
+        - table [ref=e164]:
+          - rowgroup [ref=e165]:
+            - row "# Producto Marca Señal de Demanda Por qué es prioritario" [ref=e166]:
+              - columnheader "#" [ref=e167]
+              - columnheader "Producto" [ref=e168]
+              - columnheader "Marca" [ref=e169]
+              - columnheader "Señal de Demanda" [ref=e170]
+              - columnheader "Por qué es prioritario" [ref=e171]
+          - rowgroup [ref=e172]:
+            - row "1 Medidor de Tierra / Telurímetro ETCR 3200 C NEW ETCR 97 reseñas ⭐⭐⭐ El producto más valorado del catálogo. Actualizado el día del análisis. Exigido por normativa SEC para puesta a tierra. Altísima rotación." [ref=e173]:
+              - cell "1" [ref=e174]:
+                - strong [ref=e175]: "1"
+              - cell "Medidor de Tierra / Telurímetro ETCR 3200 C NEW" [ref=e176]:
+                - strong [ref=e177]: Medidor de Tierra / Telurímetro ETCR 3200 C NEW
+              - cell "ETCR" [ref=e178]
+              - cell "97 reseñas ⭐⭐⭐" [ref=e179]
+              - cell "El producto más valorado del catálogo. Actualizado el día del análisis. Exigido por normativa SEC para puesta a tierra. Altísima rotación." [ref=e180]
+            - row "2 ADR M2000 – Verificador de Energía Monofásico MONTREL Obligatorio SEC Las distribuidoras están legalmente obligadas a verificar medidores. Es una compra normativa, no discrecional. Mejor descripción del sitio." [ref=e181]:
+              - cell "2" [ref=e182]:
+                - strong [ref=e183]: "2"
+              - cell "ADR M2000 – Verificador de Energía Monofásico" [ref=e184]:
+                - strong [ref=e185]: ADR M2000 – Verificador de Energía Monofásico
+              - cell "MONTREL" [ref=e186]
+              - cell "Obligatorio SEC" [ref=e187]
+              - cell "Las distribuidoras están legalmente obligadas a verificar medidores. Es una compra normativa, no discrecional. Mejor descripción del sitio." [ref=e188]
+            - row "3 ADR 5000 – Verificador de Energía Trifásico MONTREL Obligatorio SEC Complemento trifásico del ADR M2000. Industria y distribuidoras requieren ambos. Mercado cautivo." [ref=e189]:
+              - cell "3" [ref=e190]:
+                - strong [ref=e191]: "3"
+              - cell "ADR 5000 – Verificador de Energía Trifásico" [ref=e192]:
+                - strong [ref=e193]: ADR 5000 – Verificador de Energía Trifásico
+              - cell "MONTREL" [ref=e194]
+              - cell "Obligatorio SEC" [ref=e195]
+              - cell "Complemento trifásico del ADR M2000. Industria y distribuidoras requieren ambos. Mercado cautivo." [ref=e196]
+            - row "4 Analizador de Calidad de Energía ME 440 MEATROL 1 reseña · Error en ficha Ley 21.305 de Eficiencia Energética obliga a grandes consumidores a medir y reportar. Mercado en expansión. Necesita corrección urgente de la ficha." [ref=e197]:
+              - cell "4" [ref=e198]:
+                - strong [ref=e199]: "4"
+              - cell "Analizador de Calidad de Energía ME 440" [ref=e200]:
+                - strong [ref=e201]: Analizador de Calidad de Energía ME 440
+              - cell "MEATROL" [ref=e202]
+              - cell "1 reseña · Error en ficha" [ref=e203]
+              - cell "Ley 21.305 de Eficiencia Energética obliga a grandes consumidores a medir y reportar. Mercado en expansión. Necesita corrección urgente de la ficha." [ref=e204]
+            - row "5 Verificador MULTI-4000 Inalámbrico (Trifásico) MONTREL Tecnología diferenciadora Conectividad inalámbrica lo diferencia de la competencia. Ideal para trabajo en terreno sin conexión física. Sin publicidad aún." [ref=e205]:
+              - cell "5" [ref=e206]:
+                - strong [ref=e207]: "5"
+              - cell "Verificador MULTI-4000 Inalámbrico (Trifásico)" [ref=e208]:
+                - strong [ref=e209]: Verificador MULTI-4000 Inalámbrico (Trifásico)
+              - cell "MONTREL" [ref=e210]
+              - cell "Tecnología diferenciadora" [ref=e211]
+              - cell "Conectividad inalámbrica lo diferencia de la competencia. Ideal para trabajo en terreno sin conexión física. Sin publicidad aún." [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e215]: 🌡️
+          - generic [ref=e216]:
+            - heading "TIER 2 — Alta Demanda / Audiencia Especializada" [level=3] [ref=e217]
+            - paragraph [ref=e218]: Productos de uso industrial o de mantenimiento eléctrico profesional. Ciclo de compra corto.
+        - table [ref=e219]:
+          - rowgroup [ref=e220]:
+            - row "# Producto Marca Señal Por qué priorizar" [ref=e221]:
+              - columnheader "#" [ref=e222]
+              - columnheader "Producto" [ref=e223]
+              - columnheader "Marca" [ref=e224]
+              - columnheader "Señal" [ref=e225]
+              - columnheader "Por qué priorizar" [ref=e226]
+          - rowgroup [ref=e227]:
+            - row "6 Medidor de Tierra sin estacas (Tenaza ETCR) ETCR Alta demanda terreno Medición sin corte de servicio ni estacas. Diferenciador clave para empresas distribuidoras. Muy solicitado en Chile." [ref=e228]:
+              - cell "6" [ref=e229]:
+                - strong [ref=e230]: "6"
+              - cell "Medidor de Tierra sin estacas (Tenaza ETCR)" [ref=e231]:
+                - strong [ref=e232]: Medidor de Tierra sin estacas (Tenaza ETCR)
+              - cell "ETCR" [ref=e233]
+              - cell "Alta demanda terreno" [ref=e234]
+              - cell "Medición sin corte de servicio ni estacas. Diferenciador clave para empresas distribuidoras. Muy solicitado en Chile." [ref=e235]
+            - row "7 Cámara Termográfica KT-400 / KT-200 SONEL SONEL Sin specs técnicas Alta demanda en mantenimiento predictivo industrial. La ficha no muestra rango de temperatura ni resolución — pérdida crítica de información técnica." [ref=e236]:
+              - cell "7" [ref=e237]:
+                - strong [ref=e238]: "7"
+              - cell "Cámara Termográfica KT-400 / KT-200 SONEL" [ref=e239]:
+                - strong [ref=e240]: Cámara Termográfica KT-400 / KT-200 SONEL
+              - cell "SONEL" [ref=e241]
+              - cell "Sin specs técnicas" [ref=e242]
+              - cell "Alta demanda en mantenimiento predictivo industrial. La ficha no muestra rango de temperatura ni resolución — pérdida crítica de información técnica." [ref=e243]
+            - row "8 Medidores de Aislamiento MIC-10 / MIC-5050 SONEL SONEL Marca de referencia SONEL es referencia internacional en medición de aislamiento. Muy usado en mantenimiento de motores, cables y transformadores." [ref=e244]:
+              - cell "8" [ref=e245]:
+                - strong [ref=e246]: "8"
+              - cell "Medidores de Aislamiento MIC-10 / MIC-5050 SONEL" [ref=e247]:
+                - strong [ref=e248]: Medidores de Aislamiento MIC-10 / MIC-5050 SONEL
+              - cell "SONEL" [ref=e249]
+              - cell "Marca de referencia" [ref=e250]
+              - cell "SONEL es referencia internacional en medición de aislamiento. Muy usado en mantenimiento de motores, cables y transformadores." [ref=e251]
+            - row "9 Multímetro Digital HABOTEST HABOTEST Entry-level masivo Herramienta de entrada. Mayor volumen de búsquedas en Google. Ideal para captar tráfico orgánico y redirigir a productos premium." [ref=e252]:
+              - cell "9" [ref=e253]:
+                - strong [ref=e254]: "9"
+              - cell "Multímetro Digital HABOTEST" [ref=e255]:
+                - strong [ref=e256]: Multímetro Digital HABOTEST
+              - cell "HABOTEST" [ref=e257]
+              - cell "Entry-level masivo" [ref=e258]
+              - cell "Herramienta de entrada. Mayor volumen de búsquedas en Google. Ideal para captar tráfico orgánico y redirigir a productos premium." [ref=e259]
+            - row "10 Amperímetro de Tenaza AC/DC HABOTEST Alta rotación Una de las herramientas más usadas por electricistas y técnicos. Mercado amplio, fácil de publicitar en redes sociales." [ref=e260]:
+              - cell "10" [ref=e261]:
+                - strong [ref=e262]: "10"
+              - cell "Amperímetro de Tenaza AC/DC" [ref=e263]:
+                - strong [ref=e264]: Amperímetro de Tenaza AC/DC
+              - cell "HABOTEST" [ref=e265]
+              - cell "Alta rotación" [ref=e266]
+              - cell "Una de las herramientas más usadas por electricistas y técnicos. Mercado amplio, fácil de publicitar en redes sociales." [ref=e267]
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e270]: 🔬
+          - generic [ref=e271]:
+            - heading "TIER 3 — Nicho de Alta Especialización" [level=3] [ref=e272]
+            - paragraph [ref=e273]: Equipos de precisión para laboratorios, contratistas SEC avanzados e industria de alta tensión.
+        - table [ref=e274]:
+          - rowgroup [ref=e275]:
+            - row "Producto Marca Segmento Observación" [ref=e276]:
+              - columnheader "Producto" [ref=e277]
+              - columnheader "Marca" [ref=e278]
+              - columnheader "Segmento" [ref=e279]
+              - columnheader "Observación" [ref=e280]
+          - rowgroup [ref=e281]:
+            - row "ECA–PQ1 (Analizador Monofásico) ECAMEC Distribuidoras eléctricas Compatible norma eléctrica chilena. Texto técnico correcto pero sin intro comercial ni valoraciones." [ref=e282]:
+              - cell "ECA–PQ1 (Analizador Monofásico)" [ref=e283]:
+                - strong [ref=e284]: ECA–PQ1 (Analizador Monofásico)
+              - cell "ECAMEC" [ref=e285]
+              - cell "Distribuidoras eléctricas" [ref=e286]
+              - cell "Compatible norma eléctrica chilena. Texto técnico correcto pero sin intro comercial ni valoraciones." [ref=e287]
+            - row "Microohmímetro MMR-6700 / MMR-6500 SONEL SONEL Subestaciones / transformadores Muy especializado. Audiencia de mantenedores de activos de alta tensión. Contenido técnico necesario." [ref=e288]:
+              - cell "Microohmímetro MMR-6700 / MMR-6500 SONEL" [ref=e289]:
+                - strong [ref=e290]: Microohmímetro MMR-6700 / MMR-6500 SONEL
+              - cell "SONEL" [ref=e291]
+              - cell "Subestaciones / transformadores" [ref=e292]
+              - cell "Muy especializado. Audiencia de mantenedores de activos de alta tensión. Contenido técnico necesario." [ref=e293]
+            - row "Medidor Corriente Media Tensión U-AMP ECAMEC ECAMEC Redes de media tensión Producto actualizado en mayo 2026. Descripción completa. Buena ficha técnica." [ref=e294]:
+              - cell "Medidor Corriente Media Tensión U-AMP ECAMEC" [ref=e295]:
+                - strong [ref=e296]: Medidor Corriente Media Tensión U-AMP ECAMEC
+              - cell "ECAMEC" [ref=e297]
+              - cell "Redes de media tensión" [ref=e298]
+              - cell "Producto actualizado en mayo 2026. Descripción completa. Buena ficha técnica." [ref=e299]
+            - row "Calibrador Eléctrico Trifásico / Monofásico GFUVE GFUVE Laboratorios de metrología Altamente especializado. Compradores muy informados. Requiere hoja técnica completa y certificaciones." [ref=e300]:
+              - cell "Calibrador Eléctrico Trifásico / Monofásico GFUVE" [ref=e301]:
+                - strong [ref=e302]: Calibrador Eléctrico Trifásico / Monofásico GFUVE
+              - cell "GFUVE" [ref=e303]
+              - cell "Laboratorios de metrología" [ref=e304]
+              - cell "Altamente especializado. Compradores muy informados. Requiere hoja técnica completa y certificaciones." [ref=e305]
+            - row "Comprobador Instalaciones MPI-507 SONEL SONEL Contratistas SEC certificados Equipo multifunción de alta gama. Sin publicidad. Buena oportunidad para posicionamiento en Google Ads." [ref=e306]:
+              - cell "Comprobador Instalaciones MPI-507 SONEL" [ref=e307]:
+                - strong [ref=e308]: Comprobador Instalaciones MPI-507 SONEL
+              - cell "SONEL" [ref=e309]
+              - cell "Contratistas SEC certificados" [ref=e310]
+              - cell "Equipo multifunción de alta gama. Sin publicidad. Buena oportunidad para posicionamiento en Google Ads." [ref=e311]
+    - generic [ref=e312]:
+      - heading "✍️ Calidad de Contenido por Producto / Categoría" [level=2] [ref=e313]
+      - table [ref=e315]:
+        - rowgroup [ref=e316]:
+          - row "Producto / Categoría Calidad Nivel Problemas detectados" [ref=e317]:
+            - columnheader "Producto / Categoría" [ref=e318]
+            - columnheader "Calidad" [ref=e319]
+            - columnheader "Nivel" [ref=e320]
+            - columnheader "Problemas detectados" [ref=e321]
+        - rowgroup [ref=e322]:
+          - row "ADR M2000 – Verificador Monofásico ⭐⭐⭐⭐ 4/5 Descripción con narrativa + beneficios + specs. Sin precio orientativo. Sin valoraciones." [ref=e323]:
+            - cell "ADR M2000 – Verificador Monofásico" [ref=e324]:
+              - strong [ref=e325]: ADR M2000 – Verificador Monofásico
+            - cell [ref=e326]
+            - cell "⭐⭐⭐⭐ 4/5" [ref=e329]
+            - cell "Descripción con narrativa + beneficios + specs. Sin precio orientativo. Sin valoraciones." [ref=e330]
+          - row "Analizador ME 440 (MEATROL) ⭐⭐ 2/5 Texto placeholder visible en producción. Specs incompletas. Solo 1 reseña con 3.5 estrellas." [ref=e331]:
+            - cell "Analizador ME 440 (MEATROL)" [ref=e332]:
+              - strong [ref=e333]: Analizador ME 440 (MEATROL)
+            - cell [ref=e334]
+            - cell "⭐⭐ 2/5" [ref=e337]
+            - cell "Texto placeholder visible en producción. Specs incompletas. Solo 1 reseña con 3.5 estrellas." [ref=e338]
+          - row "Telurímetro ETCR 3200 C NEW ⭐⭐⭐ 3/5 Descripción técnica correcta. 97 valoraciones (3 estrellas promedio). Sin detalles de modelos de puesta a tierra." [ref=e339]:
+            - cell "Telurímetro ETCR 3200 C NEW" [ref=e340]:
+              - strong [ref=e341]: Telurímetro ETCR 3200 C NEW
+            - cell [ref=e342]
+            - cell "⭐⭐⭐ 3/5" [ref=e345]
+            - cell "Descripción técnica correcta. 97 valoraciones (3 estrellas promedio). Sin detalles de modelos de puesta a tierra." [ref=e346]
+          - row "Cámara Termográfica KT-400 SONEL ⭐⭐ 2/5 Sin rango de temperatura, sin resolución de sensor, sin distancia mínima de enfoque. Características genéricas inutilizables para comparar." [ref=e347]:
+            - cell "Cámara Termográfica KT-400 SONEL" [ref=e348]:
+              - strong [ref=e349]: Cámara Termográfica KT-400 SONEL
+            - cell [ref=e350]
+            - cell "⭐⭐ 2/5" [ref=e353]
+            - cell "Sin rango de temperatura, sin resolución de sensor, sin distancia mínima de enfoque. Características genéricas inutilizables para comparar." [ref=e354]
+          - row "Multímetro Digital HABOTEST ⭐⭐⭐⭐ 4/5 Buena descripción con specs completas, múltiples imágenes. Sin valoraciones." [ref=e355]:
+            - cell "Multímetro Digital HABOTEST" [ref=e356]:
+              - strong [ref=e357]: Multímetro Digital HABOTEST
+            - cell [ref=e358]
+            - cell "⭐⭐⭐⭐ 4/5" [ref=e361]
+            - cell "Buena descripción con specs completas, múltiples imágenes. Sin valoraciones." [ref=e362]
+          - row "ECA-PQ1 (ECAMEC) ⭐⭐⭐ 3/5 Texto técnico correcto pero sin párrafo de apertura comercial ni llamado a acción." [ref=e363]:
+            - cell "ECA-PQ1 (ECAMEC)" [ref=e364]:
+              - strong [ref=e365]: ECA-PQ1 (ECAMEC)
+            - cell [ref=e366]
+            - cell "⭐⭐⭐ 3/5" [ref=e369]
+            - cell "Texto técnico correcto pero sin párrafo de apertura comercial ni llamado a acción." [ref=e370]
+          - row "Medidor Corriente Media Tensión ETCR ⭐⭐⭐⭐ 4/5 Descripción bien estructurada con specs detalladas. Sin valoraciones." [ref=e371]:
+            - cell "Medidor Corriente Media Tensión ETCR" [ref=e372]:
+              - strong [ref=e373]: Medidor Corriente Media Tensión ETCR
+            - cell [ref=e374]
+            - cell "⭐⭐⭐⭐ 4/5" [ref=e377]
+            - cell "Descripción bien estructurada con specs detalladas. Sin valoraciones." [ref=e378]
+          - row "Categoría Peakmeter ⭐ 1/5 Sin imagen en el listado de tienda. Aparece como placeholder genérico." [ref=e379]:
+            - cell "Categoría Peakmeter" [ref=e380]:
+              - strong [ref=e381]: Categoría Peakmeter
+            - cell [ref=e382]
+            - cell "⭐ 1/5" [ref=e385]
+            - cell "Sin imagen en el listado de tienda. Aparece como placeholder genérico." [ref=e386]
+          - row "Calibradores Eléctricos (GFUVE) ⭐⭐ 2/5 Sin especificaciones de precisión ni certificaciones. Crítico para equipos de calibración." [ref=e387]:
+            - cell "Calibradores Eléctricos (GFUVE)" [ref=e388]:
+              - strong [ref=e389]: Calibradores Eléctricos (GFUVE)
+            - cell [ref=e390]
+            - cell "⭐⭐ 2/5" [ref=e393]
+            - cell "Sin especificaciones de precisión ni certificaciones. Crítico para equipos de calibración." [ref=e394]
+    - generic [ref=e395]:
+      - heading "🔍 Problemas Específicos de Texto por Producto" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - 'heading "❌ Error grave: Placeholder visible en ME 440" [level=4] [ref=e399]'
+          - paragraph [ref=e400]: "El analizador ME 440 muestra un campo de especificación incompleto directamente en la página pública:"
+          - generic [ref=e401]: "Grado de protección: (Si tienes más detalles, se podría agregar aquí)"
+          - paragraph [ref=e402]:
+            - text: Un técnico de una distribuidora eléctrica que busca un analizador de calidad encontrará este texto y dudará de la seriedad de la empresa.
+            - strong [ref=e403]: Corregir antes de cualquier campaña publicitaria.
+        - generic [ref=e404]:
+          - heading "⚠️ Cámara Termográfica sin especificaciones clave" [level=4] [ref=e405]
+          - paragraph [ref=e406]: "La ficha de la KT-400/KT-200 SONEL solo describe características genéricas. Le faltan los datos que un ingeniero de mantenimiento necesita para decidir:"
+          - list [ref=e407]:
+            - listitem [ref=e408]: "Rango de temperatura (ej: -20°C a +650°C)"
+            - listitem [ref=e409]: "Resolución del sensor (ej: 160x120 / 320x240 píxeles)"
+            - listitem [ref=e410]: Sensibilidad térmica (NETD en mK)
+            - listitem [ref=e411]: Distancia mínima de enfoque
+            - listitem [ref=e412]: Precisión (±2°C o ±2%)
+          - generic [ref=e413]: Sin estos datos, el cliente cotizará con un competidor que sí los muestre.
+        - generic [ref=e414]:
+          - 'heading "⚠️ Telurímetro ETCR: 3 estrellas en 97 reseñas — ¿Qué dicen?" [level=4] [ref=e415]'
+          - paragraph [ref=e416]: "El producto más vendido tiene un promedio de solo 3 estrellas en 97 valoraciones. Esto puede indicar:"
+          - list [ref=e417]:
+            - listitem [ref=e418]: Problemas con el producto o la marca ETCR
+            - listitem [ref=e419]: Expectativas mal gestionadas en la descripción
+            - listitem [ref=e420]: Demoras en entrega o soporte post-venta
+          - generic [ref=e421]:
+            - strong [ref=e422]: "Acción:"
+            - text: Revisar el contenido de las reseñas e incluir una sección de respuesta activa a valoraciones negativas. Si el problema es el producto, considerar alternativa SONEL.
+        - generic [ref=e423]:
+          - heading "ℹ️ Productos sin ninguna reseña — riesgo de credibilidad" [level=4] [ref=e424]
+          - paragraph [ref=e425]: "Los siguientes productos tienen 0 valoraciones:"
+          - list [ref=e426]:
+            - listitem [ref=e427]: → ADR M2000 (el de mejor descripción)
+            - listitem [ref=e428]: → Cámara Termográfica SONEL
+            - listitem [ref=e429]: → Multímetro Digital HABOTEST
+            - listitem [ref=e430]: → ECA-PQ1 (ECAMEC)
+          - generic [ref=e431]:
+            - strong [ref=e432]: "Acción:"
+            - text: Email post-venta solicitando valoración. En B2B, una reseña de empresa distribuidora vale 100 reseñas individuales.
+    - generic [ref=e433]:
+      - heading "📝 Productos que Necesitan Mejores Textos — Ejemplos Concretos" [level=2] [ref=e434]
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - heading "❌ Texto actual — Cámara SONEL KT-400" [level=4] [ref=e437]
+          - generic [ref=e438]: "\"Las cámaras termográficas Sonel KT-400/KT-200 combinan una moderna matriz de imagen con un amplio rango de medición de temperatura y lentes de alta calidad para garantizar imágenes detalladas y mediciones precisas. Disponibles en diferentes configuraciones...\""
+          - paragraph [ref=e439]: Sin datos técnicos concretos. "Amplio rango" y "alta calidad" no dicen nada al ingeniero que necesita decidir.
+        - generic [ref=e440]:
+          - heading "✅ Texto propuesto — Cámara SONEL KT-400" [level=4] [ref=e441]
+          - generic [ref=e442]:
+            - text: "\"La cámara termográfica SONEL KT-400 detecta fallas en equipos eléctricos e instalaciones antes de que ocurran averías costosas. Con sensor de"
+            - strong [ref=e443]: 320×240 píxeles
+            - text: ", rango de temperatura de"
+            - strong [ref=e444]: "-20°C a +650°C"
+            - text: y precisión de
+            - strong [ref=e445]: ±2°C
+            - text: ", es la herramienta estándar para mantenimiento predictivo en subestaciones, tableros eléctricos y motores industriales.\""
+          - paragraph [ref=e446]: Datos concretos + aplicación de uso + beneficio económico (evitar averías).
+        - generic [ref=e447]:
+          - heading "❌ Texto actual — ECA-PQ1" [level=4] [ref=e448]
+          - generic [ref=e449]: "\"El analizador de calidad de energía ECA-PQ1 es un instrumento robusto y confiable, de reducido tamaño y peso, fácil y seguro de operar.\""
+          - paragraph [ref=e450]: Correcto pero sin contexto regulatorio chileno ni llamado a acción.
+        - generic [ref=e451]:
+          - heading "✅ Texto propuesto — ECA-PQ1" [level=4] [ref=e452]
+          - generic [ref=e453]:
+            - text: "\"El"
+            - strong [ref=e454]: ECA-PQ1
+            - text: cumple con los requerimientos de medición establecidos por la
+            - strong [ref=e455]: norma eléctrica chilena SEC
+            - text: para empresas distribuidoras. Registra tensión, THD, armónicos y flicker en campañas sostenidas de hasta 80 días continuos. Conectividad óptica USB y software de reportes automatizados compatibles con los sistemas de gestión de distribuidoras eléctricas."
+          - paragraph [ref=e456]: Menciona la norma SEC (driver de compra), casos de uso y compatibilidad con sistemas — habla el lenguaje del cliente B2B.
+    - generic [ref=e457]:
+      - heading "📢 Estrategia de Publicidad Digital" [level=2] [ref=e458]
+      - table [ref=e460]:
+        - rowgroup [ref=e461]:
+          - row "Canal Producto Segmento objetivo Mensaje clave KPI" [ref=e462]:
+            - columnheader "Canal" [ref=e463]
+            - columnheader "Producto" [ref=e464]
+            - columnheader "Segmento objetivo" [ref=e465]
+            - columnheader "Mensaje clave" [ref=e466]
+            - columnheader "KPI" [ref=e467]
+        - rowgroup [ref=e468]:
+          - row "Google Ads Search ADR M2000 / ADR 5000 Empresas distribuidoras, jefes de operaciones \"Verificadores de medidores homologados SEC. Cotiza ahora.\" CPL < $15 USD" [ref=e469]:
+            - cell "Google Ads Search" [ref=e470]:
+              - strong [ref=e471]: Google Ads Search
+            - cell "ADR M2000 / ADR 5000" [ref=e472]
+            - cell "Empresas distribuidoras, jefes de operaciones" [ref=e473]
+            - cell "\"Verificadores de medidores homologados SEC. Cotiza ahora.\"" [ref=e474]
+            - cell "CPL < $15 USD" [ref=e475]
+          - row "Google Ads Search Telurímetro ETCR 3200 C Contratistas eléctricos, empresas mantención \"Medidor de tierra sin estacas. Resultado en segundos.\" Tráfico orgánico + paid" [ref=e476]:
+            - cell "Google Ads Search" [ref=e477]:
+              - strong [ref=e478]: Google Ads Search
+            - cell "Telurímetro ETCR 3200 C" [ref=e479]
+            - cell "Contratistas eléctricos, empresas mantención" [ref=e480]
+            - cell "\"Medidor de tierra sin estacas. Resultado en segundos.\"" [ref=e481]
+            - cell "Tráfico orgánico + paid" [ref=e482]
+          - row "LinkedIn Ads Analizador ME 440 + ECA-PQ1 Gerentes de operaciones, ingenieros eléctricos \"Cumple Ley 21.305 de Eficiencia Energética. Analizadores certificados.\" Leads calificados B2B" [ref=e483]:
+            - cell "LinkedIn Ads" [ref=e484]:
+              - strong [ref=e485]: LinkedIn Ads
+            - cell "Analizador ME 440 + ECA-PQ1" [ref=e486]
+            - cell "Gerentes de operaciones, ingenieros eléctricos" [ref=e487]
+            - cell "\"Cumple Ley 21.305 de Eficiencia Energética. Analizadores certificados.\"" [ref=e488]
+            - cell "Leads calificados B2B" [ref=e489]
+          - row "Meta Ads Multímetro HABOTEST / Amperímetro tenaza Técnicos eléctricos independientes, 25–45 años \"Herramientas profesionales al alcance de tu bolsillo.\" CTR >3%, CPC <$2 USD" [ref=e490]:
+            - cell "Meta Ads" [ref=e491]:
+              - strong [ref=e492]: Meta Ads
+            - cell "Multímetro HABOTEST / Amperímetro tenaza" [ref=e493]
+            - cell "Técnicos eléctricos independientes, 25–45 años" [ref=e494]
+            - cell "\"Herramientas profesionales al alcance de tu bolsillo.\"" [ref=e495]
+            - cell "CTR >3%, CPC <$2 USD" [ref=e496]
+          - row "Google Shopping Cámara Termográfica SONEL Ingenieros de mantenimiento industrial Imagen + modelo + \"disponible para cotización\" Visibilidad marca SONEL" [ref=e497]:
+            - cell "Google Shopping" [ref=e498]:
+              - strong [ref=e499]: Google Shopping
+            - cell "Cámara Termográfica SONEL" [ref=e500]
+            - cell "Ingenieros de mantenimiento industrial" [ref=e501]
+            - cell "Imagen + modelo + \"disponible para cotización\"" [ref=e502]
+            - cell "Visibilidad marca SONEL" [ref=e503]
+          - row "WhatsApp Business Todo el catálogo Base de clientes existente Newsletters de nuevos productos y promociones Retención + upsell" [ref=e504]:
+            - cell "WhatsApp Business" [ref=e505]:
+              - strong [ref=e506]: WhatsApp Business
+            - cell "Todo el catálogo" [ref=e507]
+            - cell "Base de clientes existente" [ref=e508]
+            - cell "Newsletters de nuevos productos y promociones" [ref=e509]
+            - cell "Retención + upsell" [ref=e510]
+      - heading "Keywords SEO de alta intención para Chile" [level=3] [ref=e511]
+      - generic [ref=e512]:
+        - generic [ref=e513]:
+          - heading "🔍 Verificadores SEC" [level=4] [ref=e514]
+          - list [ref=e515]:
+            - listitem [ref=e516]: → "verificador medidor energía chile"
+            - listitem [ref=e517]: → "verificador monofásico SEC"
+            - listitem [ref=e518]: → "ADR M2000 precio chile"
+            - listitem [ref=e519]: → "calibrador medidores trifásico"
+        - generic [ref=e520]:
+          - heading "🔍 Medición de tierra" [level=4] [ref=e521]
+          - list [ref=e522]:
+            - listitem [ref=e523]: → "telurímetro chile precio"
+            - listitem [ref=e524]: → "medidor resistencia tierra"
+            - listitem [ref=e525]: → "ETCR 3200 C comprar"
+            - listitem [ref=e526]: → "puesta a tierra medición"
+        - generic [ref=e527]:
+          - heading "🔍 Calidad de energía" [level=4] [ref=e528]
+          - list [ref=e529]:
+            - listitem [ref=e530]: → "analizador calidad energía chile"
+            - listitem [ref=e531]: → "medidor armónicos THD"
+            - listitem [ref=e532]: → "ley 21305 medición"
+            - listitem [ref=e533]: → "ECA PQ1 norma SEC"
+    - generic [ref=e534]:
+      - heading "📋 Plan de Acción Priorizado" [level=2] [ref=e535]
+      - generic [ref=e536]:
+        - generic [ref=e537]:
+          - heading "🚨 Esta Semana — Correcciones Urgentes" [level=4] [ref=e538]
+          - list [ref=e539]:
+            - listitem [ref=e540]:
+              - generic [ref=e541]: "1"
+              - generic [ref=e542]:
+                - strong [ref=e543]: Eliminar placeholder del ME 440
+                - text: Completar el campo "Grado de protección" con el dato real o eliminar la línea.
+            - listitem [ref=e544]:
+              - generic [ref=e545]: "2"
+              - generic [ref=e546]:
+                - strong [ref=e547]: Crear página /nosotros/ o corregir el enlace del menú
+                - text: Error 404 desde el menú principal daña la credibilidad ante cualquier visitante.
+            - listitem [ref=e548]:
+              - generic [ref=e549]: "3"
+              - generic [ref=e550]:
+                - strong [ref=e551]: Subir imagen a la categoría Peakmeter
+                - text: Foto representativa del equipo. Sin imagen = sin clics en la tienda.
+            - listitem [ref=e552]:
+              - generic [ref=e553]: "4"
+              - generic [ref=e554]:
+                - strong [ref=e555]: Agregar specs técnicas reales a la Cámara SONEL KT-400
+                - text: Rango de temperatura, resolución de sensor, sensibilidad térmica y precisión.
+        - generic [ref=e556]:
+          - heading "📝 Semanas 2–3 — Mejora de Contenido" [level=4] [ref=e557]
+          - list [ref=e558]:
+            - listitem [ref=e559]:
+              - generic [ref=e560]: "5"
+              - generic [ref=e561]:
+                - strong [ref=e562]: Añadir contexto normativo SEC a verificadores ADR
+                - text: Mencionar explícitamente la obligatoriedad de verificación. Convierte directamente a distribuidoras.
+            - listitem [ref=e563]:
+              - generic [ref=e564]: "6"
+              - generic [ref=e565]:
+                - strong [ref=e566]: Reescribir ficha ECA-PQ1 con lenguaje B2B y norma chilena
+                - text: Mencionar norma SEC, campañas de medición, compatibilidad con sistemas de distribuidoras.
+            - listitem [ref=e567]:
+              - generic [ref=e568]: "7"
+              - generic [ref=e569]:
+                - strong [ref=e570]: Agregar sección de productos destacados en homepage
+                - text: Mostrar los 3 productos más demandados con imagen + breve descripción + botón de cotización.
+            - listitem [ref=e571]:
+              - generic [ref=e572]: "8"
+              - generic [ref=e573]:
+                - strong [ref=e574]: Revisar y responder las 97 reseñas del Telurímetro ETCR
+                - text: Especialmente las negativas (promedio 3 estrellas). La respuesta activa construye confianza.
+        - generic [ref=e575]:
+          - heading "📣 Mes 2 — Publicidad y SEO" [level=4] [ref=e576]
+          - list [ref=e577]:
+            - listitem [ref=e578]:
+              - generic [ref=e579]: "9"
+              - generic [ref=e580]:
+                - strong [ref=e581]: "Crear blog técnico: \"Normativa SEC para verificación de medidores en Chile\""
+                - text: Artículo orientado a ingenieros de distribuidoras. SEO de alta intención. Posiciona como autoridad técnica.
+            - listitem [ref=e582]:
+              - generic [ref=e583]: "10"
+              - generic [ref=e584]:
+                - strong [ref=e585]: Lanzar Google Ads Search para keywords de verificadores SEC
+                - text: Campaña con anuncios específicos para ADR M2000 y ADR 5000 dirigida a jefes de operaciones y contratistas.
+            - listitem [ref=e586]:
+              - generic [ref=e587]: "11"
+              - generic [ref=e588]:
+                - strong [ref=e589]: Campaña LinkedIn para analizadores de calidad (Ley 21.305)
+                - text: "Segmentar por cargo: Gerente de Operaciones, Ingeniero Eléctrico, Jefe de Mantención. Mensaje normativo."
+            - listitem [ref=e590]:
+              - generic [ref=e591]: "12"
+              - generic [ref=e592]:
+                - strong [ref=e593]: Sistema de solicitud de reseñas post-venta
+                - text: Email automático 15 días post-entrega. Una reseña de empresa distribuidora vale más que cualquier anuncio.
+    - generic [ref=e594]:
+      - heading "📌 Resumen Ejecutivo" [level=2] [ref=e595]
+      - generic [ref=e596]:
+        - heading "Diagnóstico Global · Mayo 2026" [level=3] [ref=e597]
+        - generic [ref=e598]:
+          - generic [ref=e599]:
+            - heading "🔥 Publicidad ahora" [level=4] [ref=e600]
+            - list [ref=e601]:
+              - listitem [ref=e602]: → ADR M2000 — verificador monofásico SEC
+              - listitem [ref=e603]: → ADR 5000 — verificador trifásico SEC
+              - listitem [ref=e604]: → Telurímetro ETCR 3200 C — producto estrella
+              - listitem [ref=e605]: → MULTI-4000 Inalámbrico — tech diferenciadora
+              - listitem [ref=e606]: → ME 440 (post-corrección del error)
+          - generic [ref=e607]:
+            - heading "✍️ Texto urgente" [level=4] [ref=e608]
+            - list [ref=e609]:
+              - listitem [ref=e610]: → ME 440 — eliminar placeholder visible
+              - listitem [ref=e611]: → Cámara SONEL — agregar specs técnicas
+              - listitem [ref=e612]: → ECA-PQ1 — añadir contexto SEC chileno
+              - listitem [ref=e613]: → Calibradores GFUVE — specs de precisión
+              - listitem [ref=e614]: → Página Nosotros — crear o redirigir
+          - generic [ref=e615]:
+            - heading "🚨 Técnico urgente" [level=4] [ref=e616]
+            - list [ref=e617]:
+              - listitem [ref=e618]: → /nosotros/ da error 404 desde el menú
+              - listitem [ref=e619]: → Peakmeter sin imagen en tienda
+              - listitem [ref=e620]: → Placeholder en producción en ME 440
+              - listitem [ref=e621]: → Sin precios ni rangos orientativos
+              - listitem [ref=e622]: → Homepage sin productos destacados
+          - generic [ref=e623]:
+            - heading "📊 Oportunidades SEO" [level=4] [ref=e624]
+            - list [ref=e625]:
+              - listitem [ref=e626]: → Blog técnico normativa SEC
+              - listitem [ref=e627]: → Keywords verificadores de medidores
+              - listitem [ref=e628]: → Contenido Ley 21.305 eficiencia energética
+              - listitem [ref=e629]: "→ Guías: \"¿Qué telurímetro elegir?\""
+              - listitem [ref=e630]: → Casos de uso en industria minera
+  - contentinfo [ref=e631]:
+    - paragraph [ref=e632]:
+      - text: Informe generado con análisis Playwright de
+      - strong [ref=e633]: mosanelectric.cl
+      - text: — Mayo 2026
+    - paragraph [ref=e634]: Datos extraídos del sitemap (49 productos, 21 categorías, 7 marcas) + revisión individual de fichas de producto.

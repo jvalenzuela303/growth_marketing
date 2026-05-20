@@ -1,0 +1,879 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Buscar" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e80]:
+      - generic [ref=e82]:
+        - heading "Parlantes" [level=1] [ref=e83]
+        - navigation [ref=e85]:
+          - link "Inicio" [ref=e86] [cursor=pointer]:
+            - /url: https://truehifi.cl
+          - text: / Parlantes
+        - text: 
+      - combobox "Pedido de la tienda" [ref=e89]:
+        - option "Orden predeterminado" [selected]
+        - option "Ordenar por popularidad"
+        - option "Ordenar por puntuación media"
+        - option "Ordenar por los últimos"
+        - 'option "Ordenar por precio: bajo a alto"'
+        - 'option "Ordenar por precio: alto a bajo"'
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - complementary [ref=e94]:
+            - text: Filtrar
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - link "Accesorios" [ref=e98] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/accesorios/
+              - listitem [ref=e99]:
+                - link "Amplificador de Audífonos" [ref=e100] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+              - listitem [ref=e101]:
+                - link "Amplificador de Poder" [ref=e102] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+              - listitem [ref=e103]:
+                - link "Amplificador Integrado a Tubo" [ref=e104] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - listitem [ref=e105]:
+                - link "Amplificador Integrado SS" [ref=e106] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+              - listitem [ref=e107]:
+                - link "Cables" [ref=e108] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cables/
+                - button "Toggle" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]: 
+                - text:     
+              - listitem [ref=e111]:
+                - link "Cápsulas MM/MC" [ref=e112] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+              - listitem [ref=e113]:
+                - link "CD PLAYER" [ref=e114] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cd-player/
+              - listitem [ref=e115]:
+                - link "DAC" [ref=e116] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dac/
+              - listitem [ref=e117]:
+                - link "Hi-Fi Stereo Rack" [ref=e118] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+              - listitem [ref=e119]:
+                - link "Packs" [ref=e120] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/pack/
+                - button "Toggle" [ref=e121] [cursor=pointer]:
+                  - generic [ref=e122]: 
+              - listitem [ref=e123]:
+                - link "Parlantes" [ref=e124] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/
+                - button "Toggle" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126]: 
+                - list [ref=e127]:
+                  - listitem [ref=e128]:
+                    - link "Bookshelf" [ref=e129] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/parlantes/bookshelf/
+                  - listitem [ref=e130]:
+                    - link "Central" [ref=e131] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/parlantes/central/
+                  - listitem [ref=e132]:
+                    - link "Columnas" [ref=e133] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/parlantes/columnas/
+              - listitem [ref=e134]:
+                - link "Personal Audio" [ref=e135] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/personal-audio/
+                - button "Toggle" [ref=e136] [cursor=pointer]:
+                  - generic [ref=e137]: 
+              - listitem [ref=e138]:
+                - link "Pre-Amplificadores" [ref=e139] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+              - listitem [ref=e140]:
+                - link "Preamp de Phono" [ref=e141] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+              - listitem [ref=e142]:
+                - link "Radio HiFi" [ref=e143] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+              - listitem [ref=e144]:
+                - link "Streamer - Network Player" [ref=e145] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dap-2/
+              - listitem [ref=e146]:
+                - link "Subwoofer" [ref=e147] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/subwoofer/
+              - listitem [ref=e148]:
+                - link "Tornamesas" [ref=e149] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tornamesas/
+              - listitem [ref=e150]:
+                - link "Tubo de Vacío" [ref=e151] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+              - listitem [ref=e152]:
+                - link "Usados" [ref=e153] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/usados/
+              - listitem [ref=e154]:
+                - link "Zapatillas / Filtros de Poder" [ref=e155] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+          - complementary [ref=e156]:
+            - text: Filtrar por precio
+            - generic [ref=e164]:
+              - generic [ref=e165]: Precio mínimo
+              - generic [ref=e166]: Precio máximo
+              - button "Filtrar" [ref=e167] [cursor=pointer]
+              - generic [ref=e168]: "Precio: $550.000 — $38.500.000"
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic:
+                  - link "Audio Physic Avanti 35":
+                    - /url: https://truehifi.cl/producto/avanti-35/
+                    - img "Audio Physic Avanti 35" [ref=e177] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e178]:
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: Columnas
+                  - paragraph [ref=e181]:
+                    - link "Audio Physic Avanti 35" [ref=e182] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/avanti-35/
+                - generic [ref=e184]:
+                  - generic [ref=e186]: $7.400.000
+                  - generic [ref=e187]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Avanti 35”" [ref=e189] [cursor=pointer]':
+                  - /url: "?add-to-cart=1870"
+                  - text: Añadir al carrito
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - generic:
+                  - link "Audio Physic CARDEAS":
+                    - /url: https://truehifi.cl/producto/audio-physic-codex-2/
+                    - img "Audio Physic CARDEAS" [ref=e195] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - paragraph [ref=e198]: Columnas
+                  - paragraph [ref=e199]:
+                    - link "Audio Physic CARDEAS" [ref=e200] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-codex-2/
+                - generic [ref=e202]:
+                  - generic [ref=e204]: $38.500.000
+                  - generic [ref=e205]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic CARDEAS”" [ref=e207] [cursor=pointer]':
+                  - /url: "?add-to-cart=1944"
+                  - text: Añadir al carrito
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic:
+                  - link "Audio Physic Classic 25":
+                    - /url: https://truehifi.cl/producto/classic-25/
+                    - img "Audio Physic Classic 25" [ref=e213] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - paragraph [ref=e216]: Columnas
+                  - paragraph [ref=e217]:
+                    - link "Audio Physic Classic 25" [ref=e218] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/classic-25/
+                - generic [ref=e220]:
+                  - generic [ref=e222]: $4.470.000
+                  - generic [ref=e223]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Classic 25”" [ref=e225] [cursor=pointer]':
+                  - /url: "?add-to-cart=1826"
+                  - text: Añadir al carrito
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - generic:
+                  - link "Audio Physic Classic 3":
+                    - /url: https://truehifi.cl/producto/classic-3/
+                    - img "Audio Physic Classic 3" [ref=e231] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - paragraph [ref=e234]: Bookshelf
+                  - paragraph [ref=e235]:
+                    - link "Audio Physic Classic 3" [ref=e236] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/classic-3/
+                - generic [ref=e238]:
+                  - generic [ref=e240]: $1.600.000
+                  - generic [ref=e241]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Classic 3”" [ref=e243] [cursor=pointer]':
+                  - /url: "?add-to-cart=1802"
+                  - text: Añadir al carrito
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - generic:
+                  - link "Audio Physic Classic 35":
+                    - /url: https://truehifi.cl/producto/audio-physic-classic-35/
+                    - img "Audio Physic Classic 35" [ref=e249] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e250]:
+                - generic [ref=e251]:
+                  - paragraph [ref=e252]: Columnas
+                  - paragraph [ref=e253]:
+                    - link "Audio Physic Classic 35" [ref=e254] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-classic-35/
+                - generic [ref=e256]:
+                  - generic [ref=e258]: $5.500.000
+                  - generic [ref=e259]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Classic 35”" [ref=e261] [cursor=pointer]':
+                  - /url: "?add-to-cart=1959"
+                  - text: Añadir al carrito
+            - generic [ref=e265]:
+              - generic [ref=e266]:
+                - generic:
+                  - link "Audio Physic Classic 8":
+                    - /url: https://truehifi.cl/producto/classic-8/
+                    - img "Audio Physic Classic 8" [ref=e267] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - paragraph [ref=e270]: Columnas
+                  - paragraph [ref=e271]:
+                    - link "Audio Physic Classic 8" [ref=e272] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/classic-8/
+                - generic [ref=e274]:
+                  - generic [ref=e276]: $2.650.000
+                  - generic [ref=e277]: IVA Incluido
+                - link "Elige las opciones para “Audio Physic Classic 8”" [ref=e279] [cursor=pointer]:
+                  - /url: https://truehifi.cl/producto/classic-8/
+                  - text: Seleccionar opciones
+                - generic [ref=e280]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - generic:
+                  - link "Audio Physic CODEX":
+                    - /url: https://truehifi.cl/producto/audio-physic-codex/
+                    - img "Audio Physic CODEX" [ref=e285] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: Columnas
+                  - paragraph [ref=e289]:
+                    - link "Audio Physic CODEX" [ref=e290] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-codex/
+                - generic [ref=e292]:
+                  - generic [ref=e294]: $14.800.000
+                  - generic [ref=e295]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic CODEX”" [ref=e297] [cursor=pointer]':
+                  - /url: "?add-to-cart=1922"
+                  - text: Añadir al carrito
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - generic:
+                  - link "Audio Physic HHC III":
+                    - /url: https://truehifi.cl/producto/audio-physic-hhc-iii/
+                    - img "Audio Physic HHC III" [ref=e303] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: Central
+                  - paragraph [ref=e307]:
+                    - link "Audio Physic HHC III" [ref=e308] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-hhc-iii/
+                - generic [ref=e310]:
+                  - generic [ref=e312]: $1.990.000
+                  - generic [ref=e313]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic HHC III”" [ref=e315] [cursor=pointer]':
+                  - /url: "?add-to-cart=1975"
+                  - text: Añadir al carrito
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - generic:
+                  - link "Audio Physic MIDEX":
+                    - /url: https://truehifi.cl/producto/audio-physic-midex/
+                    - img "Audio Physic MIDEX" [ref=e321] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - paragraph [ref=e324]: Columnas
+                  - paragraph [ref=e325]:
+                    - link "Audio Physic MIDEX" [ref=e326] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-midex/
+                - generic [ref=e328]:
+                  - generic [ref=e330]: $12.150.000
+                  - generic [ref=e331]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic MIDEX”" [ref=e333] [cursor=pointer]':
+                  - /url: "?add-to-cart=1881"
+                  - text: Añadir al carrito
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - generic:
+                  - link "Audio Physic Spark":
+                    - /url: https://truehifi.cl/producto/reference-spark/
+                    - img "Audio Physic Spark" [ref=e339] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: Bookshelf
+                  - paragraph [ref=e343]:
+                    - link "Audio Physic Spark" [ref=e344] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/reference-spark/
+                - generic [ref=e346]:
+                  - generic [ref=e348]: $6.990.000
+                  - generic [ref=e349]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Spark”" [ref=e351] [cursor=pointer]':
+                  - /url: "?add-to-cart=1850"
+                  - text: Añadir al carrito
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - generic:
+                  - link "Audio Physic STEP 35":
+                    - /url: https://truehifi.cl/producto/step-35/
+                    - img "Audio Physic STEP 35" [ref=e357] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - paragraph [ref=e360]: Bookshelf
+                  - paragraph [ref=e361]:
+                    - link "Audio Physic STEP 35" [ref=e362] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/step-35/
+                - generic [ref=e364]:
+                  - generic [ref=e366]: $2.900.000
+                  - generic [ref=e367]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic STEP 35”" [ref=e369] [cursor=pointer]':
+                  - /url: "?add-to-cart=1859"
+                  - text: Añadir al carrito
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - generic:
+                  - link "Audio Physic Tempo 35":
+                    - /url: https://truehifi.cl/producto/audio-physic-tempo-35/
+                    - img "Audio Physic Tempo 35" [ref=e375] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - paragraph [ref=e378]: Columnas
+                  - paragraph [ref=e379]:
+                    - link "Audio Physic Tempo 35" [ref=e380] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audio-physic-tempo-35/
+                - generic [ref=e382]:
+                  - generic [ref=e384]: $6.690.000
+                  - generic [ref=e385]: IVA Incluido
+                - 'link "Añadir al carrito: “Audio Physic Tempo 35”" [ref=e387] [cursor=pointer]':
+                  - /url: "?add-to-cart=1875"
+                  - text: Añadir al carrito
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic:
+                  - link "AudioPhysic Classic 15":
+                    - /url: https://truehifi.cl/producto/audiophysic-classic-15/
+                    - img "AudioPhysic Classic 15" [ref=e393] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e394]:
+                - generic [ref=e395]:
+                  - paragraph [ref=e396]: Columnas
+                  - paragraph [ref=e397]:
+                    - link "AudioPhysic Classic 15" [ref=e398] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/audiophysic-classic-15/
+                - generic [ref=e400]:
+                  - generic [ref=e402]: $3.500.000
+                  - generic [ref=e403]: IVA Incluido
+                - 'link "Añadir al carrito: “AudioPhysic Classic 15”" [ref=e405] [cursor=pointer]':
+                  - /url: "?add-to-cart=1785"
+                  - text: Añadir al carrito
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - generic:
+                  - link "Pylon Amber MkII":
+                    - /url: https://truehifi.cl/producto/pylon-amber-mkii/
+                    - img "Pylon Amber MkII" [ref=e411] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e412]:
+                - generic [ref=e413]:
+                  - paragraph [ref=e414]: Columnas
+                  - paragraph [ref=e415]:
+                    - link "Pylon Amber MkII" [ref=e416] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-amber-mkii/
+                - generic [ref=e418]:
+                  - generic [ref=e420]: $7.300.000
+                  - generic [ref=e421]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Amber MkII”" [ref=e423] [cursor=pointer]':
+                  - /url: "?add-to-cart=3073"
+                  - text: Añadir al carrito
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - generic:
+                  - link "Pylon Diamond 25":
+                    - /url: https://truehifi.cl/producto/pylon-diamond-25/
+                    - img "Pylon Diamond 25" [ref=e429] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e430]:
+                - generic [ref=e431]:
+                  - paragraph [ref=e432]: Columnas
+                  - paragraph [ref=e433]:
+                    - link "Pylon Diamond 25" [ref=e434] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-diamond-25/
+                - generic [ref=e436]:
+                  - generic [ref=e438]: $3.180.000
+                  - generic [ref=e439]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Diamond 25”" [ref=e441] [cursor=pointer]':
+                  - /url: "?add-to-cart=3143"
+                  - text: Añadir al carrito
+            - generic [ref=e445]:
+              - generic [ref=e446]:
+                - generic:
+                  - link "Pylon Diamond 28":
+                    - /url: https://truehifi.cl/producto/pylon-diamond-28/
+                    - img "Pylon Diamond 28" [ref=e447] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - paragraph [ref=e450]: Columnas
+                  - paragraph [ref=e451]:
+                    - link "Pylon Diamond 28" [ref=e452] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-diamond-28/
+                - generic [ref=e454]:
+                  - generic [ref=e456]: $3.750.000
+                  - generic [ref=e457]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Diamond 28”" [ref=e459] [cursor=pointer]':
+                  - /url: "?add-to-cart=3123"
+                  - text: Añadir al carrito
+            - generic [ref=e463]:
+              - generic [ref=e464]:
+                - generic:
+                  - link "Pylon Diamond 30 MKII":
+                    - /url: https://truehifi.cl/producto/pylon-diamond-30-mkii/
+                    - img "Pylon Diamond 30 MKII" [ref=e465] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - paragraph [ref=e468]: Columnas
+                  - paragraph [ref=e469]:
+                    - link "Pylon Diamond 30 MKII" [ref=e470] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-diamond-30-mkii/
+                - generic [ref=e472]:
+                  - generic [ref=e474]: $3.350.000
+                  - generic [ref=e475]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Diamond 30 MKII”" [ref=e477] [cursor=pointer]':
+                  - /url: "?add-to-cart=3933"
+                  - text: Añadir al carrito
+            - generic [ref=e481]:
+              - generic [ref=e482]:
+                - generic:
+                  - link "Pylon Diamond Monitor 15 MKII":
+                    - /url: https://truehifi.cl/producto/pylon-diamond-monitor-15/
+                    - img "Pylon Diamond Monitor 15 MKII" [ref=e483] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e484]:
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: Bookshelf
+                  - paragraph [ref=e487]:
+                    - link "Pylon Diamond Monitor 15 MKII" [ref=e488] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-diamond-monitor-15/
+                - generic [ref=e490]:
+                  - generic [ref=e492]: $1.249.500
+                  - generic [ref=e493]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Diamond Monitor 15 MKII”" [ref=e495] [cursor=pointer]':
+                  - /url: "?add-to-cart=2995"
+                  - text: Añadir al carrito
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - generic:
+                  - link "Pylon Diamond Monitor 18 MKII":
+                    - /url: https://truehifi.cl/producto/pylon-diamond-monitor-18/
+                    - img "Pylon Diamond Monitor 18 MKII" [ref=e501] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e502]:
+                - generic [ref=e503]:
+                  - paragraph [ref=e504]: Bookshelf
+                  - paragraph [ref=e505]:
+                    - link "Pylon Diamond Monitor 18 MKII" [ref=e506] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-diamond-monitor-18/
+                - generic [ref=e508]:
+                  - generic [ref=e510]: $1.549.000
+                  - generic [ref=e511]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Diamond Monitor 18 MKII”" [ref=e513] [cursor=pointer]':
+                  - /url: "?add-to-cart=2965"
+                  - text: Añadir al carrito
+            - generic [ref=e517]:
+              - generic [ref=e518]:
+                - generic:
+                  - link "Pylon Jade 20":
+                    - /url: https://truehifi.cl/producto/pylon-jade-twenty/
+                    - img "Pylon Jade 20" [ref=e519] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - paragraph [ref=e522]: Columnas
+                  - paragraph [ref=e523]:
+                    - link "Pylon Jade 20" [ref=e524] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-jade-twenty/
+                - generic [ref=e526]:
+                  - generic [ref=e528]: $2.890.000
+                  - generic [ref=e529]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Jade 20”" [ref=e531] [cursor=pointer]':
+                  - /url: "?add-to-cart=3068"
+                  - text: Añadir al carrito
+            - generic [ref=e535]:
+              - generic [ref=e536]:
+                - generic:
+                  - link "Pylon Jade 30":
+                    - /url: https://truehifi.cl/producto/pylon-jade-30/
+                    - img "Pylon Jade 30" [ref=e537] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - paragraph [ref=e540]: Parlantes
+                  - paragraph [ref=e541]:
+                    - link "Pylon Jade 30" [ref=e542] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-jade-30/
+                - generic [ref=e544]:
+                  - generic [ref=e546]: $5.450.000
+                  - generic [ref=e547]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Jade 30”" [ref=e549] [cursor=pointer]':
+                  - /url: "?add-to-cart=4361"
+                  - text: Añadir al carrito
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - generic:
+                  - link "Pylon Jasper 23":
+                    - /url: https://truehifi.cl/producto/pylon-jasper-23/
+                    - img "Pylon Jasper 23" [ref=e555] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e556]:
+                - generic [ref=e557]:
+                  - paragraph [ref=e558]: Columnas
+                  - paragraph [ref=e559]:
+                    - link "Pylon Jasper 23" [ref=e560] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-jasper-23/
+                - generic [ref=e562]:
+                  - generic [ref=e564]: $7.500.000
+                  - generic [ref=e565]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Jasper 23”" [ref=e567] [cursor=pointer]':
+                  - /url: "?add-to-cart=3101"
+                  - text: Añadir al carrito
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - generic:
+                  - link "Pylon Jasper 25 MK2":
+                    - /url: https://truehifi.cl/producto/pylon-jasper-25-mk2/
+                    - img "Pylon Jasper 25 MK2" [ref=e573] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e574]:
+                - generic [ref=e575]:
+                  - paragraph [ref=e576]: Columnas
+                  - paragraph [ref=e577]:
+                    - link "Pylon Jasper 25 MK2" [ref=e578] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-jasper-25-mk2/
+                - generic [ref=e580]:
+                  - generic [ref=e582]: $7.950.000
+                  - generic [ref=e583]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Jasper 25 MK2”" [ref=e585] [cursor=pointer]':
+                  - /url: "?add-to-cart=3086"
+                  - text: Añadir al carrito
+            - generic [ref=e589]:
+              - generic [ref=e590]:
+                - generic:
+                  - link "Pylon Jasper Monitor 18":
+                    - /url: https://truehifi.cl/producto/pylon-jasper-monitor-18/
+                    - img "Pylon Jasper Monitor 18" [ref=e591] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e592]:
+                - generic [ref=e593]:
+                  - paragraph [ref=e594]: Bookshelf
+                  - paragraph [ref=e595]:
+                    - link "Pylon Jasper Monitor 18" [ref=e596] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-jasper-monitor-18/
+                - generic [ref=e598]:
+                  - generic [ref=e600]: $3.925.000
+                  - generic [ref=e601]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Jasper Monitor 18”" [ref=e603] [cursor=pointer]':
+                  - /url: "?add-to-cart=2946"
+                  - text: Añadir al carrito
+            - generic [ref=e607]:
+              - generic [ref=e608]:
+                - generic:
+                  - link "Pylon OPAL 20":
+                    - /url: https://truehifi.cl/producto/pylon-opal-20/
+                    - img "Pylon OPAL 20" [ref=e609] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e610]:
+                - generic [ref=e611]:
+                  - paragraph [ref=e612]: Columnas
+                  - paragraph [ref=e613]:
+                    - link "Pylon OPAL 20" [ref=e614] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-opal-20/
+                - generic [ref=e616]:
+                  - generic [ref=e618]: $850.000
+                  - generic [ref=e619]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon OPAL 20”" [ref=e621] [cursor=pointer]':
+                  - /url: "?add-to-cart=3386"
+                  - text: Añadir al carrito
+            - generic [ref=e625]:
+              - generic [ref=e626]:
+                - generic:
+                  - link "Pylon OPAL 23":
+                    - /url: https://truehifi.cl/producto/pylon-opal-23/
+                    - img "Pylon OPAL 23" [ref=e627] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e628]:
+                - generic [ref=e629]:
+                  - paragraph [ref=e630]: Columnas
+                  - paragraph [ref=e631]:
+                    - link "Pylon OPAL 23" [ref=e632] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-opal-23/
+                - generic [ref=e634]:
+                  - generic [ref=e636]: $1.030.000
+                  - generic [ref=e637]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon OPAL 23”" [ref=e639] [cursor=pointer]':
+                  - /url: "?add-to-cart=3368"
+                  - text: Añadir al carrito
+            - generic [ref=e643]:
+              - generic [ref=e644]:
+                - generic:
+                  - link "Pylon OPAL 30":
+                    - /url: https://truehifi.cl/producto/pylon-opal-30/
+                    - img "Pylon OPAL 30" [ref=e645] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e646]:
+                - generic [ref=e647]:
+                  - paragraph [ref=e648]: Columnas
+                  - paragraph [ref=e649]:
+                    - link "Pylon OPAL 30" [ref=e650] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-opal-30/
+                - generic [ref=e652]:
+                  - generic [ref=e654]: $1.260.000
+                  - generic [ref=e655]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon OPAL 30”" [ref=e657] [cursor=pointer]':
+                  - /url: "?add-to-cart=3351"
+                  - text: Añadir al carrito
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - generic:
+                  - link "Pylon OPAL Monitor":
+                    - /url: https://truehifi.cl/producto/pylon-opal-monitor/
+                    - img "Pylon OPAL Monitor" [ref=e663] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e664]:
+                - generic [ref=e665]:
+                  - paragraph [ref=e666]: Bookshelf
+                  - paragraph [ref=e667]:
+                    - link "Pylon OPAL Monitor" [ref=e668] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-opal-monitor/
+                - generic [ref=e670]:
+                  - generic [ref=e672]: $650.000
+                  - generic [ref=e673]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon OPAL Monitor”" [ref=e675] [cursor=pointer]':
+                  - /url: "?add-to-cart=3404"
+                  - text: Añadir al carrito
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - generic:
+                  - link "Pylon OPAL Sat":
+                    - /url: https://truehifi.cl/producto/pylon-opal-sat/
+                    - img "Pylon OPAL Sat" [ref=e681] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e682]:
+                - generic [ref=e683]:
+                  - paragraph [ref=e684]: Bookshelf
+                  - paragraph [ref=e685]:
+                    - link "Pylon OPAL Sat" [ref=e686] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-opal-sat/
+                - generic [ref=e688]:
+                  - generic [ref=e690]: $550.000
+                  - generic [ref=e691]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon OPAL Sat”" [ref=e693] [cursor=pointer]':
+                  - /url: "?add-to-cart=3427"
+                  - text: Añadir al carrito
+            - generic [ref=e697]:
+              - generic [ref=e698]:
+                - generic:
+                  - link "Pylon Pearl 20":
+                    - /url: https://truehifi.cl/producto/pylon-pearl-20/
+                    - img "Pylon Pearl 20" [ref=e699] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - paragraph [ref=e702]: Columnas
+                  - paragraph [ref=e703]:
+                    - link "Pylon Pearl 20" [ref=e704] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/pylon-pearl-20/
+                - generic [ref=e706]:
+                  - generic [ref=e708]: $660.000
+                  - generic [ref=e709]: IVA Incluido
+                - 'link "Añadir al carrito: “Pylon Pearl 20”" [ref=e711] [cursor=pointer]':
+                  - /url: "?add-to-cart=3492"
+                  - text: Añadir al carrito
+          - navigation [ref=e714]:
+            - list [ref=e715]:
+              - listitem [ref=e716]:
+                - generic [ref=e717]: "1"
+              - listitem [ref=e718]:
+                - link "2" [ref=e719] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/page/2/
+              - listitem [ref=e720]:
+                - link "" [ref=e721] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/page/2/
+                  - generic [ref=e722]: 
+    - contentinfo [ref=e723]:
+      - generic [ref=e725]:
+        - img "bg_image" [ref=e728]
+        - generic [ref=e729]:
+          - list [ref=e731]:
+            - listitem [ref=e732]:
+              - link "Inicio" [ref=e733] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e734]:
+              - link "Seguimiento" [ref=e735] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e736]:
+              - link "Tienda" [ref=e737] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e738]:
+              - link "Contacto" [ref=e739] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e740]:
+            - text: Copyright 2025 ©
+            - strong [ref=e741]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e744] [cursor=pointer]:
+    - img
+  - status [ref=e745]

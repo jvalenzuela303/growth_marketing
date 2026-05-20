@@ -1,0 +1,427 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Buscar" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e80]:
+      - generic [ref=e82]:
+        - heading "Tornamesas" [level=1] [ref=e83]
+        - navigation [ref=e85]:
+          - link "Inicio" [ref=e86] [cursor=pointer]:
+            - /url: https://truehifi.cl
+          - text: / Tornamesas
+        - text: 
+      - combobox "Pedido de la tienda" [ref=e89]:
+        - option "Orden predeterminado" [selected]
+        - option "Ordenar por popularidad"
+        - option "Ordenar por puntuación media"
+        - option "Ordenar por los últimos"
+        - 'option "Ordenar por precio: bajo a alto"'
+        - 'option "Ordenar por precio: alto a bajo"'
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - complementary [ref=e94]:
+            - text: Filtrar
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - link "Accesorios" [ref=e98] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/accesorios/
+              - listitem [ref=e99]:
+                - link "Amplificador de Audífonos" [ref=e100] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+              - listitem [ref=e101]:
+                - link "Amplificador de Poder" [ref=e102] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+              - listitem [ref=e103]:
+                - link "Amplificador Integrado a Tubo" [ref=e104] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - listitem [ref=e105]:
+                - link "Amplificador Integrado SS" [ref=e106] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+              - listitem [ref=e107]:
+                - link "Cables" [ref=e108] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cables/
+                - button "Toggle" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]: 
+                - text:     
+              - listitem [ref=e111]:
+                - link "Cápsulas MM/MC" [ref=e112] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+              - listitem [ref=e113]:
+                - link "CD PLAYER" [ref=e114] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cd-player/
+              - listitem [ref=e115]:
+                - link "DAC" [ref=e116] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dac/
+              - listitem [ref=e117]:
+                - link "Hi-Fi Stereo Rack" [ref=e118] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+              - listitem [ref=e119]:
+                - link "Packs" [ref=e120] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/pack/
+                - button "Toggle" [ref=e121] [cursor=pointer]:
+                  - generic [ref=e122]: 
+              - listitem [ref=e123]:
+                - link "Parlantes" [ref=e124] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/
+                - button "Toggle" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126]: 
+              - listitem [ref=e127]:
+                - link "Personal Audio" [ref=e128] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/personal-audio/
+                - button "Toggle" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]: 
+              - listitem [ref=e131]:
+                - link "Pre-Amplificadores" [ref=e132] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+              - listitem [ref=e133]:
+                - link "Preamp de Phono" [ref=e134] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+              - listitem [ref=e135]:
+                - link "Radio HiFi" [ref=e136] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+              - listitem [ref=e137]:
+                - link "Streamer - Network Player" [ref=e138] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dap-2/
+              - listitem [ref=e139]:
+                - link "Subwoofer" [ref=e140] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/subwoofer/
+              - listitem [ref=e141]:
+                - link "Tornamesas" [ref=e142] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tornamesas/
+              - listitem [ref=e143]:
+                - link "Tubo de Vacío" [ref=e144] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+              - listitem [ref=e145]:
+                - link "Usados" [ref=e146] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/usados/
+              - listitem [ref=e147]:
+                - link "Zapatillas / Filtros de Poder" [ref=e148] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+          - complementary [ref=e149]:
+            - text: Filtrar por precio
+            - generic [ref=e157]:
+              - generic [ref=e158]: Precio mínimo
+              - generic [ref=e159]: Precio máximo
+              - button "Filtrar" [ref=e160] [cursor=pointer]
+              - generic [ref=e161]: "Precio: $469.000 — $6.300.000"
+        - generic [ref=e165]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic:
+                - link "Muarah - MT1 EVO":
+                  - /url: https://truehifi.cl/producto/mt1-evo/
+                  - img "Muarah - MT1 EVO" [ref=e170] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - paragraph [ref=e173]: Tornamesas
+                - paragraph [ref=e174]:
+                  - link "Muarah – MT1 EVO" [ref=e175] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/mt1-evo/
+              - generic [ref=e177]:
+                - generic [ref=e179]: $6.300.000
+                - generic [ref=e180]: IVA Incluido
+              - 'link "Añadir al carrito: “Muarah - MT1 EVO”" [ref=e182] [cursor=pointer]':
+                - /url: "?add-to-cart=3049"
+                - text: Añadir al carrito
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - generic:
+                - link "Muarah - MT2 (Brazo Sorane SA-1.2 9\")":
+                  - /url: https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/
+                  - img "Muarah - MT2 (Brazo Sorane SA-1.2 9\")" [ref=e188] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: Tornamesas
+                - paragraph [ref=e192]:
+                  - link "Muarah – MT2 (Brazo Sorane SA-1.2 9″)" [ref=e193] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/
+              - generic [ref=e195]:
+                - generic [ref=e197]: $3.490.000
+                - generic [ref=e198]: IVA Incluido
+              - link "Elige las opciones para “Muarah - MT2 (Brazo Sorane SA-1.2 9\")”" [ref=e200] [cursor=pointer]:
+                - /url: https://truehifi.cl/producto/muarah-mt2-brazo-sorane-sa-1-2-9/
+                - text: Seleccionar opciones
+              - generic [ref=e201]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic:
+                - link "Muarah - MT2 Special edition":
+                  - /url: https://truehifi.cl/producto/muarah-mt2-special-edition/
+                  - img "Muarah - MT2 Special edition" [ref=e206] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - paragraph [ref=e209]: Tornamesas
+                - paragraph [ref=e210]:
+                  - link "Muarah – MT2 Special edition" [ref=e211] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/muarah-mt2-special-edition/
+              - generic [ref=e213]:
+                - generic [ref=e215]: $4.990.000
+                - generic [ref=e216]: IVA Incluido
+              - 'link "Añadir al carrito: “Muarah - MT2 Special edition”" [ref=e218] [cursor=pointer]':
+                - /url: "?add-to-cart=3054"
+                - text: Añadir al carrito
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - generic:
+                - generic: NUEVO
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic:
+                  - link "Muarah – MT3":
+                    - /url: https://truehifi.cl/producto/muarah-mt3/
+                    - img "Muarah – MT3" [ref=e225] [cursor=pointer]
+                - generic:
+                  - link "Vista Rápida":
+                    - /url: "#quick-view"
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - paragraph [ref=e228]: Tornamesas
+                  - paragraph [ref=e229]:
+                    - link "Muarah – MT3" [ref=e230] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/muarah-mt3/
+                - generic [ref=e232]:
+                  - generic [ref=e234]: $2.300.000
+                  - text: –
+                  - generic [ref=e236]: $3.300.000
+                  - generic [ref=e237]: IVA Incluido
+                - link "Elige las opciones para “Muarah – MT3”" [ref=e239] [cursor=pointer]:
+                  - /url: https://truehifi.cl/producto/muarah-mt3/
+                  - text: Seleccionar opciones
+                - generic [ref=e240]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - generic:
+                - link "Project Essential III OM10 Sgt. Pepper’s Drum":
+                  - /url: https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/
+                  - img "Project Essential III OM10 Sgt. Pepper’s Drum" [ref=e245] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - paragraph [ref=e248]: Tornamesas
+                - paragraph [ref=e249]:
+                  - link "Project Essential III OM10 Sgt. Pepper’s Drum" [ref=e250] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/project-essential-iii-om10-sgt-peppers-drum/
+              - generic [ref=e252]:
+                - generic [ref=e254]: $650.000
+                - generic [ref=e255]: IVA Incluido
+              - 'link "Añadir al carrito: “Project Essential III OM10 Sgt. Pepper’s Drum”" [ref=e257] [cursor=pointer]':
+                - /url: "?add-to-cart=4150"
+                - text: Añadir al carrito
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic:
+                - link "REGA Planar 1 Plus Matt Negro":
+                  - /url: https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/
+                  - img "REGA Planar 1 Plus Matt Negro" [ref=e263] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+              - generic [ref=e264]: Sin existencias
+            - generic [ref=e265]:
+              - generic [ref=e266]:
+                - paragraph [ref=e267]: Tornamesas
+                - paragraph [ref=e268]:
+                  - link "REGA Planar 1 Plus Matt Negro" [ref=e269] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/
+              - generic [ref=e271]:
+                - generic [ref=e273]: $469.000
+                - generic [ref=e274]: IVA Incluido
+              - link "Lee más sobre “REGA Planar 1 Plus Matt Negro”" [ref=e276] [cursor=pointer]:
+                - /url: https://truehifi.cl/producto/rega-planar-1-plus-matt-negro/
+                - text: Leer más
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic:
+                - link "REGA Planar 2 Negro":
+                  - /url: https://truehifi.cl/producto/rega-planar-2-negro/
+                  - img "REGA Planar 2 Negro" [ref=e282] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+              - generic [ref=e283]: Sin existencias
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - paragraph [ref=e286]: Tornamesas
+                - paragraph [ref=e287]:
+                  - link "REGA Planar 2 Negro" [ref=e288] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/rega-planar-2-negro/
+              - generic [ref=e290]:
+                - generic [ref=e292]: $599.000
+                - generic [ref=e293]: IVA Incluido
+              - link "Lee más sobre “REGA Planar 2 Negro”" [ref=e295] [cursor=pointer]:
+                - /url: https://truehifi.cl/producto/rega-planar-2-negro/
+                - text: Leer más
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - generic:
+                - link "REGA Planar 3 + Cápsula Exact (MM)":
+                  - /url: https://truehifi.cl/producto/2430/
+                  - img "REGA Planar 3 + Cápsula Exact (MM)" [ref=e301] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+              - generic [ref=e302]: Sin existencias
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - paragraph [ref=e305]: Tornamesas
+                - paragraph [ref=e306]:
+                  - link "REGA Planar 3 + Cápsula Exact (MM)" [ref=e307] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/2430/
+              - generic [ref=e309]:
+                - generic [ref=e311]: $990.000
+                - generic [ref=e312]: IVA Incluido
+              - link "Lee más sobre “REGA Planar 3 + Cápsula Exact (MM)”" [ref=e314] [cursor=pointer]:
+                - /url: https://truehifi.cl/producto/2430/
+                - text: Leer más
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic:
+                - link "Tornamesa Planar 3 Negro c/ Cápsula Elys2":
+                  - /url: https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/
+                  - img "Tornamesa Planar 3 Negro c/ Cápsula Elys2" [ref=e320] [cursor=pointer]
+              - generic:
+                - link "Vista Rápida":
+                  - /url: "#quick-view"
+              - generic [ref=e321]: Sin existencias
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - paragraph [ref=e324]: Tornamesas
+                - paragraph [ref=e325]:
+                  - link "Tornamesa Planar 3 Negro c/ Cápsula Elys2" [ref=e326] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/
+              - generic [ref=e328]:
+                - generic [ref=e330]: $990.000
+                - generic [ref=e331]: IVA Incluido
+              - link "Lee más sobre “Tornamesa Planar 3 Negro c/ Cápsula Elys2”" [ref=e333] [cursor=pointer]:
+                - /url: https://truehifi.cl/producto/tornamesa-planar-3-negro-c-capsula-elys2/
+                - text: Leer más
+    - contentinfo [ref=e335]:
+      - generic [ref=e337]:
+        - img "bg_image" [ref=e340]
+        - generic [ref=e341]:
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "Inicio" [ref=e345] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e346]:
+              - link "Seguimiento" [ref=e347] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e348]:
+              - link "Tienda" [ref=e349] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e350]:
+              - link "Contacto" [ref=e351] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e352]:
+            - text: Copyright 2025 ©
+            - strong [ref=e353]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e356] [cursor=pointer]:
+    - img
+  - status [ref=e357]

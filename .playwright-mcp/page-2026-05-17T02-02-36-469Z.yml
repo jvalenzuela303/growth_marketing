@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "Visitar la categoría de producto AMPERIMETROS DE MEDIA Y ALTA TENSIÓN" [ref=e33] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/
+              - img "AMPERIMETROS DE MEDIA Y ALTA TENSIÓN" [ref=e34]
+              - heading "AMPERIMETROS DE MEDIA Y ALTA TENSIÓN" [level=2] [ref=e35]
+          - listitem [ref=e36]:
+            - link "Visitar la categoría de producto ANALIZADOR DE CALIDAD DE ENERGÍA ECAMEC" [ref=e37] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/analizador-de-calidad-de-energia/
+              - img "ANALIZADOR DE CALIDAD DE ENERGÍA ECAMEC" [ref=e38]
+              - heading "ANALIZADOR DE CALIDAD DE ENERGÍA ECAMEC" [level=2] [ref=e39]
+          - listitem [ref=e40]:
+            - link "Visitar la categoría de producto CALIBRADORES ELECTRICOS" [ref=e41] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/calibradores-electricos/
+              - img "CALIBRADORES ELECTRICOS" [ref=e42]
+              - heading "CALIBRADORES ELECTRICOS" [level=2] [ref=e43]
+          - listitem [ref=e44]:
+            - link "Visitar la categoría de producto CÁMARAS TERMO-GRÁFICAS" [ref=e45] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/
+              - img "CÁMARAS TERMO-GRÁFICAS" [ref=e46]
+              - heading "CÁMARAS TERMO-GRÁFICAS" [level=2] [ref=e47]
+          - listitem [ref=e48]:
+            - link "Visitar la categoría de producto MARCAS" [ref=e49] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/marcas/
+              - img "MARCAS" [ref=e50]
+              - heading "MARCAS" [level=2] [ref=e51]
+          - listitem [ref=e52]:
+            - link "Visitar la categoría de producto MEDIDORES AISLAMIENTO" [ref=e53] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-aislamiento/
+              - img "MEDIDORES AISLAMIENTO" [ref=e54]
+              - heading "MEDIDORES AISLAMIENTO" [level=2] [ref=e55]
+          - listitem [ref=e56]:
+            - link "Visitar la categoría de producto Medidores de ambiente" [ref=e57] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-de-ambiente/
+              - img "Medidores de ambiente" [ref=e58]
+              - heading "Medidores de ambiente" [level=2] [ref=e59]
+          - listitem [ref=e60]:
+            - link "Visitar la categoría de producto MEDIDORES DE TIERRA Y RESISTIVIDAD DE TERRENO" [ref=e61] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidores-de-tierra-y-resistividad-de-terreno/
+              - img "MEDIDORES DE TIERRA Y RESISTIVIDAD DE TERRENO" [ref=e62]
+              - heading "MEDIDORES DE TIERRA Y RESISTIVIDAD DE TERRENO" [level=2] [ref=e63]
+          - listitem [ref=e64]:
+            - link "Visitar la categoría de producto MICRO- OHNMETRO" [ref=e65] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/medidor-de-baja-resistencia/
+              - img "MICRO- OHNMETRO" [ref=e66]
+              - heading "MICRO- OHNMETRO" [level=2] [ref=e67]
+          - listitem [ref=e68]:
+            - link "Visitar la categoría de producto Multimetros Amperimetros" [ref=e69] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/multimetros-amperimetros/
+              - img "Multimetros Amperimetros" [ref=e70]
+              - heading "Multimetros Amperimetros" [level=2] [ref=e71]
+          - listitem [ref=e72]:
+            - link "Visitar la categoría de producto Peakmeter" [ref=e73] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/peakmeter/
+              - img "Peakmeter" [ref=e74]
+              - heading "Peakmeter" [level=2] [ref=e75]
+          - listitem [ref=e76]:
+            - link "Visitar la categoría de producto VERIFICADORES DE MEDIDORES DE ENERGÍA MONOFÁSICOS" [ref=e77] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-monofasicos/
+              - img "VERIFICADORES DE MEDIDORES DE ENERGÍA MONOFÁSICOS" [ref=e78]
+              - heading "VERIFICADORES DE MEDIDORES DE ENERGÍA MONOFÁSICOS" [level=2] [ref=e79]
+          - listitem [ref=e80]:
+            - link "Visitar la categoría de producto VERIFICADORES DE MEDIDORES DE ENERGÍA TRIFÁSICOS" [ref=e81] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/verificadores-de-medidores-de-energia-trifasicos/
+              - img "VERIFICADORES DE MEDIDORES DE ENERGÍA TRIFÁSICOS" [ref=e82]
+              - heading "VERIFICADORES DE MEDIDORES DE ENERGÍA TRIFÁSICOS" [level=2] [ref=e83]
+          - listitem [ref=e84]:
+            - link "Visitar la categoría de producto VOLTIMETRO DE MEDIA Y ALTA TENSIÓN" [ref=e85] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/categoria-producto/voltimetro-de-media-y-alta-tension/
+              - img "VOLTIMETRO DE MEDIA Y ALTA TENSIÓN" [ref=e86]
+              - heading "VOLTIMETRO DE MEDIA Y ALTA TENSIÓN" [level=2] [ref=e87]
+      - complementary [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Buscar Productos" [level=2] [ref=e90]
+          - search [ref=e91]:
+            - generic [ref=e92]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e93]
+            - button "Buscar" [ref=e94] [cursor=pointer]
+    - contentinfo [ref=e95]:
+      - generic [ref=e98]:
+        - complementary [ref=e99]:
+          - complementary [ref=e100]:
+            - heading "Menú" [level=3] [ref=e101]
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "Inicio" [ref=e105] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e106]:
+                - link "Nosotros" [ref=e107] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e108]:
+                - link "Productos" [ref=e109] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e110]:
+                - link "Contacto" [ref=e111] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e112]:
+                  - listitem [ref=e113]:
+                    - link "Politica de Privacidad" [ref=e114] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e115]:
+          - complementary [ref=e116]:
+            - heading "Horarios de Atención" [level=3] [ref=e117]
+            - generic [ref=e118]:
+              - paragraph [ref=e119]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e120]:
+                - listitem [ref=e121]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e122]: 9am a 5pm
+                - listitem [ref=e123]:
+                  - text: "Sábado:"
+                  - generic [ref=e124]: cerrado
+                - listitem [ref=e125]:
+                  - text: "Domingo:"
+                  - generic [ref=e126]: Cerrado
+        - complementary [ref=e127]:
+          - complementary [ref=e128]:
+            - heading "Contacto" [level=3] [ref=e129]
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e133]: 
+                - generic [ref=e134]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e135]:
+                - generic [ref=e137]: 
+                - link "+56 950942148" [ref=e139] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e141] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e142]:
+                - generic [ref=e144]: 
+                - link "contacto@mosanelectric.cl" [ref=e146] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e147]:
+          - complementary [ref=e148]:
+            - heading "Ubicación" [level=3] [ref=e149]
+            - iframe [ref=e151]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f8e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f8e6]
+      - generic [ref=e153]:
+        - generic [ref=e154]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e155]:
+          - link "Screenr parallax theme" [ref=e156] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e159] [cursor=pointer]:
+    - img
+  - status [ref=e160]

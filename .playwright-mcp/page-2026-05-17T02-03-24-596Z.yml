@@ -1,0 +1,220 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e34]:
+              - generic:
+                - link "kt 400" [ref=e36] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2022/04/kt-400.jpg
+                  - img "kt 400" [ref=e37]
+                - link "kt 400 1" [ref=e39] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/wp-content/uploads/2022/04/kt-400-1.jpg
+                  - img "kt 400 1" [ref=e40]
+            - list [ref=e41]:
+              - listitem [ref=e42]:
+                - img [ref=e43] [cursor=pointer]
+              - listitem [ref=e44]:
+                - img [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - heading "Cámara termográfica KT-400 / KT-200 SONEL." [level=1] [ref=e47]
+            - paragraph
+            - paragraph [ref=e49]:
+              - text: Las cámaras termográficas
+              - strong [ref=e50]: Sonel KT-400/KT-200
+              - text: combinan una moderna matriz de imagen con un amplio rango de medición de temperatura y lentes de alta calidad para garantizar imágenes detalladas y mediciones precisas. Disponibles en diferentes configuraciones, estas cámaras se adaptan a diversas necesidades de los usuarios. Su gran pantalla, procesamiento de datos innovador y diseño compacto hacen que sean altamente eficientes y fáciles de usar en el día a día. El botón de navegación central y el menú táctil aseguran un manejo intuitivo.
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - text: "Categorías:"
+                - link "CÁMARAS TERMO-GRÁFICAS" [ref=e53] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/camaras-termo-graficas/
+                - text: ","
+                - link "SONEL" [ref=e54] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/sonel/
+              - generic [ref=e55]:
+                - text: "Etiquetas:"
+                - link "Cámara termográfica" [ref=e56] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/camara-termografica/
+                - text: ","
+                - link "Medicion" [ref=e57] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/medicion/
+                - text: ","
+                - link "Medidores de ambiente" [ref=e58] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/medidores-de-ambiente/
+          - generic [ref=e59]:
+            - tablist [ref=e60]:
+              - tab "Descripción" [selected] [ref=e61]:
+                - link "Descripción" [ref=e62] [cursor=pointer]:
+                  - /url: "#tab-description"
+              - tab "Valoraciones (0)" [ref=e63]:
+                - link "Valoraciones (0)" [ref=e64] [cursor=pointer]:
+                  - /url: "#tab-reviews"
+            - tabpanel "Descripción" [ref=e65]:
+              - heading "Descripción" [level=2] [ref=e66]
+              - blockquote [ref=e67]:
+                - heading "CARACTERÍSTICAS" [level=6] [ref=e68]:
+                  - emphasis [ref=e69]: CARACTERÍSTICAS
+                - list [ref=e70]:
+                  - listitem [ref=e71]:
+                    - strong [ref=e72]: "Matriz moderna:"
+                    - text: Proporciona imágenes de alta resolución y detalle.
+                  - listitem [ref=e73]:
+                    - strong [ref=e74]: "Amplio rango de medición de temperatura:"
+                    - text: Adecuado para diversas aplicaciones.
+                  - listitem [ref=e75]:
+                    - strong [ref=e76]: "Lentes de alta calidad:"
+                    - text: Garantizan precisión en las mediciones y claridad en las imágenes.
+                  - listitem [ref=e77]:
+                    - strong [ref=e78]: "Diseño compacto:"
+                    - text: Combina eficiencia y portabilidad, ideal para el trabajo diario.
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]: "Gran pantalla:"
+                    - text: Ofrece una visualización clara y detallada de las imágenes y datos.
+                  - listitem [ref=e81]:
+                    - strong [ref=e82]: "Innovadora electrónica de procesamiento de datos:"
+                    - text: Mejora la calidad de la imagen y la rapidez en el análisis.
+                  - listitem [ref=e83]:
+                    - strong [ref=e84]: "Navegación intuitiva:"
+                    - text: Botón de navegación central y menú en pantalla táctil para un manejo sencillo.
+                  - listitem [ref=e85]:
+                    - strong [ref=e86]: "Variantes disponibles:"
+                    - text: Diferentes configuraciones para adaptarse a las necesidades específicas de los usuarios.
+            - text:     
+          - generic [ref=e87]:
+            - heading "Productos relacionados" [level=2] [ref=e88]
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Microhnmetro MMR-650 SONEL" [ref=e91] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/microhnmetro-mmr-650/
+                  - heading "Microhnmetro MMR-650 SONEL" [level=2] [ref=e92]
+              - listitem [ref=e93]:
+                - link "Calibrador Eléctrico Monofásico GFUVE" [ref=e94] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/calibrador-electrico-monofasico/
+                  - heading "Calibrador Eléctrico Monofásico GFUVE" [level=2] [ref=e95]
+              - listitem [ref=e96]:
+                - link "Medidor multifunción de parámetros de instalaciones eléctricas MPI-540 / MPI-540-PV SONEL" [ref=e97] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/medidor-multifuncion-de-parametros-de-instalaciones-electricas/
+                  - heading "Medidor multifunción de parámetros de instalaciones eléctricas MPI-540 / MPI-540-PV SONEL" [level=2] [ref=e98]
+              - listitem [ref=e99]:
+                - link "Medidor de aislación MIC-10 SONEL" [ref=e100] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/medidor-de-aislacion-mic-10/
+                  - heading "Medidor de aislación MIC-10 SONEL" [level=2] [ref=e101]
+      - complementary [ref=e102]:
+        - generic [ref=e103]:
+          - heading "Buscar Productos" [level=2] [ref=e104]
+          - search [ref=e105]:
+            - generic [ref=e106]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e107]
+            - button "Buscar" [ref=e108] [cursor=pointer]
+        - generic [ref=e109]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e110]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "Medidor de tierra (Telurímetro) ETCR 3200 C NEW" [ref=e113] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-de-tierra-telurimetro/
+            - listitem [ref=e114]:
+              - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e115] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+            - listitem [ref=e116]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e117] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e118]:
+      - generic [ref=e121]:
+        - complementary [ref=e122]:
+          - complementary [ref=e123]:
+            - heading "Menú" [level=3] [ref=e124]
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - link "Inicio" [ref=e128] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e129]:
+                - link "Nosotros" [ref=e130] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e131]:
+                - link "Productos" [ref=e132] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e133]:
+                - link "Contacto" [ref=e134] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e135]:
+                  - listitem [ref=e136]:
+                    - link "Politica de Privacidad" [ref=e137] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e138]:
+          - complementary [ref=e139]:
+            - heading "Horarios de Atención" [level=3] [ref=e140]
+            - generic [ref=e141]:
+              - paragraph [ref=e142]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e145]: 9am a 5pm
+                - listitem [ref=e146]:
+                  - text: "Sábado:"
+                  - generic [ref=e147]: cerrado
+                - listitem [ref=e148]:
+                  - text: "Domingo:"
+                  - generic [ref=e149]: Cerrado
+        - complementary [ref=e150]:
+          - complementary [ref=e151]:
+            - heading "Contacto" [level=3] [ref=e152]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156]: 
+                - generic [ref=e157]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e158]:
+                - generic [ref=e160]: 
+                - link "+56 950942148" [ref=e162] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e164] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e165]:
+                - generic [ref=e167]: 
+                - link "contacto@mosanelectric.cl" [ref=e169] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e170]:
+          - complementary [ref=e171]:
+            - heading "Ubicación" [level=3] [ref=e172]
+            - iframe [ref=e174]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f12e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f12e6]
+      - generic [ref=e176]:
+        - generic [ref=e177]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e178]:
+          - link "Screenr parallax theme" [ref=e179] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e182] [cursor=pointer]:
+    - img
+  - status [ref=e183]

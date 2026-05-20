@@ -1,0 +1,666 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Buscar" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e82]:
+      - heading "Tienda" [level=1] [ref=e83]
+      - navigation [ref=e85]:
+        - link "Inicio" [ref=e86] [cursor=pointer]:
+          - /url: https://truehifi.cl
+        - text: / Tienda
+      - text: 
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - complementary [ref=e91]:
+            - text: Filtrar
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Accesorios" [ref=e95] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/accesorios/
+              - listitem [ref=e96]:
+                - link "Amplificador de Audífonos" [ref=e97] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+              - listitem [ref=e98]:
+                - link "Amplificador de Poder" [ref=e99] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+              - listitem [ref=e100]:
+                - link "Amplificador Integrado a Tubo" [ref=e101] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - listitem [ref=e102]:
+                - link "Amplificador Integrado SS" [ref=e103] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+              - listitem [ref=e104]:
+                - link "Cables" [ref=e105] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cables/
+                - button "Toggle" [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107]: 
+                - text:     
+              - listitem [ref=e108]:
+                - link "Cápsulas MM/MC" [ref=e109] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+              - listitem [ref=e110]:
+                - link "CD PLAYER" [ref=e111] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cd-player/
+              - listitem [ref=e112]:
+                - link "DAC" [ref=e113] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dac/
+              - listitem [ref=e114]:
+                - link "Hi-Fi Stereo Rack" [ref=e115] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+              - listitem [ref=e116]:
+                - link "Packs" [ref=e117] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/pack/
+                - button "Toggle" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]: 
+              - listitem [ref=e120]:
+                - link "Parlantes" [ref=e121] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/
+                - button "Toggle" [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123]: 
+              - listitem [ref=e124]:
+                - link "Personal Audio" [ref=e125] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/personal-audio/
+                - button "Toggle" [ref=e126] [cursor=pointer]:
+                  - generic [ref=e127]: 
+              - listitem [ref=e128]:
+                - link "Pre-Amplificadores" [ref=e129] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+              - listitem [ref=e130]:
+                - link "Preamp de Phono" [ref=e131] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+              - listitem [ref=e132]:
+                - link "Radio HiFi" [ref=e133] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+              - listitem [ref=e134]:
+                - link "Streamer - Network Player" [ref=e135] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dap-2/
+              - listitem [ref=e136]:
+                - link "Subwoofer" [ref=e137] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/subwoofer/
+              - listitem [ref=e138]:
+                - link "Tornamesas" [ref=e139] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tornamesas/
+              - listitem [ref=e140]:
+                - link "Tubo de Vacío" [ref=e141] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+              - listitem [ref=e142]:
+                - link "Usados" [ref=e143] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/usados/
+              - listitem [ref=e144]:
+                - link "Zapatillas / Filtros de Poder" [ref=e145] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+          - complementary [ref=e146]:
+            - text: Filtrar por precio
+            - generic [ref=e154]:
+              - generic [ref=e155]: Precio mínimo
+              - generic [ref=e156]: Precio máximo
+              - button "Filtrar" [ref=e157] [cursor=pointer]
+              - generic [ref=e158]: "Precio: $28.000 — $38.500.000"
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - heading "Productos destacados de la semana!" [level=3] [ref=e165]:
+              - strong [ref=e167]: Productos destacados de la semana!
+            - generic [ref=e168]:
+              - generic [ref=e170]:
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - generic:
+                      - generic: VENDIDO
+                  - generic [ref=e174]:
+                    - generic [ref=e175]:
+                      - link "CAYIN CS-55A (Demo Sin DAC)" [ref=e177] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/
+                        - img "CAYIN CS-55A (Demo Sin DAC)" [ref=e178]
+                      - generic:
+                        - link "Vista Rápida":
+                          - /url: "#quick-view"
+                      - generic [ref=e179]: Sin existencias
+                    - generic [ref=e180]:
+                      - generic [ref=e181]:
+                        - paragraph [ref=e182]: Usados
+                        - paragraph [ref=e183]:
+                          - link "CAYIN CS-55A (Demo Sin DAC)" [ref=e184] [cursor=pointer]:
+                            - /url: https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/
+                      - generic [ref=e186]:
+                        - generic [ref=e188]: $1.400.000
+                        - generic [ref=e189]: IVA Incluido
+                      - link "Elige las opciones para “CAYIN CS-55A (Demo Sin DAC)”" [ref=e191] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-cs-55a-demo-sin-dac/
+                        - text: Seleccionar opciones
+                      - generic [ref=e192]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic:
+                      - generic: VENDIDO
+                  - generic [ref=e196]:
+                    - generic [ref=e197]:
+                      - link "supersignal" [ref=e199] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/
+                        - img "supersignal" [ref=e200]
+                      - generic:
+                        - link "Vista Rápida":
+                          - /url: "#quick-view"
+                      - generic [ref=e201]: Sin existencias
+                    - generic [ref=e202]:
+                      - generic [ref=e203]:
+                        - paragraph [ref=e204]: Usados
+                        - paragraph [ref=e205]:
+                          - link "supersignal" [ref=e206] [cursor=pointer]:
+                            - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/
+                      - generic [ref=e208]:
+                        - generic [ref=e210]: $900.000
+                        - generic [ref=e211]: IVA Incluido
+                      - link "Elige las opciones para “supersignal”" [ref=e213] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-ldac-open-box/
+                        - text: Seleccionar opciones
+                      - generic [ref=e214]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e216]:
+                  - generic [ref=e217]:
+                    - generic:
+                      - generic: VENDIDO
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - link "HA-1AMK2 (Open Box)" [ref=e221] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/ha-1amk2-open-box/
+                        - img "HA-1AMK2 (Open Box)" [ref=e222]
+                      - generic:
+                        - link "Vista Rápida":
+                          - /url: "#quick-view"
+                      - generic [ref=e223]: Sin existencias
+                    - generic [ref=e224]:
+                      - generic [ref=e225]:
+                        - paragraph [ref=e226]: Usados
+                        - paragraph [ref=e227]:
+                          - link "HA-1AMK2 (Open Box)" [ref=e228] [cursor=pointer]:
+                            - /url: https://truehifi.cl/producto/ha-1amk2-open-box/
+                      - generic [ref=e230]:
+                        - generic [ref=e232]: $500.000
+                        - generic [ref=e233]: IVA Incluido
+                      - link "Lee más sobre “HA-1AMK2 (Open Box)”" [ref=e235] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/ha-1amk2-open-box/
+                        - text: Leer más
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - link "Audio Physic Classic 8" [ref=e242] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/classic-8/
+                      - img "Audio Physic Classic 8" [ref=e243]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e244]:
+                    - generic [ref=e245]:
+                      - paragraph [ref=e246]: Columnas
+                      - paragraph [ref=e247]:
+                        - link "Audio Physic Classic 8" [ref=e248] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/classic-8/
+                    - generic [ref=e250]:
+                      - generic [ref=e252]: $2.650.000
+                      - generic [ref=e253]: IVA Incluido
+                    - link "Elige las opciones para “Audio Physic Classic 8”" [ref=e255] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/classic-8/
+                      - text: Seleccionar opciones
+                    - generic [ref=e256]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - link "Cocktail Audio N25 Amp" [ref=e262] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cocktail-audio-n25-amp/
+                      - img "Cocktail Audio N25 Amp" [ref=e263]
+                    - generic:
+                      - link "Vista Rápida":
+                        - /url: "#quick-view"
+                  - generic [ref=e264]:
+                    - generic [ref=e265]:
+                      - paragraph [ref=e266]: Streamer - Network Player
+                      - paragraph [ref=e267]:
+                        - link "Cocktail Audio N25 Amp" [ref=e268] [cursor=pointer]:
+                          - /url: https://truehifi.cl/producto/cocktail-audio-n25-amp/
+                    - generic [ref=e270]:
+                      - generic [ref=e272]: $1.650.000
+                      - generic [ref=e273]: IVA Incluido
+                    - link "Elige las opciones para “Cocktail Audio N25 Amp”" [ref=e275] [cursor=pointer]:
+                      - /url: https://truehifi.cl/producto/cocktail-audio-n25-amp/
+                      - text: Seleccionar opciones
+                    - generic [ref=e276]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - button "Previous" [disabled]:
+                - img
+              - button "Next" [disabled]:
+                - img
+            - heading "Los más vendidos!" [level=3] [ref=e279]:
+              - strong [ref=e281]: Los más vendidos!
+            - generic [ref=e282]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - link "LA-34 Plus (Descontinuado) Reemplazo MT-35" [ref=e288] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/la-34-silver/
+                    - img "LA-34 Plus (Descontinuado) Reemplazo MT-35" [ref=e289]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                  - generic [ref=e290]: Sin existencias
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - paragraph [ref=e293]: Amplificador Integrado a Tubo
+                    - paragraph [ref=e294]:
+                      - link "LA-34 Plus (Descontinuado) Reemplazo MT-35" [ref=e295] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/la-34-silver/
+                  - generic [ref=e297]:
+                    - generic [ref=e299]: $980.000
+                    - generic [ref=e300]: IVA Incluido
+                  - link "Elige las opciones para “LA-34 Plus (Descontinuado) Reemplazo MT-35”" [ref=e302] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/la-34-silver/
+                    - text: Seleccionar opciones
+                  - generic [ref=e303]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - link "iDAC-6MK2" [ref=e309] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/idac-6mk2/
+                    - img "iDAC-6MK2" [ref=e310]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                - generic [ref=e311]:
+                  - generic [ref=e312]:
+                    - paragraph [ref=e313]: DAC
+                    - paragraph [ref=e314]:
+                      - link "iDAC-6MK2" [ref=e315] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/idac-6mk2/
+                  - generic [ref=e317]:
+                    - generic [ref=e319]: $895.000
+                    - generic [ref=e320]: IVA Incluido
+                  - 'button "Añadir al carrito: “iDAC-6MK2”" [ref=e322] [cursor=pointer]': Añadir al carrito
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - link "CAYIN MT-35 MK2 BT LDAC" [ref=e329] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                    - img "CAYIN MT-35 MK2 BT LDAC" [ref=e330]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - paragraph [ref=e333]: Amplificador Integrado a Tubo
+                    - paragraph [ref=e334]:
+                      - link "CAYIN MT-35 MK2 BT LDAC" [ref=e335] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                  - generic [ref=e337]:
+                    - generic [ref=e339]: $1.280.000
+                    - generic [ref=e340]: IVA Incluido
+                  - link "Elige las opciones para “CAYIN MT-35 MK2 BT LDAC”" [ref=e342] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/cayin-mt-35-mk2-bt-negro/
+                    - text: Seleccionar opciones
+                  - generic [ref=e343]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - link "Electro Harmonix 12AX7 EH GOLD" [ref=e349] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/
+                    - img "Electro Harmonix 12AX7 EH GOLD" [ref=e350]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                  - generic [ref=e351]: Sin existencias
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - paragraph [ref=e354]: Tubo de Vacío
+                    - paragraph [ref=e355]:
+                      - link "Electro Harmonix 12AX7 EH GOLD" [ref=e356] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/
+                  - generic [ref=e358]:
+                    - generic [ref=e360]: $28.450
+                    - generic [ref=e361]: IVA Incluido
+                  - link "Lee más sobre “Electro Harmonix 12AX7 EH GOLD”" [ref=e363] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/electro-harmonix-12ax7-eh-gold/
+                    - text: Leer más
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - link "CAYIN CS-55A" [ref=e370] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                    - img "CAYIN CS-55A" [ref=e371]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - paragraph [ref=e374]: Amplificador Integrado a Tubo
+                    - paragraph [ref=e375]:
+                      - link "CAYIN CS-55A" [ref=e376] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                  - generic [ref=e378]:
+                    - generic [ref=e380]: $1.880.000
+                    - text: "-"
+                    - generic [ref=e382]: $2.220.000
+                    - generic [ref=e383]: "Rango de precios: desde $1.880.000 hasta $2.220.000"
+                    - generic [ref=e384]: IVA Incluido
+                  - link "Elige las opciones para “CAYIN CS-55A”" [ref=e386] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/cayin-cs-55a-kt88/
+                    - text: Seleccionar opciones
+                  - generic [ref=e387]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - link "SOUL 170I" [ref=e393] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/soul-170i/
+                    - img "SOUL 170I" [ref=e394]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - paragraph [ref=e397]: Amplificador Integrado a Tubo
+                    - paragraph [ref=e398]:
+                      - link "SOUL 170I" [ref=e399] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/soul-170i/
+                  - generic [ref=e401]:
+                    - generic [ref=e403]: $6.100.000
+                    - generic [ref=e404]: IVA Incluido
+                  - link "Elige las opciones para “SOUL 170I”" [ref=e406] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/soul-170i/
+                    - text: Seleccionar opciones
+                  - generic [ref=e407]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - generic [ref=e410]:
+                - generic [ref=e411]:
+                  - link "SIVGA Robin SV021 (NEW)" [ref=e413] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/robin-sv021-new/
+                    - img "SIVGA Robin SV021 (NEW)" [ref=e414]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - paragraph [ref=e417]: Headphones
+                    - paragraph [ref=e418]:
+                      - link "SIVGA Robin SV021 (NEW)" [ref=e419] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/robin-sv021-new/
+                  - generic [ref=e421]:
+                    - generic [ref=e423]: $186.150
+                    - generic [ref=e424]: IVA Incluido
+                  - link "Elige las opciones para “SIVGA Robin SV021 (NEW)”" [ref=e426] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/robin-sv021-new/
+                    - text: Seleccionar opciones
+                  - generic [ref=e427]: Este producto tiene múltiples variantes. Las opciones se pueden elegir en la página de producto
+              - generic [ref=e430]:
+                - generic [ref=e431]:
+                  - link "Electro-Harmonix EL84" [ref=e433] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/electro-harmonix-el84/
+                    - img "Electro-Harmonix EL84" [ref=e434]
+                  - generic:
+                    - link "Vista Rápida":
+                      - /url: "#quick-view"
+                  - generic [ref=e435]: Sin existencias
+                - generic [ref=e436]:
+                  - generic [ref=e437]:
+                    - paragraph [ref=e438]: Tubo de Vacío
+                    - paragraph [ref=e439]:
+                      - link "Electro-Harmonix EL84" [ref=e440] [cursor=pointer]:
+                        - /url: https://truehifi.cl/producto/electro-harmonix-el84/
+                  - generic [ref=e442]:
+                    - generic [ref=e444]: $31.500
+                    - generic [ref=e445]: IVA Incluido
+                  - link "Lee más sobre “Electro-Harmonix EL84”" [ref=e447] [cursor=pointer]:
+                    - /url: https://truehifi.cl/producto/electro-harmonix-el84/
+                    - text: Leer más
+          - generic [ref=e449]:
+            - link "Visitar la categoría de producto Accesorios" [ref=e452] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/accesorios/
+              - generic [ref=e453]:
+                - img "Accesorios" [ref=e455]
+                - generic [ref=e457]:
+                  - heading "Accesorios" [level=5] [ref=e458]
+                  - paragraph [ref=e459]: 14 Productos
+            - link "Visitar la categoría de producto Amplificador de Audífonos" [ref=e462] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+              - generic [ref=e463]:
+                - img "Amplificador de Audífonos" [ref=e465]
+                - generic [ref=e467]:
+                  - heading "Amplificador de Audífonos" [level=5] [ref=e468]
+                  - paragraph [ref=e469]: 10 Productos
+            - link "Visitar la categoría de producto Amplificador de Poder" [ref=e472] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+              - generic [ref=e473]:
+                - img "Amplificador de Poder" [ref=e475]
+                - generic [ref=e477]:
+                  - heading "Amplificador de Poder" [level=5] [ref=e478]
+                  - paragraph [ref=e479]: 1 Producto
+            - link "Visitar la categoría de producto Amplificador Integrado a Tubo" [ref=e482] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - generic [ref=e483]:
+                - img "Amplificador Integrado a Tubo" [ref=e485]
+                - generic [ref=e487]:
+                  - heading "Amplificador Integrado a Tubo" [level=5] [ref=e488]
+                  - paragraph [ref=e489]: 24 Productos
+            - link "Visitar la categoría de producto Amplificador Integrado SS" [ref=e492] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+              - generic [ref=e493]:
+                - img "Amplificador Integrado SS" [ref=e495]
+                - generic [ref=e497]:
+                  - heading "Amplificador Integrado SS" [level=5] [ref=e498]
+                  - paragraph [ref=e499]: 1 Producto
+            - link "Visitar la categoría de producto Cables" [ref=e502] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cables/
+              - generic [ref=e503]:
+                - img "Cables" [ref=e505]
+                - generic [ref=e507]:
+                  - heading "Cables" [level=5] [ref=e508]
+                  - paragraph [ref=e509]: 13 Productos
+            - link "Visitar la categoría de producto Cápsulas MM/MC" [ref=e512] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+              - generic [ref=e513]:
+                - img "Cápsulas MM/MC" [ref=e515]
+                - generic [ref=e517]:
+                  - heading "Cápsulas MM/MC" [level=5] [ref=e518]
+                  - paragraph [ref=e519]: 4 Productos
+            - link "Visitar la categoría de producto CD PLAYER" [ref=e522] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/cd-player/
+              - generic [ref=e523]:
+                - img "CD PLAYER" [ref=e525]
+                - generic [ref=e527]:
+                  - heading "CD PLAYER" [level=5] [ref=e528]
+                  - paragraph [ref=e529]: 5 Productos
+            - link "Visitar la categoría de producto DAC" [ref=e532] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/dac/
+              - generic [ref=e533]:
+                - img "DAC" [ref=e535]
+                - generic [ref=e537]:
+                  - heading "DAC" [level=5] [ref=e538]
+                  - paragraph [ref=e539]: 10 Productos
+            - link "Visitar la categoría de producto Hi-Fi Stereo Rack" [ref=e542] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+              - generic [ref=e543]:
+                - img "Hi-Fi Stereo Rack" [ref=e545]
+                - generic [ref=e547]:
+                  - heading "Hi-Fi Stereo Rack" [level=5] [ref=e548]
+                  - paragraph [ref=e549]: 2 Productos
+            - link "Visitar la categoría de producto Parlantes" [ref=e552] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/parlantes/
+              - generic [ref=e553]:
+                - img "Parlantes" [ref=e555]
+                - generic [ref=e557]:
+                  - heading "Parlantes" [level=5] [ref=e558]
+                  - paragraph [ref=e559]: 36 Productos
+            - link "Visitar la categoría de producto Personal Audio" [ref=e562] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/personal-audio/
+              - generic [ref=e563]:
+                - img "Personal Audio" [ref=e565]
+                - generic [ref=e567]:
+                  - heading "Personal Audio" [level=5] [ref=e568]
+                  - paragraph [ref=e569]: 10 Productos
+            - link "Visitar la categoría de producto Pre-Amplificadores" [ref=e572] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+              - generic [ref=e573]:
+                - img "Pre-Amplificadores" [ref=e575]
+                - generic [ref=e577]:
+                  - heading "Pre-Amplificadores" [level=5] [ref=e578]
+                  - paragraph [ref=e579]: 6 Productos
+            - link "Visitar la categoría de producto Preamp de Phono" [ref=e582] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+              - generic [ref=e583]:
+                - img "Preamp de Phono" [ref=e585]
+                - generic [ref=e587]:
+                  - heading "Preamp de Phono" [level=5] [ref=e588]
+                  - paragraph [ref=e589]: 2 Productos
+            - link "Visitar la categoría de producto Radio HiFi" [ref=e592] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+              - generic [ref=e593]:
+                - img "Radio HiFi" [ref=e595]
+                - generic [ref=e597]:
+                  - heading "Radio HiFi" [level=5] [ref=e598]
+                  - paragraph [ref=e599]: 2 Productos
+            - link "Visitar la categoría de producto Streamer - Network Player" [ref=e602] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/dap-2/
+              - generic [ref=e603]:
+                - img "Streamer - Network Player" [ref=e605]
+                - generic [ref=e607]:
+                  - heading "Streamer - Network Player" [level=5] [ref=e608]
+                  - paragraph [ref=e609]: 10 Productos
+            - link "Visitar la categoría de producto Subwoofer" [ref=e612] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/subwoofer/
+              - generic [ref=e613]:
+                - img "Subwoofer" [ref=e615]
+                - generic [ref=e617]:
+                  - heading "Subwoofer" [level=5] [ref=e618]
+                  - paragraph [ref=e619]: 2 Productos
+            - link "Visitar la categoría de producto Tornamesas" [ref=e622] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/tornamesas/
+              - generic [ref=e623]:
+                - img "Tornamesas" [ref=e625]
+                - generic [ref=e627]:
+                  - heading "Tornamesas" [level=5] [ref=e628]
+                  - paragraph [ref=e629]: 9 Productos
+            - link "Visitar la categoría de producto Tubo de Vacío" [ref=e632] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+              - generic [ref=e633]:
+                - img "Tubo de Vacío" [ref=e635]
+                - generic [ref=e637]:
+                  - heading "Tubo de Vacío" [level=5] [ref=e638]
+                  - paragraph [ref=e639]: 11 Productos
+            - link "Visitar la categoría de producto Usados" [ref=e642] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/usados/
+              - generic [ref=e643]:
+                - img "Usados" [ref=e645]
+                - generic [ref=e647]:
+                  - heading "Usados" [level=5] [ref=e648]
+                  - paragraph [ref=e649]: 17 Productos
+            - link "Visitar la categoría de producto Zapatillas / Filtros de Poder" [ref=e652] [cursor=pointer]:
+              - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+              - generic [ref=e653]:
+                - img "Zapatillas / Filtros de Poder" [ref=e655]
+                - generic [ref=e657]:
+                  - heading "Zapatillas / Filtros de Poder" [level=5] [ref=e658]
+                  - paragraph [ref=e659]: 1 Producto
+    - contentinfo [ref=e660]:
+      - generic [ref=e662]:
+        - img "bg_image" [ref=e665]
+        - generic [ref=e666]:
+          - list [ref=e668]:
+            - listitem [ref=e669]:
+              - link "Inicio" [ref=e670] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e671]:
+              - link "Seguimiento" [ref=e672] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e673]:
+              - link "Tienda" [ref=e674] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e675]:
+              - link "Contacto" [ref=e676] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e677]:
+            - text: Copyright 2026 ©
+            - strong [ref=e678]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e681] [cursor=pointer]:
+    - img
+  - status [ref=e682]

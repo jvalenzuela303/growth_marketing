@@ -1,0 +1,684 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - main [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: ESTAMOS MULTIPLICANDO NUESTRO EQUIPO
+        - link "Postula aquí" [ref=e11] [cursor=pointer]:
+          - /url: /careers
+          - generic [ref=e12]: Postula aquí
+          - img [ref=e13]
+      - generic [ref=e18]:
+        - link [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e27]:
+          - button "Plataforma" [ref=e29] [cursor=pointer]:
+            - text: Plataforma
+            - img [ref=e30]
+          - button "Clientes" [ref=e33] [cursor=pointer]:
+            - text: Clientes
+            - img [ref=e34]
+          - button "Recursos" [ref=e37] [cursor=pointer]:
+            - text: Recursos
+            - img [ref=e38]
+          - link "Precios" [ref=e40] [cursor=pointer]:
+            - /url: /pricing
+          - link "Nosotros" [ref=e41] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e42]:
+          - 'button "Selected country: Chile" [ref=e44] [cursor=pointer]':
+            - img "cl" [ref=e45]
+          - link "Iniciar Sesión" [ref=e46] [cursor=pointer]:
+            - /url: https://app.vambeai.com/login
+            - button "Iniciar Sesión" [ref=e47]
+          - link "Agenda Demo" [ref=e48] [cursor=pointer]:
+            - /url: /contact
+            - button "Agenda Demo" [ref=e49]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - img "Vambe" [ref=e56]
+          - heading "Centraliza y automatiza todos tus canales en una plataforma" [level=1] [ref=e57]:
+            - text: Centraliza y automatiza
+            - text: todos tus canales en una plataforma
+          - paragraph [ref=e58]: Vambe centraliza conversaciones y orquesta agentes de IA para convertir más y operar con menos fricción.
+          - generic [ref=e59]:
+            - link "Agenda una demo" [ref=e60] [cursor=pointer]:
+              - /url: /contact
+              - text: Agenda una demo
+              - img [ref=e61]
+            - link "Ver precios" [ref=e63] [cursor=pointer]:
+              - /url: /pricing
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e68]:
+              - generic [ref=e70]:
+                - img [ref=e72]
+                - generic [ref=e86]:
+                  - generic [ref=e87]: 🌎
+                  - generic [ref=e88]: Embudo Global
+                  - img [ref=e89]
+              - main [ref=e91]:
+                - generic [ref=e92]:
+                  - heading "IA - Calificación CH" [level=3] [ref=e93]:
+                    - img [ref=e95]
+                    - text: IA - Calificación CH
+                  - generic [ref=e100]:
+                    - generic [ref=e101]:
+                      - generic [ref=e102]:
+                        - img [ref=e103]
+                        - paragraph [ref=e107]: Usuario
+                      - img [ref=e108]
+                    - paragraph [ref=e114]: Conversación en curso...
+                    - generic [ref=e115]:
+                      - generic [ref=e116]: Atendido por IA
+                      - generic [ref=e117]: Hoy
+                - heading "IA - Simulación CH" [level=3] [ref=e119]:
+                  - img [ref=e121]
+                  - text: IA - Simulación CH
+                - heading "IA - Cal CH" [level=3] [ref=e126]:
+                  - img [ref=e128]
+                  - text: IA - Cal CH
+                - heading "IA - En Agendamiento CH" [level=3] [ref=e133]:
+                  - img [ref=e135]
+                  - text: IA - En Agendamiento CH
+                - heading "Push Manual CH" [level=3] [ref=e140]:
+                  - img [ref=e142]
+                  - text: Push Manual CH
+                - heading "IA - Demo Agendada por IA CH" [level=3] [ref=e147]:
+                  - img [ref=e149]
+                  - text: IA - Demo Agendada por IA CH
+                - heading "Demo Agendada (Manual o Cal) CH" [level=3] [ref=e154]:
+                  - img [ref=e156]
+                  - text: Demo Agendada (Manual o Cal) CH
+                - heading "Demo por Re-agendar CH" [level=3] [ref=e161]:
+                  - img [ref=e163]
+                  - text: Demo por Re-agendar CH
+                - heading "OB por reagendar CH" [level=3] [ref=e168]:
+                  - img [ref=e170]
+                  - text: OB por reagendar CH
+                - heading "Propuesta enviada CH" [level=3] [ref=e175]:
+                  - img [ref=e177]
+                  - text: Propuesta enviada CH
+                - heading "Corporate CH" [level=3] [ref=e182]:
+                  - img [ref=e184]
+                  - text: Corporate CH
+                - heading "Basura CH" [level=3] [ref=e189]:
+                  - img [ref=e191]
+                  - text: Basura CH
+                - heading "SQL - Self Serve CH" [level=3] [ref=e196]:
+                  - img [ref=e198]
+                  - text: SQL - Self Serve CH
+                - heading "IA - Iris CH" [level=3] [ref=e203]:
+                  - img [ref=e205]
+                  - text: IA - Iris CH
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - img [ref=e218]
+                - img "Vambe AI" [ref=e220]
+                - generic [ref=e221]:
+                  - paragraph [ref=e222]: Vambe Sales
+                  - paragraph [ref=e223]: en línea
+                - button [ref=e225]:
+                  - img [ref=e226]
+              - main [ref=e230]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]: 📱
+                  - heading "Bienvenido a Vambe" [level=2] [ref=e234]
+                  - paragraph [ref=e235]: Ingresa un mensaje inicial para comenzar
+                  - paragraph [ref=e237]: Prueba la experiencia de chat con Vambe
+              - generic [ref=e239]:
+                - textbox "Escribe un mensaje..." [ref=e241]
+                - button [disabled] [ref=e242]:
+                  - img [ref=e243]
+          - generic [ref=e245]:
+            - img [ref=e247]
+            - generic [ref=e251]:
+              - img [ref=e253]
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - heading "¡Prueba la IA ahora!" [level=3] [ref=e257]
+                  - img [ref=e258]
+                - paragraph [ref=e260]: Escribe un mensaje en el teléfono y conversa con nuestra IA en tiempo real
+              - button "Cerrar" [ref=e261]:
+                - img [ref=e262]
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - heading "La Plataforma en Acción" [level=2] [ref=e269]
+          - paragraph [ref=e270]: Explora las capacidades de Vambe con capturas reales de la plataforma. Descubre cómo puedes automatizar conversaciones, optimizar campañas y conectar todos tus sistemas.
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e279]: www.vambeai.com
+              - generic [ref=e281]:
+                - img "Dashboard de Vambe mostrando conversaciones y métricas en tiempo real" [ref=e282]
+                - generic [ref=e283]:
+                  - button "Dashboard específicos" [ref=e285]:
+                    - img [ref=e286]
+                  - button "Todos tus canales" [ref=e290]:
+                    - img [ref=e291]
+                  - button "Información de tu equipo y más" [ref=e295]:
+                    - img [ref=e296]
+            - button "Previous screenshot" [ref=e299]:
+              - img [ref=e300]
+            - button "Next screenshot" [ref=e302]:
+              - img [ref=e303]
+          - generic [ref=e305]:
+            - heading "Dashboard Unificado con Atribución" [level=3] [ref=e306]
+            - paragraph [ref=e307]: Centraliza todas las conversaciones y cierres en una sola vista con métricas en tiempo real.
+          - generic [ref=e308]:
+            - button "Go to screenshot 1" [ref=e309]
+            - button "Go to screenshot 2" [ref=e310]
+            - button "Go to screenshot 3" [ref=e311]
+            - button "Go to screenshot 4" [ref=e312]
+            - button "Go to screenshot 5" [ref=e313]
+      - generic [ref=e316]:
+        - complementary [ref=e319]:
+          - navigation [ref=e321]:
+            - button "Resultados" [ref=e322]
+            - button "Capacidades" [ref=e323]
+            - button "Cómo funciona" [ref=e324]
+            - button "Ecosistema" [ref=e325]
+            - button "En acción" [ref=e326]
+        - generic [ref=e327]:
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - generic [ref=e331]: 99.95%
+              - generic [ref=e332]: Disponibilidad
+              - generic [ref=e333]: SLA empresarial
+            - generic [ref=e334]:
+              - generic [ref=e335]: "+7"
+              - generic [ref=e336]: Canales
+              - generic [ref=e337]: WhatsApp, Webchat, Instagram y más
+            - generic [ref=e338]:
+              - generic [ref=e339]: "+50"
+              - generic [ref=e340]: Integraciones
+              - generic [ref=e341]: CRMs, pagos, calendarios
+            - generic [ref=e342]:
+              - generic [ref=e343]: Ingeniería
+              - generic [ref=e344]: Onboarding
+              - generic [ref=e345]: Implementación guiada
+          - generic [ref=e347]:
+            - generic [ref=e348]:
+              - heading "La plataforma todo en uno para crecer" [level=2] [ref=e349]
+              - paragraph [ref=e350]: Lo que necesitas para automatizar tu operación comercial
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - heading "Conversación" [level=3] [ref=e354]
+                - list [ref=e355]:
+                  - listitem [ref=e356]:
+                    - generic [ref=e358]:
+                      - paragraph [ref=e359]: IA aplicada a múltiples canales
+                      - paragraph [ref=e360]: WhatsApp, Instagram, Facebook, Webchat y más
+                    - img [ref=e361]
+                  - listitem [ref=e363]:
+                    - generic [ref=e365]:
+                      - paragraph [ref=e366]: Calificación automática de leads
+                      - paragraph [ref=e367]: Identifica la calidad del lead y lo mueve de etapa
+                    - img [ref=e368]
+                  - listitem [ref=e370]:
+                    - generic [ref=e372]:
+                      - paragraph [ref=e373]: Nutrición y seguimiento 24/7
+                      - paragraph [ref=e374]: Mantén a tu cliente en el camino correcto
+                    - img [ref=e375]
+                  - listitem [ref=e377]:
+                    - generic [ref=e379]:
+                      - paragraph [ref=e380]: Experiencia personalizada
+                      - paragraph [ref=e381]: Contexto de todo el viaje del cliente
+                    - img [ref=e382]
+              - generic [ref=e384]:
+                - heading "Automatización" [level=3] [ref=e386]
+                - list [ref=e387]:
+                  - listitem [ref=e388]:
+                    - generic [ref=e390]:
+                      - paragraph [ref=e391]: Agentes de IA para conversaciones
+                      - paragraph [ref=e392]: Específicos para cada función
+                    - img [ref=e393]
+                  - listitem [ref=e395]:
+                    - generic [ref=e397]:
+                      - paragraph [ref=e398]: Embudo con procesos automáticos
+                      - paragraph [ref=e399]: Y con el conocimiento total de tu negocio
+                    - img [ref=e400]
+                  - listitem [ref=e402]:
+                    - generic [ref=e404]:
+                      - paragraph [ref=e405]: Integraciones sin código
+                      - paragraph [ref=e406]: Construye todo lo que necesitas con Connect
+                    - img [ref=e407]
+                  - listitem [ref=e409]:
+                    - generic [ref=e411]:
+                      - paragraph [ref=e412]: Funciones automáticas y conectores
+                      - paragraph [ref=e413]: Acciona en todos tus sistemas
+                    - img [ref=e414]
+              - generic [ref=e416]:
+                - heading "Inteligencia Artificial" [level=3] [ref=e418]
+                - list [ref=e419]:
+                  - listitem [ref=e420]:
+                    - generic [ref=e422]:
+                      - paragraph [ref=e423]: Priorización de oportunidades
+                      - paragraph [ref=e424]: Identifica oportunidades de alto valor con IA y reglas
+                    - img [ref=e425]
+                  - listitem [ref=e427]:
+                    - generic [ref=e429]:
+                      - paragraph [ref=e430]: Atribución real a ingresos
+                      - paragraph [ref=e431]: Asigna ingresos a oportunidades con IA
+                    - img [ref=e432]
+                  - listitem [ref=e434]:
+                    - generic [ref=e436]:
+                      - paragraph [ref=e437]: Recomendaciones accionables
+                      - paragraph [ref=e438]: Recomendaciones basadas en datos reales
+                    - img [ref=e439]
+                  - listitem [ref=e441]:
+                    - generic [ref=e443]:
+                      - paragraph [ref=e444]: Dashboards e insights
+                      - paragraph [ref=e445]: Observa las métricas de tu negocio en detalle
+                    - img [ref=e446]
+              - generic [ref=e448]:
+                - heading "Confiabilidad" [level=3] [ref=e450]
+                - list [ref=e451]:
+                  - listitem [ref=e452]:
+                    - generic [ref=e454]:
+                      - paragraph [ref=e455]: SOC 2 + ISO 27001 (en proceso)
+                      - paragraph [ref=e456]: Certificación en proceso por DRATA
+                    - img [ref=e457]
+                  - listitem [ref=e459]:
+                    - generic [ref=e461]:
+                      - paragraph [ref=e462]: Alta disponibilidad
+                      - paragraph [ref=e463]: SLA empresarial del 99.95%
+                    - img [ref=e464]
+                  - listitem [ref=e466]:
+                    - generic [ref=e468]:
+                      - paragraph [ref=e469]: Observabilidad
+                      - paragraph [ref=e470]: Monitoreo y control de registros
+                    - img [ref=e471]
+                  - listitem [ref=e473]:
+                    - generic [ref=e475]:
+                      - paragraph [ref=e476]: Modelos de IA en entorno seguro
+                      - paragraph [ref=e477]: Tu información y la de tus clientes están a salvo
+                    - img [ref=e478]
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - heading "Así funciona en tu día a día" [level=2] [ref=e484]
+              - paragraph [ref=e485]: Del primer contacto a la atribución de ingresos, con menos fricción operativa.
+            - list [ref=e486]:
+              - listitem [ref=e487]:
+                - generic [ref=e488]: "1"
+                - generic [ref=e490]:
+                  - heading "Captura, centraliza y unifica" [level=3] [ref=e491]
+                  - paragraph [ref=e492]: Centraliza cada interacción de WhatsApp, Instagram y tu web en un perfil de cliente único.
+              - listitem [ref=e493]:
+                - generic [ref=e494]: "2"
+                - generic [ref=e496]:
+                  - heading "Califica leads y cierra ventas en automático" [level=3] [ref=e497]
+                  - paragraph [ref=e498]: La IA analiza cada conversación para identificar y entregar a tu equipo solo las oportunidades de valor.
+              - listitem [ref=e499]:
+                - generic [ref=e500]: "3"
+                - generic [ref=e502]:
+                  - heading "Orquesta y ejecuta acciones reales" [level=3] [ref=e503]
+                  - paragraph [ref=e504]: Múltiples agentes de IA actualizan tu CRM, agendan reuniones o procesa un pago, sin intervención humana.
+              - listitem [ref=e505]:
+                - generic [ref=e506]: "4"
+                - generic [ref=e508]:
+                  - heading "Mide y optimiza basado en resultados objetivos" [level=3] [ref=e509]
+                  - paragraph [ref=e510]: Obtén reportes de atribución real y usa los datos para que tus agentes y campañas sean cada vez más inteligentes.
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - heading "Vambe como plataforma central" [level=2] [ref=e513]
+              - paragraph [ref=e514]: Descubre cómo Vambe, Connect y Ads trabajan juntos para multiplicar tu crecimiento
+            - generic [ref=e515]:
+              - generic [ref=e516]:
+                - heading "Explora la Plataforma" [level=3] [ref=e517]
+                - paragraph [ref=e518]: Descubre cómo Vambe, Connect y Ads trabajan juntos para potenciar tu negocio
+              - generic [ref=e519]:
+                - generic [ref=e520] [cursor=pointer]:
+                  - generic [ref=e521]:
+                    - img [ref=e524]
+                    - generic [ref=e534]:
+                      - heading "Vambe" [level=4] [ref=e535]
+                      - paragraph [ref=e536]: La base de tu operación comercial
+                  - generic [ref=e537]:
+                    - generic [ref=e540]: IA Conversacional Multi-Canal
+                    - generic [ref=e543]: Calificación Automática de Leads
+                    - generic [ref=e546]: Ejecución de Acciones (CRM, calendarios)
+                    - generic [ref=e549]: Análisis Predictivo de Oportunidades
+                  - generic [ref=e550]: 💡 3x más conversiones sin aumentar personal
+                  - img [ref=e552]
+                - generic [ref=e554] [cursor=pointer]:
+                  - generic [ref=e555]:
+                    - img [ref=e558]
+                    - generic [ref=e561]:
+                      - heading "Vambe Connect" [level=4] [ref=e562]
+                      - paragraph [ref=e563]: Conecta todas tus aplicaciones
+                  - generic [ref=e564]:
+                    - generic [ref=e567]: Integración sin código con CRMs
+                    - generic [ref=e570]: Flujos de Trabajo Complejos
+                    - generic [ref=e573]: Sincronización de Datos en Tiempo Real
+                    - generic [ref=e576]: Automatización de Procesos
+                  - generic [ref=e577]: 💡 70% menos tiempo en tareas administrativas
+                  - img [ref=e579]
+                - generic [ref=e581] [cursor=pointer]:
+                  - generic [ref=e582]:
+                    - img [ref=e585]
+                    - generic [ref=e589]:
+                      - heading "Vambe Ads" [level=4] [ref=e590]
+                      - paragraph [ref=e591]: Inteligencia publicitaria que retroalimenta
+                  - generic [ref=e592]:
+                    - generic [ref=e595]: Atribución Real de Conversiones
+                    - generic [ref=e598]: Audiencias Dinámicas
+                    - generic [ref=e601]: Optimización Automática de Presupuesto
+                    - generic [ref=e604]: Retroalimentación de Campañas
+                  - generic [ref=e605]: 💡 50% mejor ROAS con atribución real
+                  - img [ref=e607]
+              - generic [ref=e610]:
+                - img [ref=e611]
+                - generic [ref=e614]: Haz clic en cada componente para ver cómo se conecta
+          - generic [ref=e615]:
+            - generic [ref=e616]:
+              - heading "Conoce Vambe en acción" [level=2] [ref=e617]
+              - paragraph [ref=e618]: Explora demos reales de cómo Vambe transforma operaciones comerciales
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - heading "Ejemplos de conversaciones con IA" [level=3] [ref=e621]
+                - paragraph [ref=e622]: Explora demos interactivas de cómo Vambe transforma tu operación
+              - generic [ref=e623]:
+                - button "Prospección y calificación" [ref=e624]:
+                  - img [ref=e625]
+                  - text: Prospección y calificación
+                - button "Interacciones en todo horario" [ref=e635]:
+                  - img [ref=e636]
+                  - text: Interacciones en todo horario
+                - button "Crecimiento de ventas" [ref=e638]:
+                  - img [ref=e639]
+                  - text: Crecimiento de ventas
+              - generic [ref=e643] [cursor=pointer]:
+                - generic [ref=e644]:
+                  - img [ref=e647]
+                  - generic [ref=e651]:
+                    - heading "Calificación Automática de Leads" [level=4] [ref=e652]
+                    - paragraph [ref=e653]: La IA identifica leads calificados en segundos
+                  - img [ref=e654]
+                - generic [ref=e656]:
+                  - generic [ref=e657]:
+                    - generic [ref=e659]: Ejemplo de conversación
+                    - generic [ref=e660]:
+                      - generic [ref=e663]: Hola, quiero info sobre sus servicios para mi empresa
+                      - generic [ref=e666]: ¡Perfecto! Para darte la mejor información, ¿cuántos empleados tiene tu empresa?
+                      - generic [ref=e669]: Somos como 150 personas
+                      - generic [ref=e672]: ¿Y cuál es el principal desafío en ventas que enfrentan?
+                      - generic [ref=e675]: Nos cuesta mucho hacer seguimiento a todos los leads
+                      - generic [ref=e678]: "✅ Lead calificado: Empresa mediana con dolor específico. Te conecto con un especialista."
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - generic [ref=e681]: Antes
+                      - generic [ref=e682]: 45 min
+                      - generic [ref=e683]: Tiempo de calificación manual
+                    - generic [ref=e684]:
+                      - generic [ref=e685]: Con Vambe
+                      - generic [ref=e686]: 2 min
+                      - generic [ref=e687]: Tiempo con IA
+      - generic [ref=e688]:
+        - generic [ref=e689]:
+          - heading "Playbooks de automatización" [level=2] [ref=e690]
+          - paragraph [ref=e691]: "Visualiza flujos listos: Carrito abandonado, onboarding de leads y no-shows. La IA sugiere la siguiente mejor acción."
+        - generic [ref=e696]:
+          - generic [ref=e697]:
+            - heading "Playbooks WhatsApp" [level=3] [ref=e698]
+            - generic [ref=e699]:
+              - button "Mensajes Entrantes Activo" [ref=e700] [cursor=pointer]:
+                - generic [ref=e701]:
+                  - generic [ref=e702]: Mensajes Entrantes
+                  - generic [ref=e703]: Activo
+              - button "Soporte al Cliente Ver" [ref=e704] [cursor=pointer]:
+                - generic [ref=e705]:
+                  - generic [ref=e706]: Soporte al Cliente
+                  - generic [ref=e707]: Ver
+              - button "Ventas Conversacionales Ver" [ref=e708] [cursor=pointer]:
+                - generic [ref=e709]:
+                  - generic [ref=e710]: Ventas Conversacionales
+                  - generic [ref=e711]: Ver
+              - button "Seguimiento Post-Venta Ver" [ref=e712] [cursor=pointer]:
+                - generic [ref=e713]:
+                  - generic [ref=e714]: Seguimiento Post-Venta
+                  - generic [ref=e715]: Ver
+            - generic [ref=e716]: Flujos conversacionales optimizados para WhatsApp. La IA mantiene el contexto y sugiere la siguiente mejor acción en cada interacción.
+          - generic [ref=e718]:
+            - generic [ref=e719]:
+              - button "-" [ref=e720] [cursor=pointer]
+              - button "Reset" [ref=e721] [cursor=pointer]
+              - button "+" [ref=e722] [cursor=pointer]
+            - img [ref=e723]:
+              - generic [ref=e729]: Mensaje entrante
+              - generic [ref=e732]: Clasificación IA
+              - generic [ref=e735]: Respuesta automática
+              - generic [ref=e738]: Escalar a humano
+              - generic [ref=e741]: Humano toma control
+              - generic [ref=e744]: Resuelto automáticamente
+      - generic [ref=e745]:
+        - generic [ref=e746]:
+          - heading "Cuánto puede crecer tu negocio con Inteligencia Artificial" [level=2] [ref=e747]
+          - paragraph [ref=e748]: Explora el potencial de incremento en ventas y conversiones a través de los diferentes canales de mensajería claves en tu operación
+        - generic [ref=e751]:
+          - generic [ref=e752]:
+            - generic [ref=e753]:
+              - generic [ref=e754]: "Expectativa:"
+              - generic [ref=e755]:
+                - button "Moderada" [ref=e756]
+                - button "Realista" [ref=e757]
+                - button "Optimista" [ref=e758]
+            - generic [ref=e759]:
+              - generic [ref=e760]: "Plazo:"
+              - generic [ref=e761]:
+                - button "6 meses" [ref=e762]
+                - button "1 año" [ref=e763]
+                - button "2 años" [ref=e764]
+          - generic [ref=e765]:
+            - generic [ref=e766]:
+              - generic [ref=e767]:
+                - heading "Potencial de incremento en ventas" [level=3] [ref=e768]
+                - paragraph [ref=e769]: Comparación con y sin IA conversacional
+              - generic [ref=e770]:
+                - generic [ref=e781]:
+                  - generic [ref=e782]: Con la IA de Vambe
+                  - generic [ref=e784]: Sin Inteligencia Artificial
+                - paragraph [ref=e786]: Información basada en datos reales de comercios midmarket que implementaron IA conversacional. Los resultados individuales pueden variar.
+            - generic [ref=e787]:
+              - generic [ref=e788]:
+                - heading "Distribución de conversiones por canal" [level=3] [ref=e789]
+                - paragraph [ref=e790]: Dónde ocurre el crecimiento adicional
+              - generic [ref=e791]:
+                - generic [ref=e802]:
+                  - generic [ref=e803]: WhatsApp
+                  - generic [ref=e805]: Instagram
+                  - generic [ref=e807]: Messenger
+                  - generic [ref=e809]: Vambe Webchat
+                - paragraph [ref=e811]: Datos aproximados basados en comportamiento típico de usuarios por plataforma digital.
+      - generic [ref=e815]:
+        - generic [ref=e816]:
+          - generic [ref=e817]:
+            - img [ref=e818]
+            - generic [ref=e821]: Historias de éxito
+          - heading "Lo que dicen nuestros clientes de Vambe Main" [level=2] [ref=e822]:
+            - text: Lo que dicen nuestros clientes de
+            - generic [ref=e823]: Vambe Main
+          - paragraph [ref=e824]: Resultados reales de clientes que transformaron su negocio con nuestra plataforma.
+        - generic [ref=e825]:
+          - generic [ref=e826]:
+            - img [ref=e827]
+            - blockquote [ref=e830]: “Gracias a Vambe, logramos escalar nuestras operaciones a nivel internacional sin perder la cercanía con nuestros clientes. La IA nos permite mantener conversaciones personalizadas a gran escala.”
+            - generic [ref=e831]:
+              - generic [ref=e832]:
+                - img "Tomás Ulloa" [ref=e834]
+                - generic [ref=e835]:
+                  - generic [ref=e836]: Tomás Ulloa
+                  - generic [ref=e837]: Co-fundador
+                  - generic [ref=e838]: Reuse
+              - generic [ref=e839]:
+                - generic [ref=e840]: +220%
+                - generic [ref=e841]:
+                  - img [ref=e842]
+                  - text: Aumento en ventas
+          - generic [ref=e846]:
+            - img [ref=e847]
+            - blockquote [ref=e850]: “Pasamos de hacer esperar a nuestros clientes horas a responder en segundos. La IA de Vambe conoce nuestro catálogo mejor que algunos vendedores.”
+            - generic [ref=e851]:
+              - generic [ref=e852]:
+                - img "Equipo Zola" [ref=e854]
+                - generic [ref=e855]:
+                  - generic [ref=e856]: Equipo Zola
+                  - generic [ref=e857]: E-commerce Team
+                  - generic [ref=e858]: Zola Outdoor
+              - generic [ref=e859]:
+                - generic [ref=e860]: +45%
+                - generic [ref=e861]:
+                  - img [ref=e862]
+                  - text: Conversión
+        - generic [ref=e867]:
+          - generic [ref=e868]:
+            - generic [ref=e869]:
+              - generic [ref=e870]: A
+              - generic [ref=e871]: B
+              - generic [ref=e872]: C
+              - generic [ref=e873]: D
+              - generic [ref=e874]: E
+            - generic [ref=e875]:
+              - generic [ref=e876]: 1500+ usuarios
+              - generic [ref=e877]: Crecemos cada día
+          - generic [ref=e879]:
+            - generic [ref=e880]:
+              - img [ref=e881]
+              - img [ref=e883]
+              - img [ref=e885]
+              - img [ref=e887]
+              - img [ref=e889]
+            - generic [ref=e891]:
+              - generic [ref=e892]: 4.9/5 Calificación promedio
+              - generic [ref=e893]: De clientes verificados
+          - generic [ref=e895]:
+            - generic [ref=e896]: Únete al éxito
+            - link "Agenda una Demo →" [ref=e898] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e902]:
+        - heading "Elige tu plan de Vambe" [level=2] [ref=e903]
+        - paragraph [ref=e904]: Planes flexibles que crecen con tu negocio y objetivos de automatización.
+        - generic [ref=e905]:
+          - link "Ver planes y precios" [ref=e906] [cursor=pointer]:
+            - /url: /pricing
+            - text: Ver planes y precios
+            - img [ref=e907]
+          - paragraph [ref=e909]: Implementación personalizada • Sin compromiso de permanencia
+      - generic [ref=e912]:
+        - generic [ref=e913]:
+          - generic [ref=e914]:
+            - generic [ref=e915]:
+              - link [ref=e916] [cursor=pointer]:
+                - /url: /
+                - img [ref=e917]
+              - button "Select country" [ref=e926] [cursor=pointer]:
+                - img "cl" [ref=e927]
+                - generic [ref=e928]: Chile
+                - img [ref=e929]
+            - paragraph [ref=e931]: Vambe usa inteligencia artificial para que cada cliente de tu negocio reciba la atención que merece, justo cuando y como la necesita, y eso se traduzca en más ventas y menos costos.
+            - img "Conversaciones que fluyen. Negocios que avanzan" [ref=e932]
+            - generic [ref=e933]:
+              - link "Download on App Store" [ref=e934] [cursor=pointer]:
+                - /url: https://apps.apple.com/ag/app/vambe/id6738705292
+                - img "Download on App Store" [ref=e935]
+              - link "Get it on Google Play" [ref=e936] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.vambe
+                - img "Get it on Google Play" [ref=e937]
+          - generic [ref=e938]:
+            - heading "Producto" [level=5] [ref=e939]
+            - list [ref=e940]:
+              - listitem [ref=e941]:
+                - link "Plataforma" [ref=e942] [cursor=pointer]:
+                  - /url: /platform
+              - listitem [ref=e943]:
+                - link "Ads" [ref=e944] [cursor=pointer]:
+                  - /url: /extension/ads
+              - listitem [ref=e945]:
+                - link "Precios" [ref=e946] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e947]:
+                - link "Services" [ref=e948] [cursor=pointer]:
+                  - /url: /services
+          - generic [ref=e949]:
+            - heading "Empresa" [level=5] [ref=e950]
+            - list [ref=e951]:
+              - listitem [ref=e952]:
+                - link "Nosotros" [ref=e953] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e954]:
+                - link "Careers" [ref=e955] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e956]:
+                - link "Contacto" [ref=e957] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=e958]:
+            - heading "Social" [level=5] [ref=e959]
+            - list [ref=e960]:
+              - listitem [ref=e961]:
+                - link "Facebook" [ref=e962] [cursor=pointer]:
+                  - /url: https://facebook.com/vambeai
+                  - img [ref=e963]
+                  - text: Facebook
+              - listitem [ref=e965]:
+                - link "YouTube" [ref=e966] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@vambeai
+                  - img [ref=e967]
+                  - text: YouTube
+              - listitem [ref=e970]:
+                - link "Instagram" [ref=e971] [cursor=pointer]:
+                  - /url: https://instagram.com/vambeai
+                  - img [ref=e972]
+                  - text: Instagram
+              - listitem [ref=e975]:
+                - link "LinkedIn" [ref=e976] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/vambe/
+                  - img [ref=e977]
+                  - text: LinkedIn
+        - generic [ref=e982]:
+          - paragraph [ref=e984]:
+            - generic [ref=e985]: HQ 🇨🇱
+            - generic [ref=e986]: "Av. Vitacura #2939, Piso 3, Oficina 302. Las Condes, Santiago de Chile"
+          - paragraph [ref=e988]:
+            - generic [ref=e989]: OF 🇲🇽
+            - generic [ref=e990]: "Av. Chapultepec #360, Piso 3, Oficina 1001. Roma Norte, Cuauhtémoc, CDMX"
+        - generic [ref=e992]:
+          - generic [ref=e993]:
+            - heading "Partners" [level=5] [ref=e994]
+            - generic:
+              - img "Meta Business Partner"
+              - img "NVIDIA Inception Program"
+          - generic [ref=e995]:
+            - heading "Cumplimiento" [level=5] [ref=e996]
+            - generic [ref=e997]:
+              - img "ISO/IEC 27001 — Gestión de seguridad de la información"
+              - img "SOC 2 — Controles de seguridad"
+          - generic [ref=e998]:
+            - heading "Hecho con en Latam" [level=5] [ref=e999]:
+              - text: Hecho con
+              - img [ref=e1000]
+              - text: en Latam
+            - generic [ref=e1002]:
+              - img "Marca Chile" [ref=e1003]
+              - img "Hecho en México" [ref=e1005]
+          - generic [ref=e1006]:
+            - heading "Backed by" [level=5] [ref=e1007]
+            - generic [ref=e1008]:
+              - link "Monashees" [ref=e1009] [cursor=pointer]:
+                - /url: https://www.monashees.com/portfolio?name=vambe
+                - img "Monashees" [ref=e1010]
+              - link "Nazca" [ref=e1011] [cursor=pointer]:
+                - /url: https://www.nazca.vc/portfolio/vambe
+                - img "Nazca" [ref=e1012]
+              - link "M13" [ref=e1013] [cursor=pointer]:
+                - /url: https://www.m13.co/company/vambe
+                - img "M13" [ref=e1014]
+        - generic [ref=e1015]:
+          - paragraph [ref=e1016]: Copyright © 2025 Vambe AI, Inc. & sus subsidiarias — Todos los derechos reservados
+          - generic [ref=e1017]:
+            - link "Política de Privacidad" [ref=e1018] [cursor=pointer]:
+              - /url: /privacy
+            - link "Términos de Servicio" [ref=e1019] [cursor=pointer]:
+              - /url: /terms
+    - button "Abrir centro de ayuda" [ref=e1020] [cursor=pointer]:
+      - img [ref=e1021]
+  - alert [ref=e1024]

@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Mosan Electric" [ref=e8] [cursor=pointer]:
+          - /url: https://mosanelectric.cl/
+          - img "Mosan Electric" [ref=e9]
+        - generic:
+          - navigation:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Inicio" [ref=e12] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e13]:
+                - link "Nosotros" [ref=e14] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e15]:
+                - link "Productos" [ref=e16] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e17]:
+                - text: 
+                - link "Contacto" [ref=e18] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+    - heading "Productos" [level=2] [ref=e25]
+    - generic [ref=e28]:
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "🔍" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+            - link "ETCR9500B" [ref=e36] [cursor=pointer]:
+              - /url: https://mosanelectric.cl/wp-content/uploads/2021/04/ETCR9500B.jpg
+              - img "ETCR9500B" [ref=e37]
+          - generic [ref=e38]:
+            - heading "Medidor de corriente y razón transformación en Media Tensión ETCR" [level=1] [ref=e39]
+            - paragraph
+            - paragraph [ref=e41]:
+              - text: El
+              - strong [ref=e42]: Medidor de Corriente y Razón de Transformación en Media Tensión ETCR
+              - text: es un instrumento de medición avanzado diseñado para evaluar la corriente eléctrica y la razón de transformación en sistemas de media tensión. Este dispositivo es ideal para profesionales de la electricidad y la energía que necesitan realizar pruebas de transformación de corriente, y se utiliza principalmente en redes eléctricas industriales y de distribución. El medidor proporciona mediciones precisas y fiables para garantizar el funcionamiento eficiente de los transformadores de corriente y otros equipos eléctricos en sistemas de media tensión.
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - text: "Categorías:"
+                - link "AMPERIMETROS DE MEDIA Y ALTA TENSIÓN" [ref=e45] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/amperimetros-de-media-y-alta-tension/
+                - text: ","
+                - link "ETCR" [ref=e46] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/etcr/
+                - text: ","
+                - link "MARCAS" [ref=e47] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/categoria-producto/marcas/
+              - generic [ref=e48]:
+                - text: "Etiquetas:"
+                - link "Amperimetro" [ref=e49] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/amperimetro/
+                - text: ","
+                - link "Corriente" [ref=e50] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/corriente/
+                - text: ","
+                - link "Electricidad" [ref=e51] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/electricidad/
+                - text: ","
+                - link "ETCR" [ref=e52] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/etcr/
+                - text: ","
+                - link "Medicion" [ref=e53] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/medicion/
+                - text: ","
+                - link "Productos" [ref=e54] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/productos/
+                - text: ","
+                - link "Tension" [ref=e55] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/tension/
+                - text: ","
+                - link "Voltaje" [ref=e56] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/etiqueta-producto/voltaje/
+          - generic [ref=e57]:
+            - tablist [ref=e58]:
+              - tab "Descripción" [selected] [ref=e59]:
+                - link "Descripción" [ref=e60] [cursor=pointer]:
+                  - /url: "#tab-description"
+              - tab "Valoraciones (1)" [ref=e61]:
+                - link "Valoraciones (1)" [ref=e62] [cursor=pointer]:
+                  - /url: "#tab-reviews"
+            - tabpanel "Descripción" [ref=e63]:
+              - heading "Descripción" [level=2] [ref=e64]
+              - blockquote [ref=e65]:
+                - paragraph [ref=e66]:
+                  - strong [ref=e67]: "Características:"
+                - list [ref=e68]:
+                  - listitem [ref=e69]:
+                    - strong [ref=e70]: Medición de corriente precisa
+                    - text: ": Permite medir la corriente en sistemas de media tensión con alta precisión."
+                  - listitem [ref=e71]:
+                    - strong [ref=e72]: Cálculo de razón de transformación
+                    - text: ": Ayuda a verificar la razón de transformación en transformadores de corriente para asegurar su correcto funcionamiento."
+                  - listitem [ref=e73]:
+                    - strong [ref=e74]: Pantalla digital
+                    - text: ": Display claro que muestra las mediciones de corriente y la razón de transformación."
+                  - listitem [ref=e75]:
+                    - strong [ref=e76]: Diseño robusto
+                    - text: ": Construcción duradera, ideal para entornos industriales y de campo."
+                  - listitem [ref=e77]:
+                    - strong [ref=e78]: Fácil uso
+                    - text: ": Diseño intuitivo que facilita su operación en aplicaciones complejas y de alta tensión."
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]: Verificación de transformadores de corriente
+                    - text: ": Utilizado para la prueba y calibración de transformadores de corriente en redes de media tensión."
+                - paragraph [ref=e81]:
+                  - strong [ref=e82]: "Especificaciones:"
+                - list [ref=e83]:
+                  - listitem [ref=e84]:
+                    - strong [ref=e85]: Medición de corriente
+                    - text: ":"
+                    - list [ref=e86]:
+                      - listitem [ref=e87]: "Rango de medición: 0-1000A (dependiendo del modelo y la configuración de las pinzas)"
+                  - listitem [ref=e88]:
+                    - strong [ref=e89]: Razón de transformación
+                    - text: ":"
+                    - list [ref=e90]:
+                      - listitem [ref=e91]: "Rango de medición de la razón de transformación: 1:1 hasta 5000:1 (ajustable según el transformador a medir)"
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Frecuencia de operación
+                    - text: ": 50Hz – 60Hz"
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Pantalla
+                    - text: ": Pantalla digital de alta resolución con retroiluminación"
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Modo de medición
+                    - text: ":"
+                    - list [ref=e98]:
+                      - listitem [ref=e99]: Corriente alterna (AC)
+                      - listitem [ref=e100]: Razón de transformación de transformadores de corriente
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Conexión
+                    - text: ": Terminales de entrada y pinzas de alta seguridad"
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]: Temperatura de operación
+                    - text: ": 0°C a 40°C"
+                  - listitem [ref=e105]:
+                    - strong [ref=e106]: Batería
+                    - text: ": Batería recargable o pilas estándar, dependiendo del modelo"
+                  - listitem [ref=e107]:
+                    - strong [ref=e108]: Protección de sobrecarga
+                    - text: ": Protección para evitar daños por mediciones fuera del rango"
+                  - listitem [ref=e109]:
+                    - strong [ref=e110]: Nivel de seguridad
+                    - text: ": CAT III 600V (seguridad adecuada para aplicaciones de media tensión)"
+                  - listitem [ref=e111]:
+                    - strong [ref=e112]: Tamaño
+                    - text: ": Aproximadamente 200mm x 100mm x 60mm"
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]: Peso
+                    - text: ": Aproximadamente 500g (sin accesorios)"
+            - text:     
+          - generic [ref=e115]:
+            - heading "Productos relacionados" [level=2] [ref=e116]
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - link "Detector de gas HABOTEST" [ref=e119] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/detector-de-gas/
+                  - heading "Detector de gas HABOTEST" [level=2] [ref=e120]
+              - listitem [ref=e121]:
+                - link "Tenaza de Resistencia de Tierra ETCR" [ref=e122] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/tenaza-resistencia-tierra/
+                  - heading "Tenaza de Resistencia de Tierra ETCR" [level=2] [ref=e123]
+              - listitem [ref=e124]:
+                - link "ANALIZADOR DE CALIDAD DE ENERGÍA ETCR" [ref=e125] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia/
+                  - heading "ANALIZADOR DE CALIDAD DE ENERGÍA ETCR" [level=2] [ref=e126]
+              - listitem [ref=e127]:
+                - link "MEDIDORES AISLAMIENTO MODELO 3520B / 10 KV" [ref=e128] [cursor=pointer]:
+                  - /url: https://mosanelectric.cl/producto/medidores-aislamiento-modelo-3520b-10-kv/
+                  - heading "MEDIDORES AISLAMIENTO MODELO 3520B / 10 KV" [level=2] [ref=e129]
+      - complementary [ref=e130]:
+        - generic [ref=e131]:
+          - heading "Buscar Productos" [level=2] [ref=e132]
+          - search [ref=e133]:
+            - generic [ref=e134]: "Buscar por:"
+            - searchbox "Buscar por:" [ref=e135]
+            - button "Buscar" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]:
+          - heading "Productos vistos recientemente" [level=2] [ref=e138]
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "Cámara termográfica KT-400 / KT-200 SONEL." [ref=e141] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/camara-termo-grafica-kt-400-kt-200/
+            - listitem [ref=e142]:
+              - link "Medidor de tierra (Telurímetro) ETCR 3200 C NEW" [ref=e143] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/medidor-de-tierra-telurimetro/
+            - listitem [ref=e144]:
+              - link "ANALIZADOR DE CALIDAD DE ENERGÍA MODELO ME 440" [ref=e145] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/analizador-de-calidad-de-energia-modelo-me-440/
+            - listitem [ref=e146]:
+              - link "ADR M2000 - Verficador de Energía Monofásico" [ref=e147] [cursor=pointer]:
+                - /url: https://mosanelectric.cl/producto/verificadores-de-medidores-de-energia-monofasicos-adr-m2000/
+    - contentinfo [ref=e148]:
+      - generic [ref=e151]:
+        - complementary [ref=e152]:
+          - complementary [ref=e153]:
+            - heading "Menú" [level=3] [ref=e154]
+            - list [ref=e156]:
+              - listitem [ref=e157]:
+                - link "Inicio" [ref=e158] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl
+              - listitem [ref=e159]:
+                - link "Nosotros" [ref=e160] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#nosotros
+              - listitem [ref=e161]:
+                - link "Productos" [ref=e162] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/tienda/
+              - listitem [ref=e163]:
+                - link "Contacto" [ref=e164] [cursor=pointer]:
+                  - /url: http://mosanelectric.cl/#contacto
+                - list [ref=e165]:
+                  - listitem [ref=e166]:
+                    - link "Politica de Privacidad" [ref=e167] [cursor=pointer]:
+                      - /url: http://mosanelectric.cl/politica-privacidad/
+        - complementary [ref=e168]:
+          - complementary [ref=e169]:
+            - heading "Horarios de Atención" [level=3] [ref=e170]
+            - generic [ref=e171]:
+              - paragraph [ref=e172]: Nuestro horario de trabajo es de Lunes a viernes según los siguientes horarios
+              - list [ref=e173]:
+                - listitem [ref=e174]:
+                  - text: "Lunes a Viernes:"
+                  - generic [ref=e175]: 9am a 5pm
+                - listitem [ref=e176]:
+                  - text: "Sábado:"
+                  - generic [ref=e177]: cerrado
+                - listitem [ref=e178]:
+                  - text: "Domingo:"
+                  - generic [ref=e179]: Cerrado
+        - complementary [ref=e180]:
+          - complementary [ref=e181]:
+            - heading "Contacto" [level=3] [ref=e182]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e186]: 
+                - generic [ref=e187]:
+                  - text: Avda. Lo Espejo Nr. 860
+                  - text: Comuna de Maipú
+              - generic [ref=e188]:
+                - generic [ref=e190]: 
+                - link "+56 950942148" [ref=e192] [cursor=pointer]:
+                  - /url: tel:+56950942148
+                - link "+56 940182361" [ref=e194] [cursor=pointer]:
+                  - /url: tel:+56940182361
+              - generic [ref=e195]:
+                - generic [ref=e197]: 
+                - link "contacto@mosanelectric.cl" [ref=e199] [cursor=pointer]:
+                  - /url: mailto:cmoreno@mosanelectric.cl
+        - complementary [ref=e200]:
+          - complementary [ref=e201]:
+            - heading "Ubicación" [level=3] [ref=e202]
+            - iframe [ref=e204]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f13e4] [cursor=pointer]:
+                - /url: about:invalid#zClosurez
+                - text: Abrir en Maps
+                - img [ref=f13e6]
+      - generic [ref=e206]:
+        - generic [ref=e207]: Copyright © 2026 Mosan Electric. Todos los derechos reservados.
+        - generic [ref=e208]:
+          - link "Screenr parallax theme" [ref=e209] [cursor=pointer]:
+            - /url: https://www.famethemes.com/themes/screenr
+          - text: por FameThemes
+  - generic "'WhatsApp" [ref=e212] [cursor=pointer]:
+    - img
+  - status [ref=e213]

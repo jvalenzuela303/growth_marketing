@@ -1,0 +1,259 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list:
+              - listitem:
+                - strong
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Inicio" [ref=e11] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e12]:
+              - link "Seguimiento" [ref=e13] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e14]:
+              - link "Tienda" [ref=e15] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e16]:
+              - link "Contacto " [ref=e17] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e18]: 
+            - listitem [ref=e19]:
+              - link " Newsletter" [ref=e20] [cursor=pointer]:
+                - /url: "#header-newsletter-signup"
+                - generic [ref=e21]: 
+                - generic [ref=e22]: Newsletter
+        - navigation [ref=e24]:
+          - link "True HiFi" [ref=e26] [cursor=pointer]:
+            - /url: https://truehifi.cl/
+            - img "True HiFi" [ref=e27]
+          - text: 
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Menú" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e32]: 
+                - generic [ref=e33]: Menú
+            - listitem [ref=e34]
+            - listitem [ref=e35]:
+              - link "Search" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: 
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]:
+                - link "Síguenos en Facebook" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Truehifispa
+                  - generic [ref=e43]: 
+                - link "Síguenos en Instagram" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.instagram.com/true_hifi/
+                  - generic [ref=e45]: 
+                - link "Envíanos un email" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:info@truehifi.cl
+                  - generic [ref=e47]: 
+                - link "Llámenos" [ref=e48] [cursor=pointer]:
+                  - /url: tel:+56 2 25398698
+                  - generic [ref=e49]: 
+                - link "Síguenos en Youtube" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCrowjC3oMWAD906wf_ttGOQ
+                  - generic [ref=e51]: 
+            - listitem [ref=e52]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: https://truehifi.cl/my-account/
+                - generic [ref=e55]: 
+            - listitem [ref=e56]
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: https://truehifi.cl/cart/
+                - generic [ref=e59]: 
+          - text: 
+        - generic [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Inicio" [ref=e65] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e66]:
+              - link "Seguimiento" [ref=e67] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e68]:
+              - link "Tienda" [ref=e69] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e70]:
+              - link "Contacto " [ref=e71] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+                - text: Contacto
+                - generic [ref=e72]: 
+          - text: 
+    - generic [ref=e82]:
+      - heading "Personal Audio" [level=1] [ref=e83]
+      - navigation [ref=e85]:
+        - link "Inicio" [ref=e86] [cursor=pointer]:
+          - /url: https://truehifi.cl
+        - text: / Personal Audio
+      - text: 
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - complementary [ref=e91]:
+            - text: Filtrar
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Accesorios" [ref=e95] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/accesorios/
+              - listitem [ref=e96]:
+                - link "Amplificador de Audífonos" [ref=e97] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-audifonos/
+              - listitem [ref=e98]:
+                - link "Amplificador de Poder" [ref=e99] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-de-poder/
+              - listitem [ref=e100]:
+                - link "Amplificador Integrado a Tubo" [ref=e101] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificadores/
+              - listitem [ref=e102]:
+                - link "Amplificador Integrado SS" [ref=e103] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/amplificador-integrado-ss/
+              - listitem [ref=e104]:
+                - link "Cables" [ref=e105] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cables/
+                - button "Toggle" [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107]: 
+                - text:     
+              - listitem [ref=e108]:
+                - link "Cápsulas MM/MC" [ref=e109] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/capsulas-de-tornamesas-mm-mc/
+              - listitem [ref=e110]:
+                - link "CD PLAYER" [ref=e111] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/cd-player/
+              - listitem [ref=e112]:
+                - link "DAC" [ref=e113] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dac/
+              - listitem [ref=e114]:
+                - link "Hi-Fi Stereo Rack" [ref=e115] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/hi-fi-stereo-rack/
+              - listitem [ref=e116]:
+                - link "Packs" [ref=e117] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/pack/
+                - button "Toggle" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]: 
+              - listitem [ref=e120]:
+                - link "Parlantes" [ref=e121] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/parlantes/
+                - button "Toggle" [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123]: 
+              - listitem [ref=e124]:
+                - link "Personal Audio" [ref=e125] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/personal-audio/
+                - button "Toggle" [ref=e126] [cursor=pointer]:
+                  - generic [ref=e127]: 
+                - list [ref=e128]:
+                  - listitem [ref=e129]:
+                    - link "Amplificador Audifono Portatil" [ref=e130] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/
+                  - listitem [ref=e131]:
+                    - link "DAP" [ref=e132] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/personal-audio/dap/
+                  - listitem [ref=e133]:
+                    - link "Headphones" [ref=e134] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/personal-audio/headphones/
+                  - listitem [ref=e135]:
+                    - link "In-Ear Monitor" [ref=e136] [cursor=pointer]:
+                      - /url: https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/
+              - listitem [ref=e137]:
+                - link "Pre-Amplificadores" [ref=e138] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificadores/
+              - listitem [ref=e139]:
+                - link "Preamp de Phono" [ref=e140] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/preamplificador-de-phono/
+              - listitem [ref=e141]:
+                - link "Radio HiFi" [ref=e142] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/radio-hifi/
+              - listitem [ref=e143]:
+                - link "Streamer - Network Player" [ref=e144] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/dap-2/
+              - listitem [ref=e145]:
+                - link "Subwoofer" [ref=e146] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/subwoofer/
+              - listitem [ref=e147]:
+                - link "Tornamesas" [ref=e148] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tornamesas/
+              - listitem [ref=e149]:
+                - link "Tubo de Vacío" [ref=e150] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/tubo-de-vacio/
+              - listitem [ref=e151]:
+                - link "Usados" [ref=e152] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/usados/
+              - listitem [ref=e153]:
+                - link "Zapatillas / Filtros de Poder" [ref=e154] [cursor=pointer]:
+                  - /url: https://truehifi.cl/categoria-producto/zapatillas-de-energia-filtros-de-poder/
+          - complementary [ref=e155]:
+            - text: Filter by price
+            - generic [ref=e163]:
+              - generic [ref=e164]: Min price
+              - generic [ref=e165]: Max price
+              - button "Filter" [ref=e166] [cursor=pointer]
+              - generic [ref=e167]: "Price: $89.000 — $2.650.000"
+        - generic [ref=e171]:
+          - link "Visit product category Amplificador Audifono Portatil" [ref=e174] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/personal-audio/amplificador-audifono-portatil/
+            - generic [ref=e175]:
+              - img "Amplificador Audifono Portatil" [ref=e177]
+              - generic [ref=e179]:
+                - heading "Amplificador Audifono Portatil" [level=5] [ref=e180]
+                - paragraph [ref=e181]: 1 Product
+          - link "Visit product category DAP" [ref=e184] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/personal-audio/dap/
+            - generic [ref=e185]:
+              - img "DAP" [ref=e187]
+              - generic [ref=e189]:
+                - heading "DAP" [level=5] [ref=e190]
+                - paragraph [ref=e191]: 3 Products
+          - link "Visit product category Headphones" [ref=e194] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/personal-audio/headphones/
+            - generic [ref=e195]:
+              - img "Headphones" [ref=e197]
+              - generic [ref=e199]:
+                - heading "Headphones" [level=5] [ref=e200]
+                - paragraph [ref=e201]: 5 Products
+          - link "Visit product category In-Ear Monitor" [ref=e204] [cursor=pointer]:
+            - /url: https://truehifi.cl/categoria-producto/personal-audio/in-ear-monitor/
+            - generic [ref=e205]:
+              - img "In-Ear Monitor" [ref=e207]
+              - generic [ref=e209]:
+                - heading "In-Ear Monitor" [level=5] [ref=e210]
+                - paragraph [ref=e211]: 1 Product
+    - contentinfo [ref=e212]:
+      - generic [ref=e214]:
+        - img "bg_image" [ref=e217]
+        - generic [ref=e218]:
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "Inicio" [ref=e222] [cursor=pointer]:
+                - /url: https://truehifi.cl
+            - listitem [ref=e223]:
+              - link "Seguimiento" [ref=e224] [cursor=pointer]:
+                - /url: https://truehifi.cl/track-order/
+            - listitem [ref=e225]:
+              - link "Tienda" [ref=e226] [cursor=pointer]:
+                - /url: https://truehifi.cl/shop/
+            - listitem [ref=e227]:
+              - link "Contacto" [ref=e228] [cursor=pointer]:
+                - /url: https://truehifi.cl/elements/pages/contact/
+          - generic [ref=e229]:
+            - text: Copyright 2025 ©
+            - strong [ref=e230]: True HiFi
+      - link "Ir arriba":
+        - /url: "#top"
+        - generic: 
+  - text:      
+  - generic [ref=e233] [cursor=pointer]:
+    - img
+  - status [ref=e234]
