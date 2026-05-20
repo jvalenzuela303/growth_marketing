@@ -10,6 +10,14 @@ build/
 out/
 *.tsbuildinfo
 
+#Claude
+CLAUDE.md
+.claude/
+
+#playwright
+.playwright-mcp/
+
+
 # Python
 __pycache__/
 *.py[cod]
