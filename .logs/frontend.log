@@ -9,53 +9,111 @@
  ✓ Starting...
 > [PWA] PWA support is disabled
 > [PWA] PWA support is disabled
- ✓ Ready in 2.3s
+ ✓ Ready in 2.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s (721 modules)
+ GET / 307 in 2402ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1999ms (742 modules)
+ GET /login 200 in 2004ms
  ○ Compiling /api/auth/[...nextauth] ...
- ✓ Compiled /api/auth/[...nextauth] in 788ms (263 modules)
- GET /api/auth/session 200 in 1060ms
- ○ Compiling /ads ...
- ✓ Compiled /ads in 2.1s (1095 modules)
- ✓ Compiled in 214ms (429 modules)
- GET /api/auth/csrf 200 in 45ms
- POST /api/auth/signout 200 in 8ms
- ✓ Compiled /login in 427ms (1091 modules)
- GET /login 200 in 513ms
- GET /api/auth/session 200 in 33ms
- GET /api/auth/session 200 in 5ms
- GET /api/auth/providers 200 in 16ms
- GET /api/auth/csrf 200 in 7ms
- POST /api/auth/callback/credentials 200 in 193ms
- GET /api/auth/session 200 in 17ms
+ ✓ Compiled /api/auth/[...nextauth] in 509ms (614 modules)
+ GET /api/auth/session 200 in 756ms
+ GET /api/auth/session 200 in 16ms
+ GET /api/auth/providers 200 in 14ms
+ GET /api/auth/csrf 200 in 4ms
+ POST /api/auth/callback/credentials 200 in 186ms
+ GET /api/auth/session 200 in 10ms
  ○ Compiling /overview ...
- ✓ Compiled /overview in 1545ms (2227 modules)
- GET /overview?_rsc=1xxfh 200 in 83ms
- GET /api/auth/session 200 in 32ms
- GET /api/auth/session 200 in 25ms
- ✓ Compiled in 705ms (2237 modules)
- GET /ads?_rsc=11j27 200 in 78ms
- ✓ Compiled /api/auth/[...nextauth] in 288ms (1248 modules)
- GET /api/auth/session 200 in 388ms
- ✓ Compiled in 469ms (2241 modules)
- GET /ads?_rsc=11j27 200 in 59ms
- ○ Compiling /deals ...
- ✓ Compiled /deals in 864ms (2235 modules)
- ○ Compiling /settings ...
- ✓ Compiled /settings in 584ms (2259 modules)
- ✓ Compiled /billing in 235ms (2269 modules)
- ✓ Compiled /automations in 380ms (2285 modules)
- GET /automations?_rsc=teo9b 200 in 38ms
- ✓ Compiled /appointments in 262ms (2303 modules)
- ✓ Compiled /attribution in 447ms (2313 modules)
- ○ Compiling /sequences ...
- ✓ Compiled /sequences in 617ms (2325 modules)
- ✓ Compiled /chat in 375ms (2333 modules)
- ✓ Compiled /conversations in 303ms (1796 modules)
- ○ Compiling /leads ...
- ✓ Compiled /leads in 596ms (1919 modules)
+ ✓ Compiled /overview in 1374ms (2181 modules)
+ GET /overview?_rsc=1xxfh 200 in 79ms
+ ✓ Compiled /settings in 424ms (2211 modules)
+ ✓ Compiled /settings/team in 222ms (2229 modules)
+ GET /overview?_rsc=1ftvd 200 in 42ms
  ○ Compiling /funnels ...
- ✓ Compiled /funnels in 606ms (1935 modules)
- GET /funnels?_rsc=1cff3 200 in 47ms
- ○ Compiling /funnels/[funnelId]/analytics ...
- ✓ Compiled /funnels/[funnelId]/analytics in 728ms (2474 modules)
- ✓ Compiled /overview in 289ms (1432 modules)
+ ✓ Compiled /funnels in 511ms (2246 modules)
+ GET /funnels?_rsc=1cff3 200 in 49ms
+ ○ Compiling /leads ...
+ ✓ Compiled /leads in 511ms (2375 modules)
+ ○ Compiling /ads ...
+ ✓ Compiled /ads in 556ms (2449 modules)
+ GET /funnels?_rsc=iahjo 200 in 41ms
+ ✓ Compiled /billing in 402ms (2443 modules)
+ ✓ Compiled /automations in 276ms (2461 modules)
+ GET /automations?_rsc=teo9b 200 in 30ms
+ ○ Compiling /automations/[flowId] ...
+ ✓ Compiled /automations/[flowId] in 777ms (2199 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=80414 200 in 45ms
+ ✓ Compiled /_not-found in 391ms (2176 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 481ms
+ ✓ Compiled in 789ms (2179 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=188qc 200 in 109ms
+ ✓ Compiled in 335ms (2179 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=1slxa 200 in 78ms
+ ✓ Compiled /api/auth/[...nextauth] in 432ms (961 modules)
+ GET /api/auth/session 200 in 518ms
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 122ms
+ ✓ Compiled /_not-found in 185ms (963 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 263ms
+ GET /api/auth/session 200 in 49ms
+ GET /api/auth/session 200 in 10ms
+ GET /automations?_rsc=7ni5o 200 in 28ms
+ GET /automations?_rsc=1utuq 200 in 18ms
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=80414 200 in 22ms
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 73ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 27ms
+ GET /api/auth/session 200 in 30ms
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 55ms
+ GET /api/auth/session 200 in 46ms
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 34ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 22ms
+ GET /api/auth/session 200 in 25ms
+ GET /api/auth/session 200 in 7ms
+ ✓ Compiled in 620ms (2185 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=9zgpy 200 in 83ms
+ ✓ Compiled in 368ms (2179 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8?_rsc=9zgpy 200 in 120ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 398ms (2179 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 171ms
+ ✓ Compiled /_not-found in 118ms (959 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 187ms
+ ✓ Compiled /api/auth/[...nextauth] in 148ms (963 modules)
+ GET /api/auth/session 200 in 205ms
+ GET /api/auth/session 200 in 8ms
+ ✓ Compiled in 322ms (2185 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 168ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 20ms
+ GET /api/auth/session 200 in 27ms
+ GET /api/auth/session 200 in 11ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 364ms (2185 modules)
+ GET /automations/5797ffab-6822-413a-953e-4cbe9338c5a8 200 in 292ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 15ms
+ GET /api/auth/session 200 in 23ms
+ GET /api/auth/session 200 in 9ms
+ GET /api/auth/csrf 200 in 25ms
+ POST /api/auth/signout 200 in 9ms
+ ✓ Compiled /login in 456ms (977 modules)
+ GET /login 200 in 549ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 23ms
+ GET /api/auth/session 200 in 40ms
+ GET /api/auth/session 200 in 10ms
+ GET /api/auth/providers 200 in 19ms
+ GET /api/auth/csrf 200 in 6ms
+ POST /api/auth/callback/credentials 200 in 171ms
+ GET /api/auth/session 200 in 22ms
+ ✓ Compiled /overview in 278ms (1508 modules)
+ GET /overview?_rsc=1xxfh 200 in 62ms
+ GET /automations?_rsc=teo9b 200 in 21ms
+ GET /automations/56dc301b-5213-4c68-b56b-8f3b8f931501?_rsc=147oi 200 in 18ms
+ ✓ Compiled in 559ms (2641 modules)
+ GET /automations/56dc301b-5213-4c68-b56b-8f3b8f931501?_rsc=a8d8a 200 in 86ms
+ ✓ Compiled in 355ms (2635 modules)
+ GET /automations/56dc301b-5213-4c68-b56b-8f3b8f931501?_rsc=1wy26 200 in 157ms
+ ✓ Compiled in 605ms (2635 modules)
+ GET /automations/56dc301b-5213-4c68-b56b-8f3b8f931501?_rsc=1wy26 200 in 91ms
+ ✓ Compiled in 417ms (2638 modules)
+ GET /automations/56dc301b-5213-4c68-b56b-8f3b8f931501?_rsc=1wy26 200 in 85ms
 [?25h

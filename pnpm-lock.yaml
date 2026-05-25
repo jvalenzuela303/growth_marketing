@@ -65,6 +65,9 @@ importers:
       '@prisma/client':
         specifier: ^5.15.0
         version: 5.22.0(prisma@5.22.0)
+      '@types/nodemailer':
+        specifier: ^8.0.0
+        version: 8.0.0
       axios:
         specifier: ^1.7.0
         version: 1.16.0
@@ -80,12 +83,18 @@ importers:
       class-validator:
         specifier: ^0.14.1
         version: 0.14.4
+      helmet:
+        specifier: ^8.2.0
+        version: 8.2.0
       ioredis:
         specifier: ^5.4.0
         version: 5.10.1
       json2csv:
         specifier: 6.0.0-alpha.2
         version: 6.0.0-alpha.2
+      nodemailer:
+        specifier: ^8.0.8
+        version: 8.0.8
       passport:
         specifier: ^0.7.0
         version: 0.7.0
@@ -110,6 +119,9 @@ importers:
       swagger-ui-express:
         specifier: ^5.0.1
         version: 5.0.1(express@4.22.1)
+      transbank-sdk:
+        specifier: ^6.1.1
+        version: 6.1.1
       twilio:
         specifier: ^6.0.2
         version: 6.0.2
@@ -221,7 +233,7 @@ importers:
         version: 14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-auth:
         specifier: ^4.24.0
-        version: 4.24.14(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 4.24.14(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@8.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-pwa:
         specifier: ^5.6.0
         version: 5.6.0(@babel/core@7.29.0)(@types/babel__core@7.20.5)(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.14)(webpack@5.97.1(postcss@8.5.14))
@@ -2050,6 +2062,9 @@ packages:
   '@types/node@20.19.40':
     resolution: {integrity: sha512-xxx6M2IpSTnnKcR0cMvIiohkiCx20/oRPtWGbenFygKCGl3zqUzdNjQ/1V4solq1LU+dgv0nQzeGOuqkqZGg0Q==}
 
+  '@types/nodemailer@8.0.0':
+    resolution: {integrity: sha512-fyf8jWULsCo0d0BuoQ75i6IeoHs47qcqxWc7yUdUcV0pOZGjUTTOvwdG1PRXUDqN/8A64yQdQdnA2pZgcdi+cA==}
+
   '@types/passport-jwt@4.0.1':
     resolution: {integrity: sha512-Y0Ykz6nWP4jpxgEUYq8NoVZeCQPo1ZndJLfapI249g1jHChvRfZRO/LS3tqu26YgAS/laI1qx98sYGz0IalRXQ==}
 
@@ -3764,6 +3779,10 @@ packages:
     resolution: {integrity: sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg==}
     engines: {node: '>= 0.4'}
 
+  helmet@8.2.0:
+    resolution: {integrity: sha512-DRgTIUgnWcJ62KyarxxziuqYxKGnR6Rgg19BlbucN/dpmJbl1XOit6qvoOX0ZT+HhWe5OUVhU/a1zpGyc1xA0Q==}
+    engines: {node: '>=18.0.0'}
+
   html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
 
@@ -4651,6 +4670,10 @@ packages:
 
   node-releases@2.0.38:
     resolution: {integrity: sha512-3qT/88Y3FbH/Kx4szpQQ4HzUbVrHPKTLVpVocKiLfoYvw9XSGOX2FmD2d6DrXbVYyAQTF2HeF6My8jmzx7/CRw==}
+
+  nodemailer@8.0.8:
+    resolution: {integrity: sha512-p+XsnzXGdtIHXUu2ugxdfG+eX2nehsGhMjW9h0CWj1BhE30hrFz0kh0yIM0/VjUgVsRrDj+80ZO+I1nSkGE4tA==}
+    engines: {node: '>=6.0.0'}
 
   nopt@5.0.0:
     resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==}
@@ -5670,6 +5693,10 @@ packages:
 
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
+
+  transbank-sdk@6.1.1:
+    resolution: {integrity: sha512-T5YJSBl7LfSPLLqbLY3AVieSBCTNfN1nr3qA/5oLc3tTtwzZarYKL5aXirNFYamOT+W8pY04uzGRupSQArHUDA==}
+    engines: {node: '>=18.0.0'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -8173,6 +8200,10 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/nodemailer@8.0.0':
+    dependencies:
+      '@types/node': 20.19.40
+
   '@types/passport-jwt@4.0.1':
     dependencies:
       '@types/jsonwebtoken': 9.0.10
@@ -10181,6 +10212,8 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
+  helmet@8.2.0: {}
+
   html-escaper@2.0.2: {}
 
   http-errors@2.0.1:
@@ -11202,7 +11235,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-auth@4.24.14(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-auth@4.24.14(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@8.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.29.2
       '@panva/hkdf': 1.2.1
@@ -11216,6 +11249,8 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       uuid: 8.3.2
+    optionalDependencies:
+      nodemailer: 8.0.8
 
   next-pwa@5.6.0(@babel/core@7.29.0)(@types/babel__core@7.20.5)(next@14.2.0(@babel/core@7.29.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.14)(webpack@5.97.1(postcss@8.5.14)):
     dependencies:
@@ -11296,6 +11331,8 @@ snapshots:
   node-int64@0.4.0: {}
 
   node-releases@2.0.38: {}
+
+  nodemailer@8.0.8: {}
 
   nopt@5.0.0:
     dependencies:
@@ -12394,6 +12431,12 @@ snapshots:
   tr46@1.0.1:
     dependencies:
       punycode: 2.3.1
+
+  transbank-sdk@6.1.1:
+    dependencies:
+      axios: 1.16.0
+    transitivePeerDependencies:
+      - debug
 
   tree-kill@1.2.2: {}
 

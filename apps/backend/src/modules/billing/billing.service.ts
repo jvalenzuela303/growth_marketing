@@ -3,10 +3,12 @@ import {
   Logger,
   NotFoundException,
   BadRequestException,
+  ServiceUnavailableException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import Stripe = require('stripe');
 import { PrismaService } from '../../database/prisma.service';
+import { TransbankService } from './transbank.service';
 
 /**
  * Plan → Stripe Price ID mapping and feature limits.
@@ -28,6 +30,7 @@ export class BillingService {
   constructor(
     private readonly config: ConfigService,
     private readonly prisma: PrismaService,
+    private readonly transbank: TransbankService,
   ) {
     this.stripe = new Stripe(
       this.config.get<string>('STRIPE_SECRET_KEY', 'sk_test_placeholder'),
@@ -46,59 +49,24 @@ export class BillingService {
     return id;
   }
 
-  // ── Checkout session ───────────────────────────────────────────────────────
+  // ── Plan change (local — no Stripe) ──────────────────────────────────────
 
+  /**
+   * Cambia el plan del tenant directamente en la DB.
+   * En producción con Stripe esto sería un Checkout Session;
+   * por ahora el cambio es inmediato ya que Transbank gestiona el cobro por separado.
+   */
   async createCheckoutSession(tenantId: string, plan: 'growth' | 'scale' | 'agency') {
-    const tenant = await this.prisma.tenant.findUnique({
-      where: { id: tenantId },
-      include: { subscription: true },
-    });
-    if (!tenant) throw new NotFoundException('Tenant no encontrado.');
-
+    await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, { status: 'active' });
     const frontendUrl = this.config.get<string>('FRONTEND_URL', 'http://localhost:4000');
-
-    // Get or create Stripe customer
-    let customerId = tenant.subscription?.stripeCustomerId;
-    if (!customerId) {
-      const customer = await this.stripe.customers.create({
-        name:     tenant.name,
-        metadata: { tenantId },
-      });
-      customerId = customer.id;
-    }
-
-    const session = await this.stripe.checkout.sessions.create({
-      customer:            customerId,
-      mode:                'subscription',
-      line_items: [{ price: this.priceId(plan), quantity: 1 }],
-      success_url: `${frontendUrl}/billing?success=1`,
-      cancel_url:  `${frontendUrl}/billing?canceled=1`,
-      metadata:    { tenantId, plan },
-      subscription_data: {
-        metadata: { tenantId, plan },
-      },
-    });
-
-    return { url: session.url };
+    return { url: `${frontendUrl}/billing?success=1` };
   }
 
-  // ── Customer portal ────────────────────────────────────────────────────────
+  // ── Customer portal (no-op) ───────────────────────────────────────────────
 
   async createPortalSession(tenantId: string) {
-    const sub = await this.prisma.withTenant(tenantId, () =>
-      this.prisma.subscription.findUnique({ where: { tenantId } }),
-    );
-    if (!sub?.stripeCustomerId) {
-      throw new BadRequestException('No se encontró suscripción Stripe para este tenant.');
-    }
-
     const frontendUrl = this.config.get<string>('FRONTEND_URL', 'http://localhost:4000');
-    const session = await this.stripe.billingPortal.sessions.create({
-      customer:   sub.stripeCustomerId,
-      return_url: `${frontendUrl}/billing`,
-    });
-
-    return { url: session.url };
+    return { url: `${frontendUrl}/billing` };
   }
 
   // ── Subscription status ────────────────────────────────────────────────────
@@ -131,6 +99,91 @@ export class BillingService {
         take:    24,
       }),
     );
+  }
+
+  // ── Payment methods — Transbank Oneclick ─────────────────────────────────
+
+  /** Returns the stored card for the tenant (one card max). */
+  async getPaymentMethods(tenantId: string) {
+    const sub = await this.prisma.subscription.findUnique({ where: { tenantId } });
+    if (!sub?.paymentMethodMock) return [];
+
+    const pm = sub.paymentMethodMock as {
+      last4: string; brand: string; cardType: string;
+      tbkUser: string; username: string;
+    };
+
+    return [{
+      id:       'local-card',
+      last4:    pm.last4,
+      brand:    pm.brand   ?? 'Visa',
+      cardType: pm.cardType ?? 'CREDIT',
+      isDefault: true,
+    }];
+  }
+
+  /**
+   * Inicia la inscripción Transbank Oneclick.
+   * Retorna { redirectUrl, sessionToken } — el frontend redirige al usuario.
+   */
+  async startEnrollment(tenantId: string, returnUrl: string) {
+    const tenant = await this.prisma.tenant.findUnique({ where: { id: tenantId } });
+    if (!tenant) throw new NotFoundException('Tenant no encontrado.');
+
+    // Usamos el tenantId como username único en Transbank
+    const username = `tenant-${tenantId}`;
+    const email    = (tenant as any).email ?? `${username}@growthengine.app`;
+
+    return this.transbank.startEnrollment(username, email, returnUrl);
+  }
+
+  /**
+   * Confirma la inscripción usando el token_ws devuelto por Transbank.
+   * Guarda el tbkUser y datos de tarjeta en la DB.
+   */
+  async confirmEnrollment(tenantId: string, sessionToken: string) {
+    const result = await this.transbank.confirmEnrollment(sessionToken);
+
+    const username = `tenant-${tenantId}`;
+    const cardData = {
+      tbkUser:  result.tbkUser,
+      username,
+      last4:    result.last4,
+      brand:    result.cardType === 'Redcompra' ? 'Redcompra' : 'Visa',
+      cardType: result.cardType,
+    };
+
+    await this.prisma.subscription.upsert({
+      where:  { tenantId },
+      create: { tenantId, plan: 'starter', status: 'free', paymentMethodMock: cardData },
+      update: { paymentMethodMock: cardData },
+    });
+
+    return {
+      id:       'local-card',
+      last4:    result.last4,
+      brand:    cardData.brand,
+      cardType: result.cardType,
+      isDefault: true,
+    };
+  }
+
+  /** Elimina la tarjeta inscrita — tanto en Transbank como en la DB. */
+  async detachPaymentMethod(tenantId: string, _cardId: string) {
+    const sub = await this.prisma.subscription.findUnique({ where: { tenantId } });
+    if (sub?.paymentMethodMock) {
+      const pm = sub.paymentMethodMock as { tbkUser?: string; username?: string };
+      if (pm.tbkUser && pm.username) {
+        await this.transbank.removeCard(pm.tbkUser, pm.username);
+      }
+    }
+
+    await this.prisma.subscription.updateMany({
+      where: { tenantId },
+      data:  { paymentMethodMock: undefined },
+    });
+
+    return { success: true };
   }
 
   // ── Stripe webhook handler ─────────────────────────────────────────────────
@@ -178,9 +231,10 @@ export class BillingService {
     const plan     = (session.metadata?.plan ?? 'growth') as string;
     if (!tenantId) return;
 
-    await this.upsertSubscriptionAndUpdatePlan(tenantId, session.customer as string, plan, {
-      stripeSubId: session.subscription as string,
-      status:      'active',
+    await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, {
+      stripeCustomerId: session.customer as string,
+      stripeSubId:      session.subscription as string,
+      status:           'active',
     });
   }
 
@@ -191,7 +245,8 @@ export class BillingService {
 
     const plan = sub.metadata?.plan ?? 'growth';
 
-    await this.upsertSubscriptionAndUpdatePlan(tenantId, sub.customer as string, plan, {
+    await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, {
+      stripeCustomerId:    sub.customer as string,
       stripeSubId:         sub.id,
       stripePriceId:       sub.items.data[0]?.price?.id,
       status:              sub.status,
@@ -246,22 +301,49 @@ export class BillingService {
     this.logger.warn(`Pago fallido para customer ${invoice.customer}`);
   }
 
+  // ── Stripe call wrapper ───────────────────────────────────────────────────
+
+  /**
+   * Wraps any Stripe call. Converts Stripe errors to NestJS exceptions so they
+   * don't leak Stripe's 401/402 status codes (which confuse auth middleware).
+   */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private async stripe_call<T = any>(fn: () => Promise<T>): Promise<T> {
+    try {
+      return await fn();
+    } catch (err: any) {
+      const type: string = err?.type ?? '';
+      if (type === 'StripeAuthenticationError') {
+        throw new ServiceUnavailableException(
+          'Stripe no está configurado. Agrega STRIPE_SECRET_KEY válida en .env.',
+        );
+      }
+      if (type === 'StripeInvalidRequestError') {
+        throw new BadRequestException(err.message ?? 'Solicitud inválida a Stripe.');
+      }
+      if (err?.statusCode) {
+        // Other Stripe HTTP errors — don't leak the status code
+        throw new BadRequestException(err.message ?? 'Error en Stripe.');
+      }
+      throw err;
+    }
+  }
+
   // ── Helpers ───────────────────────────────────────────────────────────────
 
   private async upsertSubscriptionAndUpdatePlan(
     tenantId: string,
-    stripeCustomerId: string,
     plan: string,
     data: Partial<{
-      stripeSubId: string; stripePriceId: string; status: string;
+      stripeCustomerId: string; stripeSubId: string; stripePriceId: string; status: string;
       currentPeriodStart: Date; currentPeriodEnd: Date;
       cancelAtPeriodEnd: boolean; trialEnd: Date | null;
     }>,
   ) {
     await this.prisma.subscription.upsert({
       where:  { tenantId },
-      create: { tenantId, stripeCustomerId, plan, ...data },
-      update: { stripeCustomerId, plan, ...data },
+      create: { tenantId, plan, ...data },
+      update: { plan, ...data },
     });
 
     const limits = PLAN_LIMITS[plan] ?? PLAN_LIMITS['starter'];

@@ -5,9 +5,11 @@ import { QUEUE_TOKEN } from './inject-queue.decorator';
 import { ScoringProcessor } from './scoring.processor';
 import { MessagingProcessor } from './messaging.processor';
 import { FollowUpScheduler } from './followup.scheduler';
+import { AbandonedCartScanner } from './abandoned-cart.scanner';
 import { MessagingModule } from '../modules/messaging/messaging.module';
 import { LeadsModule } from '../modules/leads/leads.module';
 import { NotificationsModule } from '../modules/notifications/notifications.module';
+import { EcommerceModule } from '../modules/ecommerce/ecommerce.module';
 
 /**
  * Convenciones de nombres de colas y prioridades:
@@ -43,13 +45,14 @@ function createQueueProvider(name: string) {
 
 @Global()
 @Module({
-  imports: [ConfigModule, MessagingModule, forwardRef(() => LeadsModule), NotificationsModule],
+  imports: [ConfigModule, MessagingModule, forwardRef(() => LeadsModule), NotificationsModule, EcommerceModule],
   providers: [
     createQueueProvider('scoring'),
     createQueueProvider('messaging'),
     ScoringProcessor,
     MessagingProcessor,
     FollowUpScheduler,
+    AbandonedCartScanner,
   ],
   exports: [QUEUE_TOKEN('scoring'), QUEUE_TOKEN('messaging')],
 })

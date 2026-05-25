@@ -2,10 +2,15 @@ import { AuthService } from './auth.service';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
 import { RefreshDto } from './dto/refresh.dto';
+import { RequestAccessDto } from './dto/request-access.dto';
+import { SupportRequestDto } from './dto/support-request.dto';
 import { CurrentUserPayload } from '../../common/decorators/tenant.decorator';
+import { MailNotifierService } from '../../common/mail/mail-notifier.service';
 export declare class AuthController {
     private readonly authService;
-    constructor(authService: AuthService);
+    private readonly mail;
+    private readonly logger;
+    constructor(authService: AuthService, mail: MailNotifierService);
     register(dto: RegisterDto): Promise<{
         message: string;
         userId: string;
@@ -28,6 +33,14 @@ export declare class AuthController {
         tenantName: string;
     }>;
     refresh(dto: RefreshDto): Promise<import("@growth-engine/shared-types").AuthTokens>;
+    requestAccess(dto: RequestAccessDto): Promise<{
+        message: string;
+        received: boolean;
+    }>;
+    support(dto: SupportRequestDto): Promise<{
+        message: string;
+        received: boolean;
+    }>;
     logout(user: CurrentUserPayload, body: {
         refreshToken?: string;
     }): Promise<{

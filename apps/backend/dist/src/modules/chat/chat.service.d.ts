@@ -14,6 +14,10 @@ export declare class ChatService {
         response: string;
         leadId: string;
     }>;
+    respondPublic(tenantId: string, tenantName: string, message: string, leadId?: string, clientHistory?: {
+        role: 'user' | 'assistant';
+        content: string;
+    }[]): Promise<string>;
     streamMessage(tenantId: string, leadId: string, message: string, res: Response, model?: string): Promise<void>;
     private streamOpenAI;
     private streamGemini;

@@ -14,7 +14,7 @@
  *   end        — terminal node
  */
 
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   ReactFlow,
   Background,
@@ -23,6 +23,8 @@ import {
   addEdge,
   useNodesState,
   useEdgesState,
+  Handle,
+  Position,
   type Node,
   type Edge,
   type Connection,
@@ -65,9 +67,13 @@ interface NodeDef {
 }
 
 const NODE_DEFS: NodeDef[] = [
-  { type: 'condition', label: 'Condición',     icon: GitBranch,    color: 'text-purple-600', bg: 'bg-purple-50',  border: 'border-purple-300' },
+  { type: 'trigger',   label: 'Trigger',       icon: Zap,           color: 'text-violet-600', bg: 'bg-violet-50',  border: 'border-violet-300' },
+  { type: 'condition', label: 'Condición',     icon: GitBranch,     color: 'text-purple-600', bg: 'bg-purple-50',  border: 'border-purple-300' },
+  { type: 'filter',    label: 'Filtro',        icon: GitBranch,     color: 'text-purple-600', bg: 'bg-purple-50',  border: 'border-purple-300' },
   { type: 'email',     label: 'Enviar Email',  icon: Mail,          color: 'text-blue-600',   bg: 'bg-blue-50',    border: 'border-blue-300'   },
   { type: 'whatsapp',  label: 'WhatsApp',      icon: MessageCircle, color: 'text-emerald-600', bg: 'bg-emerald-50', border: 'border-emerald-300'},
+  { type: 'send',      label: 'Enviar',        icon: MessageCircle, color: 'text-emerald-600', bg: 'bg-emerald-50', border: 'border-emerald-300'},
+  { type: 'action',    label: 'Acción',        icon: MessageCircle, color: 'text-emerald-600', bg: 'bg-emerald-50', border: 'border-emerald-300'},
   { type: 'tag',       label: 'Añadir Tag',    icon: Tag,           color: 'text-amber-600',  bg: 'bg-amber-50',   border: 'border-amber-300'  },
   { type: 'wait',      label: 'Esperar',       icon: Clock,         color: 'text-slate-600',  bg: 'bg-slate-100',  border: 'border-slate-300'  },
   { type: 'end',       label: 'Fin',           icon: Square,        color: 'text-red-600',    bg: 'bg-red-50',     border: 'border-red-300'    },
@@ -84,38 +90,74 @@ function getDef(type: string): NodeDef {
 function FlowNodeCard({ data }: { data: any }) {
   const def = getDef(data.type ?? 'action')
   const Icon = def.icon
+  const isEnd = data.type === 'end'
+  const isTrigger = data.type === 'trigger'
   return (
-    <div className={cn('rounded-2xl border-2 px-4 py-3 min-w-[160px] shadow-sm', def.bg, def.border)}>
+    <div className={cn('rounded-2xl border-2 px-4 py-3 min-w-[160px] shadow-sm relative', def.bg, def.border)}>
+      {/* Target handle (top) — not shown on trigger nodes */}
+      {!isTrigger && (
+        <Handle
+          type="target"
+          position={Position.Top}
+          className="!w-3 !h-3 !bg-slate-400 !border-2 !border-white"
+        />
+      )}
+
       <div className="flex items-center gap-2">
         <Icon className={cn('w-4 h-4 flex-shrink-0', def.color)} />
-        <span className="text-sm font-semibold text-slate-800">{data.label ?? def.label}</span>
+        <span className="text-sm font-semibold text-slate-800">
+          {(data.label && data.label !== 'unknown') ? data.label : def.label}
+        </span>
       </div>
       {data.description && (
         <p className="text-xs text-slate-500 mt-1 leading-tight">{data.description}</p>
+      )}
+
+      {/* Source handle (bottom) — not shown on end nodes */}
+      {!isEnd && (
+        <Handle
+          type="source"
+          position={Position.Bottom}
+          className="!w-3 !h-3 !bg-brand-500 !border-2 !border-white"
+        />
       )}
     </div>
   )
 }
 
-const NODE_TYPES = { custom: FlowNodeCard }
+// Defined at module scope as a fallback; also memoized inside FlowCanvasInner
+// to guarantee a stable reference across HMR / Fast Refresh cycles.
+const STABLE_NODE_TYPES = { custom: FlowNodeCard }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function toReactFlowNodes(graph: AutomationFlowDetail['graph']): Node[] {
-  return (graph.nodes ?? []).map((n) => ({
-    id:       n.id,
-    type:     'custom',
-    position: n.position,
-    data:     n.data,
-  }))
+  return (graph.nodes ?? []).map((n) => {
+    // type may be stored at node level (n.type), in n.data.type, or only implied
+    // by the node id (seed data uses id === type: "trigger", "wait", "send", etc.)
+    const nodeType: string = (n as any).type ?? n.data?.type ?? n.id
+    const def = getDef(nodeType)
+    return {
+      id:       n.id,
+      type:     'custom',
+      position: n.position,
+      data: {
+        ...n.data,
+        type:  nodeType,
+        label: (n.data?.label && n.data.label !== 'unknown') ? n.data.label : def.label,
+      },
+    }
+  })
 }
 
 function toReactFlowEdges(graph: AutomationFlowDetail['graph']): Edge[] {
-  return (graph.edges ?? []).map((e) => ({
-    id:     e.id,
-    source: e.source,
-    target: e.target,
-  }))
+  return (graph.edges ?? []).map((e: any) => {
+    const edge: Edge = { id: e.id, source: e.source, target: e.target }
+    // Omit null handles — React Flow treats null as the string "null" (error #008)
+    if (e.sourceHandle != null) edge.sourceHandle = e.sourceHandle
+    if (e.targetHandle != null) edge.targetHandle = e.targetHandle
+    return edge
+  })
 }
 
 let nodeCounter = 100
@@ -198,6 +240,8 @@ interface FlowCanvasProps {
 }
 
 function FlowCanvasInner({ initialFlow, token }: FlowCanvasProps) {
+  const nodeTypes = useMemo(() => ({ custom: FlowNodeCard }), [])
+
   const [nodes, setNodes, onNodesChange] = useNodesState(toReactFlowNodes(initialFlow.graph))
   const [edges, setEdges, onEdgesChange] = useEdgesState(toReactFlowEdges(initialFlow.graph))
 
@@ -227,7 +271,12 @@ function FlowCanvasInner({ initialFlow, token }: FlowCanvasProps) {
     try {
       const graph = {
         nodes: nodes.map((n) => ({ id: n.id, position: n.position, data: n.data })),
-        edges: edges.map((e) => ({ id: e.id, source: e.source, target: e.target })),
+        edges: edges.map((e) => {
+          const edge: any = { id: e.id, source: e.source, target: e.target }
+          if (e.sourceHandle != null) edge.sourceHandle = e.sourceHandle
+          if (e.targetHandle != null) edge.targetHandle = e.targetHandle
+          return edge
+        }),
       }
       await updateAutomationFlow(initialFlow.id, token, { graph })
       setSaved(true)
@@ -305,7 +354,7 @@ function FlowCanvasInner({ initialFlow, token }: FlowCanvasProps) {
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
-          nodeTypes={NODE_TYPES}
+          nodeTypes={nodeTypes}
           fitView
           className="bg-slate-50"
         >

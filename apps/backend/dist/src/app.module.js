@@ -35,6 +35,7 @@ const realtime_module_1 = require("./modules/realtime/realtime.module");
 const deals_module_1 = require("./modules/deals/deals.module");
 const widget_module_1 = require("./modules/widget/widget.module");
 const billing_module_1 = require("./modules/billing/billing.module");
+const admin_billing_module_1 = require("./modules/admin-billing/admin-billing.module");
 const tiktok_ads_module_1 = require("./modules/tiktok-ads/tiktok-ads.module");
 const automation_flows_module_1 = require("./modules/automation-flows/automation-flows.module");
 const sms_module_1 = require("./modules/sms/sms.module");
@@ -42,9 +43,14 @@ const api_keys_module_1 = require("./modules/api-keys/api-keys.module");
 const notifications_module_1 = require("./modules/notifications/notifications.module");
 const messenger_module_1 = require("./modules/messenger/messenger.module");
 const budget_optimizer_module_1 = require("./modules/budget-optimizer/budget-optimizer.module");
+const ecommerce_module_1 = require("./modules/ecommerce/ecommerce.module");
 const audit_module_1 = require("./modules/audit/audit.module");
+const users_module_1 = require("./modules/users/users.module");
+const mail_module_1 = require("./common/mail/mail.module");
 const tenant_middleware_1 = require("./common/middleware/tenant.middleware");
 const audit_middleware_1 = require("./common/middleware/audit.middleware");
+const roles_guard_1 = require("./common/guards/roles.guard");
+const plan_guard_1 = require("./common/guards/plan.guard");
 let AppModule = class AppModule {
     configure(consumer) {
         consumer
@@ -83,6 +89,7 @@ exports.AppModule = AppModule = __decorate([
                     signOptions: { expiresIn: '15m' },
                 }),
             }),
+            mail_module_1.MailModule,
             database_module_1.DatabaseModule,
             auth_module_1.AuthModule,
             leads_module_1.LeadsModule,
@@ -107,6 +114,7 @@ exports.AppModule = AppModule = __decorate([
             deals_module_1.DealsModule,
             widget_module_1.WidgetModule,
             billing_module_1.BillingModule,
+            admin_billing_module_1.AdminBillingModule,
             tiktok_ads_module_1.TikTokAdsModule,
             automation_flows_module_1.AutomationFlowsModule,
             sms_module_1.SmsModule,
@@ -115,7 +123,10 @@ exports.AppModule = AppModule = __decorate([
             messenger_module_1.MessengerModule,
             budget_optimizer_module_1.BudgetOptimizerModule,
             audit_module_1.AuditModule,
+            ecommerce_module_1.EcommerceModule,
+            users_module_1.UsersModule,
         ],
+        providers: [roles_guard_1.RolesGuard, plan_guard_1.PlanGuard],
     })
 ], AppModule);
 //# sourceMappingURL=app.module.js.map

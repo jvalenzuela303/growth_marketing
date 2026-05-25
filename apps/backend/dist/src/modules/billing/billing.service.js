@@ -15,6 +15,7 @@ const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
 const Stripe = require("stripe");
 const prisma_service_1 = require("../../database/prisma.service");
+const transbank_service_1 = require("./transbank.service");
 exports.PLAN_LIMITS = {
     starter: { maxFunnels: 1, maxLeadsPerMonth: 500, maxWhatsappMessages: 500 },
     growth: { maxFunnels: 5, maxLeadsPerMonth: 2000, maxWhatsappMessages: 2000 },
@@ -22,9 +23,10 @@ exports.PLAN_LIMITS = {
     agency: { maxFunnels: 100, maxLeadsPerMonth: 50000, maxWhatsappMessages: 50000 },
 };
 let BillingService = BillingService_1 = class BillingService {
-    constructor(config, prisma) {
+    constructor(config, prisma, transbank) {
         this.config = config;
         this.prisma = prisma;
+        this.transbank = transbank;
         this.logger = new common_1.Logger(BillingService_1.name);
         this.stripe = new Stripe(this.config.get('STRIPE_SECRET_KEY', 'sk_test_placeholder'), { apiVersion: '2026-04-22.dahlia' });
     }
@@ -37,45 +39,13 @@ let BillingService = BillingService_1 = class BillingService {
         return id;
     }
     async createCheckoutSession(tenantId, plan) {
-        const tenant = await this.prisma.tenant.findUnique({
-            where: { id: tenantId },
-            include: { subscription: true },
-        });
-        if (!tenant)
-            throw new common_1.NotFoundException('Tenant no encontrado.');
+        await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, { status: 'active' });
         const frontendUrl = this.config.get('FRONTEND_URL', 'http://localhost:4000');
-        let customerId = tenant.subscription?.stripeCustomerId;
-        if (!customerId) {
-            const customer = await this.stripe.customers.create({
-                name: tenant.name,
-                metadata: { tenantId },
-            });
-            customerId = customer.id;
-        }
-        const session = await this.stripe.checkout.sessions.create({
-            customer: customerId,
-            mode: 'subscription',
-            line_items: [{ price: this.priceId(plan), quantity: 1 }],
-            success_url: `${frontendUrl}/billing?success=1`,
-            cancel_url: `${frontendUrl}/billing?canceled=1`,
-            metadata: { tenantId, plan },
-            subscription_data: {
-                metadata: { tenantId, plan },
-            },
-        });
-        return { url: session.url };
+        return { url: `${frontendUrl}/billing?success=1` };
     }
     async createPortalSession(tenantId) {
-        const sub = await this.prisma.withTenant(tenantId, () => this.prisma.subscription.findUnique({ where: { tenantId } }));
-        if (!sub?.stripeCustomerId) {
-            throw new common_1.BadRequestException('No se encontró suscripción Stripe para este tenant.');
-        }
         const frontendUrl = this.config.get('FRONTEND_URL', 'http://localhost:4000');
-        const session = await this.stripe.billingPortal.sessions.create({
-            customer: sub.stripeCustomerId,
-            return_url: `${frontendUrl}/billing`,
-        });
-        return { url: session.url };
+        return { url: `${frontendUrl}/billing` };
     }
     async getSubscription(tenantId) {
         const sub = await this.prisma.withTenant(tenantId, () => this.prisma.subscription.findUnique({ where: { tenantId } }));
@@ -96,6 +66,64 @@ let BillingService = BillingService_1 = class BillingService {
             orderBy: { createdAt: 'desc' },
             take: 24,
         }));
+    }
+    async getPaymentMethods(tenantId) {
+        const sub = await this.prisma.subscription.findUnique({ where: { tenantId } });
+        if (!sub?.paymentMethodMock)
+            return [];
+        const pm = sub.paymentMethodMock;
+        return [{
+                id: 'local-card',
+                last4: pm.last4,
+                brand: pm.brand ?? 'Visa',
+                cardType: pm.cardType ?? 'CREDIT',
+                isDefault: true,
+            }];
+    }
+    async startEnrollment(tenantId, returnUrl) {
+        const tenant = await this.prisma.tenant.findUnique({ where: { id: tenantId } });
+        if (!tenant)
+            throw new common_1.NotFoundException('Tenant no encontrado.');
+        const username = `tenant-${tenantId}`;
+        const email = tenant.email ?? `${username}@growthengine.app`;
+        return this.transbank.startEnrollment(username, email, returnUrl);
+    }
+    async confirmEnrollment(tenantId, sessionToken) {
+        const result = await this.transbank.confirmEnrollment(sessionToken);
+        const username = `tenant-${tenantId}`;
+        const cardData = {
+            tbkUser: result.tbkUser,
+            username,
+            last4: result.last4,
+            brand: result.cardType === 'Redcompra' ? 'Redcompra' : 'Visa',
+            cardType: result.cardType,
+        };
+        await this.prisma.subscription.upsert({
+            where: { tenantId },
+            create: { tenantId, plan: 'starter', status: 'free', paymentMethodMock: cardData },
+            update: { paymentMethodMock: cardData },
+        });
+        return {
+            id: 'local-card',
+            last4: result.last4,
+            brand: cardData.brand,
+            cardType: result.cardType,
+            isDefault: true,
+        };
+    }
+    async detachPaymentMethod(tenantId, _cardId) {
+        const sub = await this.prisma.subscription.findUnique({ where: { tenantId } });
+        if (sub?.paymentMethodMock) {
+            const pm = sub.paymentMethodMock;
+            if (pm.tbkUser && pm.username) {
+                await this.transbank.removeCard(pm.tbkUser, pm.username);
+            }
+        }
+        await this.prisma.subscription.updateMany({
+            where: { tenantId },
+            data: { paymentMethodMock: undefined },
+        });
+        return { success: true };
     }
     async handleWebhook(rawBody, signature) {
         const webhookSecret = this.config.get('STRIPE_WEBHOOK_SECRET', '');
@@ -134,7 +162,8 @@ let BillingService = BillingService_1 = class BillingService {
         const plan = (session.metadata?.plan ?? 'growth');
         if (!tenantId)
             return;
-        await this.upsertSubscriptionAndUpdatePlan(tenantId, session.customer, plan, {
+        await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, {
+            stripeCustomerId: session.customer,
             stripeSubId: session.subscription,
             status: 'active',
         });
@@ -144,7 +173,8 @@ let BillingService = BillingService_1 = class BillingService {
         if (!tenantId)
             return;
         const plan = sub.metadata?.plan ?? 'growth';
-        await this.upsertSubscriptionAndUpdatePlan(tenantId, sub.customer, plan, {
+        await this.upsertSubscriptionAndUpdatePlan(tenantId, plan, {
+            stripeCustomerId: sub.customer,
             stripeSubId: sub.id,
             stripePriceId: sub.items.data[0]?.price?.id,
             status: sub.status,
@@ -186,11 +216,29 @@ let BillingService = BillingService_1 = class BillingService {
         });
         this.logger.warn(`Pago fallido para customer ${invoice.customer}`);
     }
-    async upsertSubscriptionAndUpdatePlan(tenantId, stripeCustomerId, plan, data) {
+    async stripe_call(fn) {
+        try {
+            return await fn();
+        }
+        catch (err) {
+            const type = err?.type ?? '';
+            if (type === 'StripeAuthenticationError') {
+                throw new common_1.ServiceUnavailableException('Stripe no está configurado. Agrega STRIPE_SECRET_KEY válida en .env.');
+            }
+            if (type === 'StripeInvalidRequestError') {
+                throw new common_1.BadRequestException(err.message ?? 'Solicitud inválida a Stripe.');
+            }
+            if (err?.statusCode) {
+                throw new common_1.BadRequestException(err.message ?? 'Error en Stripe.');
+            }
+            throw err;
+        }
+    }
+    async upsertSubscriptionAndUpdatePlan(tenantId, plan, data) {
         await this.prisma.subscription.upsert({
             where: { tenantId },
-            create: { tenantId, stripeCustomerId, plan, ...data },
-            update: { stripeCustomerId, plan, ...data },
+            create: { tenantId, plan, ...data },
+            update: { plan, ...data },
         });
         const limits = exports.PLAN_LIMITS[plan] ?? exports.PLAN_LIMITS['starter'];
         await this.prisma.tenant.update({
@@ -232,6 +280,7 @@ exports.BillingService = BillingService;
 exports.BillingService = BillingService = BillingService_1 = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [config_1.ConfigService,
-        prisma_service_1.PrismaService])
+        prisma_service_1.PrismaService,
+        transbank_service_1.TransbankService])
 ], BillingService);
 //# sourceMappingURL=billing.service.js.map

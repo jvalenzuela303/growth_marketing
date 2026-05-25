@@ -1,6 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+import { Queue } from 'bullmq';
 import { PrismaService } from '../../database/prisma.service';
 import { MetaCapiService } from '../webhooks/meta-capi.service';
+import { InjectQueue } from '../../queue/inject-queue.decorator';
 import { CreateDealDto } from './dto/create-deal.dto';
 
 @Injectable()
@@ -8,6 +10,7 @@ export class DealsService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly metaCapi: MetaCapiService,
+    @InjectQueue('messaging') private readonly messagingQueue: Queue,
   ) {}
 
   async create(tenantId: string, userId: string, dto: CreateDealDto) {
@@ -42,6 +45,18 @@ export class DealsService {
         eventId:   `deal_${deal.id}`,
         sourceUrl: `crm://deals/${deal.id}`,
       }).catch(() => { /* CAPI errors are non-fatal */ });
+
+      // Gap 2: trigger post-enrollment onboarding sequence
+      this.messagingQueue.add('onboarding-start', {
+        leadId:    dto.leadId,
+        tenantId,
+        dealId:    deal.id,
+        amount:    Number(deal.amount),
+        currency:  deal.currency,
+        phone:     deal.lead?.phone    ?? undefined,
+        email:     deal.lead?.email    ?? undefined,
+        firstName: deal.lead?.firstName ?? undefined,
+      }, { priority: 3 }).catch(() => { /* non-fatal */ });
     }
 
     return deal;
@@ -126,6 +141,18 @@ export class DealsService {
         eventId:   `deal_${updated.id}_won`,
         sourceUrl: `crm://deals/${updated.id}`,
       }).catch(() => { /* CAPI errors are non-fatal */ });
+
+      // Gap 2: trigger onboarding on deal transition to won
+      this.messagingQueue.add('onboarding-start', {
+        leadId:    (existing as any).leadId,
+        tenantId,
+        dealId:    updated.id,
+        amount:    Number(updated.amount),
+        currency:  updated.currency,
+        phone:     (updated.lead as any)?.phone ?? undefined,
+        email:     updated.lead?.email ?? undefined,
+        firstName: (updated.lead as any)?.firstName ?? undefined,
+      }, { priority: 3 }).catch(() => { /* non-fatal */ });
     }
 
     return updated;

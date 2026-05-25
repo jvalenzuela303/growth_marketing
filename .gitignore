@@ -17,6 +17,8 @@ CLAUDE.md
 #playwright
 .playwright-mcp/
 
+#logs
+.logs/
 
 # Python
 __pycache__/

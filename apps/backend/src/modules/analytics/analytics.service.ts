@@ -196,12 +196,12 @@ export class AnalyticsService {
         platform: string; spend: number
       }>>`
         SELECT
-          LOWER(platform) AS platform,
+          LOWER(source) AS platform,
           COALESCE(SUM(spend_amount), 0) AS spend
         FROM ad_spend
         WHERE tenant_id = ${tenantId}::uuid
           AND period_start >= ${since}
-        GROUP BY platform
+        GROUP BY source
       `;
 
       // Map spend by platform name → source name (meta→facebook, google→google, etc.)

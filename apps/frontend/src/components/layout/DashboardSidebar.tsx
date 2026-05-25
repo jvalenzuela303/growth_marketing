@@ -20,14 +20,23 @@ import {
   Workflow,
   Building2,
   BarChart3,
+  ShieldCheck,
+  BadgeDollarSign,
+  LayoutList,
+  Lock,
 } from 'lucide-react'
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
+import { PlanBadge } from '@/components/access/PlanBadge'
+import { usePermissions } from '@/hooks/usePermissions'
+
+type PlanTier = 'starter' | 'growth' | 'scale' | 'agency'
 
 interface NavItem {
-  href:  string
-  label: string
-  icon:  React.ComponentType<{ className?: string }>
+  href:     string
+  label:    string
+  icon:     React.ComponentType<{ className?: string }>
+  minPlan?: PlanTier
 }
 
 const NAV_ITEMS: NavItem[] = [
@@ -36,14 +45,20 @@ const NAV_ITEMS: NavItem[] = [
   { href: '/leads',          label: 'Leads',            icon: Users },
   { href: '/conversations',  label: 'Conversaciones',   icon: MessageCircle },
   { href: '/chat',           label: 'Chat IA',          icon: BotMessageSquare },
-  { href: '/sequences',      label: 'Secuencias',       icon: Mail },
+  { href: '/sequences',      label: 'Secuencias',       icon: Mail,      minPlan: 'growth' },
   { href: '/ads',            label: 'Publicidad',       icon: TrendingUp },
-  { href: '/deals',          label: 'Ventas',           icon: HandCoins },
-  { href: '/attribution',    label: 'Atribución',       icon: BarChart3 },
+  { href: '/deals',          label: 'Ventas',           icon: HandCoins, minPlan: 'growth' },
+  { href: '/attribution',    label: 'Atribución',       icon: BarChart3, minPlan: 'growth' },
   { href: '/appointments',   label: 'Citas',            icon: Calendar },
-  { href: '/automations',    label: 'Automatizaciones', icon: Workflow },
+  { href: '/automations',    label: 'Automatizaciones', icon: Workflow,  minPlan: 'scale'  },
   { href: '/billing',        label: 'Billing',          icon: CreditCard },
-  { href: '/settings',       label: 'Configuración',    icon: Settings },
+  { href: '/settings',       label: 'Configuracion',    icon: Settings },
+]
+
+const ADMIN_NAV_ITEMS: NavItem[] = [
+  { href: '/admin/plans',         label: 'Planes',         icon: LayoutList       },
+  { href: '/admin/subscriptions', label: 'Suscripciones',  icon: Users            },
+  { href: '/admin/billing',       label: 'Facturación',    icon: BadgeDollarSign  },
 ]
 
 const PLAN_COLORS: Record<string, string> = {
@@ -77,6 +92,7 @@ export function DashboardSidebar({
   const pathname    = usePathname()
   const [collapsed, setCollapsed] = useState(false)
   const initials    = tenantInitials(tenantName)
+  const { hasPlan } = usePermissions()
 
   return (
     <aside
@@ -135,35 +151,104 @@ export function DashboardSidebar({
       )}
 
       {/* ── Navigation ─────────────────────────────────────────────────────── */}
-      <nav className="flex-1 py-3 space-y-0.5 px-2 overflow-y-auto" aria-label="Menú principal">
-        {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
+      <nav className="flex-1 py-3 space-y-0.5 px-2 overflow-y-auto" aria-label="Menu principal">
+        {NAV_ITEMS.map(({ href, label, icon: Icon, minPlan }) => {
           const isActive = pathname === href || (href !== '/overview' && pathname.startsWith(href))
+          const locked   = minPlan !== undefined && !hasPlan(minPlan)
           return (
             <Link
               key={href}
               href={href}
               aria-current={isActive ? 'page' : undefined}
+              aria-label={locked ? `${label} — requiere plan ${minPlan}` : label}
               className={cn(
                 'flex items-center gap-3 rounded-xl px-3 min-h-[40px]',
                 'text-sm font-medium transition-colors duration-150',
                 collapsed && 'justify-center px-0',
-                isActive
-                  ? 'bg-brand-50 text-brand-700'
-                  : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900',
+                locked
+                  ? 'text-slate-400 hover:bg-slate-50 hover:text-slate-500'
+                  : isActive
+                    ? 'bg-brand-50 text-brand-700'
+                    : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900',
               )}
             >
-              <Icon className={cn('w-4.5 h-4.5 w-[18px] h-[18px] flex-shrink-0', isActive && 'text-brand-600')} aria-hidden />
-              {!collapsed && <span>{label}</span>}
+              <Icon
+                className={cn(
+                  'w-[18px] h-[18px] flex-shrink-0',
+                  isActive && !locked && 'text-brand-600',
+                  locked && 'text-slate-300',
+                )}
+                aria-hidden
+              />
+              {!collapsed && (
+                <>
+                  <span className="flex-1">{label}</span>
+                  {locked && (
+                    <Lock
+                      className="w-3 h-3 text-slate-300 flex-shrink-0"
+                      aria-hidden
+                    />
+                  )}
+                </>
+              )}
             </Link>
           )
         })}
+
+        {/* ── Admin section — visible only for owner / admin ────────────── */}
+        {(userRole === 'owner' || userRole === 'admin') && (
+          <>
+            {!collapsed && (
+              <div className="px-3 pt-4 pb-1 flex items-center gap-2">
+                <ShieldCheck className="w-3 h-3 text-slate-400" aria-hidden />
+                <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider">
+                  Admin
+                </p>
+              </div>
+            )}
+            {collapsed && <div className="my-2 mx-2 border-t border-slate-100" />}
+            {ADMIN_NAV_ITEMS.map(({ href, label, icon: Icon }) => {
+              const isActive = pathname === href || pathname.startsWith(href)
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  aria-current={isActive ? 'page' : undefined}
+                  className={cn(
+                    'flex items-center gap-3 rounded-xl px-3 min-h-[40px]',
+                    'text-sm font-medium transition-colors duration-150',
+                    collapsed && 'justify-center px-0',
+                    isActive
+                      ? 'bg-brand-50 text-brand-700'
+                      : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900',
+                  )}
+                >
+                  <Icon className={cn('w-[18px] h-[18px] flex-shrink-0', isActive && 'text-brand-600')} aria-hidden />
+                  {!collapsed && <span>{label}</span>}
+                </Link>
+              )
+            })}
+          </>
+        )}
       </nav>
 
-      {/* ── Collapse toggle ─────────────────────────────────────────────────── */}
-      <div className="p-2 border-t border-slate-100">
+      {/* ── Plan badge + collapse toggle ────────────────────────────────────── */}
+      <div className="p-2 border-t border-slate-100 space-y-1">
+        {/* Plan badge row */}
+        {!collapsed ? (
+          <div className="px-1 py-1.5 flex items-center justify-between">
+            <PlanBadge showUpgrade={plan !== 'agency'} />
+          </div>
+        ) : (
+          <div className="flex justify-center py-1">
+            <PlanBadge compact />
+          </div>
+        )}
+
+        {/* Collapse button */}
         <button
           onClick={() => setCollapsed(!collapsed)}
-          aria-label={collapsed ? 'Expandir menú' : 'Colapsar menú'}
+          aria-label={collapsed ? 'Expandir menu' : 'Colapsar menu'}
           className={cn(
             'flex items-center justify-center w-full min-h-[36px] rounded-xl',
             'text-slate-400 hover:text-slate-700 hover:bg-slate-50',

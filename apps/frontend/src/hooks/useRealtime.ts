@@ -67,7 +67,7 @@ export function useRealtime() {
 
     const socket = io(`${WS_URL}/realtime`, {
       auth:       { token },
-      transports: ['websocket', 'polling'],
+      transports: ['polling', 'websocket'],
       reconnectionAttempts: 5,
       reconnectionDelay:    2000,
     })

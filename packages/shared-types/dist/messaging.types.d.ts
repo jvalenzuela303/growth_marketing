@@ -31,5 +31,13 @@ export declare const WHATSAPP_TEMPLATES: {
     readonly WARM_NURTURE_1: "ge_warm_nurture_1";
     readonly WARM_NURTURE_2: "ge_warm_nurture_2";
     readonly REENGAGEMENT: "ge_reengagement";
+    readonly ONBOARDING_WELCOME: "ge_onboarding_welcome";
+    readonly ONBOARDING_DOCS: "ge_onboarding_docs";
+    readonly ONBOARDING_FIRST_CLASS: "ge_onboarding_first_class";
+    readonly APPOINTMENT_REMINDER_24H: "ge_appointment_reminder_24h";
+    readonly APPOINTMENT_REMINDER_2H: "ge_appointment_reminder_2h";
+    readonly POST_CONSULTATION_FOLLOWUP: "ge_post_consultation_followup";
+    readonly CART_ABANDONED_1: "ge_cart_abandoned_1";
+    readonly CART_ABANDONED_2: "ge_cart_abandoned_2";
 };
 //# sourceMappingURL=messaging.types.d.ts.map

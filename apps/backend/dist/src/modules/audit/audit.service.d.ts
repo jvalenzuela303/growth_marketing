@@ -38,11 +38,11 @@ export declare class AuditService {
             ipAddress: string | null;
             userAgent: string | null;
             status: string;
+            reason: string | null;
             action: string;
             resource: string;
             resourceId: string | null;
             changes: import("@prisma/client/runtime/library").JsonValue;
-            reason: string | null;
         }[];
         meta: {
             total: number;

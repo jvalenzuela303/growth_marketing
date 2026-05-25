@@ -6,6 +6,55 @@ import { MessagingService } from '../modules/messaging/messaging.service';
 import { PrismaService } from '../database/prisma.service';
 import { WHATSAPP_TEMPLATES } from '@growth-engine/shared-types';
 import { FollowUpScheduler } from './followup.scheduler';
+import { AbandonedCartScanner } from './abandoned-cart.scanner';
+
+// ── Job payload types ─────────────────────────────────────────────────────────
+
+interface OnboardingStartJobData {
+  leadId:    string;
+  tenantId:  string;
+  dealId:    string;
+  amount:    number;
+  currency:  string;
+  phone?:    string;
+  email?:    string;
+  firstName?: string;
+}
+
+interface AppointmentReminderJobData {
+  appointmentId: string;
+  tenantId:      string;
+  leadId:        string;
+  phone?:        string;
+  email?:        string;
+  firstName?:    string;
+  scheduledAt:   string;
+  meetingUrl?:   string;
+  reminderType:  '24h' | '2h';
+}
+
+interface PostConsultationJobData {
+  appointmentId: string;
+  tenantId:      string;
+  leadId:        string;
+  phone?:        string;
+  email?:        string;
+  firstName?:    string;
+}
+
+interface CartAbandonedJobData {
+  cartId:    string;
+  tenantId:  string;
+  leadId?:   string;
+  phone?:    string;
+  email?:    string;
+  firstName?: string;
+  totalAmount: number;
+  currency:   string;
+  checkoutUrl?: string;
+  itemNames:  string;   // comma-separated top 3 item names
+  attemptNumber: number; // 1 = first alert, 2 = second alert
+}
 
 interface LeadScoredJobData {
   leadId: string;
@@ -63,16 +112,22 @@ export class MessagingProcessor implements OnModuleInit, OnModuleDestroy {
     private readonly prisma: PrismaService,
     @InjectQueue('messaging') private readonly messagingQueue: Queue,
     private readonly followUpScheduler: FollowUpScheduler,
+    private readonly cartScanner: AbandonedCartScanner,
   ) {}
 
-  onModuleInit() {
+  async onModuleInit() {
     this.worker = new Worker<LeadScoredJobData | HotLeadAlertJobData>(
       'messaging',
       async (job: Job<LeadScoredJobData>) => {
-        if (job.name === 'hot-lead-alert')  return this.processHotLeadAlert(job as Job<HotLeadAlertJobData>);
-        if (job.name === 'followup-scan')   return this.followUpScheduler.runScan();
-        if (job.name === 'auto-followup')   return this.processAutoFollowup(job as any);
-        if (job.name === 'sequence-step')   return this.processSequenceStep(job as any);
+        if (job.name === 'hot-lead-alert')       return this.processHotLeadAlert(job as Job<HotLeadAlertJobData>);
+        if (job.name === 'followup-scan')        return this.followUpScheduler.runScan();
+        if (job.name === 'auto-followup')        return this.processAutoFollowup(job as any);
+        if (job.name === 'sequence-step')        return this.processSequenceStep(job as any);
+        if (job.name === 'onboarding-start')            return this.processOnboardingStart(job as unknown as Job<OnboardingStartJobData>);
+        if (job.name === 'appointment-reminder')        return this.processAppointmentReminder(job as unknown as Job<AppointmentReminderJobData>);
+        if (job.name === 'followup-post-consultation')  return this.processPostConsultation(job as unknown as Job<PostConsultationJobData>);
+        if (job.name === 'cart-abandoned')              return this.processCartAbandoned(job as unknown as Job<CartAbandonedJobData>);
+        if (job.name === 'abandoned-cart-scan')         return this.cartScanner.runScan();
         return this.processLeadScored(job);
       },
       {
@@ -92,6 +147,13 @@ export class MessagingProcessor implements OnModuleInit, OnModuleDestroy {
 
     this.worker.on('failed', (job, err) =>
       this.logger.error(`Job messaging fallido: ${job?.id} (${job?.name}) — ${err.message}`),
+    );
+
+    // Register abandoned cart scan — every 1 hour
+    await this.messagingQueue.add(
+      'abandoned-cart-scan',
+      {},
+      { repeat: { every: 60 * 60 * 1000 }, jobId: 'abandoned-cart-scan-hourly', priority: 5 },
     );
 
     this.logger.log('MessagingProcessor iniciado.');
@@ -194,9 +256,118 @@ export class MessagingProcessor implements OnModuleInit, OnModuleDestroy {
   private async processSequenceStep(job: Job<{
     leadId: string; tenantId: string; phone: string;
     templateName: string; params: Record<string, string>;
+    channel?: string;
   }>): Promise<void> {
-    const { leadId, tenantId, phone, templateName, params } = job.data;
-    await this.messagingService.sendTemplate(tenantId, leadId, 'whatsapp', phone, templateName, params);
+    const { leadId, tenantId, phone, templateName, params, channel = 'whatsapp' } = job.data;
+    await this.messagingService.sendTemplate(tenantId, leadId, channel as any, phone, templateName, params);
+  }
+
+  // ── Gap 2: Post-enrollment onboarding sequence ─────────────────────────────
+
+  private async processOnboardingStart(job: Job<OnboardingStartJobData>): Promise<void> {
+    const { leadId, tenantId, phone, email, firstName, amount, currency } = job.data;
+    const name = firstName || 'ahí';
+
+    // Step 1 — Welcome (immediate, WhatsApp preferred, email fallback)
+    if (phone) {
+      await this.messagingService.sendTemplate(tenantId, leadId, 'whatsapp', phone,
+        WHATSAPP_TEMPLATES.ONBOARDING_WELCOME, { name, amount: String(amount), currency });
+    } else if (email) {
+      await this.messagingService.send({
+        tenantId, leadId, channel: 'email', to: email,
+        templateName: WHATSAPP_TEMPLATES.ONBOARDING_WELCOME,
+        templateParams: { name, amount: String(amount), currency },
+      });
+    }
+
+    if (!phone && !email) {
+      this.logger.warn(`Onboarding sin contacto para lead ${leadId}`);
+      return;
+    }
+
+    const contact  = phone ?? email!;
+    const channel  = phone ? 'whatsapp' : 'email';
+    const ONE_HOUR = 60 * 60 * 1000;
+
+    // Step 2 — Document checklist (1h later)
+    await this.messagingQueue.add('sequence-step', {
+      leadId, tenantId, phone: contact, channel,
+      templateName: WHATSAPP_TEMPLATES.ONBOARDING_DOCS,
+      params: { name },
+    }, { delay: ONE_HOUR, priority: 3 });
+
+    // Step 3 — First class / orientation (24h later)
+    await this.messagingQueue.add('sequence-step', {
+      leadId, tenantId, phone: contact, channel,
+      templateName: WHATSAPP_TEMPLATES.ONBOARDING_FIRST_CLASS,
+      params: { name },
+    }, { delay: 24 * ONE_HOUR, priority: 3 });
+
+    // Record onboarding event
+    await this.prisma.withTenant(tenantId, () =>
+      this.prisma.leadEvent.create({
+        data: {
+          tenantId,
+          leadId,
+          eventType: 'onboarding_started',
+          eventData: { dealId: job.data.dealId, channel },
+        },
+      }),
+    );
+
+    this.logger.log(`Onboarding iniciado para lead ${leadId} (deal ${job.data.dealId})`);
+  }
+
+  // ── Gap 1: Appointment reminders ───────────────────────────────────────────
+
+  private async processAppointmentReminder(job: Job<AppointmentReminderJobData>): Promise<void> {
+    const { appointmentId, tenantId, leadId, phone, email, firstName, scheduledAt, meetingUrl, reminderType } = job.data;
+
+    // Verify appointment is still scheduled
+    const appointment = await this.prisma.withTenant(tenantId, () =>
+      this.prisma.appointment.findFirst({
+        where: { id: appointmentId, tenantId, status: 'scheduled' },
+      }),
+    );
+
+    if (!appointment) {
+      this.logger.debug(`Appointment ${appointmentId} ya no está programada, omitiendo recordatorio.`);
+      return;
+    }
+
+    const name      = firstName || 'ahí';
+    const template  = reminderType === '24h'
+      ? WHATSAPP_TEMPLATES.APPOINTMENT_REMINDER_24H
+      : WHATSAPP_TEMPLATES.APPOINTMENT_REMINDER_2H;
+
+    const scheduledDate = new Date(scheduledAt);
+    const dateStr = scheduledDate.toLocaleDateString('es-CL', { weekday: 'long', day: 'numeric', month: 'long' });
+    const timeStr = scheduledDate.toLocaleTimeString('es-CL', { hour: '2-digit', minute: '2-digit' });
+
+    const params: Record<string, string> = {
+      name,
+      date: dateStr,
+      time: timeStr,
+      meetingUrl: meetingUrl || '',
+    };
+
+    // WhatsApp preferred; fall back to email
+    if (phone) {
+      const result = await this.messagingService.sendTemplate(tenantId, leadId, 'whatsapp', phone, template, params);
+      if (!result.success) {
+        this.logger.warn(`WhatsApp reminder falló para ${phone}: ${result.error}`);
+      }
+    }
+
+    if (email) {
+      await this.messagingService.send({
+        tenantId, leadId, channel: 'email', to: email,
+        templateName: template,
+        templateParams: params,
+      });
+    }
+
+    this.logger.log(`Recordatorio ${reminderType} enviado — appointment ${appointmentId}`);
   }
 
   private async processHotLeadAlert(job: Job<HotLeadAlertJobData>): Promise<void> {
@@ -278,5 +449,85 @@ export class MessagingProcessor implements OnModuleInit, OnModuleDestroy {
       });
       this.logger.log(`Alerta hot-lead enviada a ${owner.email} para lead ${leadId}`);
     }
+  }
+
+  // ── Salud: post-consultation follow-up ────────────────────────────────────
+
+  private async processPostConsultation(job: Job<PostConsultationJobData>): Promise<void> {
+    const { leadId, tenantId, phone, email, firstName } = job.data;
+    const name = firstName || 'ahí';
+
+    if (phone) {
+      await this.messagingService.sendTemplate(
+        tenantId, leadId, 'whatsapp', phone,
+        WHATSAPP_TEMPLATES.POST_CONSULTATION_FOLLOWUP,
+        { name },
+      );
+    }
+
+    if (email) {
+      await this.messagingService.send({
+        tenantId, leadId, channel: 'email', to: email,
+        templateName: WHATSAPP_TEMPLATES.POST_CONSULTATION_FOLLOWUP,
+        templateParams: { name },
+      });
+    }
+
+    await this.prisma.withTenant(tenantId, () =>
+      this.prisma.leadEvent.create({
+        data: {
+          tenantId, leadId,
+          eventType: 'post_consultation_followup',
+          eventData: { appointmentId: job.data.appointmentId },
+        },
+      }),
+    ).catch(() => {});
+
+    this.logger.log(`Post-consultation follow-up enviado — lead ${leadId}`);
+  }
+
+  // ── E-commerce: abandoned cart recovery ──────────────────────────────────
+
+  private async processCartAbandoned(job: Job<CartAbandonedJobData>): Promise<void> {
+    const { cartId, tenantId, leadId, phone, email, firstName,
+            totalAmount, currency, checkoutUrl, itemNames, attemptNumber } = job.data;
+
+    const name     = firstName || 'ahí';
+    const template = attemptNumber === 1
+      ? WHATSAPP_TEMPLATES.CART_ABANDONED_1
+      : WHATSAPP_TEMPLATES.CART_ABANDONED_2;
+
+    const params: Record<string, string> = {
+      name,
+      items:       itemNames,
+      total:       `${currency} ${totalAmount.toLocaleString('es-CL')}`,
+      checkoutUrl: checkoutUrl || '',
+    };
+
+    if (phone) {
+      const result = await this.messagingService.sendTemplate(
+        tenantId, leadId ?? '', 'whatsapp', phone, template, params,
+      );
+      if (!result.success) {
+        this.logger.warn(`Cart abandoned WhatsApp falló (${phone}): ${result.error}`);
+      }
+    }
+
+    if (email) {
+      await this.messagingService.send({
+        tenantId, leadId, channel: 'email', to: email,
+        templateName: template, templateParams: params,
+      });
+    }
+
+    // Mark cart as recovery-alerted
+    await this.prisma.withTenant(tenantId, () =>
+      (this.prisma as any).cart.update({
+        where: { id: cartId },
+        data:  { recoveryAlertSentAt: new Date() },
+      }),
+    ).catch(() => {});
+
+    this.logger.log(`Cart abandoned attempt #${attemptNumber} — cart ${cartId}`);
   }
 }

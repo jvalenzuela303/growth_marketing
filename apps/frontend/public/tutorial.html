@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growth Engine — Tutorial Completo de la Plataforma</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f0f2f5;
+    }
+
+    /* ── Layout ── */
+    .page-wrapper { display: flex; min-height: 100vh; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      background: #1a1f2e;
+      color: #c8d0e0;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      padding: 24px 0;
+    }
+    .sidebar-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 20px 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 16px;
+    }
+    .sidebar-brand .icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .sidebar-brand strong { font-size: 14px; color: #fff; display: block; }
+    .sidebar-brand span { font-size: 11px; color: rgba(255,255,255,0.35); }
+
+    .nav-section { margin-bottom: 8px; }
+    .nav-section-title {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: rgba(255,255,255,0.25);
+      padding: 6px 20px 4px;
+    }
+    .nav-item {
+      display: block; padding: 8px 20px;
+      font-size: 13px; color: #9aa4b8;
+      text-decoration: none; border-left: 3px solid transparent;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .nav-item:hover { background: rgba(255,255,255,0.04); color: #e2e8f0; }
+    .nav-item.active { border-left-color: #6366f1; background: rgba(99,102,241,0.08); color: #a5b4fc; }
+    .nav-badge {
+      display: inline-block; font-size: 9px; font-weight: 700;
+      padding: 1px 6px; border-radius: 10px; margin-left: 6px;
+      vertical-align: middle;
+    }
+    .badge-growth { background: #1e40af22; color: #60a5fa; border: 1px solid #1e40af44; }
+    .badge-scale  { background: #6d28d922; color: #c084fc; border: 1px solid #6d28d944; }
+
+    /* ── Main content ── */
+    .main-content { flex: 1; padding: 32px 40px; max-width: 900px; }
+
+    .section { background: #fff; border-radius: 12px; padding: 32px 36px; margin-bottom: 28px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+
+    h1 { font-size: 26px; font-weight: 800; color: #1a1f2e; margin-bottom: 8px; }
+    h1 .version { font-size: 13px; font-weight: 500; color: #888; margin-left: 10px; }
+    .page-subtitle { font-size: 14px; color: #64748b; margin-bottom: 0; }
+
+    h2 {
+      font-size: 18px; font-weight: 700; color: #2c3e50;
+      border-bottom: 2px solid #e8efff; padding-bottom: 10px; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    h2 .section-icon {
+      width: 30px; height: 30px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px; flex-shrink: 0;
+    }
+
+    h3 { font-size: 14px; font-weight: 700; color: #34495e; margin: 18px 0 8px; }
+
+    p { font-size: 14px; color: #555; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 14px; color: #555; margin-bottom: 6px; }
+    li strong { color: #34495e; }
+
+    /* ── Callouts ── */
+    .info-box {
+      background: #eff6ff; border-left: 4px solid #3b82f6;
+      border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0;
+      font-size: 13px; color: #1e40af;
+    }
+    .info-box strong { display: block; margin-bottom: 4px; }
+
+    .success-box {
+      background: #f0fdf4; border-left: 4px solid #22c55e;
+      border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0;
+      font-size: 13px; color: #15803d;
+    }
+    .warning-box {
+      background: #fffbeb; border-left: 4px solid #f59e0b;
+      border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0;
+      font-size: 13px; color: #92400e;
+    }
+
+    /* ── Feature table ── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 16px 0; }
+    th {
+      background: #f8faff; text-align: left; padding: 10px 14px;
+      font-weight: 700; color: #334155; border-bottom: 2px solid #e2e8f0;
+      font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid #f1f5f9; color: #475569; }
+    tr:hover td { background: #f8faff; }
+    .check { color: #22c55e; font-weight: 700; }
+    .cross { color: #94a3b8; }
+
+    /* ── Plan cards ── */
+    .plan-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 16px 0; }
+    .plan-card {
+      border-radius: 10px; padding: 16px;
+      border: 1px solid #e2e8f0; text-align: center;
+    }
+    .plan-card .plan-name { font-weight: 800; font-size: 14px; margin-bottom: 4px; }
+    .plan-card .plan-price { font-size: 20px; font-weight: 800; margin: 6px 0; }
+    .plan-card .plan-price span { font-size: 12px; font-weight: 400; color: #888; }
+    .plan-card .plan-leads { font-size: 11px; color: #888; }
+    .plan-starter { background: #f8fafc; }
+    .plan-growth  { background: #eff6ff; border-color: #bfdbfe; }
+    .plan-scale   { background: #faf5ff; border-color: #ddd6fe; }
+    .plan-agency  { background: #fffbeb; border-color: #fde68a; }
+    .plan-starter .plan-name { color: #475569; }
+    .plan-growth  .plan-name { color: #2563eb; }
+    .plan-scale   .plan-name { color: #7c3aed; }
+    .plan-agency  .plan-name { color: #d97706; }
+
+    /* ── Role table ── */
+    .role-row td:first-child { font-weight: 700; }
+    .role-owner  td:first-child { color: #7c3aed; }
+    .role-admin  td:first-child { color: #2563eb; }
+    .role-member td:first-child { color: #0891b2; }
+    .role-viewer td:first-child { color: #64748b; }
+
+    /* ── Steps ── */
+    .steps { counter-reset: step; padding-left: 0; list-style: none; }
+    .steps li {
+      display: flex; gap: 14px; align-items: flex-start;
+      margin-bottom: 16px; counter-increment: step;
+    }
+    .steps li::before {
+      content: counter(step);
+      width: 26px; height: 26px; border-radius: 50%;
+      background: #6366f1; color: #fff;
+      font-size: 12px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .steps li .step-body strong { display: block; font-size: 14px; color: #1e293b; margin-bottom: 3px; }
+    .steps li .step-body p { font-size: 13px; color: #64748b; margin: 0; }
+
+    /* ── Scoreboard ── */
+    .score-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin: 12px 0; }
+    .score-card {
+      border-radius: 8px; padding: 10px; text-align: center;
+      font-size: 11px; font-weight: 700; border: 1px solid transparent;
+    }
+    .score-fuego  { background: #fff1f0; color: #dc2626; border-color: #fecaca; }
+    .score-cal    { background: #fff7ed; color: #ea580c; border-color: #fed7aa; }
+    .score-tibio  { background: #fefce8; color: #ca8a04; border-color: #fde68a; }
+    .score-frio   { background: #eff6ff; color: #2563eb; border-color: #bfdbfe; }
+    .score-motor  { background: #f8fafc; color: #94a3b8; border-color: #e2e8f0; }
+    .score-card .score-range { font-size: 16px; font-weight: 800; display: block; margin-bottom: 2px; }
+
+    /* ── Keyboard shortcut ── */
+    kbd {
+      display: inline-block; padding: 2px 7px; border-radius: 4px;
+      background: #f1f5f9; border: 1px solid #cbd5e1;
+      font-family: 'Monaco', 'Menlo', monospace; font-size: 11px; color: #334155;
+    }
+
+    /* ── Header area ── */
+    .page-header { background: #fff; border-radius: 12px; padding: 28px 36px; margin-bottom: 28px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); display: flex; align-items: center; gap: 20px; }
+    .header-icon { width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(135deg, #6366f1, #8b5cf6); display: flex; align-items: center; justify-content: center; font-size: 28px; flex-shrink: 0; }
+    .header-text h1 { margin-bottom: 4px; }
+
+    /* ── TOC ── */
+    .toc { background: #f8faff; border: 1px solid #e0e8ff; border-radius: 10px; padding: 16px 20px; margin-bottom: 28px; }
+    .toc h3 { font-size: 13px; color: #3b5bdb; margin: 0 0 10px; }
+    .toc ol { margin: 0; padding-left: 18px; }
+    .toc li { font-size: 13px; margin-bottom: 5px; }
+    .toc a { color: #3b5bdb; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .main-content { padding: 20px; }
+      .plan-grid { grid-template-columns: repeat(2, 1fr); }
+      .score-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- ── Sidebar ── -->
+  <nav class="sidebar" aria-label="Navegación del tutorial">
+    <div class="sidebar-brand">
+      <div class="icon">⚡</div>
+      <div>
+        <strong>Growth Engine</strong>
+        <span>Tutorial de la plataforma</span>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Inicio</div>
+      <a class="nav-item active" href="#introduccion">Introduccion</a>
+      <a class="nav-item" href="#acceso">Acceso y login</a>
+      <a class="nav-item" href="#planes">Planes y roles</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Modulos principales</div>
+      <a class="nav-item" href="#overview">Dashboard / Overview</a>
+      <a class="nav-item" href="#leads">Leads y CRM</a>
+      <a class="nav-item" href="#funnels">Funnels y Quiz</a>
+      <a class="nav-item" href="#scoring">Scoring IA</a>
+      <a class="nav-item" href="#deals">Pipeline de ventas</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Comunicacion</div>
+      <a class="nav-item" href="#conversations">Conversaciones</a>
+      <a class="nav-item" href="#sequences">
+        Secuencias
+        <span class="nav-badge badge-growth">Growth</span>
+      </a>
+      <a class="nav-item" href="#chat">Chat IA</a>
+      <a class="nav-item" href="#appointments">Citas</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Analisis y publicidad</div>
+      <a class="nav-item" href="#analytics">Analytics</a>
+      <a class="nav-item" href="#attribution">
+        Atribucion avanzada
+        <span class="nav-badge badge-growth">Growth</span>
+      </a>
+      <a class="nav-item" href="#ads">Campanas Meta Ads</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Automatizacion</div>
+      <a class="nav-item" href="#automations">
+        Automatizaciones
+        <span class="nav-badge badge-scale">Scale</span>
+      </a>
+      <a class="nav-item" href="#admin">Administracion</a>
+      <a class="nav-item" href="#billing">Facturacion</a>
+    </div>
+  </nav>
+
+  <!-- ── Main ── -->
+  <main class="main-content">
+
+    <!-- Header -->
+    <div class="page-header">
+      <div class="header-icon">⚡</div>
+      <div class="header-text">
+        <h1>Growth Engine <span class="version">v1.0</span></h1>
+        <p class="page-subtitle">Plataforma all-in-one de captacion, calificacion y conversion de leads con inteligencia artificial.</p>
+      </div>
+    </div>
+
+    <!-- TOC -->
+    <div class="toc">
+      <h3>Contenido del tutorial</h3>
+      <ol>
+        <li><a href="#introduccion">Que es Growth Engine</a></li>
+        <li><a href="#acceso">Acceso y login</a></li>
+        <li><a href="#planes">Planes, roles y permisos</a></li>
+        <li><a href="#overview">Dashboard principal</a></li>
+        <li><a href="#leads">Gestion de leads</a></li>
+        <li><a href="#funnels">Funnels y Quiz</a></li>
+        <li><a href="#scoring">Scoring con IA</a></li>
+        <li><a href="#deals">Pipeline de ventas</a></li>
+        <li><a href="#conversations">Conversaciones y Chat IA</a></li>
+        <li><a href="#sequences">Secuencias automaticas</a></li>
+        <li><a href="#analytics">Analytics y atribucion</a></li>
+        <li><a href="#ads">Campanas Meta Ads</a></li>
+        <li><a href="#automations">Automatizaciones (Scale)</a></li>
+        <li><a href="#admin">Administracion y facturacion</a></li>
+      </ol>
+    </div>
+
+    <!-- ── 1. Introduccion ── -->
+    <section class="section" id="introduccion">
+      <h2><span class="section-icon" style="background:#ede9fe;">🏗️</span> ¿Que es Growth Engine?</h2>
+      <p>Growth Engine es una plataforma SaaS multi-empresa diseñada para agencias de marketing y equipos de ventas que necesitan <strong>captar, calificar y convertir leads a escala</strong> usando inteligencia artificial.</p>
+
+      <h3>Arquitectura del sistema</h3>
+      <ul>
+        <li><strong>Multi-tenant:</strong> cada empresa tiene su propio espacio de trabajo completamente aislado.</li>
+        <li><strong>IA integrada:</strong> motor de scoring basado en FastAPI + Claude AI para clasificar leads automaticamente.</li>
+        <li><strong>Automatizaciones:</strong> flujos de mensajeria por WhatsApp, email y SMS integrados en el CRM.</li>
+        <li><strong>Analytics en tiempo real:</strong> KPIs de marketing y ventas actualizados en vivo.</li>
+      </ul>
+
+      <div class="info-box">
+        <strong>Arquitectura tecnica</strong>
+        Frontend Next.js 14 (puerto 4000) · Backend NestJS (puerto 4001) · Motor IA FastAPI Python (puerto 8000) · Base de datos PostgreSQL con Row-Level Security · Colas BullMQ + Redis
+      </div>
+    </section>
+
+    <!-- ── 2. Acceso ── -->
+    <section class="section" id="acceso">
+      <h2><span class="section-icon" style="background:#eff6ff;">🔐</span> Acceso y login</h2>
+
+      <h3>Ingresar a la plataforma</h3>
+      <ol class="steps">
+        <li>
+          <div class="step-body">
+            <strong>Ir a la pagina de login</strong>
+            <p>Accede a <code>http://localhost:4000/login</code> desde tu navegador.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Ingresar credenciales</strong>
+            <p>Usa tu email corporativo y contraseña asignada por el administrador de tu empresa.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Acceso al workspace</strong>
+            <p>Seras redirigido automaticamente al dashboard de tu empresa. Cada empresa tiene un espacio completamente aislado.</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3>Solicitar acceso para tu empresa</h3>
+      <p>Si tu empresa aun no tiene cuenta, haz clic en el boton <strong>"Solicitar acceso para tu empresa"</strong> en la pagina de login. Se abrira un formulario donde puedes ingresar:</p>
+      <ul>
+        <li>Nombre completo y empresa</li>
+        <li>Email corporativo y telefono</li>
+        <li>Plan de interes (Starter / Growth / Scale / Agency)</li>
+      </ul>
+      <p>El equipo de ventas se pondra en contacto en menos de 24 horas.</p>
+
+      <h3>Credenciales de desarrollo</h3>
+      <div class="warning-box">
+        <strong>Solo en entorno de desarrollo</strong>
+        Email: <code>admin@growthengine.io</code> · Contraseña: <code>admin123</code> · Rol: owner
+      </div>
+    </section>
+
+    <!-- ── 3. Planes y Roles ── -->
+    <section class="section" id="planes">
+      <h2><span class="section-icon" style="background:#faf5ff;">👥</span> Planes, roles y permisos</h2>
+
+      <h3>Planes disponibles</h3>
+      <div class="plan-grid">
+        <div class="plan-card plan-starter">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price">Basico</div>
+          <div class="plan-leads">500 leads/mes · 1 funnel</div>
+        </div>
+        <div class="plan-card plan-growth">
+          <div class="plan-name">Growth</div>
+          <div class="plan-price">Avanzado</div>
+          <div class="plan-leads">2.000 leads/mes · 5 funnels</div>
+        </div>
+        <div class="plan-card plan-scale">
+          <div class="plan-name">Scale</div>
+          <div class="plan-price">Profesional</div>
+          <div class="plan-leads">10.000 leads/mes · 20 funnels</div>
+        </div>
+        <div class="plan-card plan-agency">
+          <div class="plan-name">Agency</div>
+          <div class="plan-price">Enterprise</div>
+          <div class="plan-leads">50.000 leads/mes · 100 funnels</div>
+        </div>
+      </div>
+
+      <h3>Funcionalidades por plan</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Funcionalidad</th>
+            <th>Starter</th>
+            <th>Growth</th>
+            <th>Scale</th>
+            <th>Agency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Leads y CRM</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Funnels y Quiz</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Scoring IA basico</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Dashboard analytics</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Exportar leads CSV</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Secuencias automaticas</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Pipeline de ventas</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Atribucion avanzada</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Analytics financiero</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Automatizaciones</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>WhatsApp masivo</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Clasificacion IA avanzada</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td></tr>
+          <tr><td>Multi-tenant / White-label</td><td class="cross">—</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Roles de usuario</h3>
+      <p>Dentro de cada empresa, los usuarios tienen uno de cuatro roles con diferentes permisos:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Rol</th>
+            <th>Puede hacer</th>
+            <th>No puede</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="role-row role-owner">
+            <td>Owner</td>
+            <td>Todo — configuracion, usuarios, facturacion, eliminar datos</td>
+            <td>—</td>
+          </tr>
+          <tr class="role-row role-admin">
+            <td>Admin</td>
+            <td>Gestionar usuarios, ver facturacion, todas las operaciones de datos</td>
+            <td>Eliminar la empresa, cambiar plan</td>
+          </tr>
+          <tr class="role-row role-member">
+            <td>Member</td>
+            <td>Crear y editar leads, funnels, deals, ver analytics</td>
+            <td>Eliminar registros, gestionar usuarios, ver facturacion</td>
+          </tr>
+          <tr class="role-row role-viewer">
+            <td>Viewer</td>
+            <td>Ver leads, funnels, deals y analytics (solo lectura)</td>
+            <td>Crear, editar ni eliminar ningun registro</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="info-box">
+        <strong>Indicadores en el sidebar</strong>
+        Los items del menu que requieren un plan superior muestran un candado. Al hacer clic, se presenta una tarjeta de "Actualizar plan" con el plan minimo requerido.
+      </div>
+    </section>
+
+    <!-- ── 4. Overview ── -->
+    <section class="section" id="overview">
+      <h2><span class="section-icon" style="background:#f0fdf4;">📊</span> Dashboard principal (Overview)</h2>
+      <p>El dashboard es la pantalla de inicio del workspace. Muestra los KPIs mas importantes en tiempo real.</p>
+
+      <h3>KPIs disponibles</h3>
+      <ul>
+        <li><strong>CPL (Costo por Lead):</strong> gasto publicitario dividido por leads captados. Meta: menor al objetivo configurado.</li>
+        <li><strong>CAC (Costo de Adquisicion de Cliente):</strong> costo total por convertir un lead en cliente.</li>
+        <li><strong>ROAS:</strong> retorno sobre la inversion publicitaria.</li>
+        <li><strong>Tasa de completacion del quiz:</strong> porcentaje de personas que terminan el funnel.</li>
+        <li><strong>Tasa de automatizacion:</strong> porcentaje de leads gestionados automaticamente.</li>
+        <li><strong>Total de leads y leads calientes:</strong> contadores del mes actual.</li>
+      </ul>
+
+      <h3>Calculadora ROI</h3>
+      <p>Permite simular el impacto de mejorar tus metricas. Ingresa gasto publicitario y leads para ver proyecciones de conversion y revenue.</p>
+
+      <div class="success-box">
+        Los KPIs se comparan automaticamente con los objetivos configurados y muestran la tendencia respecto al periodo anterior.
+      </div>
+    </section>
+
+    <!-- ── 5. Leads ── -->
+    <section class="section" id="leads">
+      <h2><span class="section-icon" style="background:#fef3c7;">👤</span> Gestion de leads</h2>
+      <p>El modulo de leads es el CRM central de la plataforma. Aqui se concentran todos los contactos captados a traves de funnels, webhooks, o importados manualmente.</p>
+
+      <h3>Vista de lista</h3>
+      <ul>
+        <li>Tabla paginada con columnas: nombre, email, telefono, score IA, segmento, estado, fecha.</li>
+        <li>Busqueda en tiempo real por nombre o email.</li>
+        <li>Filtros por segmento (fuego, caliente, tibio, frio, motor detenido) y estado.</li>
+        <li>Exportar CSV — disponible en plan <strong>Growth o superior</strong>.</li>
+      </ul>
+
+      <h3>Detalle de un lead</h3>
+      <p>Al hacer clic en un lead se abre su perfil completo con:</p>
+      <ul>
+        <li>Informacion de contacto y empresa.</li>
+        <li>Score predictivo calculado por el motor IA y su descomposicion (quiz, comportamiento, engagement, demografico).</li>
+        <li>Historial de eventos (visitas, respuestas de quiz, mensajes enviados).</li>
+        <li>Conversaciones y seguimientos asociados.</li>
+      </ul>
+
+      <h3>Captura de leads</h3>
+      <p>Los leads entran al sistema por tres vias:</p>
+      <ol>
+        <li><strong>Quiz / Funnel:</strong> el usuario completa el cuestionario publico y queda registrado automaticamente.</li>
+        <li><strong>Webhook:</strong> integracion directa desde Meta Ads, Facebook Lead Ads u otras herramientas externas via <code>POST /api/v1/leads/capture</code>.</li>
+        <li><strong>Importacion manual:</strong> desde el panel de administracion.</li>
+      </ol>
+    </section>
+
+    <!-- ── 6. Funnels ── -->
+    <section class="section" id="funnels">
+      <h2><span class="section-icon" style="background:#f0f9ff;">🎯</span> Funnels y Quiz</h2>
+      <p>Los funnels son cuestionarios interactivos (estilo ScoreApp) que califican automaticamente a los prospectos antes de que entren al CRM.</p>
+
+      <h3>Crear un funnel</h3>
+      <ol class="steps">
+        <li>
+          <div class="step-body">
+            <strong>Ir a Funnels → Nuevo funnel</strong>
+            <p>Haz clic en el boton "Nuevo funnel" en la esquina superior derecha.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Seleccionar plantilla o crear desde cero</strong>
+            <p>Elige una plantilla prediseñada (B2B, E-commerce, Salud, etc.) o empieza en blanco.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Configurar preguntas y pesos</strong>
+            <p>Cada pregunta tiene un peso en el score total. Las respuestas se mapean a puntos del 0 al 100.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Publicar y compartir la URL</strong>
+            <p>Al publicar, el funnel queda disponible en <code>/[tenant-slug]/quiz</code>. Comparte esa URL en tus campanas.</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3>Limites por plan</h3>
+      <table>
+        <thead><tr><th>Plan</th><th>Funnels maximos</th></tr></thead>
+        <tbody>
+          <tr><td>Starter</td><td>1</td></tr>
+          <tr><td>Growth</td><td>5</td></tr>
+          <tr><td>Scale</td><td>20</td></tr>
+          <tr><td>Agency</td><td>100</td></tr>
+        </tbody>
+      </table>
+
+      <h3>A/B Testing de variantes</h3>
+      <p>En plan Growth o superior, puedes crear variantes A/B de un funnel para probar distintas preguntas o mensajes. El sistema distribuye el trafico y registra metricas de conversion por variante.</p>
+    </section>
+
+    <!-- ── 7. Scoring ── -->
+    <section class="section" id="scoring">
+      <h2><span class="section-icon" style="background:#fff0f0;">🧠</span> Scoring con IA</h2>
+      <p>El motor de scoring evalua automaticamente a cada lead cuando completa un funnel o cuando llega via webhook.</p>
+
+      <h3>Formula de scoring</h3>
+      <p>El score final (0–100) se calcula con cuatro componentes:</p>
+      <table>
+        <thead>
+          <tr><th>Componente</th><th>Peso</th><th>Descripcion</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Quiz / Cuestionario</td><td><strong>40%</strong></td><td>Respuestas al funnel de calificacion</td></tr>
+          <tr><td>Comportamiento</td><td><strong>30%</strong></td><td>Interacciones con la plataforma y mensajes</td></tr>
+          <tr><td>Engagement</td><td><strong>20%</strong></td><td>Aperturas, clics, respuestas a secuencias</td></tr>
+          <tr><td>Demografico</td><td><strong>10%</strong></td><td>Empresa, cargo, ubicacion geografica</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Segmentos por score</h3>
+      <div class="score-grid">
+        <div class="score-card score-fuego">
+          <span class="score-range">80–100</span>
+          Fuego
+        </div>
+        <div class="score-card score-cal">
+          <span class="score-range">60–79</span>
+          Caliente
+        </div>
+        <div class="score-card score-tibio">
+          <span class="score-range">40–59</span>
+          Tibio
+        </div>
+        <div class="score-card score-frio">
+          <span class="score-range">20–39</span>
+          Frio
+        </div>
+        <div class="score-card score-motor">
+          <span class="score-range">0–19</span>
+          Motor detenido
+        </div>
+      </div>
+
+      <h3>Clasificacion patologica (IA)</h3>
+      <p>Ademas del score numerico, el motor clasifica al lead en una "patologia de compra" usando Claude AI a temperatura 0.2. Esto permite crear mensajes de seguimiento ultra-personalizados segun el estado mental del prospecto.</p>
+
+      <div class="info-box">
+        <strong>Fallback automatico</strong>
+        Si el motor IA no esta disponible, el sistema calcula el score localmente usando la formula deterministica, sin interrumpir el flujo de captacion.
+      </div>
+    </section>
+
+    <!-- ── 8. Deals ── -->
+    <section class="section" id="deals">
+      <h2><span class="section-icon" style="background:#f0fdf4;">💼</span> Pipeline de ventas (Deals)</h2>
+      <p>El modulo de deals permite gestionar el ciclo de venta de cada lead de forma visual, con un tablero tipo Kanban.</p>
+
+      <h3>Etapas del pipeline</h3>
+      <ul>
+        <li><strong>Nuevo:</strong> leads recien asignados al pipeline.</li>
+        <li><strong>Contactado:</strong> se establecio primer contacto.</li>
+        <li><strong>Calificado:</strong> lead verificado con budget y necesidad real.</li>
+        <li><strong>Propuesta:</strong> propuesta economica enviada.</li>
+        <li><strong>Negociacion:</strong> en proceso de cierre.</li>
+        <li><strong>Ganado / Perdido:</strong> resultado final del negocio.</li>
+      </ul>
+
+      <h3>Acciones desde el deal</h3>
+      <ul>
+        <li>Asignar vendedor responsable.</li>
+        <li>Agregar notas y actividades.</li>
+        <li>Agendar cita directamente desde el deal.</li>
+        <li>Ver el score IA y el historial del lead.</li>
+      </ul>
+
+      <div class="info-box">Disponible desde plan <strong>Growth</strong>.</div>
+    </section>
+
+    <!-- ── 9. Conversaciones ── -->
+    <section class="section" id="conversations">
+      <h2><span class="section-icon" style="background:#fdf4ff;">💬</span> Conversaciones y Chat IA</h2>
+
+      <h3>Conversaciones</h3>
+      <p>Bandeja de entrada unificada con todos los mensajes intercambiados con leads via WhatsApp, email y SMS. Permite:</p>
+      <ul>
+        <li>Ver historial completo de mensajes por lead.</li>
+        <li>Responder directamente desde la plataforma.</li>
+        <li>Etiquetar conversaciones y asignarlas a un agente.</li>
+      </ul>
+
+      <h3>Chat IA</h3>
+      <p>Asistente de inteligencia artificial integrado en el workspace. Responde preguntas sobre tus datos, genera borradores de mensajes de seguimiento y sugiere acciones basadas en el comportamiento de los leads.</p>
+      <p>Ejemplos de uso:</p>
+      <ul>
+        <li>"¿Cuales son mis leads mas calientes esta semana?"</li>
+        <li>"Genera un mensaje de seguimiento para leads del segmento tibio."</li>
+        <li>"Resume el estado de mi pipeline de ventas."</li>
+      </ul>
+    </section>
+
+    <!-- ── 10. Secuencias ── -->
+    <section class="section" id="sequences">
+      <h2><span class="section-icon" style="background:#f0f9ff;">📧</span> Secuencias automaticas <span style="font-size:12px;color:#2563eb;font-weight:500;">(Growth+)</span></h2>
+      <p>Las secuencias permiten programar series de mensajes automaticos (WhatsApp, email o SMS) que se envian a los leads segun triggers de comportamiento.</p>
+
+      <h3>Crear una secuencia</h3>
+      <ol class="steps">
+        <li>
+          <div class="step-body">
+            <strong>Ir a Secuencias → Nueva secuencia</strong>
+            <p>Define el nombre y el canal principal (WhatsApp / Email / SMS).</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Agregar pasos</strong>
+            <p>Cada paso es un mensaje con un delay configurado (inmediato, 1h, 1 dia, etc.).</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Configurar el trigger</strong>
+            <p>Define cuando se activa: al capturar un lead, al cambiar de segmento, o manualmente.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-body">
+            <strong>Activar la secuencia</strong>
+            <p>Cambia el estado a "Activo". Los leads que cumplan el criterio entraran automaticamente.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ── 11. Analytics ── -->
+    <section class="section" id="analytics">
+      <h2><span class="section-icon" style="background:#eff6ff;">📈</span> Analytics y atribucion</h2>
+
+      <h3>Analytics basico (todos los planes)</h3>
+      <ul>
+        <li>Distribucion de leads por segmento en grafico de dona.</li>
+        <li>Tasa de completacion del funnel por periodo.</li>
+        <li>Score promedio de leads.</li>
+        <li>Leads captados por dia / semana / mes.</li>
+      </ul>
+
+      <h3>Analytics avanzado (Growth+)</h3>
+      <ul>
+        <li><strong>KPIs financieros:</strong> CPL, CAC, ROAS con comparacion vs. objetivo.</li>
+        <li><strong>Atribucion de ingresos:</strong> que campana o funnel genero cada conversion.</li>
+        <li><strong>Asesor de conversion IA:</strong> recomendaciones automaticas para mejorar el embudo.</li>
+      </ul>
+
+      <h3>Campanas Meta Ads</h3>
+      <p>Vista de rendimiento de tus campanas activas en Facebook e Instagram con metricas de impresiones, clics, CPM y leads generados por cada anuncio.</p>
+    </section>
+
+    <!-- ── 12. Automatizaciones ── -->
+    <section class="section" id="automations">
+      <h2><span class="section-icon" style="background:#faf5ff;">⚙️</span> Automatizaciones <span style="font-size:12px;color:#7c3aed;font-weight:500;">(Scale+)</span></h2>
+      <p>El modulo de automatizaciones permite construir flujos de trabajo visuales que reaccionan a eventos del CRM.</p>
+
+      <h3>Triggers disponibles</h3>
+      <ul>
+        <li>Lead captado via funnel o webhook.</li>
+        <li>Lead cambia de segmento (ej: tibio → caliente).</li>
+        <li>Lead no ha sido contactado en X dias.</li>
+        <li>Deal mueve de etapa en el pipeline.</li>
+      </ul>
+
+      <h3>Acciones disponibles</h3>
+      <ul>
+        <li>Enviar mensaje WhatsApp / email / SMS.</li>
+        <li>Agregar lead a una secuencia.</li>
+        <li>Asignar lead a un agente.</li>
+        <li>Crear un deal en el pipeline.</li>
+        <li>Llamar a un webhook externo (Zapier, n8n, Make).</li>
+      </ul>
+
+      <h3>Playbooks</h3>
+      <p>Plantillas de flujos preconfigurados para casos de uso comunes: seguimiento de leads frios, nurturing post-quiz, reactivacion de leads inactivos.</p>
+    </section>
+
+    <!-- ── 13. Admin ── -->
+    <section class="section" id="admin">
+      <h2><span class="section-icon" style="background:#fff7ed;">⚙️</span> Administracion del workspace</h2>
+      <p>Solo accesible para usuarios con rol <strong>Owner</strong> o <strong>Admin</strong>.</p>
+
+      <h3>Configuracion general</h3>
+      <ul>
+        <li>Nombre y datos de la empresa.</li>
+        <li>Configuracion del timezone y moneda.</li>
+        <li>Integraciones externas (Meta Pixel, CRM externo).</li>
+        <li>API Keys para integraciones personalizadas.</li>
+      </ul>
+
+      <h3>Gestion de usuarios</h3>
+      <ul>
+        <li>Invitar nuevos usuarios al workspace.</li>
+        <li>Cambiar el rol de usuarios existentes.</li>
+        <li>Desactivar acceso de usuarios que ya no pertenecen al equipo.</li>
+      </ul>
+
+      <h3>Registro de auditoria</h3>
+      <p>Log completo de todas las acciones realizadas por usuarios: creacion/modificacion de leads, cambios de configuracion, exportaciones de datos.</p>
+    </section>
+
+    <!-- ── 14. Facturacion ── -->
+    <section class="section" id="billing">
+      <h2><span class="section-icon" style="background:#f0fdf4;">💳</span> Facturacion y planes</h2>
+      <p>Gestiona tu suscripcion, historial de pagos y limites de uso desde <strong>Configuracion → Facturacion</strong>.</p>
+
+      <h3>Informacion disponible</h3>
+      <ul>
+        <li>Plan actual y fecha de renovacion.</li>
+        <li>Uso del mes: leads captados, mensajes enviados y funnels creados vs. el limite del plan.</li>
+        <li>Historial de facturas descargables en PDF.</li>
+        <li>Boton para cambiar o actualizar el plan.</li>
+      </ul>
+
+      <h3>Upgrading de plan</h3>
+      <p>Al hacer clic en "Actualizar plan", se muestra una pantalla con comparativa de planes. El cambio es efectivo inmediatamente y los nuevos limites aplican al instante.</p>
+
+      <div class="warning-box">
+        <strong>Limite mensual de leads</strong>
+        Si alcanzas el limite de leads del mes, nuevos leads no seran ingresados hasta el inicio del siguiente periodo. Considera actualizar tu plan antes de alcanzar el limite.
+      </div>
+    </section>
+
+    <!-- ── Footer ── -->
+    <footer style="text-align:center; padding: 24px 0; color: #94a3b8; font-size: 12px;">
+      Growth Engine v1.0 &nbsp;·&nbsp; Plataforma de marketing inteligente &nbsp;·&nbsp;
+      Soporte: <a href="mailto:soporte@growthengine.io" style="color:#6366f1;">soporte@growthengine.io</a>
+      <br><br>
+      Generado el 24 de mayo de 2026
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  // ── Highlight active section in sidebar ──
+  const navItems = document.querySelectorAll('.nav-item');
+  const sections = document.querySelectorAll('.section');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navItems.forEach(a => {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+        });
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+
+  sections.forEach(s => observer.observe(s));
+
+  // ── Smooth scroll ──
+  navItems.forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+</script>
+</body>
+</html>

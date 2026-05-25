@@ -7,7 +7,7 @@ import Link from 'next/link'
 import {
   Eye, EyeOff, Save, CheckCircle2, Loader2,
   Instagram, Calendar, Link2, Unlink, ExternalLink,
-  AlertCircle, CheckCircle, Copy, Code2, Key,
+  AlertCircle, CheckCircle, Copy, Code2, Key, Users,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import {
@@ -335,9 +335,9 @@ const TABS: { key: Tab; label: string }[] = [
 ]
 
 export default function SettingsPage() {
-  const { data: session } = useSession()
-  const searchParams      = useSearchParams()
-  const token             = session?.accessToken ?? ''
+  const { data: session, status } = useSession()
+  const searchParams               = useSearchParams()
+  const token                      = session?.accessToken ?? ''
 
   const initialTab = (searchParams.get('tab') as Tab) ?? 'integraciones'
   const [activeTab, setActiveTab] = useState<Tab>(initialTab)
@@ -359,7 +359,7 @@ export default function SettingsPage() {
 
   // Cargar settings desde backend
   useEffect(() => {
-    if (!token) return
+    if (status !== 'authenticated' || !token) return
     getSettings(token).then((s) => {
       setSettings((prev) => ({
         ...prev,
@@ -373,7 +373,7 @@ export default function SettingsPage() {
         dailyDigest:    s.dailyDigestEnabled,
       }))
     }).catch(() => setLoadError('No se pudieron cargar los ajustes actuales.'))
-  }, [token])
+  }, [status, token])
 
   function update<K extends keyof typeof settings>(key: K, value: (typeof settings)[K]) {
     setSettings((prev) => ({ ...prev, [key]: value }))
@@ -413,13 +413,22 @@ export default function SettingsPage() {
           <h1 className="text-xl font-extrabold text-slate-900">Configuración</h1>
           <p className="text-sm text-slate-500 mt-0.5">Integraciones y credenciales del sistema</p>
         </div>
-        <Link
-          href="/settings/api-keys"
-          className="flex items-center gap-1.5 text-sm text-brand-600 hover:text-brand-800 font-medium whitespace-nowrap"
-        >
-          <Key className="w-4 h-4" />
-          API Keys
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link
+            href="/settings/api-keys"
+            className="flex items-center gap-1.5 text-sm text-brand-600 hover:text-brand-800 font-medium whitespace-nowrap"
+          >
+            <Key className="w-4 h-4" />
+            API Keys
+          </Link>
+          <Link
+            href="/settings/team"
+            className="flex items-center gap-1.5 text-sm text-brand-600 hover:text-brand-800 font-medium whitespace-nowrap"
+          >
+            <Users className="w-4 h-4" />
+            Equipo
+          </Link>
+        </div>
       </div>
 
       {loadError && (
@@ -501,7 +510,7 @@ export default function SettingsPage() {
             title="Instagram DM"
             description="Recibe y responde mensajes directos de Instagram desde el inbox de conversaciones."
           >
-            {token && <InstagramPanel accessToken={token} />}
+            {status === 'authenticated' && token && <InstagramPanel accessToken={token} />}
           </SettingsSection>
 
           {/* Email (SendGrid) */}

@@ -41,12 +41,13 @@ export async function apiFetch<T>(
   const base = serverSide ? (process.env.API_URL ?? API_BASE) : API_BASE
   const url = `${base}${path}`
 
+  const { headers: optHeaders, ...restOptions } = options
   const res = await fetch(url, {
     headers: {
       'Content-Type': 'application/json',
-      ...options.headers,
+      ...optHeaders,
     },
-    ...options,
+    ...restOptions,
   })
 
   return handleResponse<T>(res)
@@ -1057,6 +1058,188 @@ export async function createPortalSession(token: string): Promise<{ url: string 
   })
 }
 
+export interface PaymentMethod {
+  id:        string
+  last4:     string
+  brand:     string   // Visa | Mastercard | Redcompra | ...
+  cardType:  string   // CREDIT | DEBIT
+  isDefault: boolean
+}
+
+export async function getPaymentMethods(token: string): Promise<PaymentMethod[]> {
+  return apiFetch<PaymentMethod[]>('/api/v1/billing/payment-methods', {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
+export async function startEnrollment(
+  returnUrl: string,
+  token: string,
+): Promise<{ redirectUrl: string; sessionToken: string }> {
+  return apiFetch<{ redirectUrl: string; sessionToken: string }>(
+    '/api/v1/billing/payment-methods/enroll',
+    {
+      method:  'POST',
+      headers: { Authorization: `Bearer ${token}` },
+      body:    JSON.stringify({ returnUrl }),
+    },
+  )
+}
+
+export async function confirmEnrollment(
+  sessionToken: string,
+  token: string,
+): Promise<PaymentMethod> {
+  return apiFetch<PaymentMethod>('/api/v1/billing/payment-methods/enroll/confirm', {
+    method:  'POST',
+    headers: { Authorization: `Bearer ${token}` },
+    body:    JSON.stringify({ sessionToken }),
+  })
+}
+
+export async function detachPaymentMethod(cardId: string, token: string): Promise<void> {
+  return apiFetch(`/api/v1/billing/payment-methods/${cardId}`, {
+    method:  'DELETE',
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
+// ── Admin Billing ──────────────────────────────────────────────────────────────
+
+export interface AdminPlan {
+  key:              string
+  label:            string
+  price:            string
+  monthlyUsd:       number
+  priceId:          string | null
+  priceConfigured:  boolean
+  maxFunnels:       number
+  maxLeadsPerMonth: number
+  maxWhatsappMessages: number
+  tenantCount:      number
+}
+
+export interface AdminSubscriptionRow {
+  tenantId:          string
+  tenantName:        string
+  tenantSlug:        string
+  ownerEmail:        string
+  ownerName:         string | null
+  plan:              string
+  subStatus:         string | null
+  stripeSubId:       string | null
+  stripeCustomerId:  string | null
+  currentPeriodEnd:  string | null
+  cancelAtPeriodEnd: boolean
+  tenantCreatedAt:   string
+}
+
+export interface AdminSubscriptionsResponse {
+  data:  AdminSubscriptionRow[]
+  total: number
+  page:  number
+  pages: number
+}
+
+export interface AdminInvoiceRow {
+  id:               string
+  tenantId:         string
+  tenantName:       string
+  stripeInvoiceId:  string
+  amountDue:        number
+  amountPaid:       number
+  currency:         string
+  status:           string
+  periodStart:      string | null
+  periodEnd:        string | null
+  hostedInvoiceUrl: string | null
+  invoicePdfUrl:    string | null
+  createdAt:        string
+}
+
+export interface AdminInvoicesResponse {
+  data:  AdminInvoiceRow[]
+  total: number
+  page:  number
+  pages: number
+}
+
+export interface AdminBillingStats {
+  totalTenants:     number
+  paidTenants:      number
+  mrr:              number
+  totalInvoiced:    number
+  totalPaid:        number
+  failedInvoices:   number
+  planDistribution: Record<string, number>
+}
+
+export async function getAdminBillingPlans(token: string): Promise<AdminPlan[]> {
+  return apiFetch<AdminPlan[]>('/api/v1/admin/billing/plans', {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
+export async function getAdminBillingStats(token: string): Promise<AdminBillingStats> {
+  return apiFetch<AdminBillingStats>('/api/v1/admin/billing/stats', {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
+export async function getAdminBillingSubscriptions(
+  token:    string,
+  page     = 1,
+  pageSize = 20,
+  plan?:   string,
+  status?: string,
+): Promise<AdminSubscriptionsResponse> {
+  const qs = new URLSearchParams({ page: String(page), pageSize: String(pageSize) })
+  if (plan)   qs.set('plan', plan)
+  if (status) qs.set('status', status)
+  return apiFetch<AdminSubscriptionsResponse>(`/api/v1/admin/billing/subscriptions?${qs}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
+export async function updateAdminSubscriptionPlan(
+  tenantId: string,
+  plan:     string,
+  token:    string,
+): Promise<{ id: string; plan: string }> {
+  return apiFetch(`/api/v1/admin/billing/subscriptions/${tenantId}/plan`, {
+    method:  'PATCH',
+    headers: { Authorization: `Bearer ${token}` },
+    body:    JSON.stringify({ plan }),
+  })
+}
+
+export async function updateAdminSubscriptionStatus(
+  tenantId: string,
+  status:   string,
+  token:    string,
+): Promise<{ tenantId: string; status: string }> {
+  return apiFetch(`/api/v1/admin/billing/subscriptions/${tenantId}/status`, {
+    method:  'PATCH',
+    headers: { Authorization: `Bearer ${token}` },
+    body:    JSON.stringify({ status }),
+  })
+}
+
+export async function getAdminBillingInvoices(
+  token:     string,
+  page      = 1,
+  pageSize  = 20,
+  tenantId?: string,
+  status?:   string,
+): Promise<AdminInvoicesResponse> {
+  const qs = new URLSearchParams({ page: String(page), pageSize: String(pageSize) })
+  if (tenantId) qs.set('tenantId', tenantId)
+  if (status)   qs.set('status', status)
+  return apiFetch<AdminInvoicesResponse>(`/api/v1/admin/billing/invoices?${qs}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+}
+
 // ── CSV exports ────────────────────────────────────────────────────────────────
 
 export async function exportLeadsCsv(
@@ -1109,9 +1292,11 @@ export interface FlowNode {
 }
 
 export interface FlowEdge {
-  id:     string
-  source: string
-  target: string
+  id:           string
+  source:       string
+  target:       string
+  sourceHandle?: string | null
+  targetHandle?: string | null
 }
 
 export interface FlowRun {

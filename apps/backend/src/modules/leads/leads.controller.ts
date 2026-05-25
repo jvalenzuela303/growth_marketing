@@ -1,5 +1,6 @@
 import {
   Controller,
+  Delete,
   Get,
   Post,
   Patch,
@@ -19,6 +20,10 @@ import { LeadsService } from './leads.service';
 import { CaptureWebhookDto } from './dto/capture-webhook.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { RolesGuard } from '../../common/guards/roles.guard';
+import { PlanGuard } from '../../common/guards/plan.guard';
+import { Roles } from '../../common/decorators/roles.decorator';
+import { RequiresPlan } from '../../common/guards/plan.guard';
 import { TenantId, CurrentUser, CurrentUserPayload } from '../../common/decorators/tenant.decorator';
 
 @Controller('leads')
@@ -91,6 +96,21 @@ export class LeadsController {
   }
 
   /**
+   * DELETE /api/v1/leads/:id
+   * Soft-deletes a lead. Requires admin role or above.
+   */
+  @Delete(':id')
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Roles('admin')
+  @HttpCode(HttpStatus.NO_CONTENT)
+  async remove(
+    @TenantId() tenantId: string,
+    @Param('id', ParseUUIDPipe) id: string,
+  ) {
+    return this.leadsService.softDelete(tenantId, id);
+  }
+
+  /**
    * GET /api/v1/leads/:id/score
    * Devuelve el score detallado y la clasificación del lead.
    */
@@ -119,9 +139,12 @@ export class LeadsController {
   /**
    * GET /api/v1/leads/export/csv?segment=fuego&pipelineStage=nuevo&source=meta_ads
    * Descarga todos los leads en formato CSV (máx 10,000 filas).
+   * Requires admin role + growth plan or above.
    */
   @Get('export/csv')
-  @UseGuards(JwtAuthGuard)
+  @UseGuards(JwtAuthGuard, RolesGuard, PlanGuard)
+  @Roles('admin')
+  @RequiresPlan('growth')
   async exportCsv(
     @TenantId() tenantId: string,
     @Res() res: Response,

@@ -101,7 +101,20 @@ export const useQuizBuilderStore = create<QuizBuilderState>()(
         set({ loadError: null }, false, 'builder/loadFunnel:start')
         try {
           const funnel = await getFunnelById(funnelId, accessToken)
-          const questions = funnel.quizConfig?.questions ?? []
+          // Normalize: guarantee every option has an id (guards against data
+          // saved before ids were required, preventing key={undefined} warnings)
+          const questions = (funnel.quizConfig?.questions ?? []).map((q, i) => ({
+            ...q,
+            index:           q.index ?? i,
+            weight:          q.weight ?? 1.0,
+            scoringCategory: q.scoringCategory ?? 'quiz',
+            required:        q.required ?? false,
+            options: (q.options ?? []).map((opt) => ({
+              ...opt,
+              id:     opt.id ?? crypto.randomUUID(),
+              points: opt.points ?? 0,
+            })),
+          }))
 
           // Reconstruct branching rules from skipToStep on options
           const rules: BranchingRule[] = []

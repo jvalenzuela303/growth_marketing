@@ -12,5 +12,17 @@ exports.WHATSAPP_TEMPLATES = {
     WARM_NURTURE_1: 'ge_warm_nurture_1',
     WARM_NURTURE_2: 'ge_warm_nurture_2',
     REENGAGEMENT: 'ge_reengagement',
+    // Gap 2: Post-enrollment onboarding sequence
+    ONBOARDING_WELCOME: 'ge_onboarding_welcome',
+    ONBOARDING_DOCS: 'ge_onboarding_docs',
+    ONBOARDING_FIRST_CLASS: 'ge_onboarding_first_class',
+    // Gap 1: Appointment reminders
+    APPOINTMENT_REMINDER_24H: 'ge_appointment_reminder_24h',
+    APPOINTMENT_REMINDER_2H: 'ge_appointment_reminder_2h',
+    // Salud: post-consultation follow-up
+    POST_CONSULTATION_FOLLOWUP: 'ge_post_consultation_followup',
+    // E-commerce: abandoned cart recovery
+    CART_ABANDONED_1: 'ge_cart_abandoned_1',
+    CART_ABANDONED_2: 'ge_cart_abandoned_2',
 };
 //# sourceMappingURL=messaging.types.js.map

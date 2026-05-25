@@ -2,21 +2,33 @@ import {
   Controller,
   Post,
   Get,
+  Delete,
   Body,
   Headers,
+  Param,
   UseGuards,
   HttpCode,
   HttpStatus,
   RawBodyRequest,
   Req,
 } from '@nestjs/common';
+import { IsIn, IsString } from 'class-validator';
 import { Request } from 'express';
 import { BillingService } from './billing.service';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { TenantId } from '../../common/decorators/tenant.decorator';
 
 class CreateCheckoutDto {
+  @IsIn(['growth', 'scale', 'agency'])
   plan: 'growth' | 'scale' | 'agency';
+}
+
+class StartEnrollmentDto {
+  @IsString() returnUrl: string;
+}
+
+class ConfirmEnrollmentDto {
+  @IsString() sessionToken: string;
 }
 
 @Controller('billing')
@@ -64,6 +76,55 @@ export class BillingController {
   @UseGuards(JwtAuthGuard)
   getInvoices(@TenantId() tenantId: string) {
     return this.billingService.getInvoices(tenantId);
+  }
+
+  /**
+   * GET /api/v1/billing/payment-methods
+   * Lists saved Stripe cards for the tenant's customer.
+   */
+  @Get('payment-methods')
+  @UseGuards(JwtAuthGuard)
+  getPaymentMethods(@TenantId() tenantId: string) {
+    return this.billingService.getPaymentMethods(tenantId);
+  }
+
+  /**
+   * POST /api/v1/billing/payment-methods/enroll
+   * Inicia inscripción Transbank Oneclick — retorna { redirectUrl, sessionToken }.
+   */
+  @Post('payment-methods/enroll')
+  @UseGuards(JwtAuthGuard)
+  startEnrollment(
+    @TenantId() tenantId: string,
+    @Body() dto: StartEnrollmentDto,
+  ) {
+    return this.billingService.startEnrollment(tenantId, dto.returnUrl);
+  }
+
+  /**
+   * POST /api/v1/billing/payment-methods/enroll/confirm
+   * Confirma la inscripción con el token_ws devuelto por Transbank.
+   */
+  @Post('payment-methods/enroll/confirm')
+  @UseGuards(JwtAuthGuard)
+  confirmEnrollment(
+    @TenantId() tenantId: string,
+    @Body() dto: ConfirmEnrollmentDto,
+  ) {
+    return this.billingService.confirmEnrollment(tenantId, dto.sessionToken);
+  }
+
+  /**
+   * DELETE /api/v1/billing/payment-methods/:cardId
+   * Elimina tarjeta — desvincula en Transbank y limpia la DB.
+   */
+  @Delete('payment-methods/:cardId')
+  @UseGuards(JwtAuthGuard)
+  detachPaymentMethod(
+    @TenantId() tenantId: string,
+    @Param('cardId') cardId: string,
+  ) {
+    return this.billingService.detachPaymentMethod(tenantId, cardId);
   }
 
   /**

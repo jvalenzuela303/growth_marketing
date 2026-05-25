@@ -1,10 +1,12 @@
+import { Queue } from 'bullmq';
 import { PrismaService } from '../../database/prisma.service';
 import { CreateAppointmentDto } from './dto/create-appointment.dto';
 import { UpdateAppointmentStatusDto } from './dto/update-appointment-status.dto';
 export declare class AppointmentsService {
     private readonly prisma;
+    private readonly messagingQueue;
     private readonly logger;
-    constructor(prisma: PrismaService);
+    constructor(prisma: PrismaService, messagingQueue: Queue);
     findAll(tenantId: string, leadId?: string, status?: string): Promise<({
         lead: {
             email: string;
@@ -24,8 +26,8 @@ export declare class AppointmentsService {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
     })[]>;
@@ -33,6 +35,7 @@ export declare class AppointmentsService {
         lead: {
             email: string;
             id: string;
+            phone: string;
             firstName: string;
             lastName: string;
         };
@@ -46,8 +49,8 @@ export declare class AppointmentsService {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
     }>;
@@ -55,6 +58,7 @@ export declare class AppointmentsService {
         lead: {
             email: string;
             id: string;
+            phone: string;
             firstName: string;
             lastName: string;
         };
@@ -68,9 +72,13 @@ export declare class AppointmentsService {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
+    }>;
+    reschedule(tenantId: string, appointmentId: string, email: string, newDateStr: string): Promise<{
+        message: string;
+        scheduledAt: Date;
     }>;
 }

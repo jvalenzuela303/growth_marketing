@@ -1,10 +1,12 @@
+import { Queue } from 'bullmq';
 import { PrismaService } from '../../database/prisma.service';
 import { MetaCapiService } from '../webhooks/meta-capi.service';
 import { CreateDealDto } from './dto/create-deal.dto';
 export declare class DealsService {
     private readonly prisma;
     private readonly metaCapi;
-    constructor(prisma: PrismaService, metaCapi: MetaCapiService);
+    private readonly messagingQueue;
+    constructor(prisma: PrismaService, metaCapi: MetaCapiService, messagingQueue: Queue);
     create(tenantId: string, userId: string, dto: CreateDealDto): Promise<{
         lead: {
             email: string;

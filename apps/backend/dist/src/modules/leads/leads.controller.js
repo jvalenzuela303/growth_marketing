@@ -18,6 +18,10 @@ const leads_service_1 = require("./leads.service");
 const capture_webhook_dto_1 = require("./dto/capture-webhook.dto");
 const update_lead_dto_1 = require("./dto/update-lead.dto");
 const jwt_auth_guard_1 = require("../../common/guards/jwt-auth.guard");
+const roles_guard_1 = require("../../common/guards/roles.guard");
+const plan_guard_1 = require("../../common/guards/plan.guard");
+const roles_decorator_1 = require("../../common/decorators/roles.decorator");
+const plan_guard_2 = require("../../common/guards/plan.guard");
 const tenant_decorator_1 = require("../../common/decorators/tenant.decorator");
 let LeadsController = class LeadsController {
     constructor(leadsService) {
@@ -41,6 +45,9 @@ let LeadsController = class LeadsController {
     }
     async update(tenantId, id, dto) {
         return this.leadsService.update(tenantId, id, dto);
+    }
+    async remove(tenantId, id) {
+        return this.leadsService.softDelete(tenantId, id);
     }
     async getScore(tenantId, id) {
         return this.leadsService.getScore(tenantId, id);
@@ -104,6 +111,17 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], LeadsController.prototype, "update", null);
 __decorate([
+    (0, common_1.Delete)(':id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
+    (0, roles_decorator_1.Roles)('admin'),
+    (0, common_1.HttpCode)(common_1.HttpStatus.NO_CONTENT),
+    __param(0, (0, tenant_decorator_1.TenantId)()),
+    __param(1, (0, common_1.Param)('id', common_1.ParseUUIDPipe)),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String]),
+    __metadata("design:returntype", Promise)
+], LeadsController.prototype, "remove", null);
+__decorate([
     (0, common_1.Get)(':id/score'),
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, tenant_decorator_1.TenantId)()),
@@ -123,7 +141,9 @@ __decorate([
 ], LeadsController.prototype, "getPrediction", null);
 __decorate([
     (0, common_1.Get)('export/csv'),
-    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard, plan_guard_1.PlanGuard),
+    (0, roles_decorator_1.Roles)('admin'),
+    (0, plan_guard_2.RequiresPlan)('growth'),
     __param(0, (0, tenant_decorator_1.TenantId)()),
     __param(1, (0, common_1.Res)()),
     __param(2, (0, common_1.Query)('segment')),

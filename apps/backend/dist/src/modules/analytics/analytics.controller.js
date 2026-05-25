@@ -16,6 +16,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AnalyticsController = void 0;
 const common_1 = require("@nestjs/common");
 const jwt_auth_guard_1 = require("../../common/guards/jwt-auth.guard");
+const plan_guard_1 = require("../../common/guards/plan.guard");
 const tenant_decorator_1 = require("../../common/decorators/tenant.decorator");
 const prisma_service_1 = require("../../database/prisma.service");
 const analytics_service_1 = require("./analytics.service");
@@ -171,6 +172,8 @@ __decorate([
 ], AnalyticsController.prototype, "getFunnelAbandonmentStats", null);
 __decorate([
     (0, common_1.Get)('financial-kpis'),
+    (0, common_1.UseGuards)(plan_guard_1.PlanGuard),
+    (0, plan_guard_1.RequiresPlan)('growth'),
     __param(0, (0, tenant_decorator_1.TenantId)()),
     __param(1, (0, common_1.Query)('range')),
     __metadata("design:type", Function),
@@ -179,6 +182,8 @@ __decorate([
 ], AnalyticsController.prototype, "getFinancialKpis", null);
 __decorate([
     (0, common_1.Get)('attribution'),
+    (0, common_1.UseGuards)(plan_guard_1.PlanGuard),
+    (0, plan_guard_1.RequiresPlan)('growth'),
     __param(0, (0, tenant_decorator_1.TenantId)()),
     __param(1, (0, common_1.Query)('range')),
     __metadata("design:type", Function),
@@ -187,6 +192,8 @@ __decorate([
 ], AnalyticsController.prototype, "getAttribution", null);
 __decorate([
     (0, common_1.Post)('conversion-advisor'),
+    (0, common_1.UseGuards)(plan_guard_1.PlanGuard),
+    (0, plan_guard_1.RequiresPlan)('growth'),
     __param(0, (0, tenant_decorator_1.TenantId)()),
     __param(1, (0, common_1.Body)('range')),
     __param(2, (0, common_1.Body)('question')),

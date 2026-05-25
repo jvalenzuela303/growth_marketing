@@ -77,7 +77,7 @@ services:
     container_name: ge-adminer
     restart: unless-stopped
     ports:
-      - '8080:8080'
+      - '8082:8080'
     depends_on:
       postgres:
         condition: service_healthy

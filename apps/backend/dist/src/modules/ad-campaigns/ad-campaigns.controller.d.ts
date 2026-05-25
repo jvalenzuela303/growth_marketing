@@ -35,19 +35,19 @@ export declare class AdCampaignsController {
             externalId: string;
             status: string;
             adsAccountId: string | null;
+            platform: string;
             objective: string | null;
             budgetDaily: import("@prisma/client/runtime/library").Decimal | null;
             budgetTotal: import("@prisma/client/runtime/library").Decimal | null;
-            platform: string;
             lastSyncedAt: Date | null;
         };
         metrics: {
             id: string;
             leads: number;
             tenantId: string;
+            date: Date;
             impressions: number;
             clicks: number;
-            date: Date;
             campaignId: string;
             spend: import("@prisma/client/runtime/library").Decimal;
             reach: number;

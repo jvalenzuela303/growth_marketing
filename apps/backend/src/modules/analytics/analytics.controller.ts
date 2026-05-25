@@ -12,6 +12,7 @@ import {
 } from '@nestjs/common';
 import type { Response } from 'express';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { PlanGuard, RequiresPlan } from '../../common/guards/plan.guard';
 import { TenantId } from '../../common/decorators/tenant.decorator';
 import { PrismaService } from '../../database/prisma.service';
 import { AnalyticsService } from './analytics.service';
@@ -21,6 +22,9 @@ import { AnalyticsService } from './analytics.service';
  *
  * Todas las queries están protegidas por JWT y aisladas por tenant via RLS.
  * Para analítica avanzada (cohortes, LTV), usar BigQuery via Pub/Sub (futuro).
+ *
+ * Basic analytics (kpis, events, abandonment) — available to all plans.
+ * Advanced analytics (financial-kpis, attribution, conversion-advisor) — growth+ only.
  */
 @Controller('analytics')
 @UseGuards(JwtAuthGuard)
@@ -220,8 +224,11 @@ export class AnalyticsController {
   /**
    * GET /api/v1/analytics/financial-kpis?range=30d
    * CPL, ROAS, total spend and total leads for the requested date range.
+   * Requires growth plan or above.
    */
   @Get('financial-kpis')
+  @UseGuards(PlanGuard)
+  @RequiresPlan('growth')
   getFinancialKpis(
     @TenantId() tenantId: string,
     @Query('range') range = '30d',
@@ -232,8 +239,11 @@ export class AnalyticsController {
   /**
    * GET /api/v1/analytics/attribution?range=30d
    * End-to-end attribution: ad spend → leads → deals → revenue, by source/channel.
+   * Requires growth plan or above.
    */
   @Get('attribution')
+  @UseGuards(PlanGuard)
+  @RequiresPlan('growth')
   getAttribution(
     @TenantId() tenantId: string,
     @Query('range') range = '30d',
@@ -244,11 +254,14 @@ export class AnalyticsController {
   /**
    * POST /api/v1/analytics/conversion-advisor
    * Streams a Claude-powered CRO analysis via SSE.
+   * Requires growth plan or above (AI-powered advisory is not available on starter).
    *
    * Body: { range?: string; question?: string }
    * Response: text/event-stream — data: { text } chunks, ends with data: [DONE]
    */
   @Post('conversion-advisor')
+  @UseGuards(PlanGuard)
+  @RequiresPlan('growth')
   async streamConversionAdvisor(
     @TenantId() tenantId: string,
     @Body('range')    range    = '30d',

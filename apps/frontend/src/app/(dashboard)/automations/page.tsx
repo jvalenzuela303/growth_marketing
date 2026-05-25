@@ -6,6 +6,7 @@ import { getAutomationFlows } from '@/lib/api'
 import type { AutomationFlow } from '@/lib/api'
 import { cn } from '@/lib/utils'
 import { FlowActions } from '@/components/automations/FlowActions'
+import { AutomationsGate } from '@/components/automations/AutomationsGate'
 
 // ── Status badge ─────────────────────────────────────────────────────────────
 
@@ -100,6 +101,7 @@ export default async function AutomationsPage() {
   }
 
   return (
+    <AutomationsGate>
     <div className="space-y-6">
       <div className="flex items-center justify-between gap-4 flex-wrap">
         <div>
@@ -157,5 +159,6 @@ export default async function AutomationsPage() {
         </div>
       )}
     </div>
+    </AutomationsGate>
   )
 }

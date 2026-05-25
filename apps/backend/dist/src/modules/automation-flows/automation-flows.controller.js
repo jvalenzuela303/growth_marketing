@@ -18,6 +18,7 @@ const automation_flows_service_1 = require("./automation-flows.service");
 const create_flow_dto_1 = require("./dto/create-flow.dto");
 const update_flow_dto_1 = require("./dto/update-flow.dto");
 const jwt_auth_guard_1 = require("../../common/guards/jwt-auth.guard");
+const plan_guard_1 = require("../../common/guards/plan.guard");
 const tenant_decorator_1 = require("../../common/decorators/tenant.decorator");
 let AutomationFlowsController = class AutomationFlowsController {
     constructor(service) {
@@ -132,7 +133,8 @@ __decorate([
 ], AutomationFlowsController.prototype, "getRuns", null);
 exports.AutomationFlowsController = AutomationFlowsController = __decorate([
     (0, common_1.Controller)('automation-flows'),
-    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, plan_guard_1.PlanGuard),
+    (0, plan_guard_1.RequiresPlan)('scale'),
     __metadata("design:paramtypes", [automation_flows_service_1.AutomationFlowsService])
 ], AutomationFlowsController);
 //# sourceMappingURL=automation-flows.controller.js.map

@@ -110,6 +110,50 @@ export class ChatService {
     return { messageId: saved.id, response: aiResponse, leadId };
   }
 
+  // ── Public widget chat (no JWT) ───────────────────────────────────────────
+
+  /**
+   * Responds to an anonymous visitor (or identified lead) from the embeddable widget.
+   * No JWT required — called by POST /api/v1/widget/:slug/chat.
+   *
+   * If leadId is provided the full memory context is used.
+   * If not, a lightweight admissions prompt answers with the tenant name as context.
+   * Client-side history is accepted so we maintain coherence without a server session.
+   */
+  async respondPublic(
+    tenantId:    string,
+    tenantName:  string,
+    message:     string,
+    leadId?:     string,
+    clientHistory?: { role: 'user' | 'assistant'; content: string }[],
+  ): Promise<string> {
+    if (leadId) {
+      const result = await this.sendMessage(tenantId, leadId, message, 'chat');
+      return result.response;
+    }
+
+    const publicPrompt = `Eres el asistente de admisiones de ${tenantName}.
+Responde dudas sobre programas, requisitos, fechas de inscripción, costos y modalidades.
+Sé amable, claro y orientado a guiar al visitante a inscribirse o agendar una cita.
+Responde siempre en español. Si no sabes algo específico, ofrece conectar con un asesor humano.`;
+
+    const history = clientHistory ?? [];
+
+    try {
+      const response = await this.anthropic.messages.create({
+        model:      'claude-haiku-4-5-20251001',
+        max_tokens: 512,
+        system:     publicPrompt,
+        messages:   [...history, { role: 'user', content: message }],
+      });
+      const block = response.content[0];
+      return block.type === 'text' ? block.text : FALLBACK_RESPONSE;
+    } catch (err: any) {
+      this.logger.warn(`Widget public chat error: ${err.message}`);
+      return FALLBACK_RESPONSE;
+    }
+  }
+
   // ── SSE streaming ──────────────────────────────────────────────────────────
 
   /**

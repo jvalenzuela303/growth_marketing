@@ -27,6 +27,7 @@ import { RealtimeModule } from './modules/realtime/realtime.module';
 import { DealsModule } from './modules/deals/deals.module';
 import { WidgetModule } from './modules/widget/widget.module';
 import { BillingModule } from './modules/billing/billing.module';
+import { AdminBillingModule } from './modules/admin-billing/admin-billing.module';
 import { TikTokAdsModule } from './modules/tiktok-ads/tiktok-ads.module';
 import { AutomationFlowsModule } from './modules/automation-flows/automation-flows.module';
 import { SmsModule } from './modules/sms/sms.module';
@@ -34,9 +35,14 @@ import { ApiKeysModule } from './modules/api-keys/api-keys.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { MessengerModule } from './modules/messenger/messenger.module';
 import { BudgetOptimizerModule } from './modules/budget-optimizer/budget-optimizer.module';
+import { EcommerceModule } from './modules/ecommerce/ecommerce.module';
 import { AuditModule } from './modules/audit/audit.module';
+import { UsersModule } from './modules/users/users.module';
+import { MailModule } from './common/mail/mail.module';
 import { TenantMiddleware } from './common/middleware/tenant.middleware';
 import { AuditMiddleware } from './common/middleware/audit.middleware';
+import { RolesGuard } from './common/guards/roles.guard';
+import { PlanGuard } from './common/guards/plan.guard';
 
 @Module({
   imports: [
@@ -69,6 +75,7 @@ import { AuditMiddleware } from './common/middleware/audit.middleware';
       }),
     }),
 
+    MailModule,
     DatabaseModule,
     AuthModule,
     LeadsModule,
@@ -93,6 +100,7 @@ import { AuditMiddleware } from './common/middleware/audit.middleware';
     DealsModule,
     WidgetModule,
     BillingModule,
+    AdminBillingModule,
     TikTokAdsModule,
     AutomationFlowsModule,
     SmsModule,
@@ -101,7 +109,13 @@ import { AuditMiddleware } from './common/middleware/audit.middleware';
     MessengerModule,
     BudgetOptimizerModule,
     AuditModule,
+    EcommerceModule,
+    UsersModule,
   ],
+  // RolesGuard and PlanGuard use Reflector from @nestjs/core.
+  // Registering here makes them available for injection in any module
+  // without needing to declare them in each feature module separately.
+  providers: [RolesGuard, PlanGuard],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {

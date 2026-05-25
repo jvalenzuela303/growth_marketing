@@ -33,7 +33,7 @@ import { Logger } from '@nestjs/common';
     credentials: true,
   },
   namespace: '/realtime',
-  transports: ['websocket', 'polling'],
+  transports: ['polling', 'websocket'],
 })
 export class RealtimeGateway implements OnGatewayConnection, OnGatewayDisconnect {
   @WebSocketServer()

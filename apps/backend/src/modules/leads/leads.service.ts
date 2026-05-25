@@ -2,6 +2,7 @@ import {
   Injectable,
   NotFoundException,
   ConflictException,
+  ForbiddenException,
   Logger,
   Optional,
 } from '@nestjs/common';
@@ -13,6 +14,15 @@ import { CreateLeadDto } from './dto/create-lead.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
 import type { QuizSubmission } from '@growth-engine/shared-types';
 import { getSegmentFromScore } from '@growth-engine/shared-types';
+
+function escapeHtml(str: string): string {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#x27;');
+}
 import { RealtimeService } from '../realtime/realtime.service';
 
 interface LeadsFilter {
@@ -36,6 +46,43 @@ export class LeadsService {
     @Optional() private readonly realtime?: RealtimeService,
   ) {}
 
+  private readonly PLAN_LEAD_LIMITS: Record<string, number> = {
+    starter: 500,
+    growth: 2000,
+    scale: 10000,
+    agency: 50000,
+  };
+
+  /**
+   * Enforces the monthly lead cap for the tenant's plan.
+   * Throws ForbiddenException when the cap is reached.
+   */
+  private async enforceMontlyLeadLimit(tenantId: string): Promise<void> {
+    const tenant = await this.prisma.tenant.findUnique({
+      where: { id: tenantId },
+      select: { plan: true },
+    });
+
+    if (!tenant) throw new NotFoundException('Tenant no encontrado.');
+
+    const currentMonth = new Date();
+    currentMonth.setDate(1);
+    currentMonth.setHours(0, 0, 0, 0);
+
+    const monthlyCount = await this.prisma.withTenant(tenantId, () =>
+      this.prisma.lead.count({
+        where: { tenantId, createdAt: { gte: currentMonth } },
+      }),
+    );
+
+    const limit = this.PLAN_LEAD_LIMITS[tenant.plan] ?? 500;
+    if (monthlyCount >= limit) {
+      throw new ForbiddenException(
+        `Límite mensual de leads alcanzado (${limit}) para el plan ${tenant.plan}. Actualiza tu plan para continuar.`,
+      );
+    }
+  }
+
   /**
    * Captura lead desde webhook externo (Meta Ads, n8n, Zapier).
    * Idempotente por externalId: si ya existe, retorna el lead existente.
@@ -57,6 +104,8 @@ export class LeadsService {
         return existing;
       }
     }
+
+    await this.enforceMontlyLeadLimit(dto.tenantId);
 
     const lead = await this.prisma.withTenant(dto.tenantId, () =>
       this.prisma.lead.create({
@@ -91,6 +140,8 @@ export class LeadsService {
    * Este método es el más crítico del sistema.
    */
   async captureFromQuiz(submission: QuizSubmission, tenantId: string, ipAddress?: string) {
+    await this.enforceMontlyLeadLimit(tenantId);
+
     const lead = await this.prisma.withTenant(tenantId, () =>
       this.prisma.lead.create({
         data: {
@@ -370,6 +421,22 @@ export class LeadsService {
     return { ...lead, totalScore };
   }
 
+  /**
+   * Soft-deletes a lead (sets deletedAt). Admin+ only — enforced at controller level.
+   */
+  async softDelete(tenantId: string, leadId: string): Promise<void> {
+    await this.findOne(tenantId, leadId); // verifica existencia y tenant
+
+    await this.prisma.withTenant(tenantId, () =>
+      this.prisma.lead.update({
+        where: { id: leadId },
+        data: { deletedAt: new Date() },
+      }),
+    );
+
+    this.logger.log(`Lead ${leadId} eliminado (soft delete) por tenant ${tenantId}`);
+  }
+
   // ─── helpers privados ────────────────────────────────────────────────────
 
   private async enqueueForScoring(leadId: string, tenantId: string, funnelId: string | null) {
@@ -465,8 +532,8 @@ export class LeadsService {
       </div>`;
 
     const answersHtml = Object.entries(answers).slice(0, 12).map(([k, v]) =>
-      `<tr><td style="padding:6px 8px;font-size:12px;color:#64748b;border-bottom:1px solid #f1f5f9">${k}</td>
-       <td style="padding:6px 8px;font-size:12px;font-weight:600;color:#1e293b;border-bottom:1px solid #f1f5f9">${JSON.stringify(v)}</td></tr>`
+      `<tr><td style="padding:6px 8px;font-size:12px;color:#64748b;border-bottom:1px solid #f1f5f9">${escapeHtml(k)}</td>
+       <td style="padding:6px 8px;font-size:12px;font-weight:600;color:#1e293b;border-bottom:1px solid #f1f5f9">${escapeHtml(JSON.stringify(v))}</td></tr>`
     ).join('');
 
     const dealsHtml = lead.deals.map((d) =>
@@ -481,7 +548,7 @@ export class LeadsService {
     const convsHtml = lead.conversations.slice(0, 6).map((c) =>
       `<div style="margin-bottom:8px;padding:8px;background:${c.role === 'assistant' ? '#f8fafc' : '#eff6ff'};border-radius:8px;border-left:3px solid ${c.role === 'assistant' ? '#6366f1' : '#3b82f6'}">
         <div style="font-size:10px;color:#94a3b8;margin-bottom:3px">${c.role.toUpperCase()} · ${c.channel} · ${new Date(c.createdAt).toLocaleDateString('es-CL')}</div>
-        <div style="font-size:12px;color:#1e293b">${c.content.slice(0, 200)}${c.content.length > 200 ? '…' : ''}</div>
+        <div style="font-size:12px;color:#1e293b">${escapeHtml(c.content.slice(0, 200))}${c.content.length > 200 ? '…' : ''}</div>
       </div>`
     ).join('');
 
@@ -490,7 +557,7 @@ export class LeadsService {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Reporte de Lead — ${name}</title>
+  <title>Reporte de Lead — ${escapeHtml(name)}</title>
   <style>
     * { box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; padding: 0; color: #1e293b; background: #fff; }

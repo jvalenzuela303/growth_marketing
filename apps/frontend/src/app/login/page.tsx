@@ -3,7 +3,9 @@
 import { Suspense, useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { Loader2, Zap, AlertCircle, FlaskConical, BarChart3, Users, MessageCircle } from 'lucide-react'
+import { Loader2, Zap, AlertCircle, FlaskConical, BarChart3, Users, MessageCircle, BookOpen } from 'lucide-react'
+import { RequestAccessModal } from '@/components/auth/RequestAccessModal'
+import { SupportModal } from '@/components/auth/SupportModal'
 
 // ─── Test users (solo visible en desarrollo) ────────────────────────────────
 const IS_DEV = process.env.NODE_ENV === 'development'
@@ -31,10 +33,12 @@ function LoginForm() {
   const params      = useSearchParams()
   const callbackUrl = params.get('callbackUrl') ?? '/overview'
 
-  const [email,    setEmail]    = useState('')
-  const [password, setPassword] = useState('')
-  const [loading,  setLoading]  = useState(false)
-  const [error,    setError]    = useState('')
+  const [email,         setEmail]         = useState('')
+  const [password,      setPassword]      = useState('')
+  const [loading,       setLoading]       = useState(false)
+  const [error,         setError]         = useState('')
+  const [accessModal,   setAccessModal]   = useState(false)
+  const [supportModal,  setSupportModal]  = useState(false)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -221,19 +225,43 @@ function LoginForm() {
             <div className="flex-1 h-px bg-white/5" />
           </div>
 
-          <a
-            href="mailto:ventas@growthengine.io?subject=Solicitud de acceso"
+          <button
+            type="button"
+            onClick={() => setAccessModal(true)}
             className="flex items-center justify-center w-full min-h-[44px] rounded-xl border border-white/10 text-sm font-semibold text-slate-300 hover:bg-white/5 hover:border-white/20 transition-colors"
           >
             Solicitar acceso para tu empresa
-          </a>
+          </button>
 
-          <p className="text-center text-xs text-slate-600">
-            ¿Problemas para acceder?{' '}
-            <a href="mailto:soporte@growthengine.io" className="text-brand-500 hover:underline">
-              Contacta soporte
+          <div className="flex items-center justify-between text-xs text-slate-600">
+            <p>
+              ¿Problemas para acceder?{' '}
+              <button
+                type="button"
+                onClick={() => setSupportModal(true)}
+                className="text-brand-500 hover:underline"
+              >
+                Soporte
+              </button>
+            </p>
+            <a
+              href="/tutorial"
+              className="flex items-center gap-1 text-slate-500 hover:text-brand-400 transition-colors"
+            >
+              <BookOpen className="w-3 h-3" aria-hidden />
+              Ver tutorial
             </a>
-          </p>
+          </div>
+
+          <RequestAccessModal
+            isOpen={accessModal}
+            onClose={() => setAccessModal(false)}
+          />
+
+          <SupportModal
+            isOpen={supportModal}
+            onClose={() => setSupportModal(false)}
+          />
         </div>
       </div>
     </main>

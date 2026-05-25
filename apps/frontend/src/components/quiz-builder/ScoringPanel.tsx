@@ -180,7 +180,7 @@ export function ScoringPanel() {
         </label>
         <select
           id={`category-${question.id}`}
-          value={question.scoringCategory}
+          value={question.scoringCategory ?? 'quiz'}
           onChange={(e) =>
             updateQuestion(question.id, {
               scoringCategory: e.target.value as QuizQuestion['scoringCategory'],

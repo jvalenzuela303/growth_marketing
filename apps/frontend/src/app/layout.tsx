@@ -62,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={inter.variable} suppressHydrationWarning>
       <head>
+        <meta name="mobile-web-app-capable" content="yes" />
         {/* Preconnect to API origins for faster TTFB */}
         <link rel="preconnect" href="http://localhost:3001" />
         {/* Meta Pixel base script — loaded conditionally only on marketing routes */}

@@ -86,7 +86,7 @@ exports.RealtimeGateway = RealtimeGateway = RealtimeGateway_1 = __decorate([
             credentials: true,
         },
         namespace: '/realtime',
-        transports: ['websocket', 'polling'],
+        transports: ['polling', 'websocket'],
     }),
     __metadata("design:paramtypes", [jwt_1.JwtService])
 ], RealtimeGateway);

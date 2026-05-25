@@ -23,8 +23,8 @@ export declare class AppointmentsController {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
     })[]>;
@@ -32,6 +32,7 @@ export declare class AppointmentsController {
         lead: {
             email: string;
             id: string;
+            phone: string;
             firstName: string;
             lastName: string;
         };
@@ -45,8 +46,8 @@ export declare class AppointmentsController {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
     }>;
@@ -54,6 +55,7 @@ export declare class AppointmentsController {
         lead: {
             email: string;
             id: string;
+            phone: string;
             firstName: string;
             lastName: string;
         };
@@ -67,8 +69,8 @@ export declare class AppointmentsController {
         channel: string;
         status: string;
         scheduledAt: Date;
-        durationMins: number;
         meetingUrl: string | null;
+        durationMins: number;
         calendarEventId: string | null;
         reminderSentAt: Date | null;
     }>;

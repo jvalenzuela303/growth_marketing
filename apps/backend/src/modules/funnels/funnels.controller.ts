@@ -18,10 +18,12 @@ import { UpdateFunnelDto } from './dto/update-funnel.dto';
 import { CreateVariantDto } from './dto/create-variant.dto';
 import { UpdateVariantDto } from './dto/update-variant.dto';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { RolesGuard } from '../../common/guards/roles.guard';
+import { Roles } from '../../common/decorators/roles.decorator';
 import { TenantId, CurrentUser, CurrentUserPayload } from '../../common/decorators/tenant.decorator';
 
 @Controller('funnels')
-@UseGuards(JwtAuthGuard)
+@UseGuards(JwtAuthGuard, RolesGuard)
 export class FunnelsController {
   constructor(private readonly funnelsService: FunnelsService) {}
 
@@ -40,6 +42,7 @@ export class FunnelsController {
    * Creates a draft funnel pre-seeded from a named template.
    */
   @Post('from-template')
+  @Roles('member')
   createFromTemplate(
     @TenantId() tenantId: string,
     @CurrentUser() user: CurrentUserPayload,
@@ -65,6 +68,7 @@ export class FunnelsController {
    * POST /api/v1/funnels
    */
   @Post()
+  @Roles('member')
   create(
     @TenantId() tenantId: string,
     @CurrentUser() user: CurrentUserPayload,
@@ -88,6 +92,7 @@ export class FunnelsController {
    * PUT /api/v1/funnels/:id
    */
   @Put(':id')
+  @Roles('member')
   update(
     @TenantId() tenantId: string,
     @Param('id', ParseUUIDPipe) id: string,
@@ -98,9 +103,11 @@ export class FunnelsController {
 
   /**
    * DELETE /api/v1/funnels/:id
+   * Admins and owners only — members cannot delete funnels.
    */
   @Delete(':id')
   @HttpCode(HttpStatus.NO_CONTENT)
+  @Roles('admin')
   remove(
     @TenantId() tenantId: string,
     @Param('id', ParseUUIDPipe) id: string,
@@ -114,6 +121,7 @@ export class FunnelsController {
    */
   @Post(':id/publish')
   @HttpCode(HttpStatus.OK)
+  @Roles('member')
   publish(
     @TenantId() tenantId: string,
     @Param('id', ParseUUIDPipe) id: string,
@@ -140,6 +148,7 @@ export class FunnelsController {
    */
   @Post(':funnelId/variants')
   @HttpCode(HttpStatus.CREATED)
+  @Roles('member')
   createVariant(
     @TenantId() tenantId: string,
     @Param('funnelId', ParseUUIDPipe) funnelId: string,
@@ -152,6 +161,7 @@ export class FunnelsController {
    * PATCH /api/v1/funnels/:funnelId/variants/:variantId
    */
   @Patch(':funnelId/variants/:variantId')
+  @Roles('member')
   updateVariant(
     @TenantId() tenantId: string,
     @Param('funnelId', ParseUUIDPipe) funnelId: string,
@@ -167,6 +177,7 @@ export class FunnelsController {
    */
   @Delete(':funnelId/variants/:variantId')
   @HttpCode(HttpStatus.NO_CONTENT)
+  @Roles('admin')
   deleteVariant(
     @TenantId() tenantId: string,
     @Param('funnelId', ParseUUIDPipe) funnelId: string,

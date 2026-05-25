@@ -19,6 +19,14 @@ const inject_queue_decorator_1 = require("../../queue/inject-queue.decorator");
 const bullmq_1 = require("bullmq");
 const prisma_service_1 = require("../../database/prisma.service");
 const shared_types_1 = require("@growth-engine/shared-types");
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#x27;');
+}
 const realtime_service_1 = require("../realtime/realtime.service");
 let LeadsService = LeadsService_1 = class LeadsService {
     constructor(prisma, scoringQueue, messagingQueue, realtime) {
@@ -27,6 +35,30 @@ let LeadsService = LeadsService_1 = class LeadsService {
         this.messagingQueue = messagingQueue;
         this.realtime = realtime;
         this.logger = new common_1.Logger(LeadsService_1.name);
+        this.PLAN_LEAD_LIMITS = {
+            starter: 500,
+            growth: 2000,
+            scale: 10000,
+            agency: 50000,
+        };
+    }
+    async enforceMontlyLeadLimit(tenantId) {
+        const tenant = await this.prisma.tenant.findUnique({
+            where: { id: tenantId },
+            select: { plan: true },
+        });
+        if (!tenant)
+            throw new common_1.NotFoundException('Tenant no encontrado.');
+        const currentMonth = new Date();
+        currentMonth.setDate(1);
+        currentMonth.setHours(0, 0, 0, 0);
+        const monthlyCount = await this.prisma.withTenant(tenantId, () => this.prisma.lead.count({
+            where: { tenantId, createdAt: { gte: currentMonth } },
+        }));
+        const limit = this.PLAN_LEAD_LIMITS[tenant.plan] ?? 500;
+        if (monthlyCount >= limit) {
+            throw new common_1.ForbiddenException(`Límite mensual de leads alcanzado (${limit}) para el plan ${tenant.plan}. Actualiza tu plan para continuar.`);
+        }
     }
     async captureFromWebhook(dto) {
         if (dto.externalId) {
@@ -42,6 +74,7 @@ let LeadsService = LeadsService_1 = class LeadsService {
                 return existing;
             }
         }
+        await this.enforceMontlyLeadLimit(dto.tenantId);
         const lead = await this.prisma.withTenant(dto.tenantId, () => this.prisma.lead.create({
             data: {
                 tenantId: dto.tenantId,
@@ -67,6 +100,7 @@ let LeadsService = LeadsService_1 = class LeadsService {
         return lead;
     }
     async captureFromQuiz(submission, tenantId, ipAddress) {
+        await this.enforceMontlyLeadLimit(tenantId);
         const lead = await this.prisma.withTenant(tenantId, () => this.prisma.lead.create({
             data: {
                 tenantId,
@@ -270,6 +304,14 @@ let LeadsService = LeadsService_1 = class LeadsService {
         const totalScore = lead.quizScore + lead.behaviorScore + lead.engagementScore + lead.demographicScore;
         return { ...lead, totalScore };
     }
+    async softDelete(tenantId, leadId) {
+        await this.findOne(tenantId, leadId);
+        await this.prisma.withTenant(tenantId, () => this.prisma.lead.update({
+            where: { id: leadId },
+            data: { deletedAt: new Date() },
+        }));
+        this.logger.log(`Lead ${leadId} eliminado (soft delete) por tenant ${tenantId}`);
+    }
     async enqueueForScoring(leadId, tenantId, funnelId) {
         await this.scoringQueue.add('lead.captured', { leadId, tenantId, funnelId }, {
             attempts: 3,
@@ -340,8 +382,8 @@ let LeadsService = LeadsService_1 = class LeadsService {
           <div style="background:${color};width:${score}%;height:6px;border-radius:99px"></div>
         </div>
       </div>`;
-        const answersHtml = Object.entries(answers).slice(0, 12).map(([k, v]) => `<tr><td style="padding:6px 8px;font-size:12px;color:#64748b;border-bottom:1px solid #f1f5f9">${k}</td>
-       <td style="padding:6px 8px;font-size:12px;font-weight:600;color:#1e293b;border-bottom:1px solid #f1f5f9">${JSON.stringify(v)}</td></tr>`).join('');
+        const answersHtml = Object.entries(answers).slice(0, 12).map(([k, v]) => `<tr><td style="padding:6px 8px;font-size:12px;color:#64748b;border-bottom:1px solid #f1f5f9">${escapeHtml(k)}</td>
+       <td style="padding:6px 8px;font-size:12px;font-weight:600;color:#1e293b;border-bottom:1px solid #f1f5f9">${escapeHtml(JSON.stringify(v))}</td></tr>`).join('');
         const dealsHtml = lead.deals.map((d) => `<tr>
         <td style="padding:6px 8px;font-size:12px;border-bottom:1px solid #f1f5f9">${d.campaignName ?? '—'}</td>
         <td style="padding:6px 8px;font-size:12px;border-bottom:1px solid #f1f5f9">${Number(d.amount).toLocaleString('es-CL')}</td>
@@ -350,14 +392,14 @@ let LeadsService = LeadsService_1 = class LeadsService {
       </tr>`).join('');
         const convsHtml = lead.conversations.slice(0, 6).map((c) => `<div style="margin-bottom:8px;padding:8px;background:${c.role === 'assistant' ? '#f8fafc' : '#eff6ff'};border-radius:8px;border-left:3px solid ${c.role === 'assistant' ? '#6366f1' : '#3b82f6'}">
         <div style="font-size:10px;color:#94a3b8;margin-bottom:3px">${c.role.toUpperCase()} · ${c.channel} · ${new Date(c.createdAt).toLocaleDateString('es-CL')}</div>
-        <div style="font-size:12px;color:#1e293b">${c.content.slice(0, 200)}${c.content.length > 200 ? '…' : ''}</div>
+        <div style="font-size:12px;color:#1e293b">${escapeHtml(c.content.slice(0, 200))}${c.content.length > 200 ? '…' : ''}</div>
       </div>`).join('');
         return `<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Reporte de Lead — ${name}</title>
+  <title>Reporte de Lead — ${escapeHtml(name)}</title>
   <style>
     * { box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; padding: 0; color: #1e293b; background: #fff; }

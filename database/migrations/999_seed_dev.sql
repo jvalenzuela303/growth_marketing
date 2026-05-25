@@ -9,7 +9,7 @@ INSERT INTO tenants (id, slug, name, plan, timezone, updated_at)
 VALUES (
   '00000000-0000-0000-0000-000000000001',
   'demo',
-  'Growth Engine Demo',
+  'Growth Engine',
   'starter',
   'America/Santiago',
   NOW()

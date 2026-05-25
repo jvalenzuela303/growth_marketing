@@ -16,10 +16,16 @@ import { AutomationFlowsService } from './automation-flows.service';
 import { CreateFlowDto } from './dto/create-flow.dto';
 import { UpdateFlowDto } from './dto/update-flow.dto';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { PlanGuard, RequiresPlan } from '../../common/guards/plan.guard';
 import { TenantId, CurrentUser, CurrentUserPayload } from '../../common/decorators/tenant.decorator';
 
+/**
+ * All automation-flows routes require the 'scale' plan or above.
+ * Automation is a scale-tier feature.
+ */
 @Controller('automation-flows')
-@UseGuards(JwtAuthGuard)
+@UseGuards(JwtAuthGuard, PlanGuard)
+@RequiresPlan('scale')
 export class AutomationFlowsController {
   constructor(private readonly service: AutomationFlowsService) {}
 

@@ -9,11 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.WidgetModule = void 0;
 const common_1 = require("@nestjs/common");
 const widget_controller_1 = require("./widget.controller");
+const chat_module_1 = require("../chat/chat.module");
+const appointments_module_1 = require("../appointments/appointments.module");
 let WidgetModule = class WidgetModule {
 };
 exports.WidgetModule = WidgetModule;
 exports.WidgetModule = WidgetModule = __decorate([
     (0, common_1.Module)({
+        imports: [chat_module_1.ChatModule, appointments_module_1.AppointmentsModule],
         controllers: [widget_controller_1.WidgetController],
     })
 ], WidgetModule);

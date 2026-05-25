@@ -9,6 +9,7 @@ import { cn, SEGMENT_COLORS, SEGMENT_NAMES, STAGE_NAMES, formatRelativeDate, typ
 import { getLeads, updateLead, exportLeadsCsv, type LeadRow } from '@/lib/api'
 import { KanbanBoard } from '@/components/leads/KanbanBoard'
 import { useRealtime } from '@/hooks/useRealtime'
+import { FeatureGate } from '@/components/access/FeatureGate'
 
 // ---------------------------------------------------------------------------
 // Lead detail modal
@@ -248,16 +249,32 @@ export default function LeadsPage() {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
-          <button
-            onClick={handleExportCsv}
-            disabled={exporting}
-            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-slate-200 rounded-lg bg-white hover:bg-slate-50 disabled:opacity-50 text-slate-600"
+          <FeatureGate
+            minPlan="growth"
+            showUpgrade={false}
+            fallback={
+              <button
+                disabled
+                title="Requiere plan Growth para exportar"
+                aria-label="Exportar CSV requiere plan Growth"
+                className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-slate-200 rounded-lg bg-white opacity-40 cursor-not-allowed text-slate-600"
+              >
+                <Download className="w-3.5 h-3.5" />
+                CSV
+              </button>
+            }
           >
-            {exporting
-              ? <Loader2 className="w-3.5 h-3.5 animate-spin" />
-              : <Download className="w-3.5 h-3.5" />}
-            CSV
-          </button>
+            <button
+              onClick={handleExportCsv}
+              disabled={exporting}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-slate-200 rounded-lg bg-white hover:bg-slate-50 disabled:opacity-50 text-slate-600"
+            >
+              {exporting
+                ? <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                : <Download className="w-3.5 h-3.5" />}
+              CSV
+            </button>
+          </FeatureGate>
 
         {/* View toggle */}
         <div className="flex gap-1 p-1 bg-slate-100 rounded-xl">

@@ -58,12 +58,12 @@ export class BudgetOptimizerService {
     }>>`
       SELECT
         COALESCE(campaign_name, 'Sin nombre') AS campaign_name,
-        LOWER(platform) AS platform,
+        LOWER(source) AS platform,
         COALESCE(SUM(spend_amount), 0) AS spend
       FROM ad_spend
       WHERE tenant_id = ${tenantId}::uuid
         AND period_start >= ${since}
-      GROUP BY campaign_name, platform
+      GROUP BY campaign_name, source
       ORDER BY spend DESC
     `;
 

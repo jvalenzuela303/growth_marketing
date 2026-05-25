@@ -1,12 +1,20 @@
 import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { IoAdapter } from '@nestjs/platform-socket.io';
+import helmet from 'helmet';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { rawBody: true });
 
   app.setGlobalPrefix('api/v1');
+
+  // Explicitly mount socket.io adapter so WebSocket upgrades bind correctly
+  app.useWebSocketAdapter(new IoAdapter(app));
+
+  // Security headers
+  app.use(helmet());
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -16,8 +24,19 @@ async function bootstrap() {
     }),
   );
 
+  // CORS — supports comma-separated list in ALLOWED_ORIGINS
+  const rawOrigins = process.env.ALLOWED_ORIGINS || process.env.FRONTEND_URL || 'http://localhost:4000';
+  const allowedOrigins = rawOrigins.split(',').map((o) => o.trim()).filter(Boolean);
+
   app.enableCors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin: (origin, callback) => {
+      // Allow non-browser clients (curl, server-to-server) and configured origins
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error(`CORS policy: origin ${origin} not allowed`));
+      }
+    },
     credentials: true,
   });
 

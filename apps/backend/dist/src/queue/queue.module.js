@@ -14,9 +14,11 @@ const inject_queue_decorator_1 = require("./inject-queue.decorator");
 const scoring_processor_1 = require("./scoring.processor");
 const messaging_processor_1 = require("./messaging.processor");
 const followup_scheduler_1 = require("./followup.scheduler");
+const abandoned_cart_scanner_1 = require("./abandoned-cart.scanner");
 const messaging_module_1 = require("../modules/messaging/messaging.module");
 const leads_module_1 = require("../modules/leads/leads.module");
 const notifications_module_1 = require("../modules/notifications/notifications.module");
+const ecommerce_module_1 = require("../modules/ecommerce/ecommerce.module");
 function createQueueProvider(name) {
     return {
         provide: (0, inject_queue_decorator_1.QUEUE_TOKEN)(name),
@@ -43,13 +45,14 @@ exports.QueueModule = QueueModule;
 exports.QueueModule = QueueModule = __decorate([
     (0, common_1.Global)(),
     (0, common_1.Module)({
-        imports: [config_1.ConfigModule, messaging_module_1.MessagingModule, (0, common_1.forwardRef)(() => leads_module_1.LeadsModule), notifications_module_1.NotificationsModule],
+        imports: [config_1.ConfigModule, messaging_module_1.MessagingModule, (0, common_1.forwardRef)(() => leads_module_1.LeadsModule), notifications_module_1.NotificationsModule, ecommerce_module_1.EcommerceModule],
         providers: [
             createQueueProvider('scoring'),
             createQueueProvider('messaging'),
             scoring_processor_1.ScoringProcessor,
             messaging_processor_1.MessagingProcessor,
             followup_scheduler_1.FollowUpScheduler,
+            abandoned_cart_scanner_1.AbandonedCartScanner,
         ],
         exports: [(0, inject_queue_decorator_1.QUEUE_TOKEN)('scoring'), (0, inject_queue_decorator_1.QUEUE_TOKEN)('messaging')],
     })

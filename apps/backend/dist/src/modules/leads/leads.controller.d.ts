@@ -12,11 +12,11 @@ export declare class LeadsController {
         createdAt: Date;
         updatedAt: Date;
         tenantId: string;
-        funnelId: string | null;
+        company: string | null;
         phone: string | null;
+        funnelId: string | null;
         firstName: string | null;
         lastName: string | null;
-        company: string | null;
         source: string;
         utmSource: string | null;
         utmMedium: string | null;
@@ -61,10 +61,10 @@ export declare class LeadsController {
             email: string;
             id: string;
             createdAt: Date;
+            company: string;
             phone: string;
             firstName: string;
             lastName: string;
-            company: string;
             source: string;
             tags: string[];
             pipelineStage: string;
@@ -119,11 +119,11 @@ export declare class LeadsController {
         createdAt: Date;
         updatedAt: Date;
         tenantId: string;
-        funnelId: string | null;
+        company: string | null;
         phone: string | null;
+        funnelId: string | null;
         firstName: string | null;
         lastName: string | null;
-        company: string | null;
         source: string;
         utmSource: string | null;
         utmMedium: string | null;
@@ -168,11 +168,11 @@ export declare class LeadsController {
         createdAt: Date;
         updatedAt: Date;
         tenantId: string;
-        funnelId: string | null;
+        company: string | null;
         phone: string | null;
+        funnelId: string | null;
         firstName: string | null;
         lastName: string | null;
-        company: string | null;
         source: string;
         utmSource: string | null;
         utmMedium: string | null;
@@ -211,6 +211,7 @@ export declare class LeadsController {
         lastSeenAt: Date;
         deletedAt: Date | null;
     }>;
+    remove(tenantId: string, id: string): Promise<void>;
     getScore(tenantId: string, id: string): Promise<{
         totalScore: number;
         quizScore: number;

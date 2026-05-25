@@ -7,6 +7,7 @@ import {
   ArrowUpRight, BarChart3,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { FeatureGate } from '@/components/access/FeatureGate'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -163,7 +164,7 @@ function ChannelRow({ ch, maxRevenue }: { ch: AttributionChannel; maxRevenue: nu
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function AttributionPage() {
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
   const token = session?.accessToken ?? ''
 
   const [range,   setRange]   = useState('30d')
@@ -172,17 +173,20 @@ export default function AttributionPage() {
   const [error,   setError]   = useState('')
 
   useEffect(() => {
-    if (!token) return
+    if (status !== 'authenticated' || !token) return
     setLoading(true)
     fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/api/v1/analytics/attribution?range=${range}`,
       { headers: { Authorization: `Bearer ${token}` } },
     )
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`${r.status}`)
+        return r.json()
+      })
       .then((d) => { setData(d); setError('') })
       .catch(() => setError('No se pudo cargar la atribución.'))
       .finally(() => setLoading(false))
-  }, [token, range])
+  }, [status, token, range])
 
   const totals     = data?.totals
   const globalRoas = totals?.adSpend && totals.adSpend > 0
@@ -230,6 +234,7 @@ export default function AttributionPage() {
       )}
 
       {/* KPI summary */}
+      <FeatureGate minPlan="growth" featureName="Atribucion de ingresos avanzada">
       {loading ? (
         <div className="flex justify-center py-12">
           <Loader2 className="w-6 h-6 animate-spin text-brand-400" />
@@ -345,6 +350,7 @@ export default function AttributionPage() {
           })()}
         </>
       )}
+      </FeatureGate>
     </div>
   )
 }

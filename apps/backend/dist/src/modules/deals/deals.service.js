@@ -8,15 +8,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DealsService = void 0;
 const common_1 = require("@nestjs/common");
+const bullmq_1 = require("bullmq");
 const prisma_service_1 = require("../../database/prisma.service");
 const meta_capi_service_1 = require("../webhooks/meta-capi.service");
+const inject_queue_decorator_1 = require("../../queue/inject-queue.decorator");
 let DealsService = class DealsService {
-    constructor(prisma, metaCapi) {
+    constructor(prisma, metaCapi, messagingQueue) {
         this.prisma = prisma;
         this.metaCapi = metaCapi;
+        this.messagingQueue = messagingQueue;
     }
     async create(tenantId, userId, dto) {
         const deal = await this.prisma.withTenant(tenantId, () => this.prisma.deal.create({
@@ -46,6 +52,16 @@ let DealsService = class DealsService {
                 eventId: `deal_${deal.id}`,
                 sourceUrl: `crm://deals/${deal.id}`,
             }).catch(() => { });
+            this.messagingQueue.add('onboarding-start', {
+                leadId: dto.leadId,
+                tenantId,
+                dealId: deal.id,
+                amount: Number(deal.amount),
+                currency: deal.currency,
+                phone: deal.lead?.phone ?? undefined,
+                email: deal.lead?.email ?? undefined,
+                firstName: deal.lead?.firstName ?? undefined,
+            }, { priority: 3 }).catch(() => { });
         }
         return deal;
     }
@@ -114,6 +130,16 @@ let DealsService = class DealsService {
                 eventId: `deal_${updated.id}_won`,
                 sourceUrl: `crm://deals/${updated.id}`,
             }).catch(() => { });
+            this.messagingQueue.add('onboarding-start', {
+                leadId: existing.leadId,
+                tenantId,
+                dealId: updated.id,
+                amount: Number(updated.amount),
+                currency: updated.currency,
+                phone: updated.lead?.phone ?? undefined,
+                email: updated.lead?.email ?? undefined,
+                firstName: updated.lead?.firstName ?? undefined,
+            }, { priority: 3 }).catch(() => { });
         }
         return updated;
     }
@@ -185,7 +211,9 @@ let DealsService = class DealsService {
 exports.DealsService = DealsService;
 exports.DealsService = DealsService = __decorate([
     (0, common_1.Injectable)(),
+    __param(2, (0, inject_queue_decorator_1.InjectQueue)('messaging')),
     __metadata("design:paramtypes", [prisma_service_1.PrismaService,
-        meta_capi_service_1.MetaCapiService])
+        meta_capi_service_1.MetaCapiService,
+        bullmq_1.Queue])
 ], DealsService);
 //# sourceMappingURL=deals.service.js.map

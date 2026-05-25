@@ -5,18 +5,29 @@ import {
   HttpCode,
   HttpStatus,
   UseGuards,
+  Logger,
 } from '@nestjs/common';
 import { Throttle } from '@nestjs/throttler';
 import { AuthService } from './auth.service';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
 import { RefreshDto } from './dto/refresh.dto';
+import { RequestAccessDto } from './dto/request-access.dto';
+import { SupportRequestDto } from './dto/support-request.dto';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { CurrentUser, CurrentUserPayload } from '../../common/decorators/tenant.decorator';
+import { MailNotifierService } from '../../common/mail/mail-notifier.service';
+
+const NOTIFY_EMAIL = 'soporte@growthengine.io';
 
 @Controller('auth')
 export class AuthController {
-  constructor(private readonly authService: AuthService) {}
+  private readonly logger = new Logger(AuthController.name);
+
+  constructor(
+    private readonly authService: AuthService,
+    private readonly mail: MailNotifierService,
+  ) {}
 
   /**
    * POST /api/v1/auth/register
@@ -71,6 +82,73 @@ export class AuthController {
   async refresh(@Body() dto: RefreshDto) {
     const tokens = await this.authService.refresh(dto.userId, dto.refreshToken);
     return tokens;
+  }
+
+  /**
+   * POST /api/v1/auth/request-access
+   * Ruta pública — registra una solicitud de acceso desde la página de login.
+   * Rate limit: 3 intentos / 60s por IP.
+   */
+  @Post('request-access')
+  @HttpCode(HttpStatus.OK)
+  @Throttle({ default: { limit: 3, ttl: 60000 } })
+  async requestAccess(@Body() dto: RequestAccessDto) {
+    this.logger.log(
+      `Solicitud de acceso: ${dto.name} | ${dto.company} | ${dto.email} | plan: ${dto.plan ?? 'no especificado'}`,
+    );
+
+    // Notificación interna via Gmail (fire-and-forget)
+    this.mail.send({
+      to:       NOTIFY_EMAIL,
+      replyTo:  dto.email,
+      subject:  `[Acceso] ${dto.name} — ${dto.company}`,
+      html: `
+        <h2>Nueva solicitud de acceso</h2>
+        <table cellpadding="6">
+          <tr><td><b>Nombre</b></td><td>${dto.name}</td></tr>
+          <tr><td><b>Empresa</b></td><td>${dto.company}</td></tr>
+          <tr><td><b>Email</b></td><td>${dto.email}</td></tr>
+          <tr><td><b>Teléfono</b></td><td>${dto.phone ?? '—'}</td></tr>
+          <tr><td><b>Plan</b></td><td>${dto.plan ?? 'no especificado'}</td></tr>
+        </table>
+      `,
+    }).catch(() => { /* silencioso — el log queda en el logger */ });
+
+    return {
+      message: 'Solicitud recibida. Nuestro equipo se pondrá en contacto contigo pronto.',
+      received: true,
+    };
+  }
+
+  /**
+   * POST /api/v1/auth/support
+   * Ruta pública — recibe solicitudes de soporte desde la página de login.
+   * Rate limit: 3 intentos / 60s por IP.
+   */
+  @Post('support')
+  @HttpCode(HttpStatus.OK)
+  @Throttle({ default: { limit: 3, ttl: 60000 } })
+  async support(@Body() dto: SupportRequestDto) {
+    this.logger.log(`Solicitud soporte: ${dto.email} | ${dto.issue}`);
+
+    await this.mail.send({
+      to:      NOTIFY_EMAIL,
+      replyTo: dto.email,
+      subject: `[Soporte] ${dto.issue}`,
+      html: `
+        <h2>Solicitud de soporte</h2>
+        <table cellpadding="6">
+          <tr><td><b>Email</b></td><td>${dto.email}</td></tr>
+          <tr><td><b>Problema</b></td><td>${dto.issue}</td></tr>
+          <tr><td><b>Descripción</b></td><td>${dto.message ?? '—'}</td></tr>
+        </table>
+      `,
+    });
+
+    return {
+      message: 'Tu solicitud fue recibida. Te contactaremos a la brevedad.',
+      received: true,
+    };
   }
 
   /**
