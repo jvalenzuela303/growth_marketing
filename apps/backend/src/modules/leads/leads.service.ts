@@ -14,6 +14,7 @@ import { CreateLeadDto } from './dto/create-lead.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
 import type { QuizSubmission } from '@growth-engine/shared-types';
 import { getSegmentFromScore } from '@growth-engine/shared-types';
+import { GestionClinicaWebhookService } from '../integrations/gestion-clinica/gestion-clinica-webhook.service';
 
 function escapeHtml(str: string): string {
   return String(str)
@@ -44,6 +45,7 @@ export class LeadsService {
     @InjectQueue('scoring') private readonly scoringQueue: Queue,
     @InjectQueue('messaging') private readonly messagingQueue: Queue,
     @Optional() private readonly realtime?: RealtimeService,
+    @Optional() private readonly gcWebhook?: GestionClinicaWebhookService,
   ) {}
 
   private readonly PLAN_LEAD_LIMITS: Record<string, number> = {
@@ -343,6 +345,11 @@ export class LeadsService {
 
     // Emitir evento WS de score actualizado
     this.realtime?.notifyLeadScored(tenantId, { leadId, score: totalScore, segment });
+
+    // Notificar a Gestión Clínica si el lead fue originado allí (fire-and-forget)
+    this.gcWebhook?.notifyLeadScored(updated, scores, segment).catch(() => {
+      // Error ya logueado en el servicio; no interrumpir el flujo de scoring
+    });
 
     // Si es lead "fuego" (>= 80), encolar alerta inmediata + WS hot alert
     if (totalScore >= 80) {
